@@ -1,0 +1,2353 @@
+<!DOCTYPE html>
+<html lang="es"><head>
+<link href="../images/logo_sn.png" rel="icon" type="image/png">
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-html/tabby.min.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.4.554">
+
+  <meta name="author" content="Francisco Alfaro">
+  <meta name="author" content="Valeska Canales">
+  <meta name="dcterms.date" content="2025-04-08">
+  <title>Seth&amp;Nut - Prompts Perfectos ChatGPT</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/reveal.css">
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+      vertical-align: middle;
+    }
+    /* CSS for syntax highlighting */
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      { color: #003b4f; background-color: #f1f3f5; }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span { color: #003b4f; } /* Normal */
+    code span.al { color: #ad0000; } /* Alert */
+    code span.an { color: #5e5e5e; } /* Annotation */
+    code span.at { color: #657422; } /* Attribute */
+    code span.bn { color: #ad0000; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #003b4f; } /* ControlFlow */
+    code span.ch { color: #20794d; } /* Char */
+    code span.cn { color: #8f5902; } /* Constant */
+    code span.co { color: #5e5e5e; } /* Comment */
+    code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
+    code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
+    code span.dt { color: #ad0000; } /* DataType */
+    code span.dv { color: #ad0000; } /* DecVal */
+    code span.er { color: #ad0000; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #ad0000; } /* Float */
+    code span.fu { color: #4758ab; } /* Function */
+    code span.im { color: #00769e; } /* Import */
+    code span.in { color: #5e5e5e; } /* Information */
+    code span.kw { color: #003b4f; } /* Keyword */
+    code span.op { color: #5e5e5e; } /* Operator */
+    code span.ot { color: #003b4f; } /* Other */
+    code span.pp { color: #ad0000; } /* Preprocessor */
+    code span.sc { color: #5e5e5e; } /* SpecialChar */
+    code span.ss { color: #20794d; } /* SpecialString */
+    code span.st { color: #20794d; } /* String */
+    code span.va { color: #111111; } /* Variable */
+    code span.vs { color: #20794d; } /* VerbatimString */
+    code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
+  </style>
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto.css">
+  <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <style type="text/css">
+
+  .callout {
+    margin-top: 1em;
+    margin-bottom: 1em;  
+    border-radius: .25rem;
+  }
+
+  .callout.callout-style-simple { 
+    padding: 0em 0.5em;
+    border-left: solid #acacac .3rem;
+    border-right: solid 1px silver;
+    border-top: solid 1px silver;
+    border-bottom: solid 1px silver;
+    display: flex;
+  }
+
+  .callout.callout-style-default {
+    border-left: solid #acacac .3rem;
+    border-right: solid 1px silver;
+    border-top: solid 1px silver;
+    border-bottom: solid 1px silver;
+  }
+
+  .callout .callout-body-container {
+    flex-grow: 1;
+  }
+
+  .callout.callout-style-simple .callout-body {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+
+  .callout.callout-style-default .callout-body {
+    font-size: 0.9rem;
+    font-weight: 400;
+  }
+
+  .callout.callout-titled.callout-style-simple .callout-body {
+    margin-top: 0.2em;
+  }
+
+  .callout:not(.callout-titled) .callout-body {
+      display: flex;
+  }
+
+  .callout:not(.no-icon).callout-titled.callout-style-simple .callout-content {
+    padding-left: 1.6em;
+  }
+
+  .callout.callout-titled .callout-header {
+    padding-top: 0.2em;
+    margin-bottom: -0.2em;
+  }
+
+  .callout.callout-titled .callout-title  p {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+  }
+    
+  .callout.callout-titled.callout-style-simple .callout-content  p {
+    margin-top: 0;
+  }
+
+  .callout.callout-titled.callout-style-default .callout-content  p {
+    margin-top: 0.7em;
+  }
+
+  .callout.callout-style-simple div.callout-title {
+    border-bottom: none;
+    font-size: .9rem;
+    font-weight: 600;
+    opacity: 75%;
+  }
+
+  .callout.callout-style-default  div.callout-title {
+    border-bottom: none;
+    font-weight: 600;
+    opacity: 85%;
+    font-size: 0.9rem;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+
+  .callout.callout-style-default div.callout-content {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+
+  .callout.callout-style-simple .callout-icon::before {
+    height: 1rem;
+    width: 1rem;
+    display: inline-block;
+    content: "";
+    background-repeat: no-repeat;
+    background-size: 1rem 1rem;
+  }
+
+  .callout.callout-style-default .callout-icon::before {
+    height: 0.9rem;
+    width: 0.9rem;
+    display: inline-block;
+    content: "";
+    background-repeat: no-repeat;
+    background-size: 0.9rem 0.9rem;
+  }
+
+  .callout-title {
+    display: flex
+  }
+    
+  .callout-icon::before {
+    margin-top: 1rem;
+    padding-right: .5rem;
+  }
+
+  .callout.no-icon::before {
+    display: none !important;
+  }
+
+  .callout.callout-titled .callout-body > .callout-content > :last-child {
+    padding-bottom: 0.5rem;
+    margin-bottom: 0;
+  }
+
+  .callout.callout-titled .callout-icon::before {
+    margin-top: .5rem;
+    padding-right: .5rem;
+  }
+
+  .callout:not(.callout-titled) .callout-icon::before {
+    margin-top: 1rem;
+    padding-right: .5rem;
+  }
+
+  /* Callout Types */
+
+  div.callout-note {
+    border-left-color: #4582ec !important;
+  }
+
+  div.callout-note .callout-icon::before {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAAEU0lEQVRYCcVXTWhcVRQ+586kSUMMxkyaElstCto2SIhitS5Ek8xUKV2poatCcVHtUlFQk8mbaaziwpWgglJwVaquitBOfhQXFlqlzSJpFSpIYyXNjBNiTCck7x2/8/LeNDOZxDuEkgOXe++553zfefee+/OYLOXFk3+1LLrRdiO81yNqZ6K9cG0P3MeFaMIQjXssE8Z1JzLO9ls20MBZX7oG8w9GxB0goaPrW5aNMp1yOZIa7Wv6o2ykpLtmAPs/vrG14Z+6d4jpbSKuhdcSyq9wGMPXjonwmESXrriLzFGOdDBLB8Y6MNYBu0dRokSygMA/mrun8MGFN3behm6VVAwg4WR3i6FvYK1T7MHo9BK7ydH+1uurECoouk5MPRyVSBrBHMYwVobG2aOXM07sWrn5qgB60rc6mcwIDJtQrnrEr44kmy+UO9r0u9O5/YbkS9juQckLed3DyW2XV/qWBBB3ptvI8EUY3I9p/67OW+g967TNr3Sotn3IuVlfMLVnsBwH4fsnebJvyGm5GeIUA3jljERmrv49SizPYuq+z7c2H/jlGC+Ghhupn/hcapqmcudB9jwJ/3jvnvu6vu5lVzF1fXyZuZZ7U8nRmVzytvT+H3kilYvH09mLWrQdwFSsFEsxFVs5fK7A0g8gMZjbif4ACpKbjv7gNGaD8bUrlk8x+KRflttr22JEMRUbTUwwDQScyzPgedQHZT0xnx7ujw2jfVfExwYHwOsDTjLdJ2ebmeQIlJ7neo41s/DrsL3kl+W2lWvAga0tR3zueGr6GL78M3ifH0rGXrBC2aAR8uYcIA5gwV8zIE8onoh8u0Fca/ciF7j1uOzEnqcIm59sEXoGc0+z6+H45V1CvAvHcD7THztu669cnp+L0okAeIc6zjbM/24LgGM1gZk7jnRu1aQWoU9sfUOuhrmtaPIO3YY1KLLWZaEO5TKUbMY5zx8W9UJ6elpLwKXbsaZ4EFl7B4bMtDv0iRipKoDQT2sNQI9b1utXFdYisi+wzZ/ri/1m7QfDgEuvgUUEIJPq3DhX/5DWNqIXDOweC2wvIR90Oq3lDpdMIgD2r0dXvGdsEW5H6x6HLRJYU7C69VefO1x8Gde1ZFSJLfWS1jbCnhtOPxmpfv2LXOA2Xk2tvnwKKPFuZ/oRmwBwqRQDcKNeVQkYcOjtWVBuM/JuYw5b6isojIkYxyYAFn5K7ZBF10fea52y8QltAg6jnMqNHFBmGkQ1j+U43HMi2xMar1Nv0zGsf1s8nUsmUtPOOrbFIR8bHFDMB5zL13Gmr/kGlCkUzedTzzmzsaJXhYawnA3UmARpiYj5ooJZiUoxFRtK3X6pgNPv+IZVPcnwbOl6f+aBaO1CNvPW9n9LmCp01nuSaTRF2YxHqZ8DYQT6WsXT+RD6eUztwYLZ8rM+rcPxamv1VQzFUkzFXvkiVrySGQgJNvXHJAxiU3/NwiC03rSf05VBaPtu/Z7/B8Yn/w7eguloAAAAAElFTkSuQmCC');
+  }
+
+  div.callout-note.callout-style-default .callout-title {
+    background-color: #dae6fb
+  }
+
+  div.callout-important {
+    border-left-color: #d9534f !important;
+  }
+
+  div.callout-important .callout-icon::before {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAAEKklEQVRYCcVXTWhcVRS+575MJym48A+hSRFr00ySRQhURRfd2HYjk2SSTokuBCkU2o0LoSKKraKIBTcuFCoidGFD08nkBzdREbpQ1EDNIv8qSGMFUboImMSZd4/f9zJv8ibJMC8xJQfO3HPPPef7zrvvvnvviIkpC9nsw0UttFunbUhpFzFtarSd6WJkStVMw5xyVqYTvkwfzuf/5FgtkVoB0729j1rjXwThS7Vio+Mo6DNnvLfahoZ+i/o32lULuJ3NNiz7q6+pyAUkJaFF6JwaM2lUJlV0MlnQn5aTRbEu0SEqHUa0A4AdiGuB1kFXRfVyg5d87+Dg4DL6m2TLAub60ilj7A1Ec4odSAc8X95sHh7+ZRPCFo6Fnp7HfU/fBng/hi10CjCnWnJjsxvDNxWw0NfV6Rv5GgP3I3jGWXumdTD/3cbEOP2ZbOZp69yniG3FQ9z1jD7bnBu9Fc2tKGC2q+uAJOQHBDRiZX1x36o7fWBs7J9ownbtO+n0/qWkvW7UPIfc37WgT6ZGR++EOJyeQDSb9UB+DZ1G6DdLDzyS+b/kBCYGsYgJbSQHuThGKRcw5xdeQf8YdNHsc6ePXrlSYMBuSIAFTGAtQo+VuALo4BX83N190NWZWbynBjhOHsmNfFWLeL6v+ynsA58zDvvAC8j5PkbOcXCMg2PZFk3q8MjI7WAG/Dp9AwP7jdGBOOQkAvlFUB+irtm16I1Zw9YBcpGTGXYmk3kQIC/Cds55l+iMI3jqhjAuaoe+am2Jw5GT3Nbz3CkE12NavmzN5+erJW7046n/CH1RO/RVa8lBLozXk9uqykkGAyRXLWlLv5jyp4RFsG5vGVzpDLnIjTWgnRy2Rr+tDKvRc7Y8AyZq10jj8DqXdnIRNtFZb+t/ZRtXcDiVnzpqx8mPcDWxgARUqx0W1QB9MeUZiNrV4qP+Ehc+BpNgATsTX8ozYKL2NtFYAHc84fG7ndxUPr+AR/iQSns7uSUufAymwDOb2+NjK27lEFocm/EE2WpyIy/Hi66MWuMKJn8RvxIcj87IM5Vh9663ziW36kR0HNenXuxmfaD8JC7tfKbrhFr7LiZCrMjrzTeGx+PmkosrkNzW94ObzwocJ7A1HokLolY+AvkTiD/q1H0cN48c5EL8Crkttsa/AXQVDmutfyku0E7jShx49XqV3MFK8IryDhYVbj7Sj2P2eBxwcXoe8T8idsKKPRcnZw1b+slFTubwUwhktrfnAt7J++jwQtLZcm3sr9LQrjRzz6cfMv9aLvgmnAGvpoaGLxM4mAEaLV7iAzQ3oU0IvD5x9ix3yF2RAAuYAOO2f7PEFWCXZ4C9Pb2UsgDeVnFSpbFK7/IWu7TPTvBqzbGdCHOJQSxiEjt6IyZmxQyEJHv6xyQsYk//moVFsN2zP6fRImjfq7/n/wFDguUQFNEwugAAAABJRU5ErkJggg==');
+  }
+
+  div.callout-important.callout-style-default .callout-title {
+    background-color: #f7dddc
+  }
+
+  div.callout-warning {
+    border-left-color: #f0ad4e !important;
+  }
+
+  div.callout-warning .callout-icon::before {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAAETklEQVRYCeVWW2gcVRg+58yaTUnizqbipZeX4uWhBEniBaoUX1Ioze52t7sRq6APio9V9MEaoWlVsFasRq0gltaAPuxms8lu0gcviE/FFOstVbSIxgcv6SU7EZqmdc7v9+9mJtNks51NTUH84ed889/PP+cmxP+d5FIbMJmNbpREu4WUkiTtCicKny0l1pIKmBzovF2S+hIJHX8iEu3hZJ5lNZGqyRrGSIQpq15AzF28jgpeY6yk6GVdrfFqdrD6Iw+QlB8g0YS2g7dyQmXM/IDhBhT0UCiRf59lfqmmDvzRt6kByV/m4JjtzuaujMUM2c5Z2d6JdKrRb3K2q6mA+oYVz8JnDdKPmmNthzkAk/lN63sYPgevrguc72aZX/L9C6x09GYyxBgCX4NlvyGUHOKELlm5rXeR1kchuChJt4SSwyddZRXgvwMGvYo4QSlk3/zkHD8UHxwVJA6zjZZqP8v8kK8OWLnIZtLyCAJagYC4rTGW/9Pqj92N/c+LUaAj27movwbi19tk/whRCIE7Q9vyI6yvRpftAKVTdUjOW40X3h5OXsKCdmFcx0xlLJoSuQngnrJe7Kcjm4OMq9FlC7CMmScQANuNvjfP3PjGXDBaUQmbp296S5L4DrpbrHN1T87ZVEZVCzg1FF0Ft+dKrlLukI+/c9ENo+TvlTDbYFvuKPtQ9+l052rXrgKoWkDAFnvh0wTOmYn8R5f4k/jN/fZiCM1tQx9jQQ4ANhqG4hiL0qIFTGViG9DKB7GYzgubnpofgYRwO+DFjh0Zin2m4b/97EDkXkc+f6xYAPX0KK2I/7fUQuwzuwo/L3AkcjugPNixC8cHf0FyPjWlItmLxWw4Ou9YsQCr5fijMGoD/zpdRy95HRysyXA74MWOnscpO4j2y3HAVisw85hX5+AFBRSHt4ShfLFkIMXTqyKFc46xdzQM6XbAi702a7sy04J0+feReMFKp5q9esYLCqAZYw/k14E/xcLLsFElaornTuJB0svMuJINy8xkIYuL+xPAlWRceH6+HX7THJ0djLUom46zREu7tTkxwmf/FdOZ/sh6Q8qvEAiHpm4PJ4a/doJe0gH1t+aHRgCzOvBvJedEK5OFE5jpm4AGP2a8Dxe3gGJ/pAutug9Gp6he92CsSsWBaEcxGx0FHytmIpuqGkOpldqNYQK8cSoXvd+xLxXADw0kf6UkJNFtdo5MOgaLjiQOQHcn+A6h5NuL2s0qsC2LOM75PcF3yr5STuBSAcGG+meA14K/CI21HcS4LBT6tv0QAh8Dr5l93AhZzG5ZJ4VxAqdZUEl9z7WJ4aN+svMvwHHL21UKTd1mqvChH7/Za5xzXBBKrUcB0TQ+Ulgkfbi/H/YT5EptrGzsEK7tR1B7ln9BBwckYfMiuSqklSznIuoIIOM42MQO+QnduCoFCI0bpkzjCjddHPN/F+2Yu+sd9bKNpVwHhbS3LluK/0zgfwD0xYI5dXuzlQAAAABJRU5ErkJggg==');
+  }
+
+  div.callout-warning.callout-style-default .callout-title {
+    background-color: #fcefdc
+  }
+
+  div.callout-tip {
+    border-left-color: #02b875 !important;
+  }
+
+  div.callout-tip .callout-icon::before {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAADr0lEQVRYCe1XTWgTQRj9ZjZV8a9SPIkKgj8I1bMHsUWrqYLVg4Ue6v9BwZOxSYsIerFao7UiUryIqJcqgtpimhbBXoSCVxUFe9CTiogUrUp2Pt+3aUI2u5vdNh4dmMzOzHvvezuz8xNFM0mjnbXaNu1MvFWRXkXEyE6aYOYJpdW4IXuA4r0fo8qqSMDBU0v1HJUgVieAXxzCsdE/YJTdFcVIZQNMyhruOMJKXYFoLfIfIvVIMWdsrd+Rpd86ZmyzzjJmLStqRn0v8lzkb4rVIXvnpScOJuAn2ACC65FkPzEdEy4TPWRLJ2h7z4cArXzzaOdKlbOvKKX25Wl00jSnrwVxAg3o4dRxhO13RBSdNvH0xSARv3adTXbBdTf64IWO2vH0LT+cv4GR1DJt+DUItaQogeBX/chhbTBxEiZ6gftlDNXTrvT7co4ub5A6gp9HIcHvzTa46OS5fBeP87Qm0fQkr4FsYgVQ7Qg+ZayaDg9jhg1GkWj8RG6lkeSacrrHgDaxdoBiZPg+NXV/KifMuB6//JmYH4CntVEHy/keA6x4h4CU5oFy8GzrBS18cLJMXcljAKB6INjWsRcuZBWVaS3GDrqB7rdapVIeA+isQ57Eev9eCqzqOa81CY05VLd6SamW2wA2H3SiTbnbSxmzfp7WtKZkqy4mdyAlGx7ennghYf8voqp9cLSgKdqNfa6RdRsAAkPwRuJZNbpByn+RrJi1RXTwdi8RQF6ymDwGMAtZ6TVE+4uoKh+MYkcLsT0Hk8eAienbiGdjJHZTpmNjlbFJNKDVAp2fJlYju6IreQxQ08UJDNYdoLSl6AadO+fFuCQqVMB1NJwPm69T04Wv5WhfcWyfXQB+wXRs1pt+nCknRa0LVzSA/2B+a9+zQJadb7IyyV24YAxKp2Jqs3emZTuNnKxsah+uabKbMk7CbTgJx/zIgQYErIeTKRQ9yD9wxVof5YolPHqaWo7TD6tJlh7jQnK5z2n3+fGdggIOx2kaa2YI9QWarc5Ce1ipNWMKeSG4DysFF52KBmTNMmn5HqCFkwy34rDg05gDwgH3bBi+sgFhN/e8QvRn8kbamCOhgrZ9GJhFDgfcMHzFb6BAtjKpFhzTjwv1KCVuxHvCbsSiEz4CANnj84cwHdFXAbAOJ4LTSAawGWFn5tDhLMYz6nWeU2wJfIhmIJBefcd/A5FWQWGgrWzyORZ3Q6HuV+Jf0Bj+BTX69fm1zWgK7By1YTXchFDORywnfQ7GpzOo6S+qECrsx2ifVQAAAABJRU5ErkJggg==');
+  }
+
+  div.callout-tip.callout-style-default .callout-title {
+    background-color: #ccf1e3
+  }
+
+  div.callout-caution {
+    border-left-color: #fd7e14 !important;
+  }
+
+  div.callout-caution .callout-icon::before {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAACV0lEQVRYCdVWzWoUQRCuqp2ICBLJXgITZL1EfQDBW/bkzUMUD7klD+ATSHBEfAIfQO+iXsWDxJsHL96EHAwhgzlkg8nBg25XWb0zIb0zs9muYYWkoKeru+vn664fBqElyZNuyh167NXJ8Ut8McjbmEraKHkd7uAnAFku+VWdb3reSmRV8PKSLfZ0Gjn3a6Xlcq9YGb6tADjn+lUfTXtVmaZ1KwBIvFI11rRXlWlatwIAAv2asaa9mlB9wwygiDX26qaw1yYPzFXg2N1GgG0FMF8Oj+VIx7E/03lHx8UhvYyNZLN7BwSPgekXXLribw7w5/c8EF+DBK5idvDVYtEEwMeYefjjLAdEyQ3M9nfOkgnPTEkYU+sxMq0BxNR6jExrAI31H1rzvLEfRIdgcv1XEdj6QTQAS2wtstEALLG1yEZ3QhH6oDX7ExBSFEkFINXH98NTrme5IOaaA7kIfiu2L8A3qhH9zRbukdCqdsA98TdElyeMe5BI8Rs2xHRIsoTSSVFfCFCWGPn9XHb4cdobRIWABNf0add9jakDjQJpJ1bTXOJXnnRXHRf+dNL1ZV1MBRCXhMbaHqGI1JkKIL7+i8uffuP6wVQAzO7+qVEbF6NbS0LJureYcWXUUhH66nLR5rYmva+2tjRFtojkM2aD76HEGAD3tPtKM309FJg5j/K682ywcWJ3PASCcycH/22u+Bh7Aa0ehM2Fu4z0SAE81HF9RkB21c5bEn4Dzw+/qNOyXr3DCTQDMBOdhi4nAgiFDGCinIa2owCEChUwD8qzd03PG+qdW/4fDzjUMcE1ZpIAAAAASUVORK5CYII=');
+  }
+
+  div.callout-caution.callout-style-default .callout-title {
+    background-color: #ffe5d0
+  }
+
+  </style>
+  <style type="text/css">
+    .reveal div.sourceCode {
+      margin: 0;
+      overflow: auto;
+    }
+    .reveal div.hanging-indent {
+      margin-left: 1em;
+      text-indent: -1em;
+    }
+    .reveal .slide:not(.center) {
+      height: 100%;
+    }
+    .reveal .slide.scrollable {
+      overflow-y: auto;
+    }
+    .reveal .footnotes {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide .absolute {
+      position: absolute;
+      display: block;
+    }
+    .reveal .footnotes ol {
+      counter-reset: ol;
+      list-style-type: none; 
+      margin-left: 0;
+    }
+    .reveal .footnotes ol li:before {
+      counter-increment: ol;
+      content: counter(ol) ". "; 
+    }
+    .reveal .footnotes ol li > p:first-child {
+      display: inline-block;
+    }
+    .reveal .slide ul,
+    .reveal .slide ol {
+      margin-bottom: 0.5em;
+    }
+    .reveal .slide ul li,
+    .reveal .slide ol li {
+      margin-top: 0.4em;
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide ul[role="tablist"] li {
+      margin-bottom: 0;
+    }
+    .reveal .slide ul li > *:first-child,
+    .reveal .slide ol li > *:first-child {
+      margin-block-start: 0;
+    }
+    .reveal .slide ul li > *:last-child,
+    .reveal .slide ol li > *:last-child {
+      margin-block-end: 0;
+    }
+    .reveal .slide .columns:nth-child(3) {
+      margin-block-start: 0.8em;
+    }
+    .reveal blockquote {
+      box-shadow: none;
+    }
+    .reveal .tippy-content>* {
+      margin-top: 0.2em;
+      margin-bottom: 0.7em;
+    }
+    .reveal .tippy-content>*:last-child {
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide > img.stretch.quarto-figure-center,
+    .reveal .slide > img.r-stretch.quarto-figure-center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-left,
+    .reveal .slide > img.r-stretch.quarto-figure-left  {
+      display: block;
+      margin-left: 0;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-right,
+    .reveal .slide > img.r-stretch.quarto-figure-right  {
+      display: block;
+      margin-left: auto;
+      margin-right: 0; 
+    }
+  </style>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/monaco-editor@0.46.0/min/vs/editor/editor.main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    
+  <style type="text/css">
+  /* Estilos predeterminados para el modo claro */
+  .monaco-editor pre {
+    background-color: unset !important;
+  }
+
+  .qpyodide-editor-toolbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    background-color: #EEEEEE;
+  }
+
+  .qpyodide-editor-toolbar-left-buttons, .qpyodide-editor-toolbar-right-buttons {
+    display: flex;
+  }
+
+  .qpyodide-non-interactive-loading-container.qpyodide-cell-needs-evaluation,
+  .qpyodide-non-interactive-loading-container.qpyodide-cell-evaluated {
+    justify-content: center;
+    display: flex;
+    background-color: rgba(250, 250, 250, 0.65);
+    border: 1px solid rgba(233, 236, 239, 0.65);
+    border-radius: 0.5rem;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .qpyodide-r-project-logo {
+    color: #2767B0; /* R Project's blue color */
+  }
+
+  .qpyodide-icon-status-spinner {
+    color: #7894c4;
+  }
+
+  .qpyodide-icon-run-code {
+    color: #0d9c29;
+  }
+
+  .qpyodide-output-code-stdout {
+    color: #111;
+  }
+
+  .qpyodide-output-code-stderr {
+    color: #db4133;
+  }
+
+  .qpyodide-editor {
+    border: 1px solid #EEEEEE;
+  }
+
+  .qpyodide-button {
+    background-color: #EEEEEE;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1;
+    text-decoration: none;
+    text-align: center;
+    color: #000;
+    border-color: #dee2e6;
+    border: 1px solid rgba(0,0,0,0);
+    padding: 0.375rem 0.75rem;
+    font-size: .9rem;
+    border-radius: 0.25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+  }
+
+  .qpyodide-button:hover {
+    color: #000;
+    background-color: #d9dce0;
+    border-color: #c8ccd0;
+  }
+
+  .qpyodide-button:disabled, .qpyodide-button.disabled, fieldset:disabled .qpyodide-button {
+    pointer-events: none;
+    opacity: .65;
+  }
+
+  .qpyodide-button-reset, .qpyodide-button-copy {
+    color: #696969;
+  }
+
+  /* Estilos para modo oscuro */
+  @media (prefers-color-scheme: dark) {
+    .monaco-editor pre, .qpyodide-editor, .qpyodide-button {
+      background-color: #333;
+      color: #DDD;
+    }
+
+    .qpyodide-icon-run-code {
+      color: #4CAF50;
+    }
+
+    .qpyodide-non-interactive-loading-container.qpyodide-cell-needs-evaluation,
+    .qpyodide-non-interactive-loading-container.qpyodide-cell-evaluated {
+      background-color: rgba(50, 50, 50, 0.65);
+      border-color: rgba(60, 60, 60, 0.65);
+    }
+
+    .qpyodide-button:hover {
+      background-color: #666;
+      border-color: #777;
+    }
+
+    .qpyodide-output-code-stdout {
+      color: #DDD;
+    }
+
+    .qpyodide-output-code-stderr {
+      color: #F44336;
+    }
+  }
+
+  /* Custom styling for RevealJS Presentations */
+  .reveal div.qpyodide-interactive-area {
+    display: block;
+    box-shadow: none;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0;
+    padding: 0;
+  } 
+
+  .reveal div.qpyodide-output-code-area pre div {
+    margin: 1px 2px 1px 10px;
+  }
+
+  .reveal pre div code.qpyodide-output-code-stdout, .reveal pre div code.qpyodide-output-code-stderr {
+    padding: 0;
+    display: contents;
+  }
+
+  .reveal div.qpyodide-console-area {
+    border: 1px solid #EEEEEE;
+    box-shadow: 2px 2px 10px #EEEEEE;
+  }
+
+  .reveal div.qpyodide-output-code-area pre {
+    max-height: 400px;
+    overflow: scroll;
+  }
+
+  /* Estilos predeterminados para modo claro */
+  .qpyodide-output-code-area {
+    background-color: black; /* Fondo negro para el modo claro */
+    color: white; /* Texto blanco para mejor legibilidad en fondo oscuro */
+  }
+
+  /* Estilos para modo oscuro */
+  @media (prefers-color-scheme: dark) {
+    .qpyodide-output-code-area {
+      background-color: white; /* Fondo blanco para el modo oscuro */
+      color: black; /* Texto negro para mejor legibilidad en fondo claro */
+    }
+  }
+
+  </style>
+  <script type="module">
+  // Document level settings ----
+
+  // Determine if we need to install python packages
+  globalThis.qpyodideInstallPythonPackagesList = [''];
+
+  // Check to see if we have an empty array, if we do set to skip the installation.
+  globalThis.qpyodideSetupPythonPackages = !(qpyodideInstallPythonPackagesList.indexOf("") !== -1);
+
+  // Display a startup message?
+  globalThis.qpyodideShowStartupMessage = true;
+
+  // Describe the webR settings that should be used
+  globalThis.qpyodideCustomizedPyodideOptions = {
+    "indexURL": "https://cdn.jsdelivr.net/pyodide/v0.25.0/full/",
+    "env": {
+      "HOME": "/home/pyodide",
+    }, 
+    stdout: (text) => {qpyodideAddToOutputArray(text, "out");},
+    stderr: (text) => {qpyodideAddToOutputArray(text, "error");}
+  }
+
+  // Store cell data
+  globalThis.qpyodideCellDetails = [{"code":"import matplotlib.pyplot as plt\nx = [1, 2, 3, 4, 5]\ny = [2, 4, 3, 5, 7]\nplt.figure(figsize=(5, 3))\nplt.plot(x, y, marker='o')\nplt.title(\"Gráfico de Ejemplo\")\nplt.grid(True)\nplt.show()","id":1,"options":{"output":"true","message":"true","comment":"","context":"interactive","fig-cap":"","read-only":"false","warning":"true","classes":"","autorun":"","fig-width":7,"label":"","out-width":"700px","results":"markup","out-height":"","dpi":72,"fig-height":5}}];
+
+
+  </script>
+  <script type="module">
+  // Declare startupMessageqpyodide globally
+  globalThis.qpyodideStartupMessage = document.createElement("p");
+
+  // Function to set the button text
+  globalThis.qpyodideSetInteractiveButtonState = function(buttonText, enableCodeButton = true) {
+    document.querySelectorAll(".qpyodide-button-run").forEach((btn) => {
+      btn.innerHTML = buttonText;
+      btn.disabled = !enableCodeButton;
+    });
+  }
+
+  // Function to update the status message in non-interactive cells
+  globalThis.qpyodideUpdateStatusMessage = function(message) {
+    document.querySelectorAll(".qpyodide-status-text.qpyodide-cell-needs-evaluation").forEach((elem) => {
+      elem.innerText = message;
+    });
+  }
+
+  // Function to update the status message
+  globalThis.qpyodideUpdateStatusHeader = function(message) {
+
+    if (!qpyodideShowStartupMessage) return;
+
+    qpyodideStartupMessage.innerHTML = message;
+  }
+
+  // Status header update with customized spinner message
+  globalThis.qpyodideUpdateStatusHeaderSpinner = function(message) {
+
+    qpyodideUpdateStatusHeader(`
+      <i class="fa-solid fa-spinner fa-spin qpyodide-icon-status-spinner"></i>
+      <span>${message}</span>
+    `);
+  }
+
+
+  // Function that attaches the document status message
+  function qpyodideDisplayStartupMessage(showStartupMessage) {
+    if (!showStartupMessage) {
+      return;
+    }
+
+    // Get references to header elements
+    const headerHTML = document.getElementById("title-block-header");
+    const headerRevealJS = document.getElementById("title-slide");
+
+    // Create the outermost div element for metadata
+    const quartoTitleMeta = document.createElement("div");
+    quartoTitleMeta.classList.add("quarto-title-meta");
+
+    // Create the first inner div element
+    const firstInnerDiv = document.createElement("div");
+    firstInnerDiv.setAttribute("id", "qpyodide-status-message-area");
+
+    // Create the second inner div element for "Pyodide Status" heading and contents
+    const secondInnerDiv = document.createElement("div");
+    secondInnerDiv.setAttribute("id", "qpyodide-status-message-title");
+    secondInnerDiv.classList.add("quarto-title-meta-heading");
+    secondInnerDiv.innerText = "Pyodide Status";
+
+    // Create another inner div for contents
+    const secondInnerDivContents = document.createElement("div");
+    secondInnerDivContents.setAttribute("id", "qpyodide-status-message-body");
+    secondInnerDivContents.classList.add("quarto-title-meta-contents");
+
+    // Describe the Pyodide state
+    qpyodideStartupMessage.innerText = "🟡 Loading...";
+    qpyodideStartupMessage.setAttribute("id", "qpyodide-status-message-text");
+    // Add `aria-live` to auto-announce the startup status to screen readers
+    qpyodideStartupMessage.setAttribute("aria-live", "assertive");
+
+    // Append the startup message to the contents
+    secondInnerDivContents.appendChild(qpyodideStartupMessage);
+
+    // Combine the inner divs and contents
+    firstInnerDiv.appendChild(secondInnerDiv);
+    firstInnerDiv.appendChild(secondInnerDivContents);
+    quartoTitleMeta.appendChild(firstInnerDiv);
+
+    // Determine where to insert the quartoTitleMeta element
+    if (headerHTML || headerRevealJS) {
+      // Append to the existing "title-block-header" element or "title-slide" div
+      (headerHTML || headerRevealJS).appendChild(quartoTitleMeta);
+    } else {
+      // If neither headerHTML nor headerRevealJS is found, insert after "Pyodide-monaco-editor-init" script
+      const monacoScript = document.getElementById("qpyodide-monaco-editor-init");
+      const header = document.createElement("header");
+      header.setAttribute("id", "title-block-header");
+      header.appendChild(quartoTitleMeta);
+      monacoScript.after(header);
+    }
+  }
+
+  qpyodideDisplayStartupMessage(qpyodideShowStartupMessage);
+  </script>
+  <script type="module">
+  // Create a logging setup
+  globalThis.qpyodideMessageArray = []
+
+  // Add messages to array
+  globalThis.qpyodideAddToOutputArray = function(message, type) {
+    qpyodideMessageArray.push({ message, type });
+  }
+
+  // Function to reset the output array
+  globalThis.qpyodideResetOutputArray = function() {
+    qpyodideMessageArray = [];
+  }
+
+  globalThis.qpyodideRetrieveOutput = function() {
+    return qpyodideMessageArray.map(entry => entry.message).join('\n');
+  }
+
+  // Start a timer
+  const initializePyodideTimerStart = performance.now();
+
+  // Encase with a dynamic import statement
+  globalThis.qpyodideInstance = await import(
+    qpyodideCustomizedPyodideOptions.indexURL + "pyodide.mjs").then(
+     async({ loadPyodide }) => {
+
+      console.log("Start loading Pyodide");
+      
+      // Populate Pyodide options with defaults or new values based on `pyodide`` meta
+      let mainPyodide = await loadPyodide(
+        qpyodideCustomizedPyodideOptions
+      );
+      
+      // Setup a namespace for global scoping
+      // await loadedPyodide.runPythonAsync("globalScope = {}"); 
+      
+      // Update status to reflect the next stage of the procedure
+      qpyodideUpdateStatusHeaderSpinner("Initializing Python Packages");
+
+      // Load the `micropip` package to allow installation of packages.
+      await mainPyodide.loadPackage("micropip");
+      await mainPyodide.runPythonAsync(`import micropip`);
+
+      // Load the `pyodide_http` package to shim uses of `requests` and `urllib3`.
+      // This allows for `pd.read_csv(url)` to work flawlessly.
+      // Details: https://github.com/coatless-quarto/pyodide/issues/9
+      await mainPyodide.loadPackage("pyodide_http");
+      await mainPyodide.runPythonAsync(`
+      import pyodide_http
+      pyodide_http.patch_all()  # Patch all libraries
+      `);
+
+      // Load the `matplotlib` package with necessary environment hook
+      await mainPyodide.loadPackage("matplotlib");
+
+      // Set the backend for matplotlib to be interactive.
+      await mainPyodide.runPythonAsync(`
+      import matplotlib
+      matplotlib.use("module://matplotlib_pyodide.html5_canvas_backend")
+      from matplotlib import pyplot as plt
+      `);
+
+      // Unlock interactive buttons
+      qpyodideSetInteractiveButtonState(
+        `<i class="fa-solid fa-play qpyodide-icon-run-code"></i> <span>Run Code</span>`, 
+        true
+      );
+
+      // Set document status to viable
+      qpyodideUpdateStatusHeader(
+        "🟢 Ready!"
+      );
+
+      // Assign Pyodide into the global environment
+      globalThis.mainPyodide = mainPyodide;
+
+      console.log("Completed loading Pyodide");
+      return mainPyodide;
+    }
+  );
+
+  // Stop timer
+  const initializePyodideTimerEnd = performance.now();
+
+  // Create a function to retrieve the promise object.
+  globalThis._qpyodideGetInstance = function() {
+      return qpyodideInstance;
+  }
+
+  </script>
+</head>
+<body class="quarto-light">
+<script src="https://cdn.jsdelivr.net/npm/monaco-editor@0.46.0/min/vs/loader.js"></script>
+<script type="module" id="qpyodide-monaco-editor-init">
+
+  // Configure the Monaco Editor's loader
+  require.config({
+    paths: {
+      'vs': 'https://cdn.jsdelivr.net/npm/monaco-editor@0.46.0/min/vs'
+    }
+  });
+</script>
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide" data-background-image="images/background.jpg" class="quarto-title-block center">
+  <h1 class="title">Prompts Perfectos ChatGPT</h1>
+  <p class="subtitle">Sesión 2</p>
+
+<div class="quarto-title-authors">
+<div class="quarto-title-author">
+<div class="quarto-title-author-name">
+Francisco Alfaro 
+</div>
+</div>
+<div class="quarto-title-author">
+<div class="quarto-title-author-name">
+Valeska Canales 
+</div>
+</div>
+</div>
+
+  <p class="date">2025-04-08</p>
+</section>
+<section class="slide level2">
+
+<style>
+/* Ajusta el tamaño del título y subtítulo */
+.reveal .slides h1 {
+  font-size: 2em; /* Tamaño más pequeño para el título */
+}
+
+.reveal .slides h2 {
+  font-size: 1.5em; /* Tamaño más pequeño para el subtítulo */
+}
+</style>
+</section>
+<section id="agenda" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>Agenda</h2>
+<div class="columns">
+<div class="column" style="width:30%;">
+<ul>
+<li class="fragment"></li>
+<li class="fragment"><p>No</p></li>
+<li class="fragment"><p>Nope</p></li>
+<li class="fragment"><p>Jamás</p></li>
+</ul>
+</div><div class="column fragment" style="width:70%;">
+<p><img src="images/neg.png" alt="Tachado" style="width: 50%; height: auto;"></p>
+</div>
+</div>
+</section>
+<section id="section" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2></h2>
+<div style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;">
+<div class="callout callout-note callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Regla de Storytelling #1</strong></p>
+</div>
+<div class="callout-content">
+<p>Nunca reveles el final antes de tiempo.<br>
+<span class="fragment">Siempre eleva la tensión y el dramatismo</span></p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="agenda-v2" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>Agenda (v2)</h2>
+<div>
+<ol type="1">
+<li class="fragment">Nunca reveles el <span style="background-color:black;">final</span></li>
+<li class="fragment">Los detalles son importantes, pero <span style="background-color:black;">no <strong>todos</strong> los detalles son importantes.</span></li>
+<li class="fragment">Tu primera versión será <span style="background-color:black;">horrible.</span></li>
+<li class="fragment">Muestra, no <span style="background-color:black;">cuentes.</span></li>
+</ol>
+</div>
+</section>
+<section id="section-1" class="slide level2" data-background-image="images/background_slides3.png" data-background-opacity="0.3">
+<h2></h2>
+<div style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;">
+<p><span style="font-size: 1em">Data Storytelling</span></p>
+<p><span style="font-size: 1.5em">¿Por qué Data Storytelling?</span></p>
+</div>
+</section>
+<section id="qué-es-el-storytelling" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>¿Qué es el Storytelling?</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/cave.jpg" class="quarto-figure quarto-figure-center" style="width:90.0%"></p>
+</figure>
+</div>
+</div><div class="column fragment" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/fire.jpg" class="quarto-figure quarto-figure-center" style="width:100.0%"></p>
+</figure>
+</div>
+</div>
+</div>
+<div class="fragment">
+<div style="text-align: center; ">
+<p>🔥 Las <strong>historias</strong> son la primera tecnología humana</p>
+</div>
+</div>
+</section>
+<section id="esos-cerebros-tan-hackables" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>Esos cerebros tan hackables…</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><img data-src="images/storytelling/sketplanation.png" class="quarto-figure quarto-figure-center" style="width:90.0%"><br>
+<em>Regla del máximo y final (Peak-End Rule)</em></p>
+</div><div class="column fragment" style="width:50%;">
+<p><img data-src="images/storytelling/got.jpg" class="quarto-figure quarto-figure-center" style="width:100.0%"><br>
+<em>Rating de Game of Thrones, por Kelvin Neo</em></p>
+</div>
+</div>
+</section>
+<section id="narrativa" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>Narrativa</h2>
+<div class="columns">
+<div class="column" style="width:60%;">
+<p><br><br> Usar <strong>trucos</strong> de Storytelling (narrativa) para crear presentaciones que serán <strong>recordadas</strong> y que causarán <strong>impacto</strong></p>
+</div><div class="column fragment" style="width:40%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/emotions.png" class="quarto-figure quarto-figure-center"></p>
+</figure>
+</div>
+</div>
+</div>
+<div class="fragment">
+<div style="text-align: center;">
+<p>🎭 Las <strong>emociones</strong> generan acciones</p>
+</div>
+</div>
+</section>
+<section id="el-mejor-ejemplo" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>El mejor ejemplo</h2>
+<div class="columns">
+<div class="column fragment" data-fragment-index="1" style="width:30%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/storytelling/spotify1.jpeg" class="quarto-figure quarto-figure-center"></p>
+</figure>
+</div>
+</div><div class="column center" style="width:40%;">
+<p><br><br> ¿Podemos hacer que millones de personas compartan estadísticas en redes sociales?</p>
+</div><div class="column fragment" data-fragment-index="1" style="width:30%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/storytelling/spotify2.jpeg" class="quarto-figure quarto-figure-center"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="section-2" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2></h2>
+<div style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;">
+<div class="callout callout-note callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Regla de Storytelling #2</strong></p>
+</div>
+<div class="callout-content">
+<p>Los detalles son importantes, <span class="fragment">pero no <strong>todos</strong> los detalles son importantes.</span></p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="ejemplos" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>Ejemplos</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><img data-src="images/dst_before.png" class="quarto-figure quarto-figure-center"> <em>🔢 No compartas números</em></p>
+</div><div class="column fragment" style="width:50%;">
+<p><img data-src="images/dst_after.png" class="quarto-figure quarto-figure-center"> <em>🪶Comparte una historia</em></p>
+</div>
+</div>
+<div class="fragment">
+<p><br><br> <span style="font-size: 0.75em; color: gray">(C) Storytelling with Data, por Cole Nussbaumer Knaflic.</span></p>
+</div>
+</section>
+<section id="section-3" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2></h2>
+<div style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;">
+<div class="callout callout-note callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Regla de Storytelling #3</strong></p>
+</div>
+<div class="callout-content">
+<p>Tu primera versión <strong>siempre</strong> será horrible.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="ejemplos-1" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>Ejemplos</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/gh_before.png" class="quarto-figure quarto-figure-center"></p>
+</figure>
+</div>
+</div><div class="column fragment" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/gh_after.png" class="quarto-figure quarto-figure-center"></p>
+</figure>
+</div>
+</div>
+</div>
+<div class="fragment">
+<div style="text-align: center;">
+<p>🥱 1° versión <span class="math inline">\(&lt;\)</span> … <span class="math inline">\(&lt;\)</span> 😊 última versión</p>
+</div>
+</div>
+</section>
+<section id="usar-chatbots-de-ia-para" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>Usar chatbots de IA para:</h2>
+<div class="columns">
+<div class="column" style="width:65%;">
+<p><br></p>
+<ul>
+<li>Plantillas personalizadas a medida</li>
+<li>Automatizar estructura del contenido</li>
+<li>Ahorro de tiempo en diseño</li>
+<li>Adaptación al estilo y preferencias</li>
+</ul>
+</div><div class="column fragment" style="width:35%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/ai/template.png" class="quarto-figure quarto-figure-center"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="usar-chatbots-de-ia-para-1" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>Usar chatbots de IA para:</h2>
+<div class="columns">
+<div class="column" style="width:60%;">
+<p><br></p>
+<ul>
+<li>Analogías y ejemplos</li>
+<li>Mejores traducciones</li>
+<li>Prompts para crear imágenes</li>
+<li>No busques imágenes, créalas!</li>
+</ul>
+</div><div class="column fragment" style="width:40%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/ai/choice.jpeg" class="quarto-figure quarto-figure-center"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="section-4" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2></h2>
+<div style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;">
+<div class="callout callout-note callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Regla de Storytelling #4</strong></p>
+</div>
+<div class="callout-content">
+<p><span style="color: red">Explicar menos</span> y <span style="color: green">mostrar más</span></p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="explicar-menos-y-mostrar-más" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2><span style="color: red">Explicar menos</span> y <span style="color: green">mostrar más</span></h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb1-2"><a></a></span>
+<span id="cb1-3"><a></a><span class="co"># Datos de ejemplo</span></span>
+<span id="cb1-4"><a></a>x <span class="op">=</span> [<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">4</span>, <span class="dv">5</span>]</span>
+<span id="cb1-5"><a></a>y <span class="op">=</span> [<span class="dv">2</span>, <span class="dv">4</span>, <span class="dv">3</span>, <span class="dv">5</span>, <span class="dv">7</span>]</span>
+<span id="cb1-6"><a></a></span>
+<span id="cb1-7"><a></a><span class="co"># Generamos el gráfico</span></span>
+<span id="cb1-8"><a></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">6</span>, <span class="dv">4</span>))</span>
+<span id="cb1-9"><a></a>plt.plot(x, y, marker<span class="op">=</span><span class="st">'o'</span>)</span>
+<span id="cb1-10"><a></a>plt.title(<span class="st">"Gráfico de Ejemplo"</span>)</span>
+<span id="cb1-11"><a></a>plt.xlabel(<span class="st">"Eje X"</span>)</span>
+<span id="cb1-12"><a></a>plt.ylabel(<span class="st">"Eje Y"</span>)</span>
+<span id="cb1-13"><a></a>plt.grid(<span class="va">True</span>)</span>
+<span id="cb1-14"><a></a>plt.show()</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div><div class="column fragment" style="width:50%;">
+<div id="6b3b18a6" class="cell" data-execution_count="1">
+<div class="cell-output cell-output-display">
+<div>
+<figure>
+<p><img data-src="presentacion_files/figure-revealjs/cell-2-output-1.png" width="502" height="377"></p>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="explicar-menos-y-mostrar-más-1" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2><span style="color: red">Explicar menos</span> y <span style="color: green">mostrar más</span></h2>
+<div id="qpyodide-insertion-location-1"></div>
+<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
+</section>
+<section id="agenda-v2-1" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>Agenda (v2)</h2>
+<div>
+<ol type="1">
+<li class="fragment">Nunca reveles el <span class="fragment" style="color:grey;"><strong>final</strong></span></li>
+<li class="fragment">Los detalles son importantes, pero <span class="fragment" style="color:grey;">no <strong>todos</strong> los detalles son importantes</span></li>
+<li class="fragment">Tu primera versión será <span class="fragment" style="color:grey;"><strong>horrible</strong></span></li>
+<li class="fragment">Muestra, no <span class="fragment" style="color:grey;"><strong>cuentes</strong></span></li>
+</ol>
+</div>
+<aside class="notes">
+<p>Opción 2: Una agenda misteriosa.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="section-5" class="slide level2" data-background-image="images/background_slides3.png" data-background-opacity="0.3">
+<h2></h2>
+<div style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;">
+<p><span style="font-size: 1em">Visualización</span></p>
+<p><span style="font-size: 2em">¿Qué es la Visualización?</span></p>
+</div>
+</section>
+<section id="visualización" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>Visualización…</h2>
+<div class="columns">
+<div class="column" style="width:60%;">
+<p><br></p>
+<ul>
+<li>Convierte datos en gráficos para facilitar su comprensión.</li>
+<li>Destaca patrones y tendencias de forma clara.</li>
+</ul>
+</div><div class="column fragment" style="width:40%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/viz/ojo.png" class="quarto-figure quarto-figure-center"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="ejemplos-2" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>Ejemplos</h2>
+<div class="columns">
+<div class="column" style="text-align: center;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/viz/vis_01.png" class="quarto-figure quarto-figure-center" style="width:100.0%"></p>
+</figure>
+</div>
+<p><em>❌ Mal Gráfico</em></p>
+</div><div class="column fragment" style="text-align: center;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/viz/vis_02.png" class="quarto-figure quarto-figure-center" style="width:80.0%"></p>
+</figure>
+</div>
+<p><em>✅ Buen Gráfico</em></p>
+</div>
+</div>
+</section>
+<section id="cuarteto-de-anscombe" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>Cuarteto de ANSCOMBE</h2>
+<div class="columns">
+<div class="column" style="text-align: center;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/viz/canscombe_01.png" class="quarto-figure quarto-figure-center" style="width:80.0%"></p>
+</figure>
+</div>
+</div><div class="column fragment" style="text-align: center;">
+<p><br> <img data-src="images/viz/canscombe_02.png" class="quarto-figure quarto-figure-center" style="width:100.0%"></p>
+</div>
+</div>
+<div class="fragment" style="text-align:center">
+<p>📋 Tablas vs 📊 Gráficos</p>
+</div>
+</section>
+<section class="slide level2">
+
+<h3 data-background-image="images/background.jpg" data-background-size="cover" data-background-opacity="0.5" id="datasaurus">Datasaurus</h3>
+
+<img data-src="./images/viz/anscombe.gif" style="width:80.0%" class="r-stretch"></section>
+<section id="teoría-de-visualización" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>Teoría de Visualización</h2>
+
+<img data-src="images/viz/teoria_vis2.webp" class="quarto-figure quarto-figure-center r-stretch" style="width:50.0%"></section>
+<section id="pilares-visualización---noah-iliinsky" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>4 Pilares Visualización - Noah Iliinsky</h2>
+<div class="columns">
+<div class="column fragment" style="width:60%;">
+<p><br></p>
+<ol type="1">
+<li><strong>Propósito</strong>: Define la meta.</li>
+<li><strong>Contenido</strong>: Datos relevantes.</li>
+<li><strong>Estructura</strong>: Organización clara.</li>
+<li><strong>Formato</strong>: Gráfico adecuado.</li>
+</ol>
+</div><div class="column" style="width:40%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/viz/pilar2.png" class="quarto-figure quarto-figure-center"></p>
+</figure>
+</div>
+</div>
+</div>
+<div class="fragment">
+<p><span style="font-size: 0.75em; color: gray">(C) Noah Iliinsky: “Four Pillars of Visualization” - Youtube.</span></p>
+</div>
+</section>
+<section id="qué-gráficos-son-buenos" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>Qué Gráficos son buenos?</h2>
+<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;">
+<p><img src="images/viz/chart_01.png" style="width: 75%; height: auto;"> <img src="images/viz/chart_04.png" style="width: 75%; height: auto;"></p>
+<p><img src="images/viz/chart_03.png" style="width: 75%; height: auto;"> <img src="images/viz/chart_05.png" style="width: 70%; height: auto;"></p>
+<p><img src="images/viz/chart_02.png" style="width: 75%; height: auto;"> <img src="images/viz/chart_07.png" style="width: 85%; height: auto;"></p>
+</div>
+<div class="fragment">
+<p><span style="font-size: 0.75em; color: gray">(C) Essential chart types for data visualization, por Atlassian.</span></p>
+</div>
+</section>
+<section id="section-6" class="slide level2" data-background-image="images/background_slides3.png" data-background-opacity="0.3">
+<h2></h2>
+<div style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;">
+<p><span style="font-size: 1em">Herramientas</span></p>
+<p><span style="font-size: 2em">Herramientas de Visualización</span></p>
+</div>
+</section>
+<section id="herramientas-para-presentación" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>Herramientas para presentación</h2>
+<div class="columns">
+<div class="column" style="width:60%;">
+<ul>
+<li><strong>Clásica</strong>: PowerPoint</li>
+<li><strong>“Show don’t tell”</strong>:
+<ul>
+<li>Quarto</li>
+<li>Streamlit</li>
+</ul></li>
+<li><strong>Otros</strong>: Canvas, Revealjs, Prezi</li>
+</ul>
+</div><div class="column" style="width:40%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/presentacion2.png" class="quarto-figure quarto-figure-center"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="quarto" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>Quarto</h2>
+<div class="columns">
+<div class="column" style="width:60%;">
+<p><br></p>
+<p>Un sistema abierto para publicaciones científicas con markdown y código interactivo (Python/R).</p>
+</div><div class="column" style="width:40%;">
+<p><img data-src="images/quarto/quarto2.png"></p>
+</div>
+</div>
+</section>
+<section id="section-7" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2></h2>
+<div class="columns">
+<div class="column" style="width:40%;">
+<p><span style="font-size: 0.5em; color: gray">Código: example.qmd</span></p>
+<pre><code>---
+title: "Habits"
+author: "John Doe"
+format:
+  revealjs:
+    transition: fade
+    theme: black
+    toc: true
+    center: true
+---
+
+## Getting up
+
+- Turn off alarm
+- Get out of bed
+
+---
+
+## Going to sleep 
+::: { .incremental }
+
+- Get in bed
+- Count sheep
+
+:::</code></pre>
+</div><div class="column" style="width:60%;">
+<p><span style="font-size: 0.5em; color: gray">Slides: example.html</span></p>
+<iframe width="600" height="400" src="images/quarto/quarto_min.html"></iframe>
+</div>
+</div>
+</section>
+<section id="streamlit" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>Streamlit</h2>
+<div class="columns">
+<div class="column" style="width:60%;">
+<p><br><br> Es una herramienta de código abierto que facilita la creación de aplicaciones web interactivas utilizando únicamente Python.</p>
+</div><div class="column" style="width:40%;">
+<p><br> <img data-src="./images/streamlit/streamlit.png"></p>
+</div>
+</div>
+</section>
+<section id="streamlit-ejemplo" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>Streamlit: Ejemplo</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="sourceCode" id="cb3"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a></a><span class="im">import</span> streamlit <span class="im">as</span> st</span>
+<span id="cb3-2"><a></a></span>
+<span id="cb3-3"><a></a><span class="co"># Título principal de la aplicación</span></span>
+<span id="cb3-4"><a></a>st.title(<span class="st">"Hola Streamlit"</span>)</span>
+<span id="cb3-5"><a></a></span>
+<span id="cb3-6"><a></a><span class="co"># Mensaje principal con nombres y emoticón fijos</span></span>
+<span id="cb3-7"><a></a>mensaje <span class="op">=</span> <span class="st">"Darwin y Patricia son mejores amigos 😊"</span></span>
+<span id="cb3-8"><a></a>st.write(mensaje)</span>
+<span id="cb3-9"><a></a></span>
+<span id="cb3-10"><a></a><span class="co"># Imagen decorativa</span></span>
+<span id="cb3-11"><a></a>st.image(</span>
+<span id="cb3-12"><a></a>    <span class="st">"https://www.svgrepo.com/show/397758/people-hugging.svg"</span>,</span>
+<span id="cb3-13"><a></a>    caption<span class="op">=</span><span class="st">"Amigos"</span>,</span>
+<span id="cb3-14"><a></a>    width<span class="op">=</span><span class="dv">200</span>  <span class="co"># Ajuste del tamaño de la imagen</span></span>
+<span id="cb3-15"><a></a>)</span>
+<span id="cb3-16"><a></a></span>
+<span id="cb3-17"><a></a><span class="co"># Footer</span></span>
+<span id="cb3-18"><a></a>st.markdown(</span>
+<span id="cb3-19"><a></a>    <span class="st">"""</span></span>
+<span id="cb3-20"><a></a><span class="st">    ---</span></span>
+<span id="cb3-21"><a></a><span class="st">    Gracias por usar esta aplicación interactiva 🎈</span></span>
+<span id="cb3-22"><a></a><span class="st">    """</span></span>
+<span id="cb3-23"><a></a>)</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div><div class="column fragment" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/streamlit_example.png" class="quarto-figure quarto-figure-center" style="width:85.0%"></p>
+</figure>
+</div>
+</div>
+</div>
+<div class="fragment">
+<div style="text-align: center; margin-top: -30px;">
+<p><a href="https://streamlit.io/playground?example=geospatial&amp;code=H4sIAAAAAAAAA4VTPY8TMRDt91eMTJOTLsldEDpASnECHTR8SKFDKJo4cxsHr23Z3ts7TunRCfHR0aA0dIgCISH6_BP-APkJjHc3JCcKtpnZGb_n52ePKpz1EUL0hIVWETDwT5bdgGerr7HUFpxXRiqHGqYEGgGdVhKlWn03WYi9qKKmjnhouTXasIi9xDBSU5qgB2kNY4P0ytUwuADLmTUUEie3T1Ve-i1naIAb7iftYmbdaVZeRW7e26CBNBRkAs5pR_NFKlNho5JM3muEbQiBTGq3jOCQWRz5YA1q9YorW8rM2GLi6RCGsCuQzuNYGVfGjnhcL4BDsQ_iPvpKGd6sQQ3-ixok1FOMXkmFjGsUs2_XgIE0yTix5x0xSmk6BUJptgdkmudivfx4lfh-ffr8--e7lK2XH7408c2yie9_iBe1F4_-sYxNqa_ZZRs7h3AqLlsDFmxpmw8WwFaxQ3Pr2UwsVG4DXG60L0S6ruaaWqZ6x-PcU87mlqxdFZhTeh3SeozqDBOkLnYy4E_MYnThbr9fVVUvnDHS2Z60RT_MbNW_eefo6NbtviPrNHVnZZ4rk6dlYr9GS3SRLRqK41paWy0DjaXVZWHGlZrG2fAEdaCm1xQGBwcALHRehkgsTkPEAlffbDsCjeqsPs2JtZF8kl2gfzm1lWmVC1HHbrdbxwfpffNw8bixgvS2Qrw2TKAME6FMLsB6-fb1X5q97A_oi2bFpgMAAA" style="font-size: 0.75em; color: gray">(C) Ejemplo en Streamlit - Playground.</a></p>
+</div>
+</div>
+</section>
+<section class="slide level2">
+
+<h3 id="streamlit-ejemplo-1">Streamlit: Ejemplo</h3>
+
+<img src="./images/streamlit/Streamlit-Prophet.gif" style="width:50%;" class="r-stretch"></section>
+<section id="html-webapps" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>HTML &amp; webapps</h2>
+<div class="columns">
+<div class="column fragment" style="width:50%;">
+<p>🛠️ Elige una herramienta</p>
+</div><div class="column fragment" style="width:50%;">
+<p>💡 La innovación destaca</p>
+</div>
+</div>
+
+<img data-src="images/tools2.webp" class="quarto-figure quarto-figure-center r-stretch"></section>
+<section id="flujo-de-decisión" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>Flujo de decisión</h2>
+<p><br></p>
+<div>
+<ul>
+<li class="fragment">🎤 <strong>PowerPoint</strong>: Presentación sin código de un solo uso</li>
+<li class="fragment">📚 <strong>Quarto</strong>: Charlas a partir de documentos relacionados</li>
+<li class="fragment">💻 <strong>Streamlit</strong>: Presentaciones interactivas (Python)</li>
+<li class="fragment">🎨 <strong>Más</strong>: Canvas, Revealjs, Prezi</li>
+</ul>
+</div>
+</section>
+<section id="conclusión" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>Conclusión</h2>
+<p><br></p>
+<div>
+<ul>
+<li class="fragment"><strong>📖 Storytelling</strong>: Narrativas que cautivan a través de datos.<br>
+</li>
+<li class="fragment"><strong>📊 Visualización</strong>: Gráficos claros y atractivos.<br>
+</li>
+<li class="fragment"><strong>🛠️ Herramientas</strong>: Streamlit, Quarto, y más.</li>
+</ul>
+</div>
+</section>
+<section id="gracias-por-participar" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>🎉 ¡Gracias por Participar!</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><br></p>
+<p>❓¿Preguntas?</p>
+<p>👏 Responder <a href="https://docs.google.com/forms/d/e/1FAIpQLScdkSSY40VsN_uEXsNK5LYP-qngUVvaO-c8qItr163zzvpzZA/viewform?usp=sf_link">encuesta</a></p>
+<p>🥳 Gracias de Nuevo</p>
+</div><div class="column" data-align="center" style="width:50%;">
+<p><img data-src="images/qr_visualizacion.png" width="400"></p>
+</div>
+</div>
+<blockquote>
+<p>🔗 Nuestro Sitio Web: <a href="https://seth-nut.github.io/resources/">seth-nut.github.io/resources</a>.</p>
+</blockquote>
+
+<div class="quarto-auto-generated-content">
+<p><img src="images/logo_sn.png" class="slide-logo"></p>
+<div class="footer footer-default">
+
+</div>
+</div>
+</section>
+    </div>
+  </div>
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script>
+  <script src="../site_libs/revealjs/dist/reveal.js"></script>
+  <!-- reveal.js plugins -->
+  <script src="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="../site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="../site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="../site_libs/revealjs/plugin/quarto-support/support.js"></script>
+  
+
+  <script src="../site_libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="../site_libs/revealjs/plugin/search/search.js"></script>
+  <script src="../site_libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="../site_libs/revealjs/plugin/math/math.js"></script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+'controlsAuto': true,
+'previewLinksAuto': false,
+'pdfSeparateFragments': false,
+'autoAnimateEasing': "ease",
+'autoAnimateDuration': 1,
+'autoAnimateUnmatched': true,
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'smaller': false,
+ 
+        // Display controls in the bottom right corner
+        controls: false,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: false,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'edges',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: false,
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: true,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: false,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'linear',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: false,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'slide',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'none',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // The "normal" size of the presentation, aspect ratio will be preserved
+        // when the presentation is scaled to fit different resolutions. Can be
+        // specified using percentage units.
+        width: 1050,
+
+        height: 700,
+
+        // Factor of the display size that should remain empty around the content
+        margin: 0.1,
+
+        math: {
+          mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js',
+          config: 'TeX-AMS_HTML-full',
+          tex2jax: {
+            inlineMath: [['\\(','\\)']],
+            displayMath: [['\\[','\\]']],
+            balanceBraces: true,
+            processEscapes: false,
+            processRefs: true,
+            processEnvironments: true,
+            preview: 'TeX',
+            skipTags: ['script','noscript','style','textarea','pre','code'],
+            ignoreClass: 'tex2jax_ignore',
+            processClass: 'tex2jax_process'
+          },
+        },
+
+        // reveal.js plugins
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, QuartoSupport,
+
+          RevealMath,
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    <script id="quarto-html-after-body" type="application/javascript">
+    window.document.addEventListener("DOMContentLoaded", function (event) {
+      const toggleBodyColorMode = (bsSheetEl) => {
+        const mode = bsSheetEl.getAttribute("data-mode");
+        const bodyEl = window.document.querySelector("body");
+        if (mode === "dark") {
+          bodyEl.classList.add("quarto-dark");
+          bodyEl.classList.remove("quarto-light");
+        } else {
+          bodyEl.classList.add("quarto-light");
+          bodyEl.classList.remove("quarto-dark");
+        }
+      }
+      const toggleBodyColorPrimary = () => {
+        const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+        if (bsSheetEl) {
+          toggleBodyColorMode(bsSheetEl);
+        }
+      }
+      toggleBodyColorPrimary();  
+      const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
+      tabsets.forEach(function(tabset) {
+        const tabby = new Tabby('#' + tabset.id);
+      });
+      const isCodeAnnotation = (el) => {
+        for (const clz of el.classList) {
+          if (clz.startsWith('code-annotation-')) {                     
+            return true;
+          }
+        }
+        return false;
+      }
+      const clipboard = new window.ClipboardJS('.code-copy-button', {
+        text: function(trigger) {
+          const codeEl = trigger.previousElementSibling.cloneNode(true);
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+        }
+      });
+      clipboard.on('success', function(e) {
+        // button target
+        const button = e.trigger;
+        // don't keep focus
+        button.blur();
+        // flash "checked"
+        button.classList.add('code-copy-button-checked');
+        var currentTitle = button.getAttribute("title");
+        button.setAttribute("title", "Copiado");
+        let tooltip;
+        if (window.bootstrap) {
+          button.setAttribute("data-bs-toggle", "tooltip");
+          button.setAttribute("data-bs-placement", "left");
+          button.setAttribute("data-bs-title", "Copiado");
+          tooltip = new bootstrap.Tooltip(button, 
+            { trigger: "manual", 
+              customClass: "code-copy-button-tooltip",
+              offset: [0, -8]});
+          tooltip.show();    
+        }
+        setTimeout(function() {
+          if (tooltip) {
+            tooltip.hide();
+            button.removeAttribute("data-bs-title");
+            button.removeAttribute("data-bs-toggle");
+            button.removeAttribute("data-bs-placement");
+          }
+          button.setAttribute("title", currentTitle);
+          button.classList.remove('code-copy-button-checked');
+        }, 1000);
+        // clear code selection
+        e.clearSelection();
+      });
+        var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+        var mailtoRegex = new RegExp(/^mailto:/);
+          var filterRegex = new RegExp("fralfaro\.github\.io\/blog\/");
+        var isInternal = (href) => {
+            return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+        }
+        // Inspect non-navigation links and adorn them if external
+     	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+        for (var i=0; i<links.length; i++) {
+          const link = links[i];
+          if (!isInternal(link.href)) {
+            // undo the damage that might have been done by quarto-nav.js in the case of
+            // links that we want to consider external
+            if (link.dataset.originalHref !== undefined) {
+              link.href = link.dataset.originalHref;
+            }
+          }
+        }
+      function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+        const config = {
+          allowHTML: true,
+          maxWidth: 500,
+          delay: 100,
+          arrow: false,
+          appendTo: function(el) {
+              return el.closest('section.slide') || el.parentElement;
+          },
+          interactive: true,
+          interactiveBorder: 10,
+          theme: 'light-border',
+          placement: 'bottom-start',
+        };
+        if (contentFn) {
+          config.content = contentFn;
+        }
+        if (onTriggerFn) {
+          config.onTrigger = onTriggerFn;
+        }
+        if (onUntriggerFn) {
+          config.onUntrigger = onUntriggerFn;
+        }
+          config['offset'] = [0,0];
+          config['maxWidth'] = 700;
+        window.tippy(el, config); 
+      }
+      const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+      for (var i=0; i<noterefs.length; i++) {
+        const ref = noterefs[i];
+        tippyHover(ref, function() {
+          // use id or data attribute instead here
+          let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+          try { href = new URL(href).hash; } catch {}
+          const id = href.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note) {
+            return note.innerHTML;
+          } else {
+            return "";
+          }
+        });
+      }
+      const findCites = (el) => {
+        const parentEl = el.parentElement;
+        if (parentEl) {
+          const cites = parentEl.dataset.cites;
+          if (cites) {
+            return {
+              el,
+              cites: cites.split(' ')
+            };
+          } else {
+            return findCites(el.parentElement)
+          }
+        } else {
+          return undefined;
+        }
+      };
+      var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+      for (var i=0; i<bibliorefs.length; i++) {
+        const ref = bibliorefs[i];
+        const citeInfo = findCites(ref);
+        if (citeInfo) {
+          tippyHover(citeInfo.el, function() {
+            var popup = window.document.createElement('div');
+            citeInfo.cites.forEach(function(cite) {
+              var citeDiv = window.document.createElement('div');
+              citeDiv.classList.add('hanging-indent');
+              citeDiv.classList.add('csl-entry');
+              var biblioDiv = window.document.getElementById('ref-' + cite);
+              if (biblioDiv) {
+                citeDiv.innerHTML = biblioDiv.innerHTML;
+              }
+              popup.appendChild(citeDiv);
+            });
+            return popup.innerHTML;
+          });
+        }
+      }
+    });
+    </script>
+    <script src="https://giscus.app/client.js" data-repo="Seth-Nut/talks" data-repo-id="R_kgDOM_kl2g" data-category="General" data-category-id="DIC_kwDOM_kl2s4CjYAh" data-mapping="title" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="light" data-lang="en" crossorigin="anonymous" async="">
+    </script>
+    <input type="hidden" id="giscus-base-theme" value="light">
+    <input type="hidden" id="giscus-alt-theme" value="dark">
+    <script type="module">
+    /**
+     * Factory function to create different types of cells based on options.
+     * @param {Object} cellData - JSON object containing code, id, and options.
+     * @returns {BaseCell} Instance of the appropriate cell class.
+     */
+    globalThis.qpyodideCreateCell = function(cellData) {
+        switch (cellData.options.context) {
+            case 'interactive':
+                return new InteractiveCell(cellData);
+            case 'output':
+                return new OutputCell(cellData);
+            case 'setup':
+                return new SetupCell(cellData);
+            default:
+                return new InteractiveCell(cellData);
+                // throw new Error('Invalid cell type specified in options.');
+        }
+    }  
+
+    /**
+     * CellContainer class for managing a collection of cells.
+     * @class
+     */
+    class CellContainer {
+        /**
+         * Constructor for CellContainer.
+         * Initializes an empty array to store cells.
+         * @constructor
+         */
+        constructor() {
+            this.cells = [];
+        }
+
+        /**
+         * Add a cell to the container.
+         * @param {BaseCell} cell - Instance of a cell (BaseCell or its subclasses).
+         */
+        addCell(cell) {
+            this.cells.push(cell);
+        }
+
+        /**
+         * Execute all cells in the container.
+         */
+        async executeAllCells() {
+            for (const cell of this.cells) {
+                await cell.executeCode();
+            }
+        }
+
+        /**
+         * Execute all cells in the container.
+         */
+        async autoRunExecuteAllCells() {
+            for (const cell of this.cells) {
+                await cell.autoRunExecuteCode();
+            }
+        }
+    }
+      
+
+    /**
+     * BaseCell class for handling code execution using Pyodide.
+     * @class
+     */
+    class BaseCell {
+        /**
+         * Constructor for BaseCell.
+         * @constructor
+         * @param {Object} cellData - JSON object containing code, id, and options.
+         */
+        constructor(cellData) {
+            this.code = cellData.code;
+            this.id = cellData.id;
+            this.options = cellData.options;
+            this.insertionLocation = document.getElementById(`qpyodide-insertion-location-${this.id}`);
+            this.executionLock = false;
+        }
+
+        cellOptions() {
+            // Subclass this? 
+            console.log(this.options);
+            return this.options;
+        }
+
+        /**
+         * Execute the Python code using Pyodide.
+         * @returns {*} Result of the code execution.
+         */
+        async executeCode() {
+            // Execute code using Pyodide
+            const result = getPyodide().runPython(this.code);
+            return result;
+        }
+    };
+
+    /**
+     * InteractiveCell class for creating editable code editor with Monaco Editor.
+     * @class
+     * @extends BaseCell
+     */
+    class InteractiveCell extends BaseCell {
+
+        /**
+         * Constructor for InteractiveCell.
+         * @constructor
+         * @param {Object} cellData - JSON object containing code, id, and options.
+         */
+        constructor(cellData) {
+            super(cellData);
+            this.editor = null;
+            this.setupElement();
+            this.setupMonacoEditor();
+        }
+
+        /**
+         * Set up the interactive cell elements
+         */
+        setupElement() {
+
+            // Create main div element
+            var mainDiv = document.createElement('div');
+            mainDiv.id = `qpyodide-interactive-area-${this.id}`;
+            mainDiv.className = `qpyodide-interactive-area`;
+            if (this.options.classes) {
+                mainDiv.className += " " + this.options.classes
+            }
+
+            // Add a unique cell identifier that users can customize
+            if (this.options.label) {
+                mainDiv.setAttribute('data-id', this.options.label);
+            }
+
+            // Create toolbar div
+            var toolbarDiv = document.createElement('div');
+            toolbarDiv.className = 'qpyodide-editor-toolbar';
+            toolbarDiv.id = `qpyodide-editor-toolbar-${this.id}`;
+
+            // Create a div to hold the left buttons
+            var leftButtonsDiv = document.createElement('div');
+            leftButtonsDiv.className = 'qpyodide-editor-toolbar-left-buttons';
+
+            // Create a div to hold the right buttons
+            var rightButtonsDiv = document.createElement('div');
+            rightButtonsDiv.className = 'qpyodide-editor-toolbar-right-buttons';
+
+            // Create Run Code button
+            var runCodeButton = document.createElement('button');
+            runCodeButton.className = 'btn btn-default qpyodide-button qpyodide-button-run';
+            runCodeButton.disabled = true;
+            runCodeButton.type = 'button';
+            runCodeButton.id = `qpyodide-button-run-${this.id}`;
+            runCodeButton.textContent = '🟡 Loading Pyodide...';
+            runCodeButton.title = `Run code (Shift + Enter)`;
+
+            // Append buttons to the leftButtonsDiv
+            leftButtonsDiv.appendChild(runCodeButton);
+
+            // Create Reset button
+            var resetButton = document.createElement('button');
+            resetButton.className = 'btn btn-light btn-xs qpyodide-button qpyodide-button-reset';
+            resetButton.type = 'button';
+            resetButton.id = `qpyodide-button-reset-${this.id}`;
+            resetButton.title = 'Start over';
+            resetButton.innerHTML = '<i class="fa-solid fa-arrows-rotate"></i>';
+
+            // Create Copy button
+            var copyButton = document.createElement('button');
+            copyButton.className = 'btn btn-light btn-xs qpyodide-button qpyodide-button-copy';
+            copyButton.type = 'button';
+            copyButton.id = `qpyodide-button-copy-${this.id}`;
+            copyButton.title = 'Copy code';
+            copyButton.innerHTML = '<i class="fa-regular fa-copy"></i>';
+
+            // Append buttons to the rightButtonsDiv
+            rightButtonsDiv.appendChild(resetButton);
+            rightButtonsDiv.appendChild(copyButton);
+
+            // Create console area div
+            var consoleAreaDiv = document.createElement('div');
+            consoleAreaDiv.id = `qpyodide-console-area-${this.id}`;
+            consoleAreaDiv.className = 'qpyodide-console-area';
+
+            // Create editor div
+            var editorDiv = document.createElement('div');
+            editorDiv.id = `qpyodide-editor-${this.id}`;
+            editorDiv.className = 'qpyodide-editor';
+
+            // Create output code area div
+            var outputCodeAreaDiv = document.createElement('div');
+            outputCodeAreaDiv.id = `qpyodide-output-code-area-${this.id}`;
+            outputCodeAreaDiv.className = 'qpyodide-output-code-area';
+            outputCodeAreaDiv.setAttribute('aria-live', 'assertive');
+
+            // Create pre element inside output code area
+            var preElement = document.createElement('pre');
+            preElement.style.visibility = 'hidden';
+            outputCodeAreaDiv.appendChild(preElement);
+
+            // Create output graph area div
+            var outputGraphAreaDiv = document.createElement('div');
+            outputGraphAreaDiv.id = `qpyodide-output-graph-area-${this.id}`;
+            outputGraphAreaDiv.className = 'qpyodide-output-graph-area';
+
+            // Append buttons to the toolbar
+            toolbarDiv.appendChild(leftButtonsDiv);
+            toolbarDiv.appendChild(rightButtonsDiv);
+
+            // Append all elements to the main div
+            mainDiv.appendChild(toolbarDiv);
+            consoleAreaDiv.appendChild(editorDiv);
+            consoleAreaDiv.appendChild(outputCodeAreaDiv);
+            mainDiv.appendChild(consoleAreaDiv);
+            mainDiv.appendChild(outputGraphAreaDiv);
+
+            // Insert the dynamically generated object at the document location.
+            this.insertionLocation.appendChild(mainDiv);
+        }
+
+        /**
+         * Set up Monaco Editor for code editing.
+         */
+        setupMonacoEditor() {
+
+            // Retrieve the previously created document elements
+            this.runButton = document.getElementById(`qpyodide-button-run-${this.id}`);
+            this.resetButton = document.getElementById(`qpyodide-button-reset-${this.id}`);
+            this.copyButton = document.getElementById(`qpyodide-button-copy-${this.id}`);
+            this.editorDiv = document.getElementById(`qpyodide-editor-${this.id}`);
+            this.outputCodeDiv = document.getElementById(`qpyodide-output-code-area-${this.id}`);
+            this.outputGraphDiv = document.getElementById(`qpyodide-output-graph-area-${this.id}`);
+            
+            // Store reference to the object
+            var thiz = this;
+
+            // Load the Monaco Editor and create an instance
+            require(['vs/editor/editor.main'], function () {
+                thiz.editor = monaco.editor.create(
+                    thiz.editorDiv, {
+                        value: thiz.code,
+                        language: 'python',
+                        theme: 'vs-light',
+                        automaticLayout: true,           // Works wonderfully with RevealJS
+                        scrollBeyondLastLine: false,
+                        minimap: {
+                            enabled: false
+                        },
+                        fontSize: '17.5pt',              // Bootstrap is 1 rem
+                        renderLineHighlight: "none",     // Disable current line highlighting
+                        hideCursorInOverviewRuler: true,  // Remove cursor indictor in right hand side scroll bar
+                        readOnly: thiz.options['read-only'] ?? false
+                    }
+                );
+            
+                // Store the official counter ID to be used in keyboard shortcuts
+                thiz.editor.__qpyodideCounter = thiz.id;
+            
+                // Store the official div container ID
+                thiz.editor.__qpyodideEditorId = `qpyodide-editor-${thiz.id}`;
+            
+                // Store the initial code value and options
+                thiz.editor.__qpyodideinitialCode = thiz.code;
+                thiz.editor.__qpyodideOptions = thiz.options;
+            
+                // Set at the model level the preferred end of line (EOL) character to LF.
+                // This prevent `\r\n` from being given to the Pyodide engine if the user is on Windows.
+                // See details in: https://github.com/coatless/quarto-Pyodide/issues/94
+                // Associated error text: 
+                // Error: <text>:1:7 unexpected input
+            
+                // Retrieve the underlying model
+                const model = thiz.editor.getModel();
+                // Set EOL for the model
+                model.setEOL(monaco.editor.EndOfLineSequence.LF);
+            
+                // Dynamically modify the height of the editor window if new lines are added.
+                let ignoreEvent = false;
+                const updateHeight = () => {
+                const contentHeight = thiz.editor.getContentHeight();
+                // We're avoiding a width change
+                //editorDiv.style.width = `${width}px`;
+                thiz.editorDiv.style.height = `${contentHeight}px`;
+                    try {
+                        ignoreEvent = true;
+                
+                        // The key to resizing is this call
+                        thiz.editor.layout();
+                    } finally {
+                        ignoreEvent = false;
+                    }
+                };
+            
+                // Helper function to check if selected text is empty
+                function isEmptyCodeText(selectedCodeText) {
+                    return (selectedCodeText === null || selectedCodeText === undefined || selectedCodeText === "");
+                }
+            
+                // Registry of keyboard shortcuts that should be re-added to each editor window
+                // when focus changes.
+                const addPyodideKeyboardShortCutCommands = () => {
+                // Add a keydown event listener for Shift+Enter to run all code in cell
+                thiz.editor.addCommand(monaco.KeyMod.Shift | monaco.KeyCode.Enter, () => {
+                    // Retrieve all text inside the editor
+                    thiz.runCode(thiz.editor.getValue());
+                });
+            
+                // Add a keydown event listener for CMD/Ctrl+Enter to run selected code
+                thiz.editor.addCommand(monaco.KeyMod.CtrlCmd | monaco.KeyCode.Enter, () => {
+                        // Get the selected text from the editor
+                        const selectedText = thiz.editor.getModel().getValueInRange(thiz.editor.getSelection());
+                        // Check if no code is selected
+                        if (isEmptyCodeText(selectedText)) {
+                            // Obtain the current cursor position
+                            let currentPosition = thiz.editor.getPosition();
+                            // Retrieve the current line content
+                            let currentLine = thiz.editor.getModel().getLineContent(currentPosition.lineNumber);
+                    
+                            // Propose a new position to move the cursor to
+                            let newPosition = new monaco.Position(currentPosition.lineNumber + 1, 1);
+                    
+                            // Check if the new position is beyond the last line of the editor
+                            if (newPosition.lineNumber > thiz.editor.getModel().getLineCount()) {
+                                // Add a new line at the end of the editor
+                                thiz.editor.executeEdits("addNewLine", [{
+                                range: new monaco.Range(newPosition.lineNumber, 1, newPosition.lineNumber, 1),
+                                text: "\n", 
+                                forceMoveMarkers: true,
+                                }]);
+                            }
+                            
+                            // Run the entire line of code.
+                            thiz.runCode(currentLine);
+                    
+                            // Move cursor to new position
+                            thiz.editor.setPosition(newPosition);
+                        } else {
+                            // Code to run when Ctrl+Enter is pressed with selected code
+                            thiz.runCode(selectedText);
+                        }
+                    });
+                }
+            
+                // Register an on focus event handler for when a code cell is selected to update
+                // what keyboard shortcut commands should work.
+                // This is a workaround to fix a regression that happened with multiple
+                // editor windows since Monaco 0.32.0 
+                // https://github.com/microsoft/monaco-editor/issues/2947
+                thiz.editor.onDidFocusEditorText(addPyodideKeyboardShortCutCommands);
+            
+                // Register an on change event for when new code is added to the editor window
+                thiz.editor.onDidContentSizeChange(updateHeight);
+            
+                // Manually re-update height to account for the content we inserted into the call
+                updateHeight();
+                    
+            });
+
+            
+            // Add a click event listener to the run button
+            thiz.runButton.onclick = function () {
+                thiz.runCode(
+                    thiz.editor.getValue()
+                );
+            };
+            
+            // Add a click event listener to the reset button
+            thiz.copyButton.onclick = function () {
+                // Retrieve current code data
+                const data = thiz.editor.getValue();
+                
+                // Write code data onto the clipboard.
+                navigator.clipboard.writeText(data || "");
+            };
+            
+            // Add a click event listener to the copy button
+            thiz.resetButton.onclick = function () {
+                thiz.editor.setValue(thiz.editor.__qpyodideinitialCode);
+            };
+        }
+
+        disableInteractiveCells() {
+            // Enable locking of execution for the cell
+            this.executionLock = true;
+
+            // Disallowing execution of other code cells
+            document.querySelectorAll(".qpyodide-button-run").forEach((btn) => {
+                btn.disabled = true;
+            });
+        }
+
+        enableInteractiveCells() {
+            // Remove locking of execution for the cell
+            this.executionLock = false;
+
+            // All execution of other code cells
+            document.querySelectorAll(".qpyodide-button-run").forEach((btn) => {
+                btn.disabled = false;
+            });
+        }
+
+        /**
+         * Execute the Python code inside the editor.
+         */
+        async runCode(code) {
+            
+            // Check if we have an execution lock
+            if (this.executeLock) return; 
+            
+            this.disableInteractiveCells();
+
+            // Force wait procedure
+            await mainPyodide;
+
+            // Clear the output stock
+            qpyodideResetOutputArray();
+
+            // Generate a new canvas element, avoid attaching until the end
+            let graphFigure = document.createElement("figure");
+            document.pyodideMplTarget = graphFigure;
+
+            console.log("Running code!");
+            // Obtain results from the base class
+            try {
+                // Always check to see if the user adds new packages
+                await mainPyodide.loadPackagesFromImports(code);
+
+                // Process result
+                const output = await mainPyodide.runPythonAsync(code);
+
+                // Add output
+                qpyodideAddToOutputArray(output, "stdout");
+            } catch (err) {
+                // Add error message
+                qpyodideAddToOutputArray(err, "stderr");
+                // TODO: There has to be a way to remove the Pyodide portion of the errors... 
+            }
+
+            const result = qpyodideRetrieveOutput();
+
+            // Nullify the output area of content
+            this.outputCodeDiv.innerHTML = "";
+            this.outputGraphDiv.innerHTML = "";        
+
+            // Design an output object for messages
+            const pre = document.createElement("pre");
+            if (/\S/.test(result)) {
+                // Display results as HTML elements to retain output styling
+                const div = document.createElement("div");
+                div.innerHTML = result;
+                pre.appendChild(div);
+            } else {
+                // If nothing is present, hide the element.
+                pre.style.visibility = "hidden";
+            }
+
+            // Add output under interactive div
+            this.outputCodeDiv.appendChild(pre);
+
+            // Place the graphics onto the page
+            if (graphFigure) {
+
+                if (this.options['fig-cap']) {
+                    // Create figcaption element
+                    const figcaptionElement = document.createElement('figcaption');
+                    figcaptionElement.innerText = this.options['fig-cap'];
+                    // Append figcaption to figure
+                    graphFigure.appendChild(figcaptionElement);    
+                }
+
+                this.outputGraphDiv.appendChild(graphFigure);
+            }
+
+            // Re-enable execution
+            this.enableInteractiveCells();
+        }
+    };
+
+    /**
+     * OutputCell class for customizing and displaying output.
+     * @class
+     * @extends BaseCell
+     */
+    class OutputCell extends BaseCell {
+        /**
+         * Constructor for OutputCell.
+         * @constructor
+         * @param {Object} cellData - JSON object containing code, id, and options.
+         */
+        constructor(cellData) {
+          super(cellData);
+        }
+      
+        /**
+         * Display customized output on the page.
+         * @param {*} output - Result to be displayed.
+         */
+        displayOutput(output) {
+            const results = this.executeCode();
+            return results;
+        }
+      }
+
+    /**
+     * SetupCell class for suppressed output.
+     * @class
+     * @extends BaseCell
+     */
+    class SetupCell extends BaseCell {
+        /**
+         * Constructor for SetupCell.
+         * @constructor
+         * @param {Object} cellData - JSON object containing code, id, and options.
+         */
+        constructor(cellData) {
+            super(cellData);
+        }
+
+        /**
+         * Execute the Python code without displaying the results.
+         */
+        runSetupCode() {
+            // Execute code without displaying output
+            this.executeCode();
+        }
+    };
+    </script>
+    <script type="module">
+    // Handle cell initialization initialization
+    qpyodideCellDetails.map(
+        (entry) => {
+          // Handle the creation of the element
+          qpyodideCreateCell(entry);
+        }
+      );
+    </script>
+    
+
+</body></html>
