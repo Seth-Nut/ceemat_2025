@@ -1,0 +1,78 @@
+/*-- scss:defaults --*/
+$bs-blue: #027373 !default;
+$bs-pagination-active-bg: $bs-blue !default;
+$bs-primary: $bs-blue !default;
+$bs-btn-hover-bg: $bs-blue !default;
+
+/*-- scss:rules --*/
+
+.navbar {
+  background-color: #0c2e42;
+}
+
+.quarto-title-banner{
+  background-color: #0c2e42 ;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: $bs-blue;
+    border-color: $bs-blue;
+}
+
+
+
+.page-item.active .page-link {
+    z-index: 3;
+    color: #fff;
+    background-color: $bs-blue;
+    border-color: $bs-blue;
+}
+
+.quarto-title-banner {
+    margin-bottom: 1em;
+    color: rgba(255,255,255,.7);
+    background: $bs-blue;
+}
+
+
+.page-link {
+      color: $bs-blue;
+}
+
+
+.page-link:hover {
+    z-index: 2;
+    color: #fff;
+    background-color: $bs-blue;
+    border-color: $bs-blue;
+}
+
+a{
+  color: $bs-blue;
+}
+
+b, strong {
+    color: $bs-blue;
+    font-weight: bolder;
+}
+
+div.quarto-post .listing-categories .listing-category {
+    color: $bs-blue;
+    border: solid 1px var(--bs-gray-400);
+    font-size: .8em;
+}
+
+
+p pre code:not(.sourceCode), li pre code:not(.sourceCode), pre code:not(.sourceCode) {
+  background-color: #f0efff;
+}
+
+
+body {
+  background-image: url('background.jpg');
+  background-size: cover; /* Ajusta la imagen para que cubra todo el fondo */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  background-position: center; /* Centra la imagen en el fondo */
+}
+

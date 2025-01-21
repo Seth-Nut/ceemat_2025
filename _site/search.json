@@ -1,0 +1,1031 @@
+[
+  {
+    "objectID": "WebscrappingFrancais.html",
+    "href": "WebscrappingFrancais.html",
+    "title": "Seth&Nut",
+    "section": "",
+    "text": "import pandas as pd\nfrom time import sleep\nfrom selenium import webdriver\nfrom selenium.webdriver.common.by import By\nfrom selenium.webdriver.common.keys import Keys\nfrom selenium.webdriver import ActionChains\nfrom selenium.webdriver.chrome.service import Service\n\ndef iniciar_chromedriver():\n    service = Service()\n    options = webdriver.ChromeOptions()\n    options.add_argument('start-maximized')\n    options.add_argument(\"--safebrowsing-disable-download-protection\")\n    return webdriver.Chrome(service=service, options=options)\n\ndf_path = \"C:/Users/jmetc/OneDrive/Documents/Prueba/prueba_robot.xlsx\"\n\n# Se ingresa a https://www.immo-data.fr/explorateur/transaction/recherche\nurl = \"https://www.immo-data.fr/explorateur/transaction/recherche\"\ndriver = iniciar_chromedriver()\ndriver.get(url)\nsleep(10)\n\n# Iteramos por todos los valores posibles que encontramos\nindice = 0\ndireccion_list = []\ntipo_edificio_list = []\nprecio_venta_list = []\nprecio_metro_cuadrado_list = []\nnumero_piezas_list = []\nsuperficie_list = []\nsuperficie_terreno_list = []\nfecha_venta_list = []\n\nindice = 0\nquedan_propiedades = True\nwhile indice &lt; 101:\n    indice = indice + 1\n    print(indice)\n\n    base_xpath = f\"/html/body/div[1]/div[1]/div/div[2]/div[2]/div[2]/div[{indice}]\"\n\n    direccion_xpath = base_xpath + \"/div/div[2]/div[1]/div[1]/div/p\"\n    tipo_edificio_xpath = base_xpath + \"/div/div[2]/div[1]/div[1]/p\"\n    precio_venta_xpath = base_xpath + \"/div/div[2]/div[1]/div[2]/p[1]/span\"\n    precio_metro_cuadrado_xpath = base_xpath + \"/div/div[2]/div[1]/div[2]/p[2]/span\"\n    numero_piezas_xpath = base_xpath + \"/div/div[2]/div[2]/div[1]/div/span[1]\"\n    superficie_xpath = base_xpath + \"/div/div[2]/div[2]/div[2]/div/span[1]\"\n    superficie_terreno_xpath = base_xpath + \"/div/div[2]/div[2]/div[3]/div/span[1]\"\n    fecha_venta_xpath = base_xpath + \"/div/div[2]/div[2]/div[4]/div/span[1]/time\"\n\n    try:\n        direccion_list.append(driver.find_element(By.XPATH, direccion_xpath).text)\n    except:\n        direccion_list.append(\"No se encontro la direccion para esta vivienda\")\n\n    try:\n        tipo_edificio_list.append(driver.find_element(By.XPATH, precio_venta_xpath).text)\n    except:\n        tipo_edificio_list.append(\"No se encontro el tipo de vivienda para esta vivienda\")\n\n    try:\n        precio_venta_list.append(driver.find_element(By.XPATH, precio_venta_xpath).text)\n    except:\n        precio_venta_list.append(\"No se encontro el precio de venta para esta vivienda\")\n\n    try:\n        precio_metro_cuadrado_list.append(driver.find_element(By.XPATH, precio_metro_cuadrado_xpath).text)\n    except:\n        precio_metro_cuadrado_list.append(\"No se encontro el precio por metro cuadrado para esta vivienda\")\n\n    try:\n        superficie_list.append(driver.find_element(By.XPATH, superficie_xpath).text)\n    except:\n        superficie_list.append(\"No se encontro la superficie en metros cuadrados para esta vivienda\")\n\n    try:\n        numero_piezas_list.append(driver.find_element(By.XPATH, numero_piezas_xpath).text)\n    except:\n        numero_piezas_list.append(\"No se encontro el numero de piezas para esta vivienda\")\n\n    try:\n        superficie_terreno_list.append(driver.find_element(By.XPATH, superficie_terreno_xpath).text)\n    except:\n        superficie_terreno_list.append(\"No se encontro la superficie del terreno en metros cuadrados para esta vivienda\")\n\n    try:\n        fecha_venta_list.append(driver.find_element(By.XPATH, fecha_venta_xpath).text)\n    except:\n        fecha_venta_list.append(\"No se encontro la fecha de venta para esta vivienda\")\n\n# No quedan mas viviendas en venta en el panel derecho\ncolumns = ['direccion', 'tipo_edificio', 'precio_de_venta', 'precio_metro_cuadrado', 'numero_de_piezas', 'superficie_en_m2', 'superficie_terreno_en_m2', 'fecha_de_venta']\ndf = pd.DataFrame(columns=columns)\n\ndf['direccion'] = direccion_list\ndf['tipo_edificio'] = tipo_edificio_list\ndf['precio_de_venta'] = precio_venta_list\ndf['precio_metro_cuadrado'] = precio_metro_cuadrado_list\ndf['numero_de_piezas'] = numero_piezas_list\ndf['superficie_en_m2'] = superficie_list\ndf['superficie_terreno_en_m2'] = superficie_terreno_list\ndf['fecha_de_venta'] = fecha_venta_list\n\ndf.to_excel(df_path, index=False)\n\nHola"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "🎉 A.I. + DataStorytelling",
+    "section": "",
+    "text": "Nombre completo: Francisco Alfaro & Valeska Canales\n\nÁrea de especialización: Estadística, Machine Learning, Inteligencia Artificial\n\nCantidad de sesiones a realizar: 4 sesiones de 1 hora"
+  },
+  {
+    "objectID": "README copy.html",
+    "href": "README copy.html",
+    "title": "¡Bienvenido a Seth&Nut!",
+    "section": "",
+    "text": "¡Bienvenido a Seth&Nut!\n \nSeth&Nut es una organización dedicada a democratizar la educación en programación y matemáticas. A través de programas educativos, recursos didácticos, mentorías personalizadas y una activa participación en comunidades, nos comprometemos a ofrecer educación accesible y de calidad a personas de todos los niveles."
+  },
+  {
+    "objectID": "index.html#información-general",
+    "href": "index.html#información-general",
+    "title": "🎉 A.I. + DataStorytelling",
+    "section": "",
+    "text": "Nombre completo: Francisco Alfaro & Valeska Canales\n\nÁrea de especialización: Estadística, Machine Learning, Inteligencia Artificial\n\nCantidad de sesiones a realizar: 4 sesiones de 1 hora"
+  },
+  {
+    "objectID": "index.html#breve-descripción",
+    "href": "index.html#breve-descripción",
+    "title": "🎉 A.I. + DataStorytelling",
+    "section": "Breve Descripción",
+    "text": "Breve Descripción\nEste mini curso está diseñado para introducir a los/as estudiantes en el uso de herramientas digitales y técnicas de inteligencia artificial para la comunicación efectiva en un entorno académico y profesional. A través de 4 sesiones prácticas y dinámicas, aprenderán a utilizar herramientas esenciales, desarrollar prompts efectivos para ChatGPT, mejorar sus habilidades de comunicación en el ámbito universitario y explorar los fundamentos del Data Storytelling para transmitir ideas complejas de manera clara y visual."
+  },
+  {
+    "objectID": "index.html#prerrequisitos",
+    "href": "index.html#prerrequisitos",
+    "title": "🎉 A.I. + DataStorytelling",
+    "section": "Prerrequisitos",
+    "text": "Prerrequisitos\nNo se requieren conocimientos previos en programación o herramientas avanzadas. Solo se necesita entusiasmo por aprender y explorar nuevas formas de trabajar con datos y tecnología."
+  },
+  {
+    "objectID": "index.html#sesiones",
+    "href": "index.html#sesiones",
+    "title": "🎉 A.I. + DataStorytelling",
+    "section": "Sesiones",
+    "text": "Sesiones\n\n🎤 Toolkit Básico de Google - Aprende a utilizar herramientas esenciales de Google (Docs, Sheets, Slides, Colab y Drive) para optimizar la colaboración y la productividad académica. Descubre trucos y funcionalidades avanzadas para mejorar tu trabajo diario.\n🎤 Prompts Perfectos en ChatGPT - Diseña preguntas y comandos efectivos para interactuar con herramientas de inteligencia artificial como ChatGPT. Aprende a estructurar prompts que resuelvan problemas académicos, generen ideas y mejoren tus resultados de manera precisa y ética.\n🎤 Leer, Escribir y Hablar en la Universidad - Mejora tus habilidades de comunicación académica con técnicas para leer críticamente, redactar ensayos efectivos y organizar presentaciones orales de impacto. Descubre cómo la inteligencia artificial puede apoyarte en cada paso del proceso.\n🎤 A.I + Data Storytelling - Esta presentación te enseñará a transformar datos en historias visuales interactivas usando A.I y otras herramientas. Descubre cómo crear presentaciones dinámicas e impactantes que cautiven a tu audiencia. - 🎤"
+  },
+  {
+    "objectID": "datastorytelling/presentacion.html#agenda",
+    "href": "datastorytelling/presentacion.html#agenda",
+    "title": "A.I. + DataStorytelling",
+    "section": "Agenda",
+    "text": "Agenda\n\n\n\n\nNo\nNope\nJamás"
+  },
+  {
+    "objectID": "datastorytelling/presentacion.html#section",
+    "href": "datastorytelling/presentacion.html#section",
+    "title": "A.I. + DataStorytelling",
+    "section": "",
+    "text": "Regla de Storytelling #1\n\n\nNunca reveles el final antes de tiempo.\nSiempre eleva la tensión y el dramatismo"
+  },
+  {
+    "objectID": "datastorytelling/presentacion.html#agenda-v2",
+    "href": "datastorytelling/presentacion.html#agenda-v2",
+    "title": "A.I. + DataStorytelling",
+    "section": "Agenda (v2)",
+    "text": "Agenda (v2)\n\n\nNunca reveles el final\nLos detalles son importantes, pero no todos los detalles son importantes.\nTu primera versión será horrible.\nMuestra, no cuentes."
+  },
+  {
+    "objectID": "datastorytelling/presentacion.html#section-1",
+    "href": "datastorytelling/presentacion.html#section-1",
+    "title": "A.I. + DataStorytelling",
+    "section": "",
+    "text": "Data Storytelling\n¿Por qué Data Storytelling?"
+  },
+  {
+    "objectID": "datastorytelling/presentacion.html#qué-es-el-storytelling",
+    "href": "datastorytelling/presentacion.html#qué-es-el-storytelling",
+    "title": "A.I. + DataStorytelling",
+    "section": "¿Qué es el Storytelling?",
+    "text": "¿Qué es el Storytelling?\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n🔥 Las historias son la primera tecnología humana"
+  },
+  {
+    "objectID": "datastorytelling/presentacion.html#esos-cerebros-tan-hackables",
+    "href": "datastorytelling/presentacion.html#esos-cerebros-tan-hackables",
+    "title": "A.I. + DataStorytelling",
+    "section": "Esos cerebros tan hackables…",
+    "text": "Esos cerebros tan hackables…\n\n\n\nRegla del máximo y final (Peak-End Rule)\n\n\nRating de Game of Thrones, por Kelvin Neo"
+  },
+  {
+    "objectID": "datastorytelling/presentacion.html#narrativa",
+    "href": "datastorytelling/presentacion.html#narrativa",
+    "title": "A.I. + DataStorytelling",
+    "section": "Narrativa",
+    "text": "Narrativa\n\n\n Usar trucos de Storytelling (narrativa) para crear presentaciones que serán recordadas y que causarán impacto\n\n\n\n\n\n\n\n\n\n\n🎭 Las emociones generan acciones"
+  },
+  {
+    "objectID": "datastorytelling/presentacion.html#el-mejor-ejemplo",
+    "href": "datastorytelling/presentacion.html#el-mejor-ejemplo",
+    "title": "A.I. + DataStorytelling",
+    "section": "El mejor ejemplo",
+    "text": "El mejor ejemplo\n\n\n\n\n\n\n\n\n ¿Podemos hacer que millones de personas compartan estadísticas en redes sociales?"
+  },
+  {
+    "objectID": "datastorytelling/presentacion.html#section-2",
+    "href": "datastorytelling/presentacion.html#section-2",
+    "title": "A.I. + DataStorytelling",
+    "section": "",
+    "text": "Regla de Storytelling #2\n\n\nLos detalles son importantes, pero no todos los detalles son importantes."
+  },
+  {
+    "objectID": "datastorytelling/presentacion.html#ejemplos",
+    "href": "datastorytelling/presentacion.html#ejemplos",
+    "title": "A.I. + DataStorytelling",
+    "section": "Ejemplos",
+    "text": "Ejemplos\n\n\n 🔢 No compartas números\n\n 🪶Comparte una historia\n\n\n\n (C) Storytelling with Data, por Cole Nussbaumer Knaflic."
+  },
+  {
+    "objectID": "datastorytelling/presentacion.html#section-3",
+    "href": "datastorytelling/presentacion.html#section-3",
+    "title": "A.I. + DataStorytelling",
+    "section": "",
+    "text": "Regla de Storytelling #3\n\n\nTu primera versión siempre será horrible."
+  },
+  {
+    "objectID": "datastorytelling/presentacion.html#ejemplos-1",
+    "href": "datastorytelling/presentacion.html#ejemplos-1",
+    "title": "A.I. + DataStorytelling",
+    "section": "Ejemplos",
+    "text": "Ejemplos\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n🥱 1° versión \\(&lt;\\) … \\(&lt;\\) 😊 última versión"
+  },
+  {
+    "objectID": "datastorytelling/presentacion.html#usar-chatbots-de-ia-para",
+    "href": "datastorytelling/presentacion.html#usar-chatbots-de-ia-para",
+    "title": "A.I. + DataStorytelling",
+    "section": "Usar chatbots de IA para:",
+    "text": "Usar chatbots de IA para:\n\n\n\n\nPlantillas personalizadas a medida\nAutomatizar estructura del contenido\nAhorro de tiempo en diseño\nAdaptación al estilo y preferencias"
+  },
+  {
+    "objectID": "datastorytelling/presentacion.html#usar-chatbots-de-ia-para-1",
+    "href": "datastorytelling/presentacion.html#usar-chatbots-de-ia-para-1",
+    "title": "A.I. + DataStorytelling",
+    "section": "Usar chatbots de IA para:",
+    "text": "Usar chatbots de IA para:\n\n\n\n\nAnalogías y ejemplos\nMejores traducciones\nPrompts para crear imágenes\nNo busques imágenes, créalas!"
+  },
+  {
+    "objectID": "datastorytelling/presentacion.html#section-4",
+    "href": "datastorytelling/presentacion.html#section-4",
+    "title": "A.I. + DataStorytelling",
+    "section": "",
+    "text": "Regla de Storytelling #4\n\n\nExplicar menos y mostrar más"
+  },
+  {
+    "objectID": "datastorytelling/presentacion.html#explicar-menos-y-mostrar-más",
+    "href": "datastorytelling/presentacion.html#explicar-menos-y-mostrar-más",
+    "title": "A.I. + DataStorytelling",
+    "section": "Explicar menos y mostrar más",
+    "text": "Explicar menos y mostrar más\n\n\nimport matplotlib.pyplot as plt\n\n# Datos de ejemplo\nx = [1, 2, 3, 4, 5]\ny = [2, 4, 3, 5, 7]\n\n# Generamos el gráfico\nplt.figure(figsize=(6, 4))\nplt.plot(x, y, marker='o')\nplt.title(\"Gráfico de Ejemplo\")\nplt.xlabel(\"Eje X\")\nplt.ylabel(\"Eje Y\")\nplt.grid(True)\nplt.show()"
+  },
+  {
+    "objectID": "datastorytelling/presentacion.html#explicar-menos-y-mostrar-más-1",
+    "href": "datastorytelling/presentacion.html#explicar-menos-y-mostrar-más-1",
+    "title": "A.I. + DataStorytelling",
+    "section": "Explicar menos y mostrar más",
+    "text": "Explicar menos y mostrar más\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+  },
+  {
+    "objectID": "datastorytelling/presentacion.html#agenda-v2-1",
+    "href": "datastorytelling/presentacion.html#agenda-v2-1",
+    "title": "A.I. + DataStorytelling",
+    "section": "Agenda (v2)",
+    "text": "Agenda (v2)\n\n\nNunca reveles el final\nLos detalles son importantes, pero no todos los detalles son importantes\nTu primera versión será horrible\nMuestra, no cuentes\n\n\n\nOpción 2: Una agenda misteriosa."
+  },
+  {
+    "objectID": "datastorytelling/presentacion.html#section-5",
+    "href": "datastorytelling/presentacion.html#section-5",
+    "title": "A.I. + DataStorytelling",
+    "section": "",
+    "text": "Visualización\n¿Qué es la Visualización?"
+  },
+  {
+    "objectID": "datastorytelling/presentacion.html#visualización",
+    "href": "datastorytelling/presentacion.html#visualización",
+    "title": "A.I. + DataStorytelling",
+    "section": "Visualización…",
+    "text": "Visualización…\n\n\n\n\nConvierte datos en gráficos para facilitar su comprensión.\nDestaca patrones y tendencias de forma clara."
+  },
+  {
+    "objectID": "datastorytelling/presentacion.html#ejemplos-2",
+    "href": "datastorytelling/presentacion.html#ejemplos-2",
+    "title": "A.I. + DataStorytelling",
+    "section": "Ejemplos",
+    "text": "Ejemplos\n\n\n\n\n\n\n\n❌ Mal Gráfico\n\n\n\n\n\n\n✅ Buen Gráfico"
+  },
+  {
+    "objectID": "datastorytelling/presentacion.html#cuarteto-de-anscombe",
+    "href": "datastorytelling/presentacion.html#cuarteto-de-anscombe",
+    "title": "A.I. + DataStorytelling",
+    "section": "Cuarteto de ANSCOMBE",
+    "text": "Cuarteto de ANSCOMBE\n\n\n\n\n\n\n\n\n \n\n\n\n📋 Tablas vs 📊 Gráficos"
+  },
+  {
+    "objectID": "datastorytelling/presentacion.html#teoría-de-visualización",
+    "href": "datastorytelling/presentacion.html#teoría-de-visualización",
+    "title": "A.I. + DataStorytelling",
+    "section": "Teoría de Visualización",
+    "text": "Teoría de Visualización"
+  },
+  {
+    "objectID": "datastorytelling/presentacion.html#pilares-visualización---noah-iliinsky",
+    "href": "datastorytelling/presentacion.html#pilares-visualización---noah-iliinsky",
+    "title": "A.I. + DataStorytelling",
+    "section": "4 Pilares Visualización - Noah Iliinsky",
+    "text": "4 Pilares Visualización - Noah Iliinsky\n\n\n\n\nPropósito: Define la meta.\nContenido: Datos relevantes.\nEstructura: Organización clara.\nFormato: Gráfico adecuado.\n\n\n\n\n\n\n\n\n\n\n(C) Noah Iliinsky: “Four Pillars of Visualization” - Youtube."
+  },
+  {
+    "objectID": "datastorytelling/presentacion.html#qué-gráficos-son-buenos",
+    "href": "datastorytelling/presentacion.html#qué-gráficos-son-buenos",
+    "title": "A.I. + DataStorytelling",
+    "section": "Qué Gráficos son buenos?",
+    "text": "Qué Gráficos son buenos?\n\n \n \n \n\n\n(C) Essential chart types for data visualization, por Atlassian."
+  },
+  {
+    "objectID": "datastorytelling/presentacion.html#section-6",
+    "href": "datastorytelling/presentacion.html#section-6",
+    "title": "A.I. + DataStorytelling",
+    "section": "",
+    "text": "Herramientas\nHerramientas de Visualización"
+  },
+  {
+    "objectID": "datastorytelling/presentacion.html#herramientas-para-presentación",
+    "href": "datastorytelling/presentacion.html#herramientas-para-presentación",
+    "title": "A.I. + DataStorytelling",
+    "section": "Herramientas para presentación",
+    "text": "Herramientas para presentación\n\n\n\nClásica: PowerPoint\n“Show don’t tell”:\n\nQuarto\nStreamlit\n\nOtros: Canvas, Revealjs, Prezi"
+  },
+  {
+    "objectID": "datastorytelling/presentacion.html#quarto",
+    "href": "datastorytelling/presentacion.html#quarto",
+    "title": "A.I. + DataStorytelling",
+    "section": "Quarto",
+    "text": "Quarto\n\n\n\nUn sistema abierto para publicaciones científicas con markdown y código interactivo (Python/R)."
+  },
+  {
+    "objectID": "datastorytelling/presentacion.html#section-7",
+    "href": "datastorytelling/presentacion.html#section-7",
+    "title": "A.I. + DataStorytelling",
+    "section": "",
+    "text": "Código: example.qmd\n---\ntitle: \"Habits\"\nauthor: \"John Doe\"\nformat:\n  revealjs:\n    transition: fade\n    theme: black\n    toc: true\n    center: true\n---\n\n## Getting up\n\n- Turn off alarm\n- Get out of bed\n\n---\n\n## Going to sleep \n::: { .incremental }\n\n- Get in bed\n- Count sheep\n\n:::\n\nSlides: example.html"
+  },
+  {
+    "objectID": "datastorytelling/presentacion.html#streamlit",
+    "href": "datastorytelling/presentacion.html#streamlit",
+    "title": "A.I. + DataStorytelling",
+    "section": "Streamlit",
+    "text": "Streamlit\n\n\n Es una herramienta de código abierto que facilita la creación de aplicaciones web interactivas utilizando únicamente Python."
+  },
+  {
+    "objectID": "datastorytelling/presentacion.html#streamlit-ejemplo",
+    "href": "datastorytelling/presentacion.html#streamlit-ejemplo",
+    "title": "A.I. + DataStorytelling",
+    "section": "Streamlit: Ejemplo",
+    "text": "Streamlit: Ejemplo\n\n\nimport streamlit as st\n\n# Título principal de la aplicación\nst.title(\"Hola Streamlit\")\n\n# Mensaje principal con nombres y emoticón fijos\nmensaje = \"Darwin y Patricia son mejores amigos 😊\"\nst.write(mensaje)\n\n# Imagen decorativa\nst.image(\n    \"https://www.svgrepo.com/show/397758/people-hugging.svg\",\n    caption=\"Amigos\",\n    width=200  # Ajuste del tamaño de la imagen\n)\n\n# Footer\nst.markdown(\n    \"\"\"\n    ---\n    Gracias por usar esta aplicación interactiva 🎈\n    \"\"\"\n)\n\n\n\n\n\n\n\n\n\n\n(C) Ejemplo en Streamlit - Playground."
+  },
+  {
+    "objectID": "datastorytelling/presentacion.html#html-webapps",
+    "href": "datastorytelling/presentacion.html#html-webapps",
+    "title": "A.I. + DataStorytelling",
+    "section": "HTML & webapps",
+    "text": "HTML & webapps\n\n\n🛠️ Elige una herramienta\n\n💡 La innovación destaca"
+  },
+  {
+    "objectID": "datastorytelling/presentacion.html#flujo-de-decisión",
+    "href": "datastorytelling/presentacion.html#flujo-de-decisión",
+    "title": "A.I. + DataStorytelling",
+    "section": "Flujo de decisión",
+    "text": "Flujo de decisión\n\n\n\n🎤 PowerPoint: Presentación sin código de un solo uso\n📚 Quarto: Charlas a partir de documentos relacionados\n💻 Streamlit: Presentaciones interactivas (Python)\n🎨 Más: Canvas, Revealjs, Prezi"
+  },
+  {
+    "objectID": "datastorytelling/presentacion.html#conclusión",
+    "href": "datastorytelling/presentacion.html#conclusión",
+    "title": "A.I. + DataStorytelling",
+    "section": "Conclusión",
+    "text": "Conclusión\n\n\n\n📖 Storytelling: Narrativas que cautivan a través de datos.\n\n📊 Visualización: Gráficos claros y atractivos.\n\n🛠️ Herramientas: Streamlit, Quarto, y más."
+  },
+  {
+    "objectID": "datastorytelling/presentacion.html#gracias-por-participar",
+    "href": "datastorytelling/presentacion.html#gracias-por-participar",
+    "title": "A.I. + DataStorytelling",
+    "section": "🎉 ¡Gracias por Participar!",
+    "text": "🎉 ¡Gracias por Participar!\n\n\n\n❓¿Preguntas?\n👏 Responder encuesta\n🥳 Gracias de Nuevo\n\n\n\n\n\n🔗 Nuestro Sitio Web: seth-nut.github.io/resources."
+  },
+  {
+    "objectID": "toolkit_google/presentacion.html#agenda",
+    "href": "toolkit_google/presentacion.html#agenda",
+    "title": "Toolkit Básico de Google",
+    "section": "Agenda",
+    "text": "Agenda\n\n\n\n\nNo\nNope\nJamás"
+  },
+  {
+    "objectID": "toolkit_google/presentacion.html#section",
+    "href": "toolkit_google/presentacion.html#section",
+    "title": "Toolkit Básico de Google",
+    "section": "",
+    "text": "Regla de Storytelling #1\n\n\nNunca reveles el final antes de tiempo.\nSiempre eleva la tensión y el dramatismo"
+  },
+  {
+    "objectID": "toolkit_google/presentacion.html#agenda-v2",
+    "href": "toolkit_google/presentacion.html#agenda-v2",
+    "title": "Toolkit Básico de Google",
+    "section": "Agenda (v2)",
+    "text": "Agenda (v2)\n\n\nNunca reveles el final\nLos detalles son importantes, pero no todos los detalles son importantes.\nTu primera versión será horrible.\nMuestra, no cuentes."
+  },
+  {
+    "objectID": "toolkit_google/presentacion.html#section-1",
+    "href": "toolkit_google/presentacion.html#section-1",
+    "title": "Toolkit Básico de Google",
+    "section": "",
+    "text": "Data Storytelling\n¿Por qué Data Storytelling?"
+  },
+  {
+    "objectID": "toolkit_google/presentacion.html#qué-es-el-storytelling",
+    "href": "toolkit_google/presentacion.html#qué-es-el-storytelling",
+    "title": "Toolkit Básico de Google",
+    "section": "¿Qué es el Storytelling?",
+    "text": "¿Qué es el Storytelling?\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n🔥 Las historias son la primera tecnología humana"
+  },
+  {
+    "objectID": "toolkit_google/presentacion.html#esos-cerebros-tan-hackables",
+    "href": "toolkit_google/presentacion.html#esos-cerebros-tan-hackables",
+    "title": "Toolkit Básico de Google",
+    "section": "Esos cerebros tan hackables…",
+    "text": "Esos cerebros tan hackables…\n\n\n\nRegla del máximo y final (Peak-End Rule)\n\n\nRating de Game of Thrones, por Kelvin Neo"
+  },
+  {
+    "objectID": "toolkit_google/presentacion.html#narrativa",
+    "href": "toolkit_google/presentacion.html#narrativa",
+    "title": "Toolkit Básico de Google",
+    "section": "Narrativa",
+    "text": "Narrativa\n\n\n Usar trucos de Storytelling (narrativa) para crear presentaciones que serán recordadas y que causarán impacto\n\n\n\n\n\n\n\n\n\n\n🎭 Las emociones generan acciones"
+  },
+  {
+    "objectID": "toolkit_google/presentacion.html#el-mejor-ejemplo",
+    "href": "toolkit_google/presentacion.html#el-mejor-ejemplo",
+    "title": "Toolkit Básico de Google",
+    "section": "El mejor ejemplo",
+    "text": "El mejor ejemplo\n\n\n\n\n\n\n\n\n ¿Podemos hacer que millones de personas compartan estadísticas en redes sociales?"
+  },
+  {
+    "objectID": "toolkit_google/presentacion.html#section-2",
+    "href": "toolkit_google/presentacion.html#section-2",
+    "title": "Toolkit Básico de Google",
+    "section": "",
+    "text": "Regla de Storytelling #2\n\n\nLos detalles son importantes, pero no todos los detalles son importantes."
+  },
+  {
+    "objectID": "toolkit_google/presentacion.html#ejemplos",
+    "href": "toolkit_google/presentacion.html#ejemplos",
+    "title": "Toolkit Básico de Google",
+    "section": "Ejemplos",
+    "text": "Ejemplos\n\n\n 🔢 No compartas números\n\n 🪶Comparte una historia\n\n\n\n (C) Storytelling with Data, por Cole Nussbaumer Knaflic."
+  },
+  {
+    "objectID": "toolkit_google/presentacion.html#section-3",
+    "href": "toolkit_google/presentacion.html#section-3",
+    "title": "Toolkit Básico de Google",
+    "section": "",
+    "text": "Regla de Storytelling #3\n\n\nTu primera versión siempre será horrible."
+  },
+  {
+    "objectID": "toolkit_google/presentacion.html#ejemplos-1",
+    "href": "toolkit_google/presentacion.html#ejemplos-1",
+    "title": "Toolkit Básico de Google",
+    "section": "Ejemplos",
+    "text": "Ejemplos\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n🥱 1° versión \\(&lt;\\) … \\(&lt;\\) 😊 última versión"
+  },
+  {
+    "objectID": "toolkit_google/presentacion.html#usar-chatbots-de-ia-para",
+    "href": "toolkit_google/presentacion.html#usar-chatbots-de-ia-para",
+    "title": "Toolkit Básico de Google",
+    "section": "Usar chatbots de IA para:",
+    "text": "Usar chatbots de IA para:\n\n\n\n\nPlantillas personalizadas a medida\nAutomatizar estructura del contenido\nAhorro de tiempo en diseño\nAdaptación al estilo y preferencias"
+  },
+  {
+    "objectID": "toolkit_google/presentacion.html#usar-chatbots-de-ia-para-1",
+    "href": "toolkit_google/presentacion.html#usar-chatbots-de-ia-para-1",
+    "title": "Toolkit Básico de Google",
+    "section": "Usar chatbots de IA para:",
+    "text": "Usar chatbots de IA para:\n\n\n\n\nAnalogías y ejemplos\nMejores traducciones\nPrompts para crear imágenes\nNo busques imágenes, créalas!"
+  },
+  {
+    "objectID": "toolkit_google/presentacion.html#section-4",
+    "href": "toolkit_google/presentacion.html#section-4",
+    "title": "Toolkit Básico de Google",
+    "section": "",
+    "text": "Regla de Storytelling #4\n\n\nExplicar menos y mostrar más"
+  },
+  {
+    "objectID": "toolkit_google/presentacion.html#explicar-menos-y-mostrar-más",
+    "href": "toolkit_google/presentacion.html#explicar-menos-y-mostrar-más",
+    "title": "Toolkit Básico de Google",
+    "section": "Explicar menos y mostrar más",
+    "text": "Explicar menos y mostrar más\n\n\nimport matplotlib.pyplot as plt\n\n# Datos de ejemplo\nx = [1, 2, 3, 4, 5]\ny = [2, 4, 3, 5, 7]\n\n# Generamos el gráfico\nplt.figure(figsize=(6, 4))\nplt.plot(x, y, marker='o')\nplt.title(\"Gráfico de Ejemplo\")\nplt.xlabel(\"Eje X\")\nplt.ylabel(\"Eje Y\")\nplt.grid(True)\nplt.show()"
+  },
+  {
+    "objectID": "toolkit_google/presentacion.html#explicar-menos-y-mostrar-más-1",
+    "href": "toolkit_google/presentacion.html#explicar-menos-y-mostrar-más-1",
+    "title": "Toolkit Básico de Google",
+    "section": "Explicar menos y mostrar más",
+    "text": "Explicar menos y mostrar más\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+  },
+  {
+    "objectID": "toolkit_google/presentacion.html#agenda-v2-1",
+    "href": "toolkit_google/presentacion.html#agenda-v2-1",
+    "title": "Toolkit Básico de Google",
+    "section": "Agenda (v2)",
+    "text": "Agenda (v2)\n\n\nNunca reveles el final\nLos detalles son importantes, pero no todos los detalles son importantes\nTu primera versión será horrible\nMuestra, no cuentes\n\n\n\nOpción 2: Una agenda misteriosa."
+  },
+  {
+    "objectID": "toolkit_google/presentacion.html#section-5",
+    "href": "toolkit_google/presentacion.html#section-5",
+    "title": "Toolkit Básico de Google",
+    "section": "",
+    "text": "Visualización\n¿Qué es la Visualización?"
+  },
+  {
+    "objectID": "toolkit_google/presentacion.html#visualización",
+    "href": "toolkit_google/presentacion.html#visualización",
+    "title": "Toolkit Básico de Google",
+    "section": "Visualización…",
+    "text": "Visualización…\n\n\n\n\nConvierte datos en gráficos para facilitar su comprensión.\nDestaca patrones y tendencias de forma clara."
+  },
+  {
+    "objectID": "toolkit_google/presentacion.html#ejemplos-2",
+    "href": "toolkit_google/presentacion.html#ejemplos-2",
+    "title": "Toolkit Básico de Google",
+    "section": "Ejemplos",
+    "text": "Ejemplos\n\n\n\n\n\n\n\n❌ Mal Gráfico\n\n\n\n\n\n\n✅ Buen Gráfico"
+  },
+  {
+    "objectID": "toolkit_google/presentacion.html#cuarteto-de-anscombe",
+    "href": "toolkit_google/presentacion.html#cuarteto-de-anscombe",
+    "title": "Toolkit Básico de Google",
+    "section": "Cuarteto de ANSCOMBE",
+    "text": "Cuarteto de ANSCOMBE\n\n\n\n\n\n\n\n\n \n\n\n\n📋 Tablas vs 📊 Gráficos"
+  },
+  {
+    "objectID": "toolkit_google/presentacion.html#teoría-de-visualización",
+    "href": "toolkit_google/presentacion.html#teoría-de-visualización",
+    "title": "Toolkit Básico de Google",
+    "section": "Teoría de Visualización",
+    "text": "Teoría de Visualización"
+  },
+  {
+    "objectID": "toolkit_google/presentacion.html#pilares-visualización---noah-iliinsky",
+    "href": "toolkit_google/presentacion.html#pilares-visualización---noah-iliinsky",
+    "title": "Toolkit Básico de Google",
+    "section": "4 Pilares Visualización - Noah Iliinsky",
+    "text": "4 Pilares Visualización - Noah Iliinsky\n\n\n\n\nPropósito: Define la meta.\nContenido: Datos relevantes.\nEstructura: Organización clara.\nFormato: Gráfico adecuado.\n\n\n\n\n\n\n\n\n\n\n(C) Noah Iliinsky: “Four Pillars of Visualization” - Youtube."
+  },
+  {
+    "objectID": "toolkit_google/presentacion.html#qué-gráficos-son-buenos",
+    "href": "toolkit_google/presentacion.html#qué-gráficos-son-buenos",
+    "title": "Toolkit Básico de Google",
+    "section": "Qué Gráficos son buenos?",
+    "text": "Qué Gráficos son buenos?\n\n \n \n \n\n\n(C) Essential chart types for data visualization, por Atlassian."
+  },
+  {
+    "objectID": "toolkit_google/presentacion.html#section-6",
+    "href": "toolkit_google/presentacion.html#section-6",
+    "title": "Toolkit Básico de Google",
+    "section": "",
+    "text": "Herramientas\nHerramientas de Visualización"
+  },
+  {
+    "objectID": "toolkit_google/presentacion.html#herramientas-para-presentación",
+    "href": "toolkit_google/presentacion.html#herramientas-para-presentación",
+    "title": "Toolkit Básico de Google",
+    "section": "Herramientas para presentación",
+    "text": "Herramientas para presentación\n\n\n\nClásica: PowerPoint\n“Show don’t tell”:\n\nQuarto\nStreamlit\n\nOtros: Canvas, Revealjs, Prezi"
+  },
+  {
+    "objectID": "toolkit_google/presentacion.html#quarto",
+    "href": "toolkit_google/presentacion.html#quarto",
+    "title": "Toolkit Básico de Google",
+    "section": "Quarto",
+    "text": "Quarto\n\n\n\nUn sistema abierto para publicaciones científicas con markdown y código interactivo (Python/R)."
+  },
+  {
+    "objectID": "toolkit_google/presentacion.html#section-7",
+    "href": "toolkit_google/presentacion.html#section-7",
+    "title": "Toolkit Básico de Google",
+    "section": "",
+    "text": "Código: example.qmd\n---\ntitle: \"Habits\"\nauthor: \"John Doe\"\nformat:\n  revealjs:\n    transition: fade\n    theme: black\n    toc: true\n    center: true\n---\n\n## Getting up\n\n- Turn off alarm\n- Get out of bed\n\n---\n\n## Going to sleep \n::: { .incremental }\n\n- Get in bed\n- Count sheep\n\n:::\n\nSlides: example.html"
+  },
+  {
+    "objectID": "toolkit_google/presentacion.html#streamlit",
+    "href": "toolkit_google/presentacion.html#streamlit",
+    "title": "Toolkit Básico de Google",
+    "section": "Streamlit",
+    "text": "Streamlit\n\n\n Es una herramienta de código abierto que facilita la creación de aplicaciones web interactivas utilizando únicamente Python."
+  },
+  {
+    "objectID": "toolkit_google/presentacion.html#streamlit-ejemplo",
+    "href": "toolkit_google/presentacion.html#streamlit-ejemplo",
+    "title": "Toolkit Básico de Google",
+    "section": "Streamlit: Ejemplo",
+    "text": "Streamlit: Ejemplo\n\n\nimport streamlit as st\n\n# Título principal de la aplicación\nst.title(\"Hola Streamlit\")\n\n# Mensaje principal con nombres y emoticón fijos\nmensaje = \"Darwin y Patricia son mejores amigos 😊\"\nst.write(mensaje)\n\n# Imagen decorativa\nst.image(\n    \"https://www.svgrepo.com/show/397758/people-hugging.svg\",\n    caption=\"Amigos\",\n    width=200  # Ajuste del tamaño de la imagen\n)\n\n# Footer\nst.markdown(\n    \"\"\"\n    ---\n    Gracias por usar esta aplicación interactiva 🎈\n    \"\"\"\n)\n\n\n\n\n\n\n\n\n\n\n(C) Ejemplo en Streamlit - Playground."
+  },
+  {
+    "objectID": "toolkit_google/presentacion.html#html-webapps",
+    "href": "toolkit_google/presentacion.html#html-webapps",
+    "title": "Toolkit Básico de Google",
+    "section": "HTML & webapps",
+    "text": "HTML & webapps\n\n\n🛠️ Elige una herramienta\n\n💡 La innovación destaca"
+  },
+  {
+    "objectID": "toolkit_google/presentacion.html#flujo-de-decisión",
+    "href": "toolkit_google/presentacion.html#flujo-de-decisión",
+    "title": "Toolkit Básico de Google",
+    "section": "Flujo de decisión",
+    "text": "Flujo de decisión\n\n\n\n🎤 PowerPoint: Presentación sin código de un solo uso\n📚 Quarto: Charlas a partir de documentos relacionados\n💻 Streamlit: Presentaciones interactivas (Python)\n🎨 Más: Canvas, Revealjs, Prezi"
+  },
+  {
+    "objectID": "toolkit_google/presentacion.html#conclusión",
+    "href": "toolkit_google/presentacion.html#conclusión",
+    "title": "Toolkit Básico de Google",
+    "section": "Conclusión",
+    "text": "Conclusión\n\n\n\n📖 Storytelling: Narrativas que cautivan a través de datos.\n\n📊 Visualización: Gráficos claros y atractivos.\n\n🛠️ Herramientas: Streamlit, Quarto, y más."
+  },
+  {
+    "objectID": "toolkit_google/presentacion.html#gracias-por-participar",
+    "href": "toolkit_google/presentacion.html#gracias-por-participar",
+    "title": "Toolkit Básico de Google",
+    "section": "🎉 ¡Gracias por Participar!",
+    "text": "🎉 ¡Gracias por Participar!\n\n\n\n❓¿Preguntas?\n👏 Responder encuesta\n🥳 Gracias de Nuevo\n\n\n\n\n\n🔗 Nuestro Sitio Web: seth-nut.github.io/resources."
+  },
+  {
+    "objectID": "prompts_chatgpt/presentacion.html#agenda",
+    "href": "prompts_chatgpt/presentacion.html#agenda",
+    "title": "Prompts Perfectos ChatGPT",
+    "section": "Agenda",
+    "text": "Agenda\n\n\n\n\nNo\nNope\nJamás"
+  },
+  {
+    "objectID": "prompts_chatgpt/presentacion.html#section",
+    "href": "prompts_chatgpt/presentacion.html#section",
+    "title": "Prompts Perfectos ChatGPT",
+    "section": "",
+    "text": "Regla de Storytelling #1\n\n\nNunca reveles el final antes de tiempo.\nSiempre eleva la tensión y el dramatismo"
+  },
+  {
+    "objectID": "prompts_chatgpt/presentacion.html#agenda-v2",
+    "href": "prompts_chatgpt/presentacion.html#agenda-v2",
+    "title": "Prompts Perfectos ChatGPT",
+    "section": "Agenda (v2)",
+    "text": "Agenda (v2)\n\n\nNunca reveles el final\nLos detalles son importantes, pero no todos los detalles son importantes.\nTu primera versión será horrible.\nMuestra, no cuentes."
+  },
+  {
+    "objectID": "prompts_chatgpt/presentacion.html#section-1",
+    "href": "prompts_chatgpt/presentacion.html#section-1",
+    "title": "Prompts Perfectos ChatGPT",
+    "section": "",
+    "text": "Data Storytelling\n¿Por qué Data Storytelling?"
+  },
+  {
+    "objectID": "prompts_chatgpt/presentacion.html#qué-es-el-storytelling",
+    "href": "prompts_chatgpt/presentacion.html#qué-es-el-storytelling",
+    "title": "Prompts Perfectos ChatGPT",
+    "section": "¿Qué es el Storytelling?",
+    "text": "¿Qué es el Storytelling?\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n🔥 Las historias son la primera tecnología humana"
+  },
+  {
+    "objectID": "prompts_chatgpt/presentacion.html#esos-cerebros-tan-hackables",
+    "href": "prompts_chatgpt/presentacion.html#esos-cerebros-tan-hackables",
+    "title": "Prompts Perfectos ChatGPT",
+    "section": "Esos cerebros tan hackables…",
+    "text": "Esos cerebros tan hackables…\n\n\n\nRegla del máximo y final (Peak-End Rule)\n\n\nRating de Game of Thrones, por Kelvin Neo"
+  },
+  {
+    "objectID": "prompts_chatgpt/presentacion.html#narrativa",
+    "href": "prompts_chatgpt/presentacion.html#narrativa",
+    "title": "Prompts Perfectos ChatGPT",
+    "section": "Narrativa",
+    "text": "Narrativa\n\n\n Usar trucos de Storytelling (narrativa) para crear presentaciones que serán recordadas y que causarán impacto\n\n\n\n\n\n\n\n\n\n\n🎭 Las emociones generan acciones"
+  },
+  {
+    "objectID": "prompts_chatgpt/presentacion.html#el-mejor-ejemplo",
+    "href": "prompts_chatgpt/presentacion.html#el-mejor-ejemplo",
+    "title": "Prompts Perfectos ChatGPT",
+    "section": "El mejor ejemplo",
+    "text": "El mejor ejemplo\n\n\n\n\n\n\n\n\n ¿Podemos hacer que millones de personas compartan estadísticas en redes sociales?"
+  },
+  {
+    "objectID": "prompts_chatgpt/presentacion.html#section-2",
+    "href": "prompts_chatgpt/presentacion.html#section-2",
+    "title": "Prompts Perfectos ChatGPT",
+    "section": "",
+    "text": "Regla de Storytelling #2\n\n\nLos detalles son importantes, pero no todos los detalles son importantes."
+  },
+  {
+    "objectID": "prompts_chatgpt/presentacion.html#ejemplos",
+    "href": "prompts_chatgpt/presentacion.html#ejemplos",
+    "title": "Prompts Perfectos ChatGPT",
+    "section": "Ejemplos",
+    "text": "Ejemplos\n\n\n 🔢 No compartas números\n\n 🪶Comparte una historia\n\n\n\n (C) Storytelling with Data, por Cole Nussbaumer Knaflic."
+  },
+  {
+    "objectID": "prompts_chatgpt/presentacion.html#section-3",
+    "href": "prompts_chatgpt/presentacion.html#section-3",
+    "title": "Prompts Perfectos ChatGPT",
+    "section": "",
+    "text": "Regla de Storytelling #3\n\n\nTu primera versión siempre será horrible."
+  },
+  {
+    "objectID": "prompts_chatgpt/presentacion.html#ejemplos-1",
+    "href": "prompts_chatgpt/presentacion.html#ejemplos-1",
+    "title": "Prompts Perfectos ChatGPT",
+    "section": "Ejemplos",
+    "text": "Ejemplos\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n🥱 1° versión \\(&lt;\\) … \\(&lt;\\) 😊 última versión"
+  },
+  {
+    "objectID": "prompts_chatgpt/presentacion.html#usar-chatbots-de-ia-para",
+    "href": "prompts_chatgpt/presentacion.html#usar-chatbots-de-ia-para",
+    "title": "Prompts Perfectos ChatGPT",
+    "section": "Usar chatbots de IA para:",
+    "text": "Usar chatbots de IA para:\n\n\n\n\nPlantillas personalizadas a medida\nAutomatizar estructura del contenido\nAhorro de tiempo en diseño\nAdaptación al estilo y preferencias"
+  },
+  {
+    "objectID": "prompts_chatgpt/presentacion.html#usar-chatbots-de-ia-para-1",
+    "href": "prompts_chatgpt/presentacion.html#usar-chatbots-de-ia-para-1",
+    "title": "Prompts Perfectos ChatGPT",
+    "section": "Usar chatbots de IA para:",
+    "text": "Usar chatbots de IA para:\n\n\n\n\nAnalogías y ejemplos\nMejores traducciones\nPrompts para crear imágenes\nNo busques imágenes, créalas!"
+  },
+  {
+    "objectID": "prompts_chatgpt/presentacion.html#section-4",
+    "href": "prompts_chatgpt/presentacion.html#section-4",
+    "title": "Prompts Perfectos ChatGPT",
+    "section": "",
+    "text": "Regla de Storytelling #4\n\n\nExplicar menos y mostrar más"
+  },
+  {
+    "objectID": "prompts_chatgpt/presentacion.html#explicar-menos-y-mostrar-más",
+    "href": "prompts_chatgpt/presentacion.html#explicar-menos-y-mostrar-más",
+    "title": "Prompts Perfectos ChatGPT",
+    "section": "Explicar menos y mostrar más",
+    "text": "Explicar menos y mostrar más\n\n\nimport matplotlib.pyplot as plt\n\n# Datos de ejemplo\nx = [1, 2, 3, 4, 5]\ny = [2, 4, 3, 5, 7]\n\n# Generamos el gráfico\nplt.figure(figsize=(6, 4))\nplt.plot(x, y, marker='o')\nplt.title(\"Gráfico de Ejemplo\")\nplt.xlabel(\"Eje X\")\nplt.ylabel(\"Eje Y\")\nplt.grid(True)\nplt.show()"
+  },
+  {
+    "objectID": "prompts_chatgpt/presentacion.html#explicar-menos-y-mostrar-más-1",
+    "href": "prompts_chatgpt/presentacion.html#explicar-menos-y-mostrar-más-1",
+    "title": "Prompts Perfectos ChatGPT",
+    "section": "Explicar menos y mostrar más",
+    "text": "Explicar menos y mostrar más\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+  },
+  {
+    "objectID": "prompts_chatgpt/presentacion.html#agenda-v2-1",
+    "href": "prompts_chatgpt/presentacion.html#agenda-v2-1",
+    "title": "Prompts Perfectos ChatGPT",
+    "section": "Agenda (v2)",
+    "text": "Agenda (v2)\n\n\nNunca reveles el final\nLos detalles son importantes, pero no todos los detalles son importantes\nTu primera versión será horrible\nMuestra, no cuentes\n\n\n\nOpción 2: Una agenda misteriosa."
+  },
+  {
+    "objectID": "prompts_chatgpt/presentacion.html#section-5",
+    "href": "prompts_chatgpt/presentacion.html#section-5",
+    "title": "Prompts Perfectos ChatGPT",
+    "section": "",
+    "text": "Visualización\n¿Qué es la Visualización?"
+  },
+  {
+    "objectID": "prompts_chatgpt/presentacion.html#visualización",
+    "href": "prompts_chatgpt/presentacion.html#visualización",
+    "title": "Prompts Perfectos ChatGPT",
+    "section": "Visualización…",
+    "text": "Visualización…\n\n\n\n\nConvierte datos en gráficos para facilitar su comprensión.\nDestaca patrones y tendencias de forma clara."
+  },
+  {
+    "objectID": "prompts_chatgpt/presentacion.html#ejemplos-2",
+    "href": "prompts_chatgpt/presentacion.html#ejemplos-2",
+    "title": "Prompts Perfectos ChatGPT",
+    "section": "Ejemplos",
+    "text": "Ejemplos\n\n\n\n\n\n\n\n❌ Mal Gráfico\n\n\n\n\n\n\n✅ Buen Gráfico"
+  },
+  {
+    "objectID": "prompts_chatgpt/presentacion.html#cuarteto-de-anscombe",
+    "href": "prompts_chatgpt/presentacion.html#cuarteto-de-anscombe",
+    "title": "Prompts Perfectos ChatGPT",
+    "section": "Cuarteto de ANSCOMBE",
+    "text": "Cuarteto de ANSCOMBE\n\n\n\n\n\n\n\n\n \n\n\n\n📋 Tablas vs 📊 Gráficos"
+  },
+  {
+    "objectID": "prompts_chatgpt/presentacion.html#teoría-de-visualización",
+    "href": "prompts_chatgpt/presentacion.html#teoría-de-visualización",
+    "title": "Prompts Perfectos ChatGPT",
+    "section": "Teoría de Visualización",
+    "text": "Teoría de Visualización"
+  },
+  {
+    "objectID": "prompts_chatgpt/presentacion.html#pilares-visualización---noah-iliinsky",
+    "href": "prompts_chatgpt/presentacion.html#pilares-visualización---noah-iliinsky",
+    "title": "Prompts Perfectos ChatGPT",
+    "section": "4 Pilares Visualización - Noah Iliinsky",
+    "text": "4 Pilares Visualización - Noah Iliinsky\n\n\n\n\nPropósito: Define la meta.\nContenido: Datos relevantes.\nEstructura: Organización clara.\nFormato: Gráfico adecuado.\n\n\n\n\n\n\n\n\n\n\n(C) Noah Iliinsky: “Four Pillars of Visualization” - Youtube."
+  },
+  {
+    "objectID": "prompts_chatgpt/presentacion.html#qué-gráficos-son-buenos",
+    "href": "prompts_chatgpt/presentacion.html#qué-gráficos-son-buenos",
+    "title": "Prompts Perfectos ChatGPT",
+    "section": "Qué Gráficos son buenos?",
+    "text": "Qué Gráficos son buenos?\n\n \n \n \n\n\n(C) Essential chart types for data visualization, por Atlassian."
+  },
+  {
+    "objectID": "prompts_chatgpt/presentacion.html#section-6",
+    "href": "prompts_chatgpt/presentacion.html#section-6",
+    "title": "Prompts Perfectos ChatGPT",
+    "section": "",
+    "text": "Herramientas\nHerramientas de Visualización"
+  },
+  {
+    "objectID": "prompts_chatgpt/presentacion.html#herramientas-para-presentación",
+    "href": "prompts_chatgpt/presentacion.html#herramientas-para-presentación",
+    "title": "Prompts Perfectos ChatGPT",
+    "section": "Herramientas para presentación",
+    "text": "Herramientas para presentación\n\n\n\nClásica: PowerPoint\n“Show don’t tell”:\n\nQuarto\nStreamlit\n\nOtros: Canvas, Revealjs, Prezi"
+  },
+  {
+    "objectID": "prompts_chatgpt/presentacion.html#quarto",
+    "href": "prompts_chatgpt/presentacion.html#quarto",
+    "title": "Prompts Perfectos ChatGPT",
+    "section": "Quarto",
+    "text": "Quarto\n\n\n\nUn sistema abierto para publicaciones científicas con markdown y código interactivo (Python/R)."
+  },
+  {
+    "objectID": "prompts_chatgpt/presentacion.html#section-7",
+    "href": "prompts_chatgpt/presentacion.html#section-7",
+    "title": "Prompts Perfectos ChatGPT",
+    "section": "",
+    "text": "Código: example.qmd\n---\ntitle: \"Habits\"\nauthor: \"John Doe\"\nformat:\n  revealjs:\n    transition: fade\n    theme: black\n    toc: true\n    center: true\n---\n\n## Getting up\n\n- Turn off alarm\n- Get out of bed\n\n---\n\n## Going to sleep \n::: { .incremental }\n\n- Get in bed\n- Count sheep\n\n:::\n\nSlides: example.html"
+  },
+  {
+    "objectID": "prompts_chatgpt/presentacion.html#streamlit",
+    "href": "prompts_chatgpt/presentacion.html#streamlit",
+    "title": "Prompts Perfectos ChatGPT",
+    "section": "Streamlit",
+    "text": "Streamlit\n\n\n Es una herramienta de código abierto que facilita la creación de aplicaciones web interactivas utilizando únicamente Python."
+  },
+  {
+    "objectID": "prompts_chatgpt/presentacion.html#streamlit-ejemplo",
+    "href": "prompts_chatgpt/presentacion.html#streamlit-ejemplo",
+    "title": "Prompts Perfectos ChatGPT",
+    "section": "Streamlit: Ejemplo",
+    "text": "Streamlit: Ejemplo\n\n\nimport streamlit as st\n\n# Título principal de la aplicación\nst.title(\"Hola Streamlit\")\n\n# Mensaje principal con nombres y emoticón fijos\nmensaje = \"Darwin y Patricia son mejores amigos 😊\"\nst.write(mensaje)\n\n# Imagen decorativa\nst.image(\n    \"https://www.svgrepo.com/show/397758/people-hugging.svg\",\n    caption=\"Amigos\",\n    width=200  # Ajuste del tamaño de la imagen\n)\n\n# Footer\nst.markdown(\n    \"\"\"\n    ---\n    Gracias por usar esta aplicación interactiva 🎈\n    \"\"\"\n)\n\n\n\n\n\n\n\n\n\n\n(C) Ejemplo en Streamlit - Playground."
+  },
+  {
+    "objectID": "prompts_chatgpt/presentacion.html#html-webapps",
+    "href": "prompts_chatgpt/presentacion.html#html-webapps",
+    "title": "Prompts Perfectos ChatGPT",
+    "section": "HTML & webapps",
+    "text": "HTML & webapps\n\n\n🛠️ Elige una herramienta\n\n💡 La innovación destaca"
+  },
+  {
+    "objectID": "prompts_chatgpt/presentacion.html#flujo-de-decisión",
+    "href": "prompts_chatgpt/presentacion.html#flujo-de-decisión",
+    "title": "Prompts Perfectos ChatGPT",
+    "section": "Flujo de decisión",
+    "text": "Flujo de decisión\n\n\n\n🎤 PowerPoint: Presentación sin código de un solo uso\n📚 Quarto: Charlas a partir de documentos relacionados\n💻 Streamlit: Presentaciones interactivas (Python)\n🎨 Más: Canvas, Revealjs, Prezi"
+  },
+  {
+    "objectID": "prompts_chatgpt/presentacion.html#conclusión",
+    "href": "prompts_chatgpt/presentacion.html#conclusión",
+    "title": "Prompts Perfectos ChatGPT",
+    "section": "Conclusión",
+    "text": "Conclusión\n\n\n\n📖 Storytelling: Narrativas que cautivan a través de datos.\n\n📊 Visualización: Gráficos claros y atractivos.\n\n🛠️ Herramientas: Streamlit, Quarto, y más."
+  },
+  {
+    "objectID": "prompts_chatgpt/presentacion.html#gracias-por-participar",
+    "href": "prompts_chatgpt/presentacion.html#gracias-por-participar",
+    "title": "Prompts Perfectos ChatGPT",
+    "section": "🎉 ¡Gracias por Participar!",
+    "text": "🎉 ¡Gracias por Participar!\n\n\n\n❓¿Preguntas?\n👏 Responder encuesta\n🥳 Gracias de Nuevo\n\n\n\n\n\n🔗 Nuestro Sitio Web: seth-nut.github.io/resources."
+  },
+  {
+    "objectID": "comunicacion_universidad/presentacion.html#agenda",
+    "href": "comunicacion_universidad/presentacion.html#agenda",
+    "title": "Leer, Escribir y Hablar en la Universidad",
+    "section": "Agenda",
+    "text": "Agenda\n\n\n\n\nNo\nNope\nJamás"
+  },
+  {
+    "objectID": "comunicacion_universidad/presentacion.html#section",
+    "href": "comunicacion_universidad/presentacion.html#section",
+    "title": "Leer, Escribir y Hablar en la Universidad",
+    "section": "",
+    "text": "Regla de Storytelling #1\n\n\nNunca reveles el final antes de tiempo.\nSiempre eleva la tensión y el dramatismo"
+  },
+  {
+    "objectID": "comunicacion_universidad/presentacion.html#agenda-v2",
+    "href": "comunicacion_universidad/presentacion.html#agenda-v2",
+    "title": "Leer, Escribir y Hablar en la Universidad",
+    "section": "Agenda (v2)",
+    "text": "Agenda (v2)\n\n\nNunca reveles el final\nLos detalles son importantes, pero no todos los detalles son importantes.\nTu primera versión será horrible.\nMuestra, no cuentes."
+  },
+  {
+    "objectID": "comunicacion_universidad/presentacion.html#section-1",
+    "href": "comunicacion_universidad/presentacion.html#section-1",
+    "title": "Leer, Escribir y Hablar en la Universidad",
+    "section": "",
+    "text": "Data Storytelling\n¿Por qué Data Storytelling?"
+  },
+  {
+    "objectID": "comunicacion_universidad/presentacion.html#qué-es-el-storytelling",
+    "href": "comunicacion_universidad/presentacion.html#qué-es-el-storytelling",
+    "title": "Leer, Escribir y Hablar en la Universidad",
+    "section": "¿Qué es el Storytelling?",
+    "text": "¿Qué es el Storytelling?\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n🔥 Las historias son la primera tecnología humana"
+  },
+  {
+    "objectID": "comunicacion_universidad/presentacion.html#esos-cerebros-tan-hackables",
+    "href": "comunicacion_universidad/presentacion.html#esos-cerebros-tan-hackables",
+    "title": "Leer, Escribir y Hablar en la Universidad",
+    "section": "Esos cerebros tan hackables…",
+    "text": "Esos cerebros tan hackables…\n\n\n\nRegla del máximo y final (Peak-End Rule)\n\n\nRating de Game of Thrones, por Kelvin Neo"
+  },
+  {
+    "objectID": "comunicacion_universidad/presentacion.html#narrativa",
+    "href": "comunicacion_universidad/presentacion.html#narrativa",
+    "title": "Leer, Escribir y Hablar en la Universidad",
+    "section": "Narrativa",
+    "text": "Narrativa\n\n\n Usar trucos de Storytelling (narrativa) para crear presentaciones que serán recordadas y que causarán impacto\n\n\n\n\n\n\n\n\n\n\n🎭 Las emociones generan acciones"
+  },
+  {
+    "objectID": "comunicacion_universidad/presentacion.html#el-mejor-ejemplo",
+    "href": "comunicacion_universidad/presentacion.html#el-mejor-ejemplo",
+    "title": "Leer, Escribir y Hablar en la Universidad",
+    "section": "El mejor ejemplo",
+    "text": "El mejor ejemplo\n\n\n\n\n\n\n\n\n ¿Podemos hacer que millones de personas compartan estadísticas en redes sociales?"
+  },
+  {
+    "objectID": "comunicacion_universidad/presentacion.html#section-2",
+    "href": "comunicacion_universidad/presentacion.html#section-2",
+    "title": "Leer, Escribir y Hablar en la Universidad",
+    "section": "",
+    "text": "Regla de Storytelling #2\n\n\nLos detalles son importantes, pero no todos los detalles son importantes."
+  },
+  {
+    "objectID": "comunicacion_universidad/presentacion.html#ejemplos",
+    "href": "comunicacion_universidad/presentacion.html#ejemplos",
+    "title": "Leer, Escribir y Hablar en la Universidad",
+    "section": "Ejemplos",
+    "text": "Ejemplos\n\n\n 🔢 No compartas números\n\n 🪶Comparte una historia\n\n\n\n (C) Storytelling with Data, por Cole Nussbaumer Knaflic."
+  },
+  {
+    "objectID": "comunicacion_universidad/presentacion.html#section-3",
+    "href": "comunicacion_universidad/presentacion.html#section-3",
+    "title": "Leer, Escribir y Hablar en la Universidad",
+    "section": "",
+    "text": "Regla de Storytelling #3\n\n\nTu primera versión siempre será horrible."
+  },
+  {
+    "objectID": "comunicacion_universidad/presentacion.html#ejemplos-1",
+    "href": "comunicacion_universidad/presentacion.html#ejemplos-1",
+    "title": "Leer, Escribir y Hablar en la Universidad",
+    "section": "Ejemplos",
+    "text": "Ejemplos\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n🥱 1° versión \\(&lt;\\) … \\(&lt;\\) 😊 última versión"
+  },
+  {
+    "objectID": "comunicacion_universidad/presentacion.html#usar-chatbots-de-ia-para",
+    "href": "comunicacion_universidad/presentacion.html#usar-chatbots-de-ia-para",
+    "title": "Leer, Escribir y Hablar en la Universidad",
+    "section": "Usar chatbots de IA para:",
+    "text": "Usar chatbots de IA para:\n\n\n\n\nPlantillas personalizadas a medida\nAutomatizar estructura del contenido\nAhorro de tiempo en diseño\nAdaptación al estilo y preferencias"
+  },
+  {
+    "objectID": "comunicacion_universidad/presentacion.html#usar-chatbots-de-ia-para-1",
+    "href": "comunicacion_universidad/presentacion.html#usar-chatbots-de-ia-para-1",
+    "title": "Leer, Escribir y Hablar en la Universidad",
+    "section": "Usar chatbots de IA para:",
+    "text": "Usar chatbots de IA para:\n\n\n\n\nAnalogías y ejemplos\nMejores traducciones\nPrompts para crear imágenes\nNo busques imágenes, créalas!"
+  },
+  {
+    "objectID": "comunicacion_universidad/presentacion.html#section-4",
+    "href": "comunicacion_universidad/presentacion.html#section-4",
+    "title": "Leer, Escribir y Hablar en la Universidad",
+    "section": "",
+    "text": "Regla de Storytelling #4\n\n\nExplicar menos y mostrar más"
+  },
+  {
+    "objectID": "comunicacion_universidad/presentacion.html#explicar-menos-y-mostrar-más",
+    "href": "comunicacion_universidad/presentacion.html#explicar-menos-y-mostrar-más",
+    "title": "Leer, Escribir y Hablar en la Universidad",
+    "section": "Explicar menos y mostrar más",
+    "text": "Explicar menos y mostrar más\n\n\nimport matplotlib.pyplot as plt\n\n# Datos de ejemplo\nx = [1, 2, 3, 4, 5]\ny = [2, 4, 3, 5, 7]\n\n# Generamos el gráfico\nplt.figure(figsize=(6, 4))\nplt.plot(x, y, marker='o')\nplt.title(\"Gráfico de Ejemplo\")\nplt.xlabel(\"Eje X\")\nplt.ylabel(\"Eje Y\")\nplt.grid(True)\nplt.show()"
+  },
+  {
+    "objectID": "comunicacion_universidad/presentacion.html#explicar-menos-y-mostrar-más-1",
+    "href": "comunicacion_universidad/presentacion.html#explicar-menos-y-mostrar-más-1",
+    "title": "Leer, Escribir y Hablar en la Universidad",
+    "section": "Explicar menos y mostrar más",
+    "text": "Explicar menos y mostrar más\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
+  },
+  {
+    "objectID": "comunicacion_universidad/presentacion.html#agenda-v2-1",
+    "href": "comunicacion_universidad/presentacion.html#agenda-v2-1",
+    "title": "Leer, Escribir y Hablar en la Universidad",
+    "section": "Agenda (v2)",
+    "text": "Agenda (v2)\n\n\nNunca reveles el final\nLos detalles son importantes, pero no todos los detalles son importantes\nTu primera versión será horrible\nMuestra, no cuentes\n\n\n\nOpción 2: Una agenda misteriosa."
+  },
+  {
+    "objectID": "comunicacion_universidad/presentacion.html#section-5",
+    "href": "comunicacion_universidad/presentacion.html#section-5",
+    "title": "Leer, Escribir y Hablar en la Universidad",
+    "section": "",
+    "text": "Visualización\n¿Qué es la Visualización?"
+  },
+  {
+    "objectID": "comunicacion_universidad/presentacion.html#visualización",
+    "href": "comunicacion_universidad/presentacion.html#visualización",
+    "title": "Leer, Escribir y Hablar en la Universidad",
+    "section": "Visualización…",
+    "text": "Visualización…\n\n\n\n\nConvierte datos en gráficos para facilitar su comprensión.\nDestaca patrones y tendencias de forma clara."
+  },
+  {
+    "objectID": "comunicacion_universidad/presentacion.html#ejemplos-2",
+    "href": "comunicacion_universidad/presentacion.html#ejemplos-2",
+    "title": "Leer, Escribir y Hablar en la Universidad",
+    "section": "Ejemplos",
+    "text": "Ejemplos\n\n\n\n\n\n\n\n❌ Mal Gráfico\n\n\n\n\n\n\n✅ Buen Gráfico"
+  },
+  {
+    "objectID": "comunicacion_universidad/presentacion.html#cuarteto-de-anscombe",
+    "href": "comunicacion_universidad/presentacion.html#cuarteto-de-anscombe",
+    "title": "Leer, Escribir y Hablar en la Universidad",
+    "section": "Cuarteto de ANSCOMBE",
+    "text": "Cuarteto de ANSCOMBE\n\n\n\n\n\n\n\n\n \n\n\n\n📋 Tablas vs 📊 Gráficos"
+  },
+  {
+    "objectID": "comunicacion_universidad/presentacion.html#teoría-de-visualización",
+    "href": "comunicacion_universidad/presentacion.html#teoría-de-visualización",
+    "title": "Leer, Escribir y Hablar en la Universidad",
+    "section": "Teoría de Visualización",
+    "text": "Teoría de Visualización"
+  },
+  {
+    "objectID": "comunicacion_universidad/presentacion.html#pilares-visualización---noah-iliinsky",
+    "href": "comunicacion_universidad/presentacion.html#pilares-visualización---noah-iliinsky",
+    "title": "Leer, Escribir y Hablar en la Universidad",
+    "section": "4 Pilares Visualización - Noah Iliinsky",
+    "text": "4 Pilares Visualización - Noah Iliinsky\n\n\n\n\nPropósito: Define la meta.\nContenido: Datos relevantes.\nEstructura: Organización clara.\nFormato: Gráfico adecuado.\n\n\n\n\n\n\n\n\n\n\n(C) Noah Iliinsky: “Four Pillars of Visualization” - Youtube."
+  },
+  {
+    "objectID": "comunicacion_universidad/presentacion.html#qué-gráficos-son-buenos",
+    "href": "comunicacion_universidad/presentacion.html#qué-gráficos-son-buenos",
+    "title": "Leer, Escribir y Hablar en la Universidad",
+    "section": "Qué Gráficos son buenos?",
+    "text": "Qué Gráficos son buenos?\n\n \n \n \n\n\n(C) Essential chart types for data visualization, por Atlassian."
+  },
+  {
+    "objectID": "comunicacion_universidad/presentacion.html#section-6",
+    "href": "comunicacion_universidad/presentacion.html#section-6",
+    "title": "Leer, Escribir y Hablar en la Universidad",
+    "section": "",
+    "text": "Herramientas\nHerramientas de Visualización"
+  },
+  {
+    "objectID": "comunicacion_universidad/presentacion.html#herramientas-para-presentación",
+    "href": "comunicacion_universidad/presentacion.html#herramientas-para-presentación",
+    "title": "Leer, Escribir y Hablar en la Universidad",
+    "section": "Herramientas para presentación",
+    "text": "Herramientas para presentación\n\n\n\nClásica: PowerPoint\n“Show don’t tell”:\n\nQuarto\nStreamlit\n\nOtros: Canvas, Revealjs, Prezi"
+  },
+  {
+    "objectID": "comunicacion_universidad/presentacion.html#quarto",
+    "href": "comunicacion_universidad/presentacion.html#quarto",
+    "title": "Leer, Escribir y Hablar en la Universidad",
+    "section": "Quarto",
+    "text": "Quarto\n\n\n\nUn sistema abierto para publicaciones científicas con markdown y código interactivo (Python/R)."
+  },
+  {
+    "objectID": "comunicacion_universidad/presentacion.html#section-7",
+    "href": "comunicacion_universidad/presentacion.html#section-7",
+    "title": "Leer, Escribir y Hablar en la Universidad",
+    "section": "",
+    "text": "Código: example.qmd\n---\ntitle: \"Habits\"\nauthor: \"John Doe\"\nformat:\n  revealjs:\n    transition: fade\n    theme: black\n    toc: true\n    center: true\n---\n\n## Getting up\n\n- Turn off alarm\n- Get out of bed\n\n---\n\n## Going to sleep \n::: { .incremental }\n\n- Get in bed\n- Count sheep\n\n:::\n\nSlides: example.html"
+  },
+  {
+    "objectID": "comunicacion_universidad/presentacion.html#streamlit",
+    "href": "comunicacion_universidad/presentacion.html#streamlit",
+    "title": "Leer, Escribir y Hablar en la Universidad",
+    "section": "Streamlit",
+    "text": "Streamlit\n\n\n Es una herramienta de código abierto que facilita la creación de aplicaciones web interactivas utilizando únicamente Python."
+  },
+  {
+    "objectID": "comunicacion_universidad/presentacion.html#streamlit-ejemplo",
+    "href": "comunicacion_universidad/presentacion.html#streamlit-ejemplo",
+    "title": "Leer, Escribir y Hablar en la Universidad",
+    "section": "Streamlit: Ejemplo",
+    "text": "Streamlit: Ejemplo\n\n\nimport streamlit as st\n\n# Título principal de la aplicación\nst.title(\"Hola Streamlit\")\n\n# Mensaje principal con nombres y emoticón fijos\nmensaje = \"Darwin y Patricia son mejores amigos 😊\"\nst.write(mensaje)\n\n# Imagen decorativa\nst.image(\n    \"https://www.svgrepo.com/show/397758/people-hugging.svg\",\n    caption=\"Amigos\",\n    width=200  # Ajuste del tamaño de la imagen\n)\n\n# Footer\nst.markdown(\n    \"\"\"\n    ---\n    Gracias por usar esta aplicación interactiva 🎈\n    \"\"\"\n)\n\n\n\n\n\n\n\n\n\n\n(C) Ejemplo en Streamlit - Playground."
+  },
+  {
+    "objectID": "comunicacion_universidad/presentacion.html#html-webapps",
+    "href": "comunicacion_universidad/presentacion.html#html-webapps",
+    "title": "Leer, Escribir y Hablar en la Universidad",
+    "section": "HTML & webapps",
+    "text": "HTML & webapps\n\n\n🛠️ Elige una herramienta\n\n💡 La innovación destaca"
+  },
+  {
+    "objectID": "comunicacion_universidad/presentacion.html#flujo-de-decisión",
+    "href": "comunicacion_universidad/presentacion.html#flujo-de-decisión",
+    "title": "Leer, Escribir y Hablar en la Universidad",
+    "section": "Flujo de decisión",
+    "text": "Flujo de decisión\n\n\n\n🎤 PowerPoint: Presentación sin código de un solo uso\n📚 Quarto: Charlas a partir de documentos relacionados\n💻 Streamlit: Presentaciones interactivas (Python)\n🎨 Más: Canvas, Revealjs, Prezi"
+  },
+  {
+    "objectID": "comunicacion_universidad/presentacion.html#conclusión",
+    "href": "comunicacion_universidad/presentacion.html#conclusión",
+    "title": "Leer, Escribir y Hablar en la Universidad",
+    "section": "Conclusión",
+    "text": "Conclusión\n\n\n\n📖 Storytelling: Narrativas que cautivan a través de datos.\n\n📊 Visualización: Gráficos claros y atractivos.\n\n🛠️ Herramientas: Streamlit, Quarto, y más."
+  },
+  {
+    "objectID": "comunicacion_universidad/presentacion.html#gracias-por-participar",
+    "href": "comunicacion_universidad/presentacion.html#gracias-por-participar",
+    "title": "Leer, Escribir y Hablar en la Universidad",
+    "section": "🎉 ¡Gracias por Participar!",
+    "text": "🎉 ¡Gracias por Participar!\n\n\n\n❓¿Preguntas?\n👏 Responder encuesta\n🥳 Gracias de Nuevo\n\n\n\n\n\n🔗 Nuestro Sitio Web: seth-nut.github.io/resources."
+  }
+]

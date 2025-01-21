@@ -1,0 +1,75 @@
+project:
+  type: website
+
+website:
+  title: "Seth&Nut"
+  site-url: "fralfaro.github.io/blog/"
+  favicon: 'images/logo_sn.png'
+  image: 'images/logo_sn.png'
+  page-footer:
+    left: "Website creado con [Quarto](https://quarto.org/) por Francisco Alfaro. Licencia: [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/)."
+    right:
+      - icon: github
+        href: https://github.com/Seth-Nut
+      - icon: linkedin
+        href: https://www.linkedin.com/company/Seth-Nut/
+      - icon: globe
+        href: https://seth-nut.github.io/website/
+
+  navbar:
+    logo: /images/doberman.png
+    left:
+      - text: Sesiones
+        menu:
+          - text: Sesión 1
+            href: toolkit_google/presentacion.html
+          - text: Sesión 2
+            href: prompts_chatgpt/presentacion.html
+          - text: Sesión 3
+            href: comunicacion_universidad/presentacion.html
+          - text: Sesión 4
+            href: datastorytelling/presentacion.html
+      - text: Encuesta
+        menu:
+          - text: Encuesta 1
+            href: https://www.google.cl/
+          - text: Encuesta 2
+            href: https://www.google.cl/
+
+    right:
+      - icon: github
+        href: https://github.com/Seth-Nut
+      - icon: linkedin
+        href: https://www.linkedin.com/company/Seth-Nut/
+      - icon: globe
+        href: https://seth-nut.github.io/website/
+
+
+lang: es
+
+format:
+  html:
+    smooth-scroll: true
+    theme:
+      - pulse
+      - custom.scss
+    link-external-icon: false
+    link-external-newwindow: true
+    citations-hover: true
+    footnotes-hover: true
+    toc: true
+    code-link: true
+
+
+editor: visual
+
+comments:
+  giscus:
+    repo: Seth-Nut/talks
+
+execute:
+  freeze: true
+
+filters:
+  - webr
+  - pyodide
