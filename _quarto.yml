@@ -3,7 +3,7 @@ project:
 
 website:
   title: "Seth&Nut"
-  site-url: "fralfaro.github.io/blog/"
+  site-url: "https://sethnut.com/CEEMAT_2025/"
   favicon: 'images/logo_sn.png'
   image: 'images/logo_sn.png'
   page-footer:
@@ -65,7 +65,7 @@ editor: visual
 
 comments:
   giscus:
-    repo: Seth-Nut/talks
+    repo: Seth-Nut/CEEMAT_2025
 
 execute:
   freeze: true
