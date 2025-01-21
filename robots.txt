@@ -1,1 +1,1 @@
-Sitemap: fralfaro.github.io/blog/sitemap.xml
+Sitemap: https://sethnut.com/CEEMAT_2025/sitemap.xml
