@@ -31,71 +31,6 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
-    /* CSS for syntax highlighting */
-    pre > code.sourceCode { white-space: pre; position: relative; }
-    pre > code.sourceCode > span { line-height: 1.25; }
-    pre > code.sourceCode > span:empty { height: 1.2em; }
-    .sourceCode { overflow: visible; }
-    code.sourceCode > span { color: inherit; text-decoration: inherit; }
-    div.sourceCode { margin: 1em 0; }
-    pre.sourceCode { margin: 0; }
-    @media screen {
-    div.sourceCode { overflow: auto; }
-    }
-    @media print {
-    pre > code.sourceCode { white-space: pre-wrap; }
-    pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
-    }
-    pre.numberSource code
-      { counter-reset: source-line 0; }
-    pre.numberSource code > span
-      { position: relative; left: -4em; counter-increment: source-line; }
-    pre.numberSource code > span > a:first-child::before
-      { content: counter(source-line);
-        position: relative; left: -1em; text-align: right; vertical-align: baseline;
-        border: none; display: inline-block;
-        -webkit-touch-callout: none; -webkit-user-select: none;
-        -khtml-user-select: none; -moz-user-select: none;
-        -ms-user-select: none; user-select: none;
-        padding: 0 4px; width: 4em;
-        color: #aaaaaa;
-      }
-    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
-    div.sourceCode
-      { color: #003b4f; background-color: #f1f3f5; }
-    @media screen {
-    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-    }
-    code span { color: #003b4f; } /* Normal */
-    code span.al { color: #ad0000; } /* Alert */
-    code span.an { color: #5e5e5e; } /* Annotation */
-    code span.at { color: #657422; } /* Attribute */
-    code span.bn { color: #ad0000; } /* BaseN */
-    code span.bu { } /* BuiltIn */
-    code span.cf { color: #003b4f; font-weight: bold; } /* ControlFlow */
-    code span.ch { color: #20794d; } /* Char */
-    code span.cn { color: #8f5902; } /* Constant */
-    code span.co { color: #5e5e5e; } /* Comment */
-    code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
-    code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
-    code span.dt { color: #ad0000; } /* DataType */
-    code span.dv { color: #ad0000; } /* DecVal */
-    code span.er { color: #ad0000; } /* Error */
-    code span.ex { } /* Extension */
-    code span.fl { color: #ad0000; } /* Float */
-    code span.fu { color: #4758ab; } /* Function */
-    code span.im { color: #00769e; } /* Import */
-    code span.in { color: #5e5e5e; } /* Information */
-    code span.kw { color: #003b4f; font-weight: bold; } /* Keyword */
-    code span.op { color: #5e5e5e; } /* Operator */
-    code span.ot { color: #003b4f; } /* Other */
-    code span.pp { color: #ad0000; } /* Preprocessor */
-    code span.sc { color: #5e5e5e; } /* SpecialChar */
-    code span.ss { color: #20794d; } /* SpecialString */
-    code span.st { color: #20794d; } /* String */
-    code span.va { color: #111111; } /* Variable */
-    code span.vs { color: #20794d; } /* VerbatimString */
-    code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
   <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-bbe7401fe57d4b791b917637bb662036.css">
   <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
@@ -189,393 +124,8 @@
       margin-right: 0; 
     }
   </style>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/monaco-editor@0.46.0/min/vs/editor/editor.main.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
-    
-  <style type="text/css">
-  /* Estilos predeterminados para el modo claro */
-  .monaco-editor pre {
-    background-color: unset !important;
-  }
-
-  .qpyodide-editor-toolbar {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    box-sizing: border-box;
-    background-color: #EEEEEE;
-  }
-
-  .qpyodide-editor-toolbar-left-buttons, .qpyodide-editor-toolbar-right-buttons {
-    display: flex;
-  }
-
-  .qpyodide-non-interactive-loading-container.qpyodide-cell-needs-evaluation,
-  .qpyodide-non-interactive-loading-container.qpyodide-cell-evaluated {
-    justify-content: center;
-    display: flex;
-    background-color: rgba(250, 250, 250, 0.65);
-    border: 1px solid rgba(233, 236, 239, 0.65);
-    border-radius: 0.5rem;
-    margin-top: 15px;
-    margin-bottom: 15px;
-  }
-
-  .qpyodide-r-project-logo {
-    color: #2767B0; /* R Project's blue color */
-  }
-
-  .qpyodide-icon-status-spinner {
-    color: #7894c4;
-  }
-
-  .qpyodide-icon-run-code {
-    color: #0d9c29;
-  }
-
-  .qpyodide-output-code-stdout {
-    color: #111;
-  }
-
-  .qpyodide-output-code-stderr {
-    color: #db4133;
-  }
-
-  .qpyodide-editor {
-    border: 1px solid #EEEEEE;
-  }
-
-  .qpyodide-button {
-    background-color: #EEEEEE;
-    display: inline-block;
-    font-weight: 400;
-    line-height: 1;
-    text-decoration: none;
-    text-align: center;
-    color: #000;
-    border-color: #dee2e6;
-    border: 1px solid rgba(0,0,0,0);
-    padding: 0.375rem 0.75rem;
-    font-size: .9rem;
-    border-radius: 0.25rem;
-    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
-  }
-
-  .qpyodide-button:hover {
-    color: #000;
-    background-color: #d9dce0;
-    border-color: #c8ccd0;
-  }
-
-  .qpyodide-button:disabled, .qpyodide-button.disabled, fieldset:disabled .qpyodide-button {
-    pointer-events: none;
-    opacity: .65;
-  }
-
-  .qpyodide-button-reset, .qpyodide-button-copy {
-    color: #696969;
-  }
-
-  /* Estilos para modo oscuro */
-  @media (prefers-color-scheme: dark) {
-    .monaco-editor pre, .qpyodide-editor, .qpyodide-button {
-      background-color: #333;
-      color: #DDD;
-    }
-
-    .qpyodide-icon-run-code {
-      color: #4CAF50;
-    }
-
-    .qpyodide-non-interactive-loading-container.qpyodide-cell-needs-evaluation,
-    .qpyodide-non-interactive-loading-container.qpyodide-cell-evaluated {
-      background-color: rgba(50, 50, 50, 0.65);
-      border-color: rgba(60, 60, 60, 0.65);
-    }
-
-    .qpyodide-button:hover {
-      background-color: #666;
-      border-color: #777;
-    }
-
-    .qpyodide-output-code-stdout {
-      color: #DDD;
-    }
-
-    .qpyodide-output-code-stderr {
-      color: #F44336;
-    }
-  }
-
-  /* Custom styling for RevealJS Presentations */
-  .reveal div.qpyodide-interactive-area {
-    display: block;
-    box-shadow: none;
-    max-width: 100%;
-    max-height: 100%;
-    margin: 0;
-    padding: 0;
-  } 
-
-  .reveal div.qpyodide-output-code-area pre div {
-    margin: 1px 2px 1px 10px;
-  }
-
-  .reveal pre div code.qpyodide-output-code-stdout, .reveal pre div code.qpyodide-output-code-stderr {
-    padding: 0;
-    display: contents;
-  }
-
-  .reveal div.qpyodide-console-area {
-    border: 1px solid #EEEEEE;
-    box-shadow: 2px 2px 10px #EEEEEE;
-  }
-
-  .reveal div.qpyodide-output-code-area pre {
-    max-height: 400px;
-    overflow: scroll;
-  }
-
-  /* Estilos predeterminados para modo claro */
-  .qpyodide-output-code-area {
-    background-color: black; /* Fondo negro para el modo claro */
-    color: white; /* Texto blanco para mejor legibilidad en fondo oscuro */
-  }
-
-  /* Estilos para modo oscuro */
-  @media (prefers-color-scheme: dark) {
-    .qpyodide-output-code-area {
-      background-color: white; /* Fondo blanco para el modo oscuro */
-      color: black; /* Texto negro para mejor legibilidad en fondo claro */
-    }
-  }
-
-  </style>
-  <script type="module">
-  // Document level settings ----
-
-  // Determine if we need to install python packages
-  globalThis.qpyodideInstallPythonPackagesList = [''];
-
-  // Check to see if we have an empty array, if we do set to skip the installation.
-  globalThis.qpyodideSetupPythonPackages = !(qpyodideInstallPythonPackagesList.indexOf("") !== -1);
-
-  // Display a startup message?
-  globalThis.qpyodideShowStartupMessage = true;
-
-  // Describe the webR settings that should be used
-  globalThis.qpyodideCustomizedPyodideOptions = {
-    "indexURL": "https://cdn.jsdelivr.net/pyodide/v0.25.0/full/",
-    "env": {
-      "HOME": "/home/pyodide",
-    }, 
-    stdout: (text) => {qpyodideAddToOutputArray(text, "out");},
-    stderr: (text) => {qpyodideAddToOutputArray(text, "error");}
-  }
-
-  // Store cell data
-  globalThis.qpyodideCellDetails = [{"code":"import matplotlib.pyplot as plt\nx = [1, 2, 3, 4, 5]\ny = [2, 4, 3, 5, 7]\nplt.figure(figsize=(5, 3))\nplt.plot(x, y, marker='o')\nplt.title(\"Gráfico de Ejemplo\")\nplt.grid(True)\nplt.show()","id":1,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}}];
-
-
-  </script>
-  <script type="module">
-  // Declare startupMessageqpyodide globally
-  globalThis.qpyodideStartupMessage = document.createElement("p");
-
-  // Function to set the button text
-  globalThis.qpyodideSetInteractiveButtonState = function(buttonText, enableCodeButton = true) {
-    document.querySelectorAll(".qpyodide-button-run").forEach((btn) => {
-      btn.innerHTML = buttonText;
-      btn.disabled = !enableCodeButton;
-    });
-  }
-
-  // Function to update the status message in non-interactive cells
-  globalThis.qpyodideUpdateStatusMessage = function(message) {
-    document.querySelectorAll(".qpyodide-status-text.qpyodide-cell-needs-evaluation").forEach((elem) => {
-      elem.innerText = message;
-    });
-  }
-
-  // Function to update the status message
-  globalThis.qpyodideUpdateStatusHeader = function(message) {
-
-    if (!qpyodideShowStartupMessage) return;
-
-    qpyodideStartupMessage.innerHTML = message;
-  }
-
-  // Status header update with customized spinner message
-  globalThis.qpyodideUpdateStatusHeaderSpinner = function(message) {
-
-    qpyodideUpdateStatusHeader(`
-      <i class="fa-solid fa-spinner fa-spin qpyodide-icon-status-spinner"></i>
-      <span>${message}</span>
-    `);
-  }
-
-
-  // Function that attaches the document status message
-  function qpyodideDisplayStartupMessage(showStartupMessage) {
-    if (!showStartupMessage) {
-      return;
-    }
-
-    // Get references to header elements
-    const headerHTML = document.getElementById("title-block-header");
-    const headerRevealJS = document.getElementById("title-slide");
-
-    // Create the outermost div element for metadata
-    const quartoTitleMeta = document.createElement("div");
-    quartoTitleMeta.classList.add("quarto-title-meta");
-
-    // Create the first inner div element
-    const firstInnerDiv = document.createElement("div");
-    firstInnerDiv.setAttribute("id", "qpyodide-status-message-area");
-
-    // Create the second inner div element for "Pyodide Status" heading and contents
-    const secondInnerDiv = document.createElement("div");
-    secondInnerDiv.setAttribute("id", "qpyodide-status-message-title");
-    secondInnerDiv.classList.add("quarto-title-meta-heading");
-    secondInnerDiv.innerText = "Pyodide Status";
-
-    // Create another inner div for contents
-    const secondInnerDivContents = document.createElement("div");
-    secondInnerDivContents.setAttribute("id", "qpyodide-status-message-body");
-    secondInnerDivContents.classList.add("quarto-title-meta-contents");
-
-    // Describe the Pyodide state
-    qpyodideStartupMessage.innerText = "🟡 Loading...";
-    qpyodideStartupMessage.setAttribute("id", "qpyodide-status-message-text");
-    // Add `aria-live` to auto-announce the startup status to screen readers
-    qpyodideStartupMessage.setAttribute("aria-live", "assertive");
-
-    // Append the startup message to the contents
-    secondInnerDivContents.appendChild(qpyodideStartupMessage);
-
-    // Combine the inner divs and contents
-    firstInnerDiv.appendChild(secondInnerDiv);
-    firstInnerDiv.appendChild(secondInnerDivContents);
-    quartoTitleMeta.appendChild(firstInnerDiv);
-
-    // Determine where to insert the quartoTitleMeta element
-    if (headerHTML || headerRevealJS) {
-      // Append to the existing "title-block-header" element or "title-slide" div
-      (headerHTML || headerRevealJS).appendChild(quartoTitleMeta);
-    } else {
-      // If neither headerHTML nor headerRevealJS is found, insert after "Pyodide-monaco-editor-init" script
-      const monacoScript = document.getElementById("qpyodide-monaco-editor-init");
-      const header = document.createElement("header");
-      header.setAttribute("id", "title-block-header");
-      header.appendChild(quartoTitleMeta);
-      monacoScript.after(header);
-    }
-  }
-
-  qpyodideDisplayStartupMessage(qpyodideShowStartupMessage);
-  </script>
-  <script type="module">
-  // Create a logging setup
-  globalThis.qpyodideMessageArray = []
-
-  // Add messages to array
-  globalThis.qpyodideAddToOutputArray = function(message, type) {
-    qpyodideMessageArray.push({ message, type });
-  }
-
-  // Function to reset the output array
-  globalThis.qpyodideResetOutputArray = function() {
-    qpyodideMessageArray = [];
-  }
-
-  globalThis.qpyodideRetrieveOutput = function() {
-    return qpyodideMessageArray.map(entry => entry.message).join('\n');
-  }
-
-  // Start a timer
-  const initializePyodideTimerStart = performance.now();
-
-  // Encase with a dynamic import statement
-  globalThis.qpyodideInstance = await import(
-    qpyodideCustomizedPyodideOptions.indexURL + "pyodide.mjs").then(
-     async({ loadPyodide }) => {
-
-      console.log("Start loading Pyodide");
-      
-      // Populate Pyodide options with defaults or new values based on `pyodide`` meta
-      let mainPyodide = await loadPyodide(
-        qpyodideCustomizedPyodideOptions
-      );
-      
-      // Setup a namespace for global scoping
-      // await loadedPyodide.runPythonAsync("globalScope = {}"); 
-      
-      // Update status to reflect the next stage of the procedure
-      qpyodideUpdateStatusHeaderSpinner("Initializing Python Packages");
-
-      // Load the `micropip` package to allow installation of packages.
-      await mainPyodide.loadPackage("micropip");
-      await mainPyodide.runPythonAsync(`import micropip`);
-
-      // Load the `pyodide_http` package to shim uses of `requests` and `urllib3`.
-      // This allows for `pd.read_csv(url)` to work flawlessly.
-      // Details: https://github.com/coatless-quarto/pyodide/issues/9
-      await mainPyodide.loadPackage("pyodide_http");
-      await mainPyodide.runPythonAsync(`
-      import pyodide_http
-      pyodide_http.patch_all()  # Patch all libraries
-      `);
-
-      // Load the `matplotlib` package with necessary environment hook
-      await mainPyodide.loadPackage("matplotlib");
-
-      // Set the backend for matplotlib to be interactive.
-      await mainPyodide.runPythonAsync(`
-      import matplotlib
-      matplotlib.use("module://matplotlib_pyodide.html5_canvas_backend")
-      from matplotlib import pyplot as plt
-      `);
-
-      // Unlock interactive buttons
-      qpyodideSetInteractiveButtonState(
-        `<i class="fa-solid fa-play qpyodide-icon-run-code"></i> <span>Run Code</span>`, 
-        true
-      );
-
-      // Set document status to viable
-      qpyodideUpdateStatusHeader(
-        "🟢 Ready!"
-      );
-
-      // Assign Pyodide into the global environment
-      globalThis.mainPyodide = mainPyodide;
-
-      console.log("Completed loading Pyodide");
-      return mainPyodide;
-    }
-  );
-
-  // Stop timer
-  const initializePyodideTimerEnd = performance.now();
-
-  // Create a function to retrieve the promise object.
-  globalThis._qpyodideGetInstance = function() {
-      return qpyodideInstance;
-  }
-
-  </script>
 </head>
 <body class="quarto-light">
-<script src="https://cdn.jsdelivr.net/npm/monaco-editor@0.46.0/min/vs/loader.js"></script>
-<script type="module" id="qpyodide-monaco-editor-init">
-
-  // Configure the Monaco Editor's loader
-  require.config({
-    paths: {
-      'vs': 'https://cdn.jsdelivr.net/npm/monaco-editor@0.46.0/min/vs'
-    }
-  });
-</script>
   <div class="reveal">
     <div class="slides">
 
@@ -598,587 +148,307 @@ Valeska Canales
 
   <p class="date">2025-04-08</p>
 </section>
-<section class="slide level2">
-
-<style>
-/* Ajusta el tamaño del título y subtítulo */
-.reveal .slides h1 {
-  font-size: 2em; /* Tamaño más pequeño para el título */
-}
-
-.reveal .slides h2 {
-  font-size: 1.5em; /* Tamaño más pequeño para el subtítulo */
-}
-</style>
-</section>
-<section id="agenda" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>Agenda</h2>
-<div class="columns">
-<div class="column" style="width:30%;">
-<ul>
-<li class="fragment"></li>
-<li class="fragment"><p>No</p></li>
-<li class="fragment"><p>Nope</p></li>
-<li class="fragment"><p>Jamás</p></li>
-</ul>
-</div><div class="column fragment" style="width:70%;">
-<p><img src="images/neg.png" alt="Tachado" style="width: 50%; height: auto;"></p>
-</div></div>
-</section>
-<section id="section" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2></h2>
-<div style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;">
-<div class="callout callout-note callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<p><strong>Regla de Storytelling #1</strong></p>
-</div>
-<div class="callout-content">
-<p>Nunca reveles el final antes de tiempo.<br>
-<span class="fragment">Siempre eleva la tensión y el dramatismo</span></p>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section id="agenda-v2" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>Agenda (v2)</h2>
-<div>
-<ol type="1">
-<li class="fragment">Nunca reveles el <span style="background-color:black;">final</span></li>
-<li class="fragment">Los detalles son importantes, pero <span style="background-color:black;">no <strong>todos</strong> los detalles son importantes.</span></li>
-<li class="fragment">Tu primera versión será <span style="background-color:black;">horrible.</span></li>
-<li class="fragment">Muestra, no <span style="background-color:black;">cuentes.</span></li>
-</ol>
-</div>
-</section>
-<section id="section-1" class="slide level2" data-background-image="images/background_slides3.png" data-background-opacity="0.3">
-<h2></h2>
-<div style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;">
-<p><span style="font-size: 1em">Data Storytelling</span></p>
-<p><span style="font-size: 1.5em">¿Por qué Data Storytelling?</span></p>
-</div>
-</section>
-<section id="qué-es-el-storytelling" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>¿Qué es el Storytelling?</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/cave.jpg" class="quarto-figure quarto-figure-center" style="width:90.0%"></p>
-</figure>
-</div>
-</div><div class="column fragment" style="width:50%;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/fire.jpg" class="quarto-figure quarto-figure-center" style="width:100.0%"></p>
-</figure>
-</div>
-</div></div>
-<div class="fragment">
-<div style="text-align: center; ">
-<p>🔥 Las <strong>historias</strong> son la primera tecnología humana</p>
-</div>
-</div>
-</section>
-<section id="esos-cerebros-tan-hackables" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>Esos cerebros tan hackables…</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<p><img data-src="images/storytelling/sketplanation.png" class="quarto-figure quarto-figure-center" style="width:90.0%"><br>
-<em>Regla del máximo y final (Peak-End Rule)</em></p>
-</div><div class="column fragment" style="width:50%;">
-<p><img data-src="images/storytelling/got.jpg" class="quarto-figure quarto-figure-center" style="width:100.0%"><br>
-<em>Rating de Game of Thrones, por Kelvin Neo</em></p>
-</div></div>
-</section>
-<section id="narrativa" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>Narrativa</h2>
-<div class="columns">
-<div class="column" style="width:60%;">
-<p><br><br> Usar <strong>trucos</strong> de Storytelling (narrativa) para crear presentaciones que serán <strong>recordadas</strong> y que causarán <strong>impacto</strong></p>
-</div><div class="column fragment" style="width:40%;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/emotions.png" class="quarto-figure quarto-figure-center"></p>
-</figure>
-</div>
-</div></div>
-<div class="fragment">
-<div style="text-align: center;">
-<p>🎭 Las <strong>emociones</strong> generan acciones</p>
-</div>
-</div>
-</section>
-<section id="el-mejor-ejemplo" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>El mejor ejemplo</h2>
-<div class="columns">
-<div class="column fragment" data-fragment-index="1" style="width:30%;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/storytelling/spotify1.jpeg" class="quarto-figure quarto-figure-center"></p>
-</figure>
-</div>
-</div><div class="column center" style="width:40%;">
-<p><br><br> ¿Podemos hacer que millones de personas compartan estadísticas en redes sociales?</p>
-</div><div class="column fragment" data-fragment-index="1" style="width:30%;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/storytelling/spotify2.jpeg" class="quarto-figure quarto-figure-center"></p>
-</figure>
-</div>
-</div></div>
-</section>
-<section id="section-2" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2></h2>
-<div style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;">
-<div class="callout callout-note callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<p><strong>Regla de Storytelling #2</strong></p>
-</div>
-<div class="callout-content">
-<p>Los detalles son importantes, <span class="fragment">pero no <strong>todos</strong> los detalles son importantes.</span></p>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section id="ejemplos" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>Ejemplos</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<p><img data-src="images/dst_before.png" class="quarto-figure quarto-figure-center"> <em>🔢 No compartas números</em></p>
-</div><div class="column fragment" style="width:50%;">
-<p><img data-src="images/dst_after.png" class="quarto-figure quarto-figure-center"> <em>🪶Comparte una historia</em></p>
-</div></div>
-<div class="fragment">
-<p><br><br> <span style="font-size: 0.75em; color: gray">(C) Storytelling with Data, por Cole Nussbaumer Knaflic.</span></p>
-</div>
-</section>
-<section id="section-3" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2></h2>
-<div style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;">
-<div class="callout callout-note callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<p><strong>Regla de Storytelling #3</strong></p>
-</div>
-<div class="callout-content">
-<p>Tu primera versión <strong>siempre</strong> será horrible.</p>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section id="ejemplos-1" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>Ejemplos</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/gh_before.png" class="quarto-figure quarto-figure-center"></p>
-</figure>
-</div>
-</div><div class="column fragment" style="width:50%;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/gh_after.png" class="quarto-figure quarto-figure-center"></p>
-</figure>
-</div>
-</div></div>
-<div class="fragment">
-<div style="text-align: center;">
-<p>🥱 1° versión <span class="math inline">\(&lt;\)</span> … <span class="math inline">\(&lt;\)</span> 😊 última versión</p>
-</div>
-</div>
-</section>
-<section id="usar-chatbots-de-ia-para" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>Usar chatbots de IA para:</h2>
-<div class="columns">
-<div class="column" style="width:65%;">
+<section id="a.i.-en-el-día-a-día" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>🤖 A.I. en el día a día</h2>
+<div class="r-stack">
 <p><br></p>
-<ul>
-<li>Plantillas personalizadas a medida</li>
-<li>Automatizar estructura del contenido</li>
-<li>Ahorro de tiempo en diseño</li>
-<li>Adaptación al estilo y preferencias</li>
-</ul>
-</div><div class="column fragment" style="width:35%;">
+<div class="quarto-figure quarto-figure-left">
+<figure>
+<p><img data-src="images/intro_02.jpg" class="fragment fade-in-then-out quarto-figure quarto-figure-left"></p>
+</figure>
+</div>
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="images/ai/template.png" class="quarto-figure quarto-figure-center"></p>
+<p><img data-src="images/intro_03.jpg" class="fragment fade-in-then-out quarto-figure quarto-figure-center"></p>
 </figure>
 </div>
-</div></div>
-</section>
-<section id="usar-chatbots-de-ia-para-1" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>Usar chatbots de IA para:</h2>
-<div class="columns">
-<div class="column" style="width:60%;">
-<p><br></p>
-<ul>
-<li>Analogías y ejemplos</li>
-<li>Mejores traducciones</li>
-<li>Prompts para crear imágenes</li>
-<li>No busques imágenes, créalas!</li>
-</ul>
-</div><div class="column fragment" style="width:40%;">
-<div class="quarto-figure quarto-figure-center">
+<div class="quarto-figure quarto-figure-right">
 <figure>
-<p><img data-src="images/ai/choice.jpeg" class="quarto-figure quarto-figure-center"></p>
-</figure>
-</div>
-</div></div>
-</section>
-<section id="section-4" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2></h2>
-<div style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;">
-<div class="callout callout-note callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<p><strong>Regla de Storytelling #4</strong></p>
-</div>
-<div class="callout-content">
-<p><span style="color: red">Explicar menos</span> y <span style="color: green">mostrar más</span></p>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section id="explicar-menos-y-mostrar-más" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2><span style="color: red">Explicar menos</span> y <span style="color: green">mostrar más</span></h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
-<span id="cb1-2"><a></a></span>
-<span id="cb1-3"><a></a><span class="co"># Datos de ejemplo</span></span>
-<span id="cb1-4"><a></a>x <span class="op">=</span> [<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">4</span>, <span class="dv">5</span>]</span>
-<span id="cb1-5"><a></a>y <span class="op">=</span> [<span class="dv">2</span>, <span class="dv">4</span>, <span class="dv">3</span>, <span class="dv">5</span>, <span class="dv">7</span>]</span>
-<span id="cb1-6"><a></a></span>
-<span id="cb1-7"><a></a><span class="co"># Generamos el gráfico</span></span>
-<span id="cb1-8"><a></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">6</span>, <span class="dv">4</span>))</span>
-<span id="cb1-9"><a></a>plt.plot(x, y, marker<span class="op">=</span><span class="st">'o'</span>)</span>
-<span id="cb1-10"><a></a>plt.title(<span class="st">"Gráfico de Ejemplo"</span>)</span>
-<span id="cb1-11"><a></a>plt.xlabel(<span class="st">"Eje X"</span>)</span>
-<span id="cb1-12"><a></a>plt.ylabel(<span class="st">"Eje Y"</span>)</span>
-<span id="cb1-13"><a></a>plt.grid(<span class="va">True</span>)</span>
-<span id="cb1-14"><a></a>plt.show()</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div><div class="column fragment" style="width:50%;">
-<div id="fb09687a" class="cell" data-execution_count="1">
-<div class="cell-output cell-output-display">
-<div>
-<figure>
-<p><img data-src="presentacion_files/figure-revealjs/cell-2-output-1.png" width="502" height="377"></p>
+<p><img data-src="images/intro_01.png" class="fragment quarto-figure quarto-figure-right"></p>
 </figure>
 </div>
 </div>
-</div>
-</div></div>
 </section>
-<section id="explicar-menos-y-mostrar-más-1" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2><span style="color: red">Explicar menos</span> y <span style="color: green">mostrar más</span></h2>
-<div id="qpyodide-insertion-location-1"></div>
-<noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
-</section>
-<section id="agenda-v2-1" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>Agenda (v2)</h2>
-<div>
-<ol type="1">
-<li class="fragment">Nunca reveles el <span class="fragment" style="color:grey;"><strong>final</strong></span></li>
-<li class="fragment">Los detalles son importantes, pero <span class="fragment" style="color:grey;">no <strong>todos</strong> los detalles son importantes</span></li>
-<li class="fragment">Tu primera versión será <span class="fragment" style="color:grey;"><strong>horrible</strong></span></li>
-<li class="fragment">Muestra, no <span class="fragment" style="color:grey;"><strong>cuentes</strong></span></li>
-</ol>
-</div>
-<aside class="notes">
-<p>Opción 2: Una agenda misteriosa.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="section-5" class="slide level2" data-background-image="images/background_slides3.png" data-background-opacity="0.3">
-<h2></h2>
-<div style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;">
-<p><span style="font-size: 1em">Visualización</span></p>
-<p><span style="font-size: 2em">¿Qué es la Visualización?</span></p>
-</div>
-</section>
-<section id="visualización" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>Visualización…</h2>
-<div class="columns">
-<div class="column" style="width:60%;">
-<p><br></p>
-<ul>
-<li>Convierte datos en gráficos para facilitar su comprensión.</li>
-<li>Destaca patrones y tendencias de forma clara.</li>
-</ul>
-</div><div class="column fragment" style="width:40%;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/viz/ojo.png" class="quarto-figure quarto-figure-center"></p>
-</figure>
-</div>
-</div></div>
-</section>
-<section id="ejemplos-2" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>Ejemplos</h2>
-<div class="columns">
-<div class="column" style="text-align: center;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/viz/vis_01.png" class="quarto-figure quarto-figure-center" style="width:100.0%"></p>
-</figure>
-</div>
-<p><em>❌ Mal Gráfico</em></p>
-</div><div class="column fragment" style="text-align: center;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/viz/vis_02.png" class="quarto-figure quarto-figure-center" style="width:80.0%"></p>
-</figure>
-</div>
-<p><em>✅ Buen Gráfico</em></p>
-</div></div>
-</section>
-<section id="cuarteto-de-anscombe" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>Cuarteto de ANSCOMBE</h2>
-<div class="columns">
-<div class="column" style="text-align: center;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/viz/canscombe_01.png" class="quarto-figure quarto-figure-center" style="width:80.0%"></p>
-</figure>
-</div>
-</div><div class="column fragment" style="text-align: center;">
-<p><br> <img data-src="images/viz/canscombe_02.png" class="quarto-figure quarto-figure-center" style="width:100.0%"></p>
-</div></div>
-<div class="fragment" style="text-align:center">
-<p>📋 Tablas vs 📊 Gráficos</p>
-</div>
-</section>
-<section class="slide level2">
-
-<h3 data-background-image="images/background.jpg" data-background-size="cover" data-background-opacity="0.5" id="datasaurus">Datasaurus</h3>
-
-<img data-src="./images/viz/anscombe.gif" style="width:80.0%" class="r-stretch"></section>
-<section id="teoría-de-visualización" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>Teoría de Visualización</h2>
-
-<img data-src="images/viz/teoria_vis2.webp" class="quarto-figure quarto-figure-center r-stretch" style="width:50.0%"></section>
-<section id="pilares-visualización---noah-iliinsky" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>4 Pilares Visualización - Noah Iliinsky</h2>
-<div class="columns">
-<div class="column fragment" style="width:60%;">
-<p><br></p>
-<ol type="1">
-<li><strong>Propósito</strong>: Define la meta.</li>
-<li><strong>Contenido</strong>: Datos relevantes.</li>
-<li><strong>Estructura</strong>: Organización clara.</li>
-<li><strong>Formato</strong>: Gráfico adecuado.</li>
-</ol>
-</div><div class="column" style="width:40%;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/viz/pilar2.png" class="quarto-figure quarto-figure-center"></p>
-</figure>
-</div>
-</div></div>
-<div class="fragment">
-<p><span style="font-size: 0.75em; color: gray">(C) Noah Iliinsky: “Four Pillars of Visualization” - Youtube.</span></p>
-</div>
-</section>
-<section id="qué-gráficos-son-buenos" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>Qué Gráficos son buenos?</h2>
-<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;">
-<p><img src="images/viz/chart_01.png" style="width: 75%; height: auto;"> <img src="images/viz/chart_04.png" style="width: 75%; height: auto;"></p>
-<p><img src="images/viz/chart_03.png" style="width: 75%; height: auto;"> <img src="images/viz/chart_05.png" style="width: 70%; height: auto;"></p>
-<p><img src="images/viz/chart_02.png" style="width: 75%; height: auto;"> <img src="images/viz/chart_07.png" style="width: 85%; height: auto;"></p>
-</div>
-<div class="fragment">
-<p><span style="font-size: 0.75em; color: gray">(C) Essential chart types for data visualization, por Atlassian.</span></p>
-</div>
-</section>
-<section id="section-6" class="slide level2" data-background-image="images/background_slides3.png" data-background-opacity="0.3">
-<h2></h2>
-<div style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;">
-<p><span style="font-size: 1em">Herramientas</span></p>
-<p><span style="font-size: 2em">Herramientas de Visualización</span></p>
-</div>
-</section>
-<section id="herramientas-para-presentación" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>Herramientas para presentación</h2>
-<div class="columns">
-<div class="column" style="width:60%;">
-<ul>
-<li><strong>Clásica</strong>: PowerPoint</li>
-<li><strong>“Show don’t tell”</strong>:
-<ul>
-<li>Quarto</li>
-<li>Streamlit</li>
-</ul></li>
-<li><strong>Otros</strong>: Canvas, Revealjs, Prezi</li>
-</ul>
-</div><div class="column" style="width:40%;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/presentacion2.png" class="quarto-figure quarto-figure-center"></p>
-</figure>
-</div>
-</div></div>
-</section>
-<section id="quarto" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>Quarto</h2>
-<div class="columns">
-<div class="column" style="width:60%;">
-<p><br></p>
-<p>Un sistema abierto para publicaciones científicas con markdown y código interactivo (Python/R).</p>
-</div><div class="column" style="width:40%;">
-<p><img data-src="images/quarto/quarto2.png"></p>
-</div></div>
-</section>
-<section id="section-7" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2></h2>
+<section id="objetivos" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>🎯 Objetivos</h2>
 <div class="columns">
 <div class="column" style="width:40%;">
-<p><span style="font-size: 0.5em; color: gray">Código: example.qmd</span></p>
-<pre><code>---
-title: "Habits"
-author: "John Doe"
-format:
-  revealjs:
-    transition: fade
-    theme: black
-    toc: true
-    center: true
----
-
-## Getting up
-
-- Turn off alarm
-- Get out of bed
-
----
-
-## Going to sleep 
-::: { .incremental }
-
-- Get in bed
-- Count sheep
-
-:::</code></pre>
+<div style="text-align: center;">
+<p><img src="images/intro_04.png" alt="Tachado" style="width: 100%; border-radius: 10px;"></p>
+</div>
 </div><div class="column" style="width:60%;">
-<p><span style="font-size: 0.5em; color: gray">Slides: example.html</span></p>
-<iframe width="600" height="400" src="images/quarto/quarto_min.html"></iframe>
+<p><br><br></p>
+<ul>
+<li class="fragment">Introducción a los LLM</li>
+<li class="fragment"><strong>ChatGPT</strong>: Qué es, Prompts, Problemas Comunes, Ética , etc.</li>
+<li class="fragment">Aplicaciones de los LLM</li>
+</ul>
 </div></div>
 </section>
-<section id="streamlit" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>Streamlit</h2>
+<section id="section" class="slide level2" data-background-image="images/background_slides3.png" data-background-opacity="0.3">
+<h2></h2>
+<div style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;">
+<p><span style="font-size: 1em">Sesión 02</span></p>
+<p><span style="font-size: 2em">¿ Qué son los LLM ?</span></p>
+</div>
+</section>
+<section id="large-language-model" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>📖 Large language Model</h2>
 <div class="columns">
 <div class="column" style="width:60%;">
-<p><br><br> Es una herramienta de código abierto que facilita la creación de aplicaciones web interactivas utilizando únicamente Python.</p>
+<p><br></p>
+<p>Los <strong>LLMs</strong> son modelos de lenguaje entrenados con grandes volúmenes de texto para predecir y generar <strong>lenguaje natural</strong>.</p>
+<p>Se emplean en <strong>procesamiento de lenguaje</strong>, <strong>chatbots</strong> y <strong>asistentes virtuales</strong>.</p>
 </div><div class="column" style="width:40%;">
-<p><br> <img data-src="./images/streamlit/streamlit.png"></p>
+<div style="text-align: center;">
+<p><img src="images/llm_01.png" alt="Tachado" style="width: 100%; border-radius: 10px;"></p>
+</div>
 </div></div>
 </section>
-<section id="streamlit-ejemplo" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>Streamlit: Ejemplo</h2>
+<section id="características-llm" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>📖 Características LLM</h2>
 <div class="columns">
-<div class="column" style="width:50%;">
-<div class="sourceCode" id="cb3"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a></a><span class="im">import</span> streamlit <span class="im">as</span> st</span>
-<span id="cb3-2"><a></a></span>
-<span id="cb3-3"><a></a><span class="co"># Título principal de la aplicación</span></span>
-<span id="cb3-4"><a></a>st.title(<span class="st">"Hola Streamlit"</span>)</span>
-<span id="cb3-5"><a></a></span>
-<span id="cb3-6"><a></a><span class="co"># Mensaje principal con nombres y emoticón fijos</span></span>
-<span id="cb3-7"><a></a>mensaje <span class="op">=</span> <span class="st">"Darwin y Patricia son mejores amigos 😊"</span></span>
-<span id="cb3-8"><a></a>st.write(mensaje)</span>
-<span id="cb3-9"><a></a></span>
-<span id="cb3-10"><a></a><span class="co"># Imagen decorativa</span></span>
-<span id="cb3-11"><a></a>st.image(</span>
-<span id="cb3-12"><a></a>    <span class="st">"https://www.svgrepo.com/show/397758/people-hugging.svg"</span>,</span>
-<span id="cb3-13"><a></a>    caption<span class="op">=</span><span class="st">"Amigos"</span>,</span>
-<span id="cb3-14"><a></a>    width<span class="op">=</span><span class="dv">200</span>  <span class="co"># Ajuste del tamaño de la imagen</span></span>
-<span id="cb3-15"><a></a>)</span>
-<span id="cb3-16"><a></a></span>
-<span id="cb3-17"><a></a><span class="co"># Footer</span></span>
-<span id="cb3-18"><a></a>st.markdown(</span>
-<span id="cb3-19"><a></a>    <span class="st">"""</span></span>
-<span id="cb3-20"><a></a><span class="st">    ---</span></span>
-<span id="cb3-21"><a></a><span class="st">    Gracias por usar esta aplicación interactiva 🎈</span></span>
-<span id="cb3-22"><a></a><span class="st">    """</span></span>
-<span id="cb3-23"><a></a>)</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div><div class="column fragment" style="width:50%;">
-<div class="quarto-figure quarto-figure-center">
+<div class="column" style="width:60%;">
+<p><br></p>
+<ul>
+<li class="fragment">📊 Tamaño masivo</li>
+<li class="fragment">🔄 Capacidades multitarea</li>
+<li class="fragment">📝 Generación de texto coherente</li>
+<li class="fragment">🌐 Uso en múltiples aplicaciones</li>
+</ul>
+</div><div class="column" style="width:40%;">
+<div style="text-align: center;">
+<p><img src="images/llm_01.png" alt="Tachado" style="width: 100%; border-radius: 10px;"></p>
+</div>
+</div></div>
+</section>
+<section id="historia-de-los-llm" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>⏳Historia de los LLM</h2>
+<div class="r-stack">
+<p><br></p>
+<div class="quarto-figure quarto-figure-left">
 <figure>
-<p><img data-src="images/streamlit_example.png" class="quarto-figure quarto-figure-center" style="width:85.0%"></p>
+<p><img data-src="images/llm_02.png" class="fragment fade-in-then-out quarto-figure quarto-figure-left" style="width:100.0%"></p>
 </figure>
 </div>
-</div></div>
-<div class="fragment">
-<div style="text-align: center; margin-top: -30px;">
-<p><a href="https://streamlit.io/playground?example=geospatial&amp;code=H4sIAAAAAAAAA4VTPY8TMRDt91eMTJOTLsldEDpASnECHTR8SKFDKJo4cxsHr23Z3ts7TunRCfHR0aA0dIgCISH6_BP-APkJjHc3JCcKtpnZGb_n52ePKpz1EUL0hIVWETDwT5bdgGerr7HUFpxXRiqHGqYEGgGdVhKlWn03WYi9qKKmjnhouTXasIi9xDBSU5qgB2kNY4P0ytUwuADLmTUUEie3T1Ve-i1naIAb7iftYmbdaVZeRW7e26CBNBRkAs5pR_NFKlNho5JM3muEbQiBTGq3jOCQWRz5YA1q9YorW8rM2GLi6RCGsCuQzuNYGVfGjnhcL4BDsQ_iPvpKGd6sQQ3-ixok1FOMXkmFjGsUs2_XgIE0yTix5x0xSmk6BUJptgdkmudivfx4lfh-ffr8--e7lK2XH7408c2yie9_iBe1F4_-sYxNqa_ZZRs7h3AqLlsDFmxpmw8WwFaxQ3Pr2UwsVG4DXG60L0S6ruaaWqZ6x-PcU87mlqxdFZhTeh3SeozqDBOkLnYy4E_MYnThbr9fVVUvnDHS2Z60RT_MbNW_eefo6NbtviPrNHVnZZ4rk6dlYr9GS3SRLRqK41paWy0DjaXVZWHGlZrG2fAEdaCm1xQGBwcALHRehkgsTkPEAlffbDsCjeqsPs2JtZF8kl2gfzm1lWmVC1HHbrdbxwfpffNw8bixgvS2Qrw2TKAME6FMLsB6-fb1X5q97A_oi2bFpgMAAA" style="font-size: 0.75em; color: gray">(C) Ejemplo en Streamlit - Playground.</a></p>
+<div class="quarto-figure quarto-figure-right">
+<figure>
+<p><img data-src="images/llm_04.png" class="fragment quarto-figure quarto-figure-right"></p>
+</figure>
 </div>
 </div>
 </section>
-<section class="slide level2">
-
-<h3 id="streamlit-ejemplo-1">Streamlit: Ejemplo</h3>
-
-<img src="./images/streamlit/Streamlit-Prophet.gif" style="width:50%;" class="r-stretch"></section>
-<section id="html-webapps" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>HTML &amp; webapps</h2>
+<section id="qué-es-chatgpt" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>🤖 ¿Qué es ChatGPT?</h2>
 <div class="columns">
-<div class="column fragment" style="width:50%;">
-<p>🛠️ Elige una herramienta</p>
-</div><div class="column fragment" style="width:50%;">
-<p>💡 La innovación destaca</p>
-</div></div>
-
-<img data-src="images/tools2.webp" class="quarto-figure quarto-figure-center r-stretch"></section>
-<section id="flujo-de-decisión" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>Flujo de decisión</h2>
+<div class="column" style="width:60%;">
+<p><br><br></p>
+<p><strong>Modelo de lenguaje</strong> de <strong>OpenAI</strong> basado en <strong>IA</strong>, para <strong>generar texto</strong> y <strong>automatización</strong>.</p>
 <p><br></p>
-<div>
+<p><strong>GPT-4</strong> y <strong>GPT-01 (preview)</strong>: modelos <strong>multimodales</strong> para <strong>tareas complejas</strong>.</p>
+</div><div class="column" style="width:40%;">
+<div style="text-align: center;">
+<p><img src="images/chat_01.png" alt="Tachado" style="width: 100%; border-radius: 10px;"></p>
+</div>
+</div></div>
+</section>
+<section id="qué-podemos-hacer-con-chatgpt" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>📱¿Qué podemos hacer con ChatGPT?</h2>
+<div class="columns">
+<div class="column" style="width:40%;">
+<div style="text-align: center;">
+<p><img src="images/chat_02.png" alt="Tachado" style="width: 100%; border-radius: 10px;"></p>
+</div>
+</div><div class="column" style="width:60%;">
 <ul>
-<li class="fragment">🎤 <strong>PowerPoint</strong>: Presentación sin código de un solo uso</li>
-<li class="fragment">📚 <strong>Quarto</strong>: Charlas a partir de documentos relacionados</li>
-<li class="fragment">💻 <strong>Streamlit</strong>: Presentaciones interactivas (Python)</li>
-<li class="fragment">🎨 <strong>Más</strong>: Canvas, Revealjs, Prezi</li>
+<li class="fragment"><strong>🎓 Educación</strong>: Tutor virtual.</li>
+<li class="fragment"><strong>🩺 Salud</strong>: Asiste en consultas.</li>
+<li class="fragment"><strong>💬 Atención al Cliente</strong>: Respuestas rápidas.<br>
+</li>
+<li class="fragment"><strong>📝 Generación de Contenido</strong>: Redacción.<br>
+</li>
+<li class="fragment"><strong>💻 Desarrollo de Software</strong>: Genera y corrige código.</li>
 </ul>
+</div></div>
+</section>
+<section id="prompts-en-chatgpt" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>📝 Prompts en ChatGPT</h2>
+<p>Los <strong>prompts</strong> son las <strong>instrucciones</strong> que se le dan a un modelo de lenguaje, como <strong>ChatGPT</strong>, para generar una <strong>respuesta</strong> o realizar una <strong>tarea específica</strong>. Pueden ser preguntas, frases o directrices que guían el modelo hacia el resultado deseado.</p>
+<div style="text-align: center;">
+<p><img src="images/pro_01.jpg" alt="Tachado" style="width: 60%; border-radius: 10px;"></p>
 </div>
 </section>
-<section id="conclusión" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>Conclusión</h2>
-<p><br></p>
-<div>
-<ul>
-<li class="fragment"><strong>📖 Storytelling</strong>: Narrativas que cautivan a través de datos.<br>
-</li>
-<li class="fragment"><strong>📊 Visualización</strong>: Gráficos claros y atractivos.<br>
-</li>
-<li class="fragment"><strong>🛠️ Herramientas</strong>: Streamlit, Quarto, y más.</li>
-</ul>
+<section id="prompts-en-chatgpt-1" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>📝 Prompts en ChatGPT</h2>
+<p><strong>Pregunta directa</strong>: “¿Qué es la inteligencia artificial?”</p>
+<p><strong>Instrucción</strong>: “Escribe una historia corta sobre un viaje al espacio.”</p>
+<p><strong>Comando</strong>: “Genera un código Python para calcular el promedio de una lista.”</p>
+<div style="text-align: center;">
+<p><img src="images/pro_01.jpg" alt="Tachado" style="width: 60%; border-radius: 10px;"></p>
 </div>
+</section>
+<section id="problemas-comunes-con-los-llm" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>⚠️ Problemas comunes con los LLM</h2>
+<p><br></p>
+<div style="text-align: center;">
+<p><img src="images/pro_02.png" alt="Tachado" style="width: 100%; border-radius: 10px;"></p>
+</div>
+</section>
+<section id="problemas-comunes-con-los-llm-1" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>⚠️ Problemas comunes con los LLM</h2>
+<p><br></p>
+<table class="caption-top">
+<colgroup>
+<col style="width: 30%">
+<col style="width: 69%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Tipo de Error</th>
+<th>Ejemplo</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Información Incorrecta</strong></td>
+<td>Abraham Lincoln fue presidente de Chile</td>
+</tr>
+<tr class="even">
+<td><strong>Datos Obsoletos</strong></td>
+<td>Modelo más reciente de OpenAI es <strong>CHATGPT 3.5</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>Respuestas Ambiguas</strong></td>
+<td>La capital de Chile es Santiago y Valparaíso</td>
+</tr>
+<tr class="even">
+<td><strong>Sesgo</strong></td>
+<td>Los Afroamericanos tienen más probabilidad de cometer un crimen</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="errores-comunes" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>❌ Errores Comunes</h2>
+<div style="text-align: center;">
+<p><img src="images/pro_03.png" alt="Tachado" style="width: 80%; border-radius: 10px;"></p>
+</div>
+</section>
+<section id="estructura-de-un-buen-prompts" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>✅ Estructura de un Buen Prompts</h2>
+<div style="text-align: center;">
+<p><img src="images/pro_031.png" alt="Tachado" style="width: 100%; border-radius: 10px;"></p>
+</div>
+</section>
+<section id="sin-estructura" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>❌ Sin estructura</h2>
+<p><br></p>
+<p><strong>Prompt:</strong></p>
+<pre><code>¿Cómo hacer una receta de pan con queso? </code></pre>
+<blockquote>
+<p><strong>Problema:</strong> El <strong>prompt</strong> es vago y carece de detalles, lo que puede resultar en respuestas genéricas o imprecisas.</p>
+<p>Un <strong>prompt más estructurado</strong> proporcionaría ingredientes, cantidades y el tipo de pan o queso que se desea.</p>
+</blockquote>
+</section>
+<section id="estructurado" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>✅ Estructurado</h2>
+<p><br></p>
+<p><strong>Prompt:</strong></p>
+<pre><code>Eres un chef experto en panadería. 
+
+Tu tarea es crear una receta de pan con queso que utilice al menos dos tipos de quesos, uno suave y otro maduro, y diferentes harinas como trigo integral y centeno. 
+
+Busca una combinación que sea deliciosa y tenga buena textura.
+
+Este desarrollo se enmarca en la creación de un menú para un bistró que valora opciones artesanales.
+
+Importante: la receta debe ser sencilla de replicar en casa.</code></pre>
+</section>
+<section id="estructurado-1" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>✅ Estructurado</h2>
+<p><br></p>
+<ul>
+<li>🍽️ <strong>Rol</strong>: Eres un chef experto en panadería.</li>
+<li>🧀 <strong>Tarea</strong>: Crear una receta de pan con queso. -</li>
+<li>🧀🧀 <strong>Detalles específicos</strong>: Utiliza al menos dos tipos de quesos, uno suave y otro maduro, y diferentes harinas como trigo integral y centeno.</li>
+<li>🌿 <strong>Contexto</strong>: Este desarrollo se enmarca en la creación de un menú artesanal para un bistró que valora opciones caseras y únicas.</li>
+<li>📝 <strong>Notas</strong>: <strong>Importante</strong>: la receta debe ser <strong>sencilla</strong> de replicar en casa.</li>
+</ul>
+</section>
+<section id="técnicas-para-mejorar-los-prompts" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>♟️Técnicas para Mejorar los Prompts</h2>
+<p><br></p>
+<div style="text-align: center;">
+<p><img src="images/pro_04.png" alt="Tachado" style="width: 100%; border-radius: 10px;"></p>
+</div>
+</section>
+<section id="técnicas-para-mejorar-los-prompts-1" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>♟️Técnicas para Mejorar los Prompts</h2>
+<p><br></p>
+<table class="caption-top">
+<colgroup>
+<col style="width: 13%">
+<col style="width: 86%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Categoría</strong></th>
+<th><strong>Descripción</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Prompt</strong></td>
+<td>Resume el texto que se encuentra entre comillas triples. Aquí está el texto: ““” Había una vez un pan que …““”</td>
+</tr>
+<tr class="even">
+<td><strong>Delimitadores</strong></td>
+<td>Estructura</td>
+</tr>
+<tr class="odd">
+<td><strong>Ejemplos</strong></td>
+<td>Dame una receta de pan integral. Ejemplo de formato: “““Esta receta tiene 10 ingredientes que son … y se demora x minutos”“”</td>
+</tr>
+<tr class="even">
+<td><strong>Secuenciales</strong></td>
+<td>Dame una receta de pan integral que siga la siguiente estructura: “““Paso 1, Paso 2, Paso 3, ….”“”</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="ética-en-el-uso-de-chatgpt" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>⚖️Ética en el Uso de ChatGPT</h2>
+<div class="r-stack">
+<p><br></p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/pro_05.png" class="fragment fade-in-then-out quarto-figure quarto-figure-center" width="800"></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/pro_06.png" class="fragment quarto-figure quarto-figure-center" width="800"></p>
+</figure>
+</div>
+</div>
+</section>
+<section id="conclusiones" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>💡Conclusiones</h2>
+<p><br></p>
+<ul>
+<li><p>🤔 <strong>Entender la importancia de los prompts</strong>: Un buen diseño de prompts es clave para obtener respuestas más precisas y útiles al interactuar con modelos de lenguaje como ChatGPT.</p></li>
+<li><p>🌱 <strong>Aplicaciones y uso responsable</strong>: Los modelos de lenguaje tienen un gran potencial, pero es crucial utilizarlos de manera ética y responsable.</p></li>
+<li><p>🚀 <strong>Evolución y futuro de los LLM</strong>: La IA conversacional sigue mejorando, y los avances esperados tendrán un gran impacto en cómo interactuamos con la tecnología en el futuro.</p></li>
+</ul>
+</section>
+<section id="referencias" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>💡 Referencias</h2>
+<ul>
+<li><p><img src="images/01_openai.png" width="40"> <strong>ChatGPT:</strong> IA de <a href="https://openai.com/">OpenAI</a> para generar texto.</p></li>
+<li><p><img src="images/02_google.png" width="40"> <strong>Gemini:</strong> IA de <a href="https://www.google.com/search?q=DeepMind">Google DeepMind</a> centrada en razonamiento.</p></li>
+<li><p><img src="images/03_meta.png" width="40"> <strong>MetaAI:</strong> División de IA de <a href="https://www.meta.ai/">Meta</a> para mejorar interacciones digitales.</p></li>
+<li><p><img src="images/04_deep.png" width="40"> <strong>DeepSeek:</strong> Modelo de razonamiento desarrollado por <a href="https://chat.deepseek.com/">DeepSeek</a>.</p></li>
+</ul>
 </section>
 <section id="gracias-por-participar" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
 <h2>🎉 ¡Gracias por Participar!</h2>
@@ -1192,8 +462,35 @@ format:
 <p><img data-src="images/qr_visualizacion.png" width="400"></p>
 </div></div>
 <blockquote>
-<p>🔗 Nuestro Sitio Web: <a href="https://seth-nut.github.io/resources/">seth-nut.github.io/resources</a>.</p>
+<p>🔗 Nuestro Sitio Web: <a href="https://seth-nut.github.io/resources/">sethnut.com/resources/</a>.</p>
 </blockquote>
+<style>
+/* Ajusta el tamaño del título y subtítulo */
+.reveal .slides h1 {
+  font-size: 2em; /* Tamaño más pequeño para el título */
+}
+
+.reveal .slides h2 {
+  font-size: 1.5em; /* Tamaño más pequeño para el subtítulo */
+}
+
+/* Ajusta el tamaño del texto en los párrafos */
+.reveal .slides p {
+  font-size: 0.8em; /* Texto más pequeño */
+}
+
+/* Ajusta el tamaño de las tablas */
+.reveal .slides table {
+  font-size: 0.8em; /* Tamaño de fuente más pequeño en las tablas */
+  width: 90%; /* Ajusta el ancho de la tabla */
+  margin: 0 auto; /* Centra la tabla */
+}
+
+/* Ajusta el tamaño de los bullets */
+.reveal .slides ul {
+  font-size: 0.8em; /* Tamaño de fuente más pequeño en los bullets */
+}
+</style>
 
 
 </section>
@@ -1602,542 +899,6 @@ format:
     </script>
     <input type="hidden" id="giscus-base-theme" value="light">
     <input type="hidden" id="giscus-alt-theme" value="dark">
-    <script type="module">
-    /**
-     * Factory function to create different types of cells based on options.
-     * @param {Object} cellData - JSON object containing code, id, and options.
-     * @returns {BaseCell} Instance of the appropriate cell class.
-     */
-    globalThis.qpyodideCreateCell = function(cellData) {
-        switch (cellData.options.context) {
-            case 'interactive':
-                return new InteractiveCell(cellData);
-            case 'output':
-                return new OutputCell(cellData);
-            case 'setup':
-                return new SetupCell(cellData);
-            default:
-                return new InteractiveCell(cellData);
-                // throw new Error('Invalid cell type specified in options.');
-        }
-    }  
-
-    /**
-     * CellContainer class for managing a collection of cells.
-     * @class
-     */
-    class CellContainer {
-        /**
-         * Constructor for CellContainer.
-         * Initializes an empty array to store cells.
-         * @constructor
-         */
-        constructor() {
-            this.cells = [];
-        }
-
-        /**
-         * Add a cell to the container.
-         * @param {BaseCell} cell - Instance of a cell (BaseCell or its subclasses).
-         */
-        addCell(cell) {
-            this.cells.push(cell);
-        }
-
-        /**
-         * Execute all cells in the container.
-         */
-        async executeAllCells() {
-            for (const cell of this.cells) {
-                await cell.executeCode();
-            }
-        }
-
-        /**
-         * Execute all cells in the container.
-         */
-        async autoRunExecuteAllCells() {
-            for (const cell of this.cells) {
-                await cell.autoRunExecuteCode();
-            }
-        }
-    }
-      
-
-    /**
-     * BaseCell class for handling code execution using Pyodide.
-     * @class
-     */
-    class BaseCell {
-        /**
-         * Constructor for BaseCell.
-         * @constructor
-         * @param {Object} cellData - JSON object containing code, id, and options.
-         */
-        constructor(cellData) {
-            this.code = cellData.code;
-            this.id = cellData.id;
-            this.options = cellData.options;
-            this.insertionLocation = document.getElementById(`qpyodide-insertion-location-${this.id}`);
-            this.executionLock = false;
-        }
-
-        cellOptions() {
-            // Subclass this? 
-            console.log(this.options);
-            return this.options;
-        }
-
-        /**
-         * Execute the Python code using Pyodide.
-         * @returns {*} Result of the code execution.
-         */
-        async executeCode() {
-            // Execute code using Pyodide
-            const result = getPyodide().runPython(this.code);
-            return result;
-        }
-    };
-
-    /**
-     * InteractiveCell class for creating editable code editor with Monaco Editor.
-     * @class
-     * @extends BaseCell
-     */
-    class InteractiveCell extends BaseCell {
-
-        /**
-         * Constructor for InteractiveCell.
-         * @constructor
-         * @param {Object} cellData - JSON object containing code, id, and options.
-         */
-        constructor(cellData) {
-            super(cellData);
-            this.editor = null;
-            this.setupElement();
-            this.setupMonacoEditor();
-        }
-
-        /**
-         * Set up the interactive cell elements
-         */
-        setupElement() {
-
-            // Create main div element
-            var mainDiv = document.createElement('div');
-            mainDiv.id = `qpyodide-interactive-area-${this.id}`;
-            mainDiv.className = `qpyodide-interactive-area`;
-            if (this.options.classes) {
-                mainDiv.className += " " + this.options.classes
-            }
-
-            // Add a unique cell identifier that users can customize
-            if (this.options.label) {
-                mainDiv.setAttribute('data-id', this.options.label);
-            }
-
-            // Create toolbar div
-            var toolbarDiv = document.createElement('div');
-            toolbarDiv.className = 'qpyodide-editor-toolbar';
-            toolbarDiv.id = `qpyodide-editor-toolbar-${this.id}`;
-
-            // Create a div to hold the left buttons
-            var leftButtonsDiv = document.createElement('div');
-            leftButtonsDiv.className = 'qpyodide-editor-toolbar-left-buttons';
-
-            // Create a div to hold the right buttons
-            var rightButtonsDiv = document.createElement('div');
-            rightButtonsDiv.className = 'qpyodide-editor-toolbar-right-buttons';
-
-            // Create Run Code button
-            var runCodeButton = document.createElement('button');
-            runCodeButton.className = 'btn btn-default qpyodide-button qpyodide-button-run';
-            runCodeButton.disabled = true;
-            runCodeButton.type = 'button';
-            runCodeButton.id = `qpyodide-button-run-${this.id}`;
-            runCodeButton.textContent = '🟡 Loading Pyodide...';
-            runCodeButton.title = `Run code (Shift + Enter)`;
-
-            // Append buttons to the leftButtonsDiv
-            leftButtonsDiv.appendChild(runCodeButton);
-
-            // Create Reset button
-            var resetButton = document.createElement('button');
-            resetButton.className = 'btn btn-light btn-xs qpyodide-button qpyodide-button-reset';
-            resetButton.type = 'button';
-            resetButton.id = `qpyodide-button-reset-${this.id}`;
-            resetButton.title = 'Start over';
-            resetButton.innerHTML = '<i class="fa-solid fa-arrows-rotate"></i>';
-
-            // Create Copy button
-            var copyButton = document.createElement('button');
-            copyButton.className = 'btn btn-light btn-xs qpyodide-button qpyodide-button-copy';
-            copyButton.type = 'button';
-            copyButton.id = `qpyodide-button-copy-${this.id}`;
-            copyButton.title = 'Copy code';
-            copyButton.innerHTML = '<i class="fa-regular fa-copy"></i>';
-
-            // Append buttons to the rightButtonsDiv
-            rightButtonsDiv.appendChild(resetButton);
-            rightButtonsDiv.appendChild(copyButton);
-
-            // Create console area div
-            var consoleAreaDiv = document.createElement('div');
-            consoleAreaDiv.id = `qpyodide-console-area-${this.id}`;
-            consoleAreaDiv.className = 'qpyodide-console-area';
-
-            // Create editor div
-            var editorDiv = document.createElement('div');
-            editorDiv.id = `qpyodide-editor-${this.id}`;
-            editorDiv.className = 'qpyodide-editor';
-
-            // Create output code area div
-            var outputCodeAreaDiv = document.createElement('div');
-            outputCodeAreaDiv.id = `qpyodide-output-code-area-${this.id}`;
-            outputCodeAreaDiv.className = 'qpyodide-output-code-area';
-            outputCodeAreaDiv.setAttribute('aria-live', 'assertive');
-
-            // Create pre element inside output code area
-            var preElement = document.createElement('pre');
-            preElement.style.visibility = 'hidden';
-            outputCodeAreaDiv.appendChild(preElement);
-
-            // Create output graph area div
-            var outputGraphAreaDiv = document.createElement('div');
-            outputGraphAreaDiv.id = `qpyodide-output-graph-area-${this.id}`;
-            outputGraphAreaDiv.className = 'qpyodide-output-graph-area';
-
-            // Append buttons to the toolbar
-            toolbarDiv.appendChild(leftButtonsDiv);
-            toolbarDiv.appendChild(rightButtonsDiv);
-
-            // Append all elements to the main div
-            mainDiv.appendChild(toolbarDiv);
-            consoleAreaDiv.appendChild(editorDiv);
-            consoleAreaDiv.appendChild(outputCodeAreaDiv);
-            mainDiv.appendChild(consoleAreaDiv);
-            mainDiv.appendChild(outputGraphAreaDiv);
-
-            // Insert the dynamically generated object at the document location.
-            this.insertionLocation.appendChild(mainDiv);
-        }
-
-        /**
-         * Set up Monaco Editor for code editing.
-         */
-        setupMonacoEditor() {
-
-            // Retrieve the previously created document elements
-            this.runButton = document.getElementById(`qpyodide-button-run-${this.id}`);
-            this.resetButton = document.getElementById(`qpyodide-button-reset-${this.id}`);
-            this.copyButton = document.getElementById(`qpyodide-button-copy-${this.id}`);
-            this.editorDiv = document.getElementById(`qpyodide-editor-${this.id}`);
-            this.outputCodeDiv = document.getElementById(`qpyodide-output-code-area-${this.id}`);
-            this.outputGraphDiv = document.getElementById(`qpyodide-output-graph-area-${this.id}`);
-            
-            // Store reference to the object
-            var thiz = this;
-
-            // Load the Monaco Editor and create an instance
-            require(['vs/editor/editor.main'], function () {
-                thiz.editor = monaco.editor.create(
-                    thiz.editorDiv, {
-                        value: thiz.code,
-                        language: 'python',
-                        theme: 'vs-light',
-                        automaticLayout: true,           // Works wonderfully with RevealJS
-                        scrollBeyondLastLine: false,
-                        minimap: {
-                            enabled: false
-                        },
-                        fontSize: '17.5pt',              // Bootstrap is 1 rem
-                        renderLineHighlight: "none",     // Disable current line highlighting
-                        hideCursorInOverviewRuler: true,  // Remove cursor indictor in right hand side scroll bar
-                        readOnly: thiz.options['read-only'] ?? false
-                    }
-                );
-            
-                // Store the official counter ID to be used in keyboard shortcuts
-                thiz.editor.__qpyodideCounter = thiz.id;
-            
-                // Store the official div container ID
-                thiz.editor.__qpyodideEditorId = `qpyodide-editor-${thiz.id}`;
-            
-                // Store the initial code value and options
-                thiz.editor.__qpyodideinitialCode = thiz.code;
-                thiz.editor.__qpyodideOptions = thiz.options;
-            
-                // Set at the model level the preferred end of line (EOL) character to LF.
-                // This prevent `\r\n` from being given to the Pyodide engine if the user is on Windows.
-                // See details in: https://github.com/coatless/quarto-Pyodide/issues/94
-                // Associated error text: 
-                // Error: <text>:1:7 unexpected input
-            
-                // Retrieve the underlying model
-                const model = thiz.editor.getModel();
-                // Set EOL for the model
-                model.setEOL(monaco.editor.EndOfLineSequence.LF);
-            
-                // Dynamically modify the height of the editor window if new lines are added.
-                let ignoreEvent = false;
-                const updateHeight = () => {
-                const contentHeight = thiz.editor.getContentHeight();
-                // We're avoiding a width change
-                //editorDiv.style.width = `${width}px`;
-                thiz.editorDiv.style.height = `${contentHeight}px`;
-                    try {
-                        ignoreEvent = true;
-                
-                        // The key to resizing is this call
-                        thiz.editor.layout();
-                    } finally {
-                        ignoreEvent = false;
-                    }
-                };
-            
-                // Helper function to check if selected text is empty
-                function isEmptyCodeText(selectedCodeText) {
-                    return (selectedCodeText === null || selectedCodeText === undefined || selectedCodeText === "");
-                }
-            
-                // Registry of keyboard shortcuts that should be re-added to each editor window
-                // when focus changes.
-                const addPyodideKeyboardShortCutCommands = () => {
-                // Add a keydown event listener for Shift+Enter to run all code in cell
-                thiz.editor.addCommand(monaco.KeyMod.Shift | monaco.KeyCode.Enter, () => {
-                    // Retrieve all text inside the editor
-                    thiz.runCode(thiz.editor.getValue());
-                });
-            
-                // Add a keydown event listener for CMD/Ctrl+Enter to run selected code
-                thiz.editor.addCommand(monaco.KeyMod.CtrlCmd | monaco.KeyCode.Enter, () => {
-                        // Get the selected text from the editor
-                        const selectedText = thiz.editor.getModel().getValueInRange(thiz.editor.getSelection());
-                        // Check if no code is selected
-                        if (isEmptyCodeText(selectedText)) {
-                            // Obtain the current cursor position
-                            let currentPosition = thiz.editor.getPosition();
-                            // Retrieve the current line content
-                            let currentLine = thiz.editor.getModel().getLineContent(currentPosition.lineNumber);
-                    
-                            // Propose a new position to move the cursor to
-                            let newPosition = new monaco.Position(currentPosition.lineNumber + 1, 1);
-                    
-                            // Check if the new position is beyond the last line of the editor
-                            if (newPosition.lineNumber > thiz.editor.getModel().getLineCount()) {
-                                // Add a new line at the end of the editor
-                                thiz.editor.executeEdits("addNewLine", [{
-                                range: new monaco.Range(newPosition.lineNumber, 1, newPosition.lineNumber, 1),
-                                text: "\n", 
-                                forceMoveMarkers: true,
-                                }]);
-                            }
-                            
-                            // Run the entire line of code.
-                            thiz.runCode(currentLine);
-                    
-                            // Move cursor to new position
-                            thiz.editor.setPosition(newPosition);
-                        } else {
-                            // Code to run when Ctrl+Enter is pressed with selected code
-                            thiz.runCode(selectedText);
-                        }
-                    });
-                }
-            
-                // Register an on focus event handler for when a code cell is selected to update
-                // what keyboard shortcut commands should work.
-                // This is a workaround to fix a regression that happened with multiple
-                // editor windows since Monaco 0.32.0 
-                // https://github.com/microsoft/monaco-editor/issues/2947
-                thiz.editor.onDidFocusEditorText(addPyodideKeyboardShortCutCommands);
-            
-                // Register an on change event for when new code is added to the editor window
-                thiz.editor.onDidContentSizeChange(updateHeight);
-            
-                // Manually re-update height to account for the content we inserted into the call
-                updateHeight();
-                    
-            });
-
-            
-            // Add a click event listener to the run button
-            thiz.runButton.onclick = function () {
-                thiz.runCode(
-                    thiz.editor.getValue()
-                );
-            };
-            
-            // Add a click event listener to the reset button
-            thiz.copyButton.onclick = function () {
-                // Retrieve current code data
-                const data = thiz.editor.getValue();
-                
-                // Write code data onto the clipboard.
-                navigator.clipboard.writeText(data || "");
-            };
-            
-            // Add a click event listener to the copy button
-            thiz.resetButton.onclick = function () {
-                thiz.editor.setValue(thiz.editor.__qpyodideinitialCode);
-            };
-        }
-
-        disableInteractiveCells() {
-            // Enable locking of execution for the cell
-            this.executionLock = true;
-
-            // Disallowing execution of other code cells
-            document.querySelectorAll(".qpyodide-button-run").forEach((btn) => {
-                btn.disabled = true;
-            });
-        }
-
-        enableInteractiveCells() {
-            // Remove locking of execution for the cell
-            this.executionLock = false;
-
-            // All execution of other code cells
-            document.querySelectorAll(".qpyodide-button-run").forEach((btn) => {
-                btn.disabled = false;
-            });
-        }
-
-        /**
-         * Execute the Python code inside the editor.
-         */
-        async runCode(code) {
-            
-            // Check if we have an execution lock
-            if (this.executeLock) return; 
-            
-            this.disableInteractiveCells();
-
-            // Force wait procedure
-            await mainPyodide;
-
-            // Clear the output stock
-            qpyodideResetOutputArray();
-
-            // Generate a new canvas element, avoid attaching until the end
-            let graphFigure = document.createElement("figure");
-            document.pyodideMplTarget = graphFigure;
-
-            console.log("Running code!");
-            // Obtain results from the base class
-            try {
-                // Always check to see if the user adds new packages
-                await mainPyodide.loadPackagesFromImports(code);
-
-                // Process result
-                const output = await mainPyodide.runPythonAsync(code);
-
-                // Add output
-                qpyodideAddToOutputArray(output, "stdout");
-            } catch (err) {
-                // Add error message
-                qpyodideAddToOutputArray(err, "stderr");
-                // TODO: There has to be a way to remove the Pyodide portion of the errors... 
-            }
-
-            const result = qpyodideRetrieveOutput();
-
-            // Nullify the output area of content
-            this.outputCodeDiv.innerHTML = "";
-            this.outputGraphDiv.innerHTML = "";        
-
-            // Design an output object for messages
-            const pre = document.createElement("pre");
-            if (/\S/.test(result)) {
-                // Display results as HTML elements to retain output styling
-                const div = document.createElement("div");
-                div.innerHTML = result;
-                pre.appendChild(div);
-            } else {
-                // If nothing is present, hide the element.
-                pre.style.visibility = "hidden";
-            }
-
-            // Add output under interactive div
-            this.outputCodeDiv.appendChild(pre);
-
-            // Place the graphics onto the page
-            if (graphFigure) {
-
-                if (this.options['fig-cap']) {
-                    // Create figcaption element
-                    const figcaptionElement = document.createElement('figcaption');
-                    figcaptionElement.innerText = this.options['fig-cap'];
-                    // Append figcaption to figure
-                    graphFigure.appendChild(figcaptionElement);    
-                }
-
-                this.outputGraphDiv.appendChild(graphFigure);
-            }
-
-            // Re-enable execution
-            this.enableInteractiveCells();
-        }
-    };
-
-    /**
-     * OutputCell class for customizing and displaying output.
-     * @class
-     * @extends BaseCell
-     */
-    class OutputCell extends BaseCell {
-        /**
-         * Constructor for OutputCell.
-         * @constructor
-         * @param {Object} cellData - JSON object containing code, id, and options.
-         */
-        constructor(cellData) {
-          super(cellData);
-        }
-      
-        /**
-         * Display customized output on the page.
-         * @param {*} output - Result to be displayed.
-         */
-        displayOutput(output) {
-            const results = this.executeCode();
-            return results;
-        }
-      }
-
-    /**
-     * SetupCell class for suppressed output.
-     * @class
-     * @extends BaseCell
-     */
-    class SetupCell extends BaseCell {
-        /**
-         * Constructor for SetupCell.
-         * @constructor
-         * @param {Object} cellData - JSON object containing code, id, and options.
-         */
-        constructor(cellData) {
-            super(cellData);
-        }
-
-        /**
-         * Execute the Python code without displaying the results.
-         */
-        runSetupCode() {
-            // Execute code without displaying output
-            this.executeCode();
-        }
-    };
-    </script>
-    <script type="module">
-    // Handle cell initialization initialization
-    qpyodideCellDetails.map(
-        (entry) => {
-          // Handle the creation of the element
-          qpyodideCreateCell(entry);
-        }
-      );
-    </script>
     
 
 </body></html>
