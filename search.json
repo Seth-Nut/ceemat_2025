@@ -333,7 +333,14 @@
     "href": "prompts_chatgpt/presentacion.html#qué-podemos-hacer-con-chatgpt",
     "title": "Prompts Perfectos ChatGPT",
     "section": "📱¿Qué podemos hacer con ChatGPT?",
-    "text": "📱¿Qué podemos hacer con ChatGPT?\n\n\n\n\n\n\n\n🎓 Educación: Tutor virtual.\n🩺 Salud: Asiste en consultas.\n💬 Atención al Cliente: Respuestas rápidas.\n\n📝 Generación de Contenido: Redacción.\n\n💻 Desarrollo de Software: Genera y corrige código."
+    "text": "📱¿Qué podemos hacer con ChatGPT?\n\n\n\n\n\n\n\n\n🎓 Educación: Tutor virtual.\n🩺 Salud: Asiste en consultas.\n💬 Atención al Cliente: Respuestas rápidas.\n\n📝 Generación de Contenido: Redacción.\n\n💻 Desarrollo de Software: Genera y corrige código."
+  },
+  {
+    "objectID": "prompts_chatgpt/presentacion.html#section-1",
+    "href": "prompts_chatgpt/presentacion.html#section-1",
+    "title": "Prompts Perfectos ChatGPT",
+    "section": "",
+    "text": "Sesión 02\n¿Qué son los Prompts?"
   },
   {
     "objectID": "prompts_chatgpt/presentacion.html#prompts-en-chatgpt",
@@ -413,11 +420,25 @@
     "text": "♟️Técnicas para Mejorar los Prompts\n\n\n\n\n\n\n\n\nCategoría\nDescripción\n\n\n\n\nPrompt\nResume el texto que se encuentra entre comillas triples. Aquí está el texto: ““” Había una vez un pan que …““”\n\n\nDelimitadores\nEstructura\n\n\nEjemplos\nDame una receta de pan integral. Ejemplo de formato: “““Esta receta tiene 10 ingredientes que son … y se demora x minutos”“”\n\n\nSecuenciales\nDame una receta de pan integral que siga la siguiente estructura: “““Paso 1, Paso 2, Paso 3, ….”“”"
   },
   {
+    "objectID": "prompts_chatgpt/presentacion.html#section-2",
+    "href": "prompts_chatgpt/presentacion.html#section-2",
+    "title": "Prompts Perfectos ChatGPT",
+    "section": "",
+    "text": "Sesión 02\nÉtica en el Uso de la A.I."
+  },
+  {
     "objectID": "prompts_chatgpt/presentacion.html#ética-en-el-uso-de-chatgpt",
     "href": "prompts_chatgpt/presentacion.html#ética-en-el-uso-de-chatgpt",
     "title": "Prompts Perfectos ChatGPT",
     "section": "⚖️Ética en el Uso de ChatGPT",
     "text": "⚖️Ética en el Uso de ChatGPT"
+  },
+  {
+    "objectID": "prompts_chatgpt/presentacion.html#section-3",
+    "href": "prompts_chatgpt/presentacion.html#section-3",
+    "title": "Prompts Perfectos ChatGPT",
+    "section": "",
+    "text": "Sesión 02\nConclusiones"
   },
   {
     "objectID": "prompts_chatgpt/presentacion.html#conclusiones",
@@ -448,11 +469,18 @@
     "text": "💻 Tecnología y Productividad"
   },
   {
-    "objectID": "toolkit_google/presentacion.html#qué-es-la-ofimática",
-    "href": "toolkit_google/presentacion.html#qué-es-la-ofimática",
+    "objectID": "toolkit_google/presentacion.html#section",
+    "href": "toolkit_google/presentacion.html#section",
     "title": "Toolkit Básico de Google",
-    "section": "⚙️ Qué es la Ofimática",
-    "text": "⚙️ Qué es la Ofimática\n\n\n\n\n\n\n Las herramientas ofimáticas permiten realizar tareas de productividad, como la creación de documentos, hojas de cálculo, presentaciones y más, facilitando la colaboración y organización en entornos laborales y educativos."
+    "section": "",
+    "text": "Sesión 01\n¿Qué es la Ofimática?"
+  },
+  {
+    "objectID": "toolkit_google/presentacion.html#ofimática",
+    "href": "toolkit_google/presentacion.html#ofimática",
+    "title": "Toolkit Básico de Google",
+    "section": "⚙️ Ofimática",
+    "text": "⚙️ Ofimática\n\n\n\n\n\n\n Las herramientas ofimáticas permiten realizar tareas de productividad, como la creación de documentos, hojas de cálculo, presentaciones y más, facilitando la colaboración y organización en entornos laborales y educativos."
   },
   {
     "objectID": "toolkit_google/presentacion.html#g-suite",
@@ -460,6 +488,13 @@
     "title": "Toolkit Básico de Google",
     "section": "💼 G Suite",
     "text": "💼 G Suite\n\n\n\n \n\n\n Google Workspace (anteriormente G Suite) es un conjunto de herramientas basadas en la nube que permite a los usuarios colaborar en tiempo real a través de aplicaciones como Gmail, Google Docs y Google Drive, mejorando la productividad y el trabajo en equipo."
+  },
+  {
+    "objectID": "toolkit_google/presentacion.html#section-1",
+    "href": "toolkit_google/presentacion.html#section-1",
+    "title": "Toolkit Básico de Google",
+    "section": "",
+    "text": "Sesión 01\nG-Suite: Primeros Pasos"
   },
   {
     "objectID": "toolkit_google/presentacion.html#google-email-gmail",
@@ -516,6 +551,13 @@
     "title": "Toolkit Básico de Google",
     "section": "🐍 Google Colab",
     "text": "🐍 Google Colab\n\n\n\n \n\n\n Google Colab es una plataforma en línea que permite escribir y ejecutar código Python en entornos de notebooks. Es ideal para ciencia de datos, aprendizaje automático y la colaboración en proyectos de programación."
+  },
+  {
+    "objectID": "toolkit_google/presentacion.html#section-2",
+    "href": "toolkit_google/presentacion.html#section-2",
+    "title": "Toolkit Básico de Google",
+    "section": "",
+    "text": "Sesión 01\nConclusiones"
   },
   {
     "objectID": "toolkit_google/presentacion.html#conclusiones",
