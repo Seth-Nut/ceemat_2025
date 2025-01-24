@@ -13,57 +13,36 @@ format:
     logo: images/logo_sn.png
 ---
 
-<style>
-/* Ajusta el tamaño del título y subtítulo */
-.reveal .slides h1 {
-  font-size: 2em; /* Tamaño más pequeño para el título */
-}
+## 🤖 A.I. en el día a día {background-image="images/background.jpg" background-opacity="0.25"}
 
-.reveal .slides h2 {
-  font-size: 1.5em; /* Tamaño más pequeño para el subtítulo */
-}
-</style>
+::: r-stack
+<br>
 
-## Agenda {background-image="images/background.jpg" background-opacity="0.25"}
+![](images/intro_02.jpg){.fragment .fade-in-then-out fig-align="left"}
+
+![](images/intro_03.jpg){.fragment .fade-in-then-out fig-align="center"}
+
+![](images/intro_01.png){.fragment fig-align="right"}
+:::
+
+------------------------------------------------------------------------
+
+## 🎯 Objetivos {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: columns
-::: {.column .incremental width="30%"}
--   
-
--   No
-
--   Nope
-
--   Jamás
-:::
-
-::: {.column .fragment width="70%"}
-<img src="images/neg.png" alt="Tachado" style="width: 50%; height: auto;"/>
+::: {.column width="40%"}
+::: {style="text-align: center;"}
+<img src="images/intro_04.png" alt="Tachado" style="width: 100%; border-radius: 10px;"/>
 :::
 :::
 
-------------------------------------------------------------------------
+::: {.column .incremental width="60%"}
+<br><br>
 
-##  {background-image="images/background.jpg" background-opacity="0.25"}
-
-::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
-::: callout-note
-## Regla de Storytelling #1
-
-Nunca reveles el final antes de tiempo.\
-[Siempre eleva la tensión y el dramatismo]{.fragment}
+-   Introducción a los LLM
+-   **ChatGPT**: Qué es, Prompts, Problemas Comunes, Ética , etc.
+-   Aplicaciones de los LLM
 :::
-:::
-
-------------------------------------------------------------------------
-
-## Agenda (v2) {background-image="images/background.jpg" background-opacity="0.25"}
-
-::: incremental
-1.  Nunca reveles el [final]{style="background-color:black;"}
-2.  Los detalles son importantes, pero [no **todos** los detalles son importantes.]{style="background-color:black;"}
-3.  Tu primera versión será [horrible.]{style="background-color:black;"}
-4.  Muestra, no [cuentes.]{style="background-color:black;"}
 :::
 
 ------------------------------------------------------------------------
@@ -71,575 +50,275 @@ Nunca reveles el final antes de tiempo.\
 ##  {background-image="images/background_slides3.png" background-opacity="0.3"}
 
 ::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
-[Data Storytelling]{style="font-size: 1em"}
+[Sesión 02]{style="font-size: 1em"}
 
-[¿Por qué Data Storytelling?]{style="font-size: 1.5em"}
+[¿ Qué son los LLM ?]{style="font-size: 2em"}
 :::
 
 ------------------------------------------------------------------------
 
-## ¿Qué es el Storytelling? {background-image="images/background.jpg" background-opacity="0.25"}
+## 📖 Large language Model {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: columns
-::: {.column width="50%"}
-![](images/cave.jpg){fig-align="center" width="90%"}
+::: {.column .incremental width="60%"}
+<br>
+
+Los **LLMs** son modelos de lenguaje entrenados con grandes volúmenes de texto para predecir y generar **lenguaje natural**.
+
+Se emplean en **procesamiento de lenguaje**, **chatbots** y **asistentes virtuales**.
 :::
 
-::: {.column .fragment width="50%"}
-![](images/fire.jpg){fig-align="center" width="100%"}
+::: {.column width="40%"}
+::: {style="text-align: center;"}
+<img src="images/llm_01.png" alt="Tachado" style="width: 100%; border-radius: 10px;"/>
 :::
-:::
-
-. . .
-
-::: {style="text-align: center; "}
-🔥 Las **historias** son la primera tecnología humana
-:::
-
-------------------------------------------------------------------------
-
-## Esos cerebros tan hackables... {background-image="images/background.jpg" background-opacity="0.25"}
-
-::: columns
-::: {.column width="50%"}
-![](images/storytelling/sketplanation.png){fig-align="center" width="90%"}\
-*Regla del máximo y final (Peak-End Rule)*
-:::
-
-::: {.column .fragment width="50%"}
-![](images/storytelling/got.jpg){fig-align="center" width="100%"}\
-*Rating de Game of Thrones, por Kelvin Neo*
 :::
 :::
 
 ------------------------------------------------------------------------
 
-## Narrativa {background-image="images/background.jpg" background-opacity="0.25"}
+## 📖 Características LLM {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: columns
-::: {.column width="60%"}
-<br><br> Usar **trucos** de Storytelling (narrativa) para crear presentaciones que serán **recordadas** y que causarán **impacto**
+::: {.column .incremental width="60%"}
+<br>
+
+-   📊 Tamaño masivo
+-   🔄 Capacidades multitarea
+-   📝 Generación de texto coherente
+-   🌐 Uso en múltiples aplicaciones
 :::
 
-::: {.column .fragment width="40%"}
-![](images/emotions.png){fig-align="center"}
+::: {.column width="40%"}
+::: {style="text-align: center;"}
+<img src="images/llm_01.png" alt="Tachado" style="width: 100%; border-radius: 10px;"/>
+:::
 :::
 :::
 
-. . .
+------------------------------------------------------------------------
+
+## ⏳Historia de los LLM {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: r-stack
+<br>
+
+![](images/llm_02.png){.fragment .fade-in-then-out fig-align="left" width="100%"}
+
+![](images/llm_04.png){.fragment fig-align="right"}
+:::
+
+------------------------------------------------------------------------
+
+## 🤖 ¿Qué es ChatGPT? {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: columns
+::: {.column .incremental width="60%"}
+<br><br>
+
+**Modelo de lenguaje** de **OpenAI** basado en **IA**, para **generar texto** y **automatización**.
+
+<br>
+
+**GPT-4** y **GPT-01 (preview)**: modelos **multimodales** para **tareas complejas**.
+:::
+
+::: {.column width="40%"}
+::: {style="text-align: center;"}
+<img src="images/chat_01.png" alt="Tachado" style="width: 100%; border-radius: 10px;"/>
+:::
+:::
+:::
+
+------------------------------------------------------------------------
+
+## 📱¿Qué podemos hacer con ChatGPT? {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: columns
+::: {.column width="40%"}
+::: {style="text-align: center;"}
+<img src="images/chat_02.png" alt="Tachado" style="width: 100%; border-radius: 10px;"/>
+:::
+:::
+
+::: {.column .incremental width="60%"}
+-   **🎓 Educación**: Tutor virtual.
+-   **🩺 Salud**: Asiste en consultas.
+-   **💬 Atención al Cliente**: Respuestas rápidas.\
+-   **📝 Generación de Contenido**: Redacción.\
+-   **💻 Desarrollo de Software**: Genera y corrige código.
+:::
+:::
+
+------------------------------------------------------------------------
+
+## 📝 Prompts en ChatGPT {background-image="images/background.jpg" background-opacity="0.25"}
+
+Los **prompts** son las **instrucciones** que se le dan a un modelo de lenguaje, como **ChatGPT**, para generar una **respuesta** o realizar una **tarea específica**. Pueden ser preguntas, frases o directrices que guían el modelo hacia el resultado deseado.
 
 ::: {style="text-align: center;"}
-🎭 Las **emociones** generan acciones
+<img src="images/pro_01.jpg" alt="Tachado" style="width: 60%; border-radius: 10px;"/>
 :::
 
 ------------------------------------------------------------------------
 
-## El mejor ejemplo {background-image="images/background.jpg" background-opacity="0.25"}
+## 📝 Prompts en ChatGPT {background-image="images/background.jpg" background-opacity="0.25"}
 
-::: columns
-::: {.column .fragment width="30%" fragment-index="1"}
-![](images/storytelling/spotify1.jpeg){fig-align="center"}
-:::
+**Pregunta directa**: "¿Qué es la inteligencia artificial?"
 
-::: {.column .center width="40%"}
-<br><br> ¿Podemos hacer que millones de personas compartan estadísticas en redes sociales?
-:::
+**Instrucción**: "Escribe una historia corta sobre un viaje al espacio."
 
-::: {.column .fragment width="30%" fragment-index="1"}
-![](images/storytelling/spotify2.jpeg){fig-align="center"}
-:::
-:::
-
-------------------------------------------------------------------------
-
-##  {background-image="images/background.jpg" background-opacity="0.25"}
-
-::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
-::: callout-note
-## Regla de Storytelling #2
-
-Los detalles son importantes, [pero no **todos** los detalles son importantes.]{.fragment}
-:::
-:::
-
-------------------------------------------------------------------------
-
-## Ejemplos {background-image="images/background.jpg" background-opacity="0.25"}
-
-::: columns
-::: {.column width="50%"}
-![](images/dst_before.png){fig-align="center"} *🔢 No compartas números*
-:::
-
-::: {.column .fragment width="50%"}
-![](images/dst_after.png){fig-align="center"} *🪶Comparte una historia*
-:::
-:::
-
-. . .
-
-<br><br> [(C) Storytelling with Data, por Cole Nussbaumer Knaflic.]{style="font-size: 0.75em; color: gray"}
-
-------------------------------------------------------------------------
-
-##  {background-image="images/background.jpg" background-opacity="0.25"}
-
-::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
-::: callout-note
-## Regla de Storytelling #3
-
-Tu primera versión **siempre** será horrible.
-:::
-:::
-
-------------------------------------------------------------------------
-
-## Ejemplos {background-image="images/background.jpg" background-opacity="0.25"}
-
-::: columns
-::: {.column width="50%"}
-![](images/gh_before.png){fig-align="center"}
-:::
-
-::: {.column .fragment width="50%"}
-![](images/gh_after.png){fig-align="center"}
-:::
-:::
-
-. . .
+**Comando**: "Genera un código Python para calcular el promedio de una lista."
 
 ::: {style="text-align: center;"}
-🥱 1° versión $<$ ... $<$ 😊 última versión
+<img src="images/pro_01.jpg" alt="Tachado" style="width: 60%; border-radius: 10px;"/>
 :::
 
 ------------------------------------------------------------------------
 
-## Usar chatbots de IA para: {background-image="images/background.jpg" background-opacity="0.25"}
+## ⚠️ Problemas comunes con los LLM {background-image="images/background.jpg" background-opacity="0.25"}
 
-::: columns
-::: {.column width="65%"}
 <br>
 
--   Plantillas personalizadas a medida
--   Automatizar estructura del contenido
--   Ahorro de tiempo en diseño
--   Adaptación al estilo y preferencias
-:::
-
-::: {.column .fragment width="35%"}
-![](images/ai/template.png){fig-align="center"}
-:::
+::: {style="text-align: center;"}
+<img src="images/pro_02.png" alt="Tachado" style="width: 100%; border-radius: 10px;"/>
 :::
 
 ------------------------------------------------------------------------
 
-## Usar chatbots de IA para: {background-image="images/background.jpg" background-opacity="0.25"}
+## ⚠️ Problemas comunes con los LLM {background-image="images/background.jpg" background-opacity="0.25"}
 
-::: columns
-::: {.column width="60%"}
 <br>
 
--   Analogías y ejemplos
--   Mejores traducciones
--   Prompts para crear imágenes
--   No busques imágenes, créalas!
-:::
+| Tipo de Error              | Ejemplo                                                         |
+|----------------------------|-----------------------------------------------------------------|
+| **Información Incorrecta** | Abraham Lincoln fue presidente de Chile                         |
+| **Datos Obsoletos**        | Modelo más reciente de OpenAI es **CHATGPT 3.5**                |
+| **Respuestas Ambiguas**    | La capital de Chile es Santiago y Valparaíso                    |
+| **Sesgo**                  | Los Afroamericanos tienen más probabilidad de cometer un crimen |
 
-::: {.column .fragment width="40%"}
-![](images/ai/choice.jpeg){fig-align="center"}
-:::
+------------------------------------------------------------------------
+
+## ❌ Errores Comunes {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: {style="text-align: center;"}
+<img src="images/pro_03.png" alt="Tachado" style="width: 80%; border-radius: 10px;"/>
 :::
 
 ------------------------------------------------------------------------
 
-##  {background-image="images/background.jpg" background-opacity="0.25"}
+## ✅ Estructura de un Buen Prompts {background-image="images/background.jpg" background-opacity="0.25"}
 
-::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
-::: callout-note
-## Regla de Storytelling #4
-
-[Explicar menos]{style="color: red"} y [mostrar más]{style="color: green"}
-:::
+::: {style="text-align: center;"}
+<img src="images/pro_031.png" alt="Tachado" style="width: 100%; border-radius: 10px;"/>
 :::
 
 ------------------------------------------------------------------------
 
-## [Explicar menos]{style="color: red"} y [mostrar más]{style="color: green"} {background-image="images/background.jpg" background-opacity="0.25"}
+## ❌ Sin estructura {background-image="images/background.jpg" background-opacity="0.25"}
 
-::: columns
-::: {.column width="50%"}
-``` python
-import matplotlib.pyplot as plt
-
-# Datos de ejemplo
-x = [1, 2, 3, 4, 5]
-y = [2, 4, 3, 5, 7]
-
-# Generamos el gráfico
-plt.figure(figsize=(6, 4))
-plt.plot(x, y, marker='o')
-plt.title("Gráfico de Ejemplo")
-plt.xlabel("Eje X")
-plt.ylabel("Eje Y")
-plt.grid(True)
-plt.show()
-```
-:::
-
-::: {.column .fragment width="50%"}
-```{python}
-import matplotlib.pyplot as plt
-
-# Datos de ejemplo
-x = [1, 2, 3, 4, 5]
-y = [2, 4, 3, 5, 7]
-
-# Generamos el gráfico
-plt.figure(figsize=(6, 4))
-plt.plot(x, y, marker='o')
-plt.title("Gráfico de Ejemplo")
-plt.xlabel("Eje X")
-plt.ylabel("Eje Y")
-plt.grid(True)
-plt.show()
-```
-:::
-:::
-
-------------------------------------------------------------------------
-
-## [Explicar menos]{style="color: red"} y [mostrar más]{style="color: green"} {background-image="images/background.jpg" background-opacity="0.25"}
-
-```{pyodide-python}
-import matplotlib.pyplot as plt
-x = [1, 2, 3, 4, 5]
-y = [2, 4, 3, 5, 7]
-plt.figure(figsize=(5, 3))
-plt.plot(x, y, marker='o')
-plt.title("Gráfico de Ejemplo")
-plt.grid(True)
-plt.show()
-```
-
-------------------------------------------------------------------------
-
-## Agenda (v2) {background-image="images/background.jpg" background-opacity="0.25"}
-
-::: incremental
-1.  Nunca reveles el [**final**]{.fragment style="color:grey;"}
-2.  Los detalles son importantes, pero [no **todos** los detalles son importantes]{.fragment style="color:grey;"}
-3.  Tu primera versión será [**horrible**]{.fragment style="color:grey;"}
-4.  Muestra, no [**cuentes**]{.fragment style="color:grey;"}
-:::
-
-::: notes
-Opción 2: Una agenda misteriosa.
-:::
-
-------------------------------------------------------------------------
-
-##  {background-image="images/background_slides3.png" background-opacity="0.3"}
-
-::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
-[Visualización]{style="font-size: 1em"}
-
-[¿Qué es la Visualización?]{style="font-size: 2em"}
-:::
-
-------------------------------------------------------------------------
-
-## Visualización... {background-image="images/background.jpg" background-opacity="0.25"}
-
-::: columns
-::: {.column width="60%"}
 <br>
 
--   Convierte datos en gráficos para facilitar su comprensión.
--   Destaca patrones y tendencias de forma clara.
-:::
-
-::: {.column .fragment width="40%"}
-![](images/viz/ojo.png){fig-align="center"}
-:::
-:::
-
-------------------------------------------------------------------------
-
-## Ejemplos {background-image="images/background.jpg" background-opacity="0.25"}
-
-::: columns
-::: {.column width="50%" style="text-align: center;"}
-![](images/viz/vis_01.png){fig-align="center" width="100%"}
-
-*❌ Mal Gráfico*
-:::
-
-::: {.column .fragment width="50%" style="text-align: center;"}
-![](images/viz/vis_02.png){fig-align="center" width="80%"}
-
-*✅ Buen Gráfico*
-:::
-:::
-
-## Cuarteto de ANSCOMBE {background-image="images/background.jpg" background-opacity="0.25"}
-
-::: columns
-::: {.column width="50%" style="text-align: center;"}
-![](images/viz/canscombe_01.png){fig-align="center" width="80%"}
-:::
-
-::: {.column .fragment width="50%" style="text-align: center;"}
-<br> ![](images/viz/canscombe_02.png){fig-align="center" width="100%"}
-:::
-:::
-
-::: {.fragment style="text-align:center"}
-📋 Tablas vs 📊 Gráficos
-:::
-
-------------------------------------------------------------------------
-
-### Datasaurus {background-image="images/background.jpg" background-size="cover" background-opacity="0.5"}
-
-![](./images/viz/anscombe.gif){width="80%"}
-
-------------------------------------------------------------------------
-
-## Teoría de Visualización {background-image="images/background.jpg" background-opacity="0.25"}
-
-![](images/viz/teoria_vis2.webp){fig-align="center" width="50%"}
-
-------------------------------------------------------------------------
-
-## 4 Pilares Visualización - Noah Iliinsky {background-image="images/background.jpg" background-opacity="0.25"}
-
-::: columns
-::: {.column .fragment width="60%"}
-<br>
-
-1.  **Propósito**: Define la meta.
-2.  **Contenido**: Datos relevantes.
-3.  **Estructura**: Organización clara.
-4.  **Formato**: Gráfico adecuado.
-:::
-
-::: {.column width="40%"}
-![](images/viz/pilar2.png){fig-align="center"}
-:::
-:::
-
-. . .
-
-[(C) Noah Iliinsky: "Four Pillars of Visualization" - Youtube.]{style="font-size: 0.75em; color: gray"}
-
-------------------------------------------------------------------------
-
-## Qué Gráficos son buenos? {background-image="images/background.jpg" background-opacity="0.25"}
-
-::: {style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;"}
-<img src="images/viz/chart_01.png" style="width: 75%; height: auto;"/> <img src="images/viz/chart_04.png" style="width: 75%; height: auto;"/>
-
-<img src="images/viz/chart_03.png" style="width: 75%; height: auto;"/> <img src="images/viz/chart_05.png" style="width: 70%; height: auto;"/>
-
-<img src="images/viz/chart_02.png" style="width: 75%; height: auto;"/> <img src="images/viz/chart_07.png" style="width: 85%; height: auto;"/>
-:::
-
-. . .
-
-[(C) Essential chart types for data visualization, por Atlassian.]{style="font-size: 0.75em; color: gray"}
-
-------------------------------------------------------------------------
-
-##  {background-image="images/background_slides3.png" background-opacity="0.3"}
-
-::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
-[Herramientas]{style="font-size: 1em"}
-
-[Herramientas de Visualización]{style="font-size: 2em"}
-:::
-
-## Herramientas para presentación {background-image="images/background.jpg" background-opacity="0.25"}
-
-::: columns
-::: {.column width="60%"}
--   **Clásica**: PowerPoint
--   **"Show don't tell"**:
-    -   Quarto
-    -   Streamlit
--   **Otros**: Canvas, Revealjs, Prezi
-:::
-
-::: {.column width="40%"}
-![](images/presentacion2.png){fig-align="center"}
-:::
-:::
-
-------------------------------------------------------------------------
-
-## Quarto {background-image="images/background.jpg" background-opacity="0.25"}
-
-::: columns
-::: {.column width="60%"}
-<br>
-
-Un sistema abierto para publicaciones científicas con markdown y código interactivo (Python/R).
-:::
-
-::: {.column width="40%"}
-![](images/quarto/quarto2.png)
-:::
-:::
-
-------------------------------------------------------------------------
-
-##  {background-image="images/background.jpg" background-opacity="0.25"}
-
-::: columns
-::: {.column width="40%"}
-[Código: example.qmd]{style="font-size: 0.5em; color: gray"}
+**Prompt:**
 
 ```         
----
-title: "Habits"
-author: "John Doe"
-format:
-  revealjs:
-    transition: fade
-    theme: black
-    toc: true
-    center: true
----
-
-## Getting up
-
-- Turn off alarm
-- Get out of bed
-
----
-
-## Going to sleep 
-::: { .incremental }
-
-- Get in bed
-- Count sheep
-
-:::
+¿Cómo hacer una receta de pan con queso? 
 ```
-:::
 
-::: {.column width="60%"}
-[Slides: example.html]{style="font-size: 0.5em; color: gray"}
-
-```{=html}
-<iframe width=600 height=400 src="images/quarto/quarto_min.html"></iframe>
-```
-:::
-:::
+> **Problema:** El **prompt** es vago y carece de detalles, lo que puede resultar en respuestas genéricas o imprecisas.
+>
+> Un **prompt más estructurado** proporcionaría ingredientes, cantidades y el tipo de pan o queso que se desea.
 
 ------------------------------------------------------------------------
 
-## Streamlit {background-image="images/background.jpg" background-opacity="0.25"}
-
-::: columns
-::: {.column width="60%"}
-<br><br> Es una herramienta de código abierto que facilita la creación de aplicaciones web interactivas utilizando únicamente Python.
-:::
-
-::: {.column width="40%"}
-<br> ![](./images/streamlit/streamlit.png)
-:::
-:::
-
-------------------------------------------------------------------------
-
-## Streamlit: Ejemplo {background-image="images/background.jpg" background-opacity="0.25"}
-
-::: columns
-::: {.column width="50%"}
-``` python
-import streamlit as st
-
-# Título principal de la aplicación
-st.title("Hola Streamlit")
-
-# Mensaje principal con nombres y emoticón fijos
-mensaje = "Darwin y Patricia son mejores amigos 😊"
-st.write(mensaje)
-
-# Imagen decorativa
-st.image(
-    "https://www.svgrepo.com/show/397758/people-hugging.svg",
-    caption="Amigos",
-    width=200  # Ajuste del tamaño de la imagen
-)
-
-# Footer
-st.markdown(
-    """
-    ---
-    Gracias por usar esta aplicación interactiva 🎈
-    """
-)
-```
-:::
-
-::: {.column .fragment width="50%"}
-![](images/streamlit_example.png){fig-align="center" width="85%"}
-:::
-:::
-
-. . .
-
-::: {style="text-align: center; margin-top: -30px;"}
-[(C) Ejemplo en Streamlit - Playground.](https://streamlit.io/playground?example=geospatial&code=H4sIAAAAAAAAA4VTPY8TMRDt91eMTJOTLsldEDpASnECHTR8SKFDKJo4cxsHr23Z3ts7TunRCfHR0aA0dIgCISH6_BP-APkJjHc3JCcKtpnZGb_n52ePKpz1EUL0hIVWETDwT5bdgGerr7HUFpxXRiqHGqYEGgGdVhKlWn03WYi9qKKmjnhouTXasIi9xDBSU5qgB2kNY4P0ytUwuADLmTUUEie3T1Ve-i1naIAb7iftYmbdaVZeRW7e26CBNBRkAs5pR_NFKlNho5JM3muEbQiBTGq3jOCQWRz5YA1q9YorW8rM2GLi6RCGsCuQzuNYGVfGjnhcL4BDsQ_iPvpKGd6sQQ3-ixok1FOMXkmFjGsUs2_XgIE0yTix5x0xSmk6BUJptgdkmudivfx4lfh-ffr8--e7lK2XH7408c2yie9_iBe1F4_-sYxNqa_ZZRs7h3AqLlsDFmxpmw8WwFaxQ3Pr2UwsVG4DXG60L0S6ruaaWqZ6x-PcU87mlqxdFZhTeh3SeozqDBOkLnYy4E_MYnThbr9fVVUvnDHS2Z60RT_MbNW_eefo6NbtviPrNHVnZZ4rk6dlYr9GS3SRLRqK41paWy0DjaXVZWHGlZrG2fAEdaCm1xQGBwcALHRehkgsTkPEAlffbDsCjeqsPs2JtZF8kl2gfzm1lWmVC1HHbrdbxwfpffNw8bixgvS2Qrw2TKAME6FMLsB6-fb1X5q97A_oi2bFpgMAAA){style="font-size: 0.75em; color: gray"}
-:::
-
-------------------------------------------------------------------------
-
-### Streamlit: Ejemplo
-
-<img src="./images/streamlit/Streamlit-Prophet.gif" style="width:50%;"/>
-
-------------------------------------------------------------------------
-
-## HTML & webapps {background-image="images/background.jpg" background-opacity="0.25"}
-
-::: columns
-::: {.column .fragment width="50%"}
-🛠️ Elige una herramienta
-:::
-
-::: {.column .fragment width="50%"}
-💡 La innovación destaca
-:::
-:::
-
-![](images/tools2.webp){fig-align="center"}
-
-------------------------------------------------------------------------
-
-## Flujo de decisión {background-image="images/background.jpg" background-opacity="0.25"}
+## ✅ Estructurado {background-image="images/background.jpg" background-opacity="0.25"}
 
 <br>
 
-::: incremental
--   🎤 **PowerPoint**: Presentación sin código de un solo uso
--   📚 **Quarto**: Charlas a partir de documentos relacionados
--   💻 **Streamlit**: Presentaciones interactivas (Python)
--   🎨 **Más**: Canvas, Revealjs, Prezi
+**Prompt:**
+
+```         
+Eres un chef experto en panadería. 
+
+Tu tarea es crear una receta de pan con queso que utilice al menos dos tipos de quesos, uno suave y otro maduro, y diferentes harinas como trigo integral y centeno. 
+
+Busca una combinación que sea deliciosa y tenga buena textura.
+
+Este desarrollo se enmarca en la creación de un menú para un bistró que valora opciones artesanales.
+
+Importante: la receta debe ser sencilla de replicar en casa.
+```
+
+------------------------------------------------------------------------
+
+## ✅ Estructurado {background-image="images/background.jpg" background-opacity="0.25"}
+
+<br>
+
+-   🍽️ **Rol**: Eres un chef experto en panadería.
+-   🧀 **Tarea**: Crear una receta de pan con queso. -
+-   🧀🧀 **Detalles específicos**: Utiliza al menos dos tipos de quesos, uno suave y otro maduro, y diferentes harinas como trigo integral y centeno.
+-   🌿 **Contexto**: Este desarrollo se enmarca en la creación de un menú artesanal para un bistró que valora opciones caseras y únicas.
+-   📝 **Notas**: **Importante**: la receta debe ser **sencilla** de replicar en casa.
+
+------------------------------------------------------------------------
+
+## ♟️Técnicas para Mejorar los Prompts {background-image="images/background.jpg" background-opacity="0.25"}
+
+<br>
+
+::: {style="text-align: center;"}
+<img src="images/pro_04.png" alt="Tachado" style="width: 100%; border-radius: 10px;"/>
 :::
 
 ------------------------------------------------------------------------
 
-## Conclusión {background-image="images/background.jpg" background-opacity="0.25"}
+## ♟️Técnicas para Mejorar los Prompts {background-image="images/background.jpg" background-opacity="0.25"}
 
 <br>
 
-::: incremental
--   **📖 Storytelling**: Narrativas que cautivan a través de datos.\
--   **📊 Visualización**: Gráficos claros y atractivos.\
--   **🛠️ Herramientas**: Streamlit, Quarto, y más.
+| **Categoría**     | **Descripción**                                                                                                              |
+|-------------------|------------------------------------------------------------------------------------------------------------------------------|
+| **Prompt**        | Resume el texto que se encuentra entre comillas triples. Aquí está el texto: """ Había una vez un pan que …"""               |
+| **Delimitadores** | Estructura                                                                                                                   |
+| **Ejemplos**      | Dame una receta de pan integral. Ejemplo de formato: """Esta receta tiene 10 ingredientes que son … y se demora x minutos""" |
+| **Secuenciales**  | Dame una receta de pan integral que siga la siguiente estructura: """Paso 1, Paso 2, Paso 3, …."""                           |
+
+------------------------------------------------------------------------
+
+## ⚖️Ética en el Uso de ChatGPT {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: r-stack
+<br>
+
+![](images/pro_05.png){.fragment .fade-in-then-out fig-align="center" width="800"}
+
+![](images/pro_06.png){.fragment fig-align="center" width="800"}
 :::
+
+------------------------------------------------------------------------
+
+## 💡Conclusiones {background-image="images/background.jpg" background-opacity="0.25"}
+
+<br>
+
+-   🤔 **Entender la importancia de los prompts**: Un buen diseño de prompts es clave para obtener respuestas más precisas y útiles al interactuar con modelos de lenguaje como ChatGPT.
+
+-   🌱 **Aplicaciones y uso responsable**: Los modelos de lenguaje tienen un gran potencial, pero es crucial utilizarlos de manera ética y responsable.
+
+-   🚀 **Evolución y futuro de los LLM**: La IA conversacional sigue mejorando, y los avances esperados tendrán un gran impacto en cómo interactuamos con la tecnología en el futuro.
+
+------------------------------------------------------------------------
+
+## 💡 Referencias {background-image="images/background.jpg" background-opacity="0.25"}
+
+-   <img src="images/01_openai.png" width="40"/> **ChatGPT:** IA de [OpenAI](https://openai.com/) para generar texto.
+
+-   <img src="images/02_google.png" width="40"/> **Gemini:** IA de [Google DeepMind](https://www.google.com/search?q=DeepMind) centrada en razonamiento.
+
+-   <img src="images/03_meta.png" width="40"/> **MetaAI:** División de IA de [Meta](https://www.meta.ai/) para mejorar interacciones digitales.
+
+-   <img src="images/04_deep.png" width="40"/> **DeepSeek:** Modelo de razonamiento desarrollado por [DeepSeek](https://chat.deepseek.com/).
 
 ------------------------------------------------------------------------
 
@@ -661,4 +340,34 @@ st.markdown(
 :::
 :::
 
-> 🔗 Nuestro Sitio Web: [seth-nut.github.io/resources](https://seth-nut.github.io/resources/).
+> 🔗 Nuestro Sitio Web: [sethnut.com/resources/](https://seth-nut.github.io/resources/).
+
+```{=html}
+<style>
+/* Ajusta el tamaño del título y subtítulo */
+.reveal .slides h1 {
+  font-size: 2em; /* Tamaño más pequeño para el título */
+}
+
+.reveal .slides h2 {
+  font-size: 1.5em; /* Tamaño más pequeño para el subtítulo */
+}
+
+/* Ajusta el tamaño del texto en los párrafos */
+.reveal .slides p {
+  font-size: 0.8em; /* Texto más pequeño */
+}
+
+/* Ajusta el tamaño de las tablas */
+.reveal .slides table {
+  font-size: 0.8em; /* Tamaño de fuente más pequeño en las tablas */
+  width: 90%; /* Ajusta el ancho de la tabla */
+  margin: 0 auto; /* Centra la tabla */
+}
+
+/* Ajusta el tamaño de los bullets */
+.reveal .slides ul {
+  font-size: 0.8em; /* Tamaño de fuente más pequeño en los bullets */
+}
+</style>
+```

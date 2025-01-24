@@ -5,30 +5,24 @@ output: html_document
 
 ## Información General
 
-- **Nombre completo:** Francisco Alfaro & Valeska Canales  
-- **Área de especialización:** Estadística, Machine Learning, Inteligencia Artificial  
-- **Cantidad de sesiones a realizar:** 4 sesiones de 1 hora  
+-   **Nombre completo:** Francisco Alfaro & Valeska Canales\
+-   **Área de especialización:** Estadística, Machine Learning, Inteligencia Artificial\
+-   **Cantidad de sesiones a realizar:** 4 sesiones de 1 hora
 
-## Breve Descripción 
+## Breve Descripción
 
 Este mini curso está diseñado para introducir a los/as estudiantes en el uso de herramientas digitales y técnicas de inteligencia artificial para la comunicación efectiva en un entorno académico y profesional. A través de 4 sesiones prácticas y dinámicas, aprenderán a utilizar herramientas esenciales, desarrollar prompts efectivos para ChatGPT, mejorar sus habilidades de comunicación en el ámbito universitario y explorar los fundamentos del Data Storytelling para transmitir ideas complejas de manera clara y visual.
 
-## Prerrequisitos 
+## Prerrequisitos
 
 No se requieren conocimientos previos en programación o herramientas avanzadas. Solo se necesita entusiasmo por aprender y explorar nuevas formas de trabajar con datos y tecnología.
 
-
 ## Sesiones
 
+-   🎤 [**Toolkit Básico de Google**](toolkit_google/presentacion.html) - Aprende a utilizar herramientas esenciales de Google (Docs, Sheets, Slides, Colab y Drive) para optimizar la colaboración y la productividad académica. Descubre trucos y funcionalidades avanzadas para mejorar tu trabajo diario.
 
-- 🎤 [**Toolkit Básico de Google**](toolkit_google/presentacion.html) - Aprende a utilizar herramientas esenciales de Google (Docs, Sheets, Slides, Colab y Drive) para optimizar la colaboración y la productividad académica. Descubre trucos y funcionalidades avanzadas para mejorar tu trabajo diario.  
+-   🎤 [**Prompts Perfectos en ChatGPT**](prompts_chatgpt/presentacion.html) - Diseña preguntas y comandos efectivos para interactuar con herramientas de inteligencia artificial como ChatGPT. Aprende a estructurar prompts que resuelvan problemas académicos, generen ideas y mejoren tus resultados de manera precisa y ética.
 
+-   🎤 [**Leer, Escribir y Hablar en la Universidad**](comunicacion_universidad/presentacion.html) - Mejora tus habilidades de comunicación académica con técnicas para leer críticamente, redactar ensayos efectivos y organizar presentaciones orales de impacto. Descubre cómo la inteligencia artificial puede apoyarte en cada paso del proceso.
 
-- 🎤 [**Prompts Perfectos en ChatGPT**](prompts_chatgpt/presentacion.html) - Diseña preguntas y comandos efectivos para interactuar con herramientas de inteligencia artificial como ChatGPT. Aprende a estructurar prompts que resuelvan problemas académicos, generen ideas y mejoren tus resultados de manera precisa y ética.  
-
-
-- 🎤 [**Leer, Escribir y Hablar en la Universidad**](comunicacion_universidad/presentacion.html) - Mejora tus habilidades de comunicación académica con técnicas para leer críticamente, redactar ensayos efectivos y organizar presentaciones orales de impacto. Descubre cómo la inteligencia artificial puede apoyarte en cada paso del proceso.  
-
-
-- 🎤 [**A.I + Data Storytelling**](datastorytelling/presentacion.html) - Esta presentación te enseñará a transformar datos en historias visuales interactivas usando A.I y otras herramientas. Descubre cómo crear presentaciones dinámicas e impactantes que cautiven a tu audiencia.   - 🎤 
-
+-   🎤 [**A.I + Data Storytelling**](datastorytelling/presentacion.html) - Esta presentación te enseñará a transformar datos en historias visuales interactivas usando A.I y otras herramientas. Descubre cómo crear presentaciones dinámicas e impactantes que cautiven a tu audiencia. - 🎤

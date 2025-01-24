@@ -29,12 +29,12 @@ website:
             href: comunicacion_universidad/presentacion.html
           - text: Sesión 4
             href: datastorytelling/presentacion.html
-      - text: Encuesta
+      - text: Encuestas
         menu:
-          - text: Encuesta 1
-            href: https://www.google.cl/
-          - text: Encuesta 2
-            href: https://www.google.cl/
+          - text: Encuesta Inicio 
+            href: https://docs.google.com/forms/d/e/1FAIpQLScY1rNqO00NAhfliGGkJow1R1H9e2d0IyOycrkIgqhGmkGxZw/viewform?usp=sharing
+          - text: Encuesta Final
+            href: https://docs.google.com/forms/d/e/1FAIpQLSfEMhhsyxhxVsKUdm7JKw7hH71Cl8_8cvWn86p_y39BGMCwfg/viewform?usp=sharing
 
     right:
       - icon: github

@@ -13,6 +13,7 @@ format:
     logo: images/logo_sn.png
 ---
 
+```{=html}
 <style>
 /* Ajusta el tamaño del título y subtítulo */
 .reveal .slides h1 {
@@ -23,7 +24,7 @@ format:
   font-size: 1.5em; /* Tamaño más pequeño para el subtítulo */
 }
 </style>
-
+```
 
 ## Agenda {background-image="images/background.jpg" background-opacity="0.25"}
 
