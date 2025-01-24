@@ -141,7 +141,11 @@ Se emplean en **procesamiento de lenguaje**, **chatbots** y **asistentes virtual
 :::
 :::
 
+
 ::: {.column .incremental width="60%"}
+
+<br>
+
 -   **🎓 Educación**: Tutor virtual.
 -   **🩺 Salud**: Asiste en consultas.
 -   **💬 Atención al Cliente**: Respuestas rápidas.\
@@ -151,6 +155,17 @@ Se emplean en **procesamiento de lenguaje**, **chatbots** y **asistentes virtual
 :::
 
 ------------------------------------------------------------------------
+
+##  {background-image="images/background_slides3.png" background-opacity="0.3"}
+
+::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
+[Sesión 02]{style="font-size: 1em"}
+
+[¿Qué son los Prompts?]{style="font-size: 1.5em"}
+:::
+
+------------------------------------------------------------------------
+
 
 ## 📝 Prompts en ChatGPT {background-image="images/background.jpg" background-opacity="0.25"}
 
@@ -286,6 +301,17 @@ Importante: la receta debe ser sencilla de replicar en casa.
 
 ------------------------------------------------------------------------
 
+
+##  {background-image="images/background_slides3.png" background-opacity="0.3"}
+
+::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
+[Sesión 02]{style="font-size: 1em"}
+
+[Ética en el Uso de la A.I.]{style="font-size: 1.5em"}
+:::
+
+------------------------------------------------------------------------
+
 ## ⚖️Ética en el Uso de ChatGPT {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: r-stack
@@ -297,6 +323,17 @@ Importante: la receta debe ser sencilla de replicar en casa.
 :::
 
 ------------------------------------------------------------------------
+
+##  {background-image="images/background_slides3.png" background-opacity="0.3"}
+
+::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
+[Sesión 02]{style="font-size: 1em"}
+
+[Conclusiones]{style="font-size: 1.5em"}
+:::
+
+------------------------------------------------------------------------
+
 
 ## 💡Conclusiones {background-image="images/background.jpg" background-opacity="0.25"}
 
