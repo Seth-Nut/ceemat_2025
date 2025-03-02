@@ -4,7 +4,7 @@ subtitle: "Sesión 3"
 author: 
   - Francisco Alfaro
   - Valeska Canales
-date: 15 Apr 2025
+date: 25 mar 2025
 format: 
   revealjs:
     transition: slide
@@ -13,8 +13,7 @@ format:
     logo: images/logo_sn.png
 ---
 
-
-## 🎓 Retos Universitarios{background-image="images/background.jpg" background-opacity="0.25"}
+## 🎓 Retos Universitarios {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: r-stack
 <br>
@@ -28,24 +27,21 @@ format:
 
 ------------------------------------------------------------------------
 
-
-## 🎯 Objetivos  {background-image="images/background.jpg" background-opacity="0.25"}
+## 🎯 Objetivos {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: columns
 ::: {.column width="40%"}
-
 ::: {style="text-align: center;"}
 <img src="images/tools.png" alt="Motivación" style="width: 100%; border-radius: 10px;"/>
 :::
-
 :::
 
 ::: {.column .incremental width="60%"}
 <br>
 
-- Enfrentando los desafíos académicos: leer, escribir y hablar.
-- Importancia de dominar estas habilidades en la universidad.
-- Estrategias clave para mejorar la comprensión y expresión académica.
+-   Enfrentando los desafíos académicos: leer, escribir y hablar.
+-   Importancia de dominar estas habilidades en la universidad.
+-   Estrategias clave para mejorar la comprensión y expresión académica.
 :::
 :::
 
@@ -59,179 +55,158 @@ format:
 [**Leer**: Abordando Textos Complejos]{style="font-size: 1.5em"}
 :::
 
-
 ------------------------------------------------------------------------
-
-
-
 
 ## 📚 Lectura Académica
 
 ::: columns
 ::: {.column width="40%"}
-
 ::: {style="text-align: center;"}
 <img src="images/read_01.png" alt="Lectura" style="width: 100%; border-radius: 10px;"/>
 :::
-
 :::
 
 ::: {.column .incremental width="60%"}
-
 <br>
 
-- Los textos académicos son complejos y están escritos para especialistas.
-- Artículos y capítulos teóricos son comunes en la universidad.
-- Herramientas clave: preparar, abordar y resumir la lectura.
+-   Los textos académicos son complejos y están escritos para especialistas.
+-   Artículos y capítulos teóricos son comunes en la universidad.
+-   Herramientas clave: preparar, abordar y resumir la lectura.
 :::
 :::
-
----
-Aquí tienes una versión aún más resumida:
-
----
 
 ## 📝 Cómo Hacer una Ficha de Lectura
 
 ::: columns
 ::: {.column width="40%"}
-
 ::: {style="text-align: center;"}
-<br>
-<img src="images/read_01.png" alt="Ficha de Lectura" style="width: 100%; border-radius: 10px;"/>
+<br> <img src="images/read_01.png" alt="Ficha de Lectura" style="width: 100%; border-radius: 10px;"/>
 :::
-
 :::
 
 ::: {.column .incremental width="60%"}
-
 <br>
 
-- **Propósito**:
-  -  Determina el objetivo de tu lectura.
-- **Estructura**:
-  - Referencia bibliográfica (ej. formato APA).
-  - Resumen del contenido según tu propósito.
-  - Citas textuales (si es necesario).
-- **Consejos**:
-  - Personaliza para tu uso o académico.
-  - Incluye tus propias palabras clave.
+-   **Propósito**:
+    -   Determina el objetivo de tu lectura.
+-   **Estructura**:
+    -   Referencia bibliográfica (ej. formato APA).
+    -   Resumen del contenido según tu propósito.
+    -   Citas textuales (si es necesario).
+-   **Consejos**:
+    -   Personaliza para tu uso o académico.
+    -   Incluye tus propias palabras clave.
 :::
 :::
-
-
 
 ## 📚 Cómo Compilar y Organizar Lecturas
 
 ::: columns
 ::: {.column width="40%"}
-
 ::: {style="text-align: center;"}
-<br>
-<img src="images/read_01.png" alt="Organizar Lecturas" style="width: 100%; border-radius: 10px;"/>
+<br> <img src="images/read_01.png" alt="Organizar Lecturas" style="width: 100%; border-radius: 10px;"/>
 :::
-
 :::
 
 ::: {.column .incremental width="60%"}
-
 <br>
 
-- **Compilar**: 
-  - Resumir y agrupar lecturas para fácil acceso.
-- **Estrategias**:
-  - Escribe resúmenes después de cada lectura.
-  - Usa etiquetas o palabras clave para organizar.
-  - Anota la referencia bibliográfica de cada texto.
-- **Beneficios**: 
-  - Ahorra tiempo y previene el plagio.
+-   **Compilar**:
+    -   Resumir y agrupar lecturas para fácil acceso.
+-   **Estrategias**:
+    -   Escribe resúmenes después de cada lectura.
+    -   Usa etiquetas o palabras clave para organizar.
+    -   Anota la referencia bibliográfica de cada texto.
+-   **Beneficios**:
+    -   Ahorra tiempo y previene el plagio.
 :::
 :::
-
 
 ## 🗺️ Cómo Hacer un Mapa Conceptual
 
 ::: columns
 ::: {.column width="40%"}
-
 ::: {style="text-align: center;"}
-<br>
-<img src="images/read_01.png" alt="Mapa Conceptual" style="width: 100%; border-radius: 10px;"/>
+<br> <img src="images/read_01.png" alt="Mapa Conceptual" style="width: 100%; border-radius: 10px;"/>
 :::
-
 :::
 
 ::: {.column .incremental width="60%"}
-
 <br>
 
-- **Definir una pregunta de lectura** para enfocar el mapa.
-- **Identificar conceptos clave** (15-25 conceptos).
-- **Establecer relaciones** entre conceptos usando conectores.
-- **Revisar**: El mapa responde a la pregunta planteada y tiene relaciones claras.
+-   **Definir una pregunta de lectura** para enfocar el mapa.
+-   **Identificar conceptos clave** (15-25 conceptos).
+-   **Establecer relaciones** entre conceptos usando conectores.
+-   **Revisar**: El mapa responde a la pregunta planteada y tiene relaciones claras.
 :::
 :::
 
-
-
----
+------------------------------------------------------------------------
 
 ## 📖 Cómo Escribir una Bibliografía
 
 ::: columns
 ::: {.column width="40%"}
-
 ::: {style="text-align: center;"}
-<br>
-<img src="images/read_01.png" alt="Bibliografía Anotada" style="width: 100%; border-radius: 10px;"/>
+<br> <img src="images/read_01.png" alt="Bibliografía Anotada" style="width: 100%; border-radius: 10px;"/>
 :::
-
 :::
 
 ::: {.column .incremental width="60%"}
-
 <br>
 
-- **Propósito**: 
-  - Listar y detallar fuentes relevantes para una investigación.
-- **Estructura**:
-  - Presentación del tema y pregunta de investigación.
-  - Referencia bibliográfica y resumen breve.
-  - Ideas clave y aporte para tu investigación.
-- **Consejos**:
-  - Organiza el tiempo y usa buscadores académicos.
-  - Escribe y revisa resúmenes después de leer.
+-   **Propósito**:
+    -   Listar y detallar fuentes relevantes para una investigación.
+-   **Estructura**:
+    -   Presentación del tema y pregunta de investigación.
+    -   Referencia bibliográfica y resumen breve.
+    -   Ideas clave y aporte para tu investigación.
+-   **Consejos**:
+    -   Organiza el tiempo y usa buscadores académicos.
+    -   Escribe y revisa resúmenes después de leer.
 :::
 :::
 
+------------------------------------------------------------------------
 
----
-
-## ✨ Cómo Subrayar  un Texto
+## ✨ Cómo Subrayar un Texto
 
 ::: columns
 ::: {.column width="40%"}
-
 ::: {style="text-align: center;"}
-
-<br>
-<img src="images/read_01.png" alt="Subrayar" style="width: 100%; border-radius: 10px;"/>
+<br> <img src="images/read_01.png" alt="Subrayar" style="width: 100%; border-radius: 10px;"/>
 :::
-
 :::
 
 ::: {.column .incremental width="60%"}
+-   **Estrategias**:
+    -   Define el propósito de la lectura antes de destacar.
+    -   Realiza una primera lectura panorámica para identificar ideas clave.
+    -   Limita el destaque al 20% del texto y usa colores con un propósito claro.
+-   **Reglas**:
+    -   **Omitir**: Elimina información irrelevante.
+    -   **Seleccionar**: Destaca lo necesario.
+    -   **Generalizar**: Agrupa ideas comunes.
+    -   **Integrar**: Conecta ideas de diferentes partes.
+:::
+:::
 
+------------------------------------------------------------------------
 
-- **Estrategias**: 
-  - Define el propósito de la lectura antes de destacar.
-  - Realiza una primera lectura panorámica para identificar ideas clave.
-  - Limita el destaque al 20% del texto y usa colores con un propósito claro.
-- **Reglas**:
-  - **Omitir**: Elimina información irrelevante.
-  - **Seleccionar**: Destaca lo necesario.
-  - **Generalizar**: Agrupa ideas comunes.
-  - **Integrar**: Conecta ideas de diferentes partes.
+## 📚 Ejemplo Práctico
+
+::: columns
+::: {.column width="40%"}
+::: {style="text-align: center;"}
+<img src="images/read_01.png" alt="Subrayar" style="width: 100%; border-radius: 10px;"/>
+:::
+:::
+
+::: {.column width="60%"}
+<br><br><br>
+
+-   🔗 **Explora el siguiente ejemplo aquí:**
+    -   👉 [📂 Acceder al ejemplo](https://drive.google.com/drive/folders/1b9_syTDMoH4IkDWWbCkhEn-R7k8xCg2t?usp=drive_link)\
 :::
 :::
 
@@ -247,85 +222,90 @@ Aquí tienes una versión aún más resumida:
 
 ------------------------------------------------------------------------
 
-
-
-## ✍️  Escritura Académica
+## ✍️ Escritura Académica
 
 ::: columns
 ::: {.column width="40%"}
-
 ::: {style="text-align: center;"}
 <img src="images/write_01.png" alt="Escribir" style="width: 100%; border-radius: 10px;"/>
 :::
-
 :::
 
 ::: {.column .incremental width="60%"}
-
 <br>
 
-- **Preparar**: Lluvias de ideas y planificación antes de escribir.
-- **Abordar**: Redacta borradores, integra fuentes y organiza ideas.
-- **Revisar**: Reflexiona, ajusta y mejora tu texto en múltiples rondas.
+-   **Preparar**: Lluvias de ideas y planificación antes de escribir.
+-   **Abordar**: Redacta borradores, integra fuentes y organiza ideas.
+-   **Revisar**: Reflexiona, ajusta y mejora tu texto en múltiples rondas.
 :::
 :::
 
----
+------------------------------------------------------------------------
 
 ## 🔍 Delimitar un Tema de Investigación
 
 ::: columns
 ::: {.column width="40%"}
-
 ::: {style="text-align: center;"}
 <img src="images/write_01.png" alt="Delimitar Tema" style="width: 100%; border-radius: 10px;"/>
 :::
-
 :::
 
 ::: {.column .incremental width="60%"}
-
 <br>
 
-- **Infórmate**: Conoce el tema general y su relevancia.
-- **Define el objetivo**: Alinea la delimitación con el propósito de la investigación.
-- **Preguntas clave**:
-  - ¿Qué aspecto específico me interesa?
-  - ¿En qué contexto voy a investigar?
-- **Verifica**: Asegúrate de que el tema es realista y ajustado a tus recursos.
+-   **Infórmate**: Conoce el tema general y su relevancia.
+-   **Define el objetivo**: Alinea la delimitación con el propósito de la investigación.
+-   **Preguntas clave**:
+    -   ¿Qué aspecto específico me interesa?
+    -   ¿En qué contexto voy a investigar?
+-   **Verifica**: Asegúrate de que el tema es realista y ajustado a tus recursos.
 :::
 :::
 
----
-
-
+------------------------------------------------------------------------
 
 ## 📝 Cómo Escribir un Informe
 
 ::: columns
 ::: {.column width="40%"}
-
 ::: {style="text-align: center;"}
 <img src="images/write_01.png" alt="Escribir Informe" style="width: 100%; border-radius: 10px;"/>
 :::
-
 :::
 
 ::: {.column .incremental width="60%"}
-
 <br>
 
-- **Qué es un informe**: Texto que reporta información y conclusiones sobre un tema.
-- **Estrategias**:
-  - **Planificar**: Definir el tema, evidencia y objetivos.
-  - **Escribir**: Organizar con subtítulos, citas y gráficos.
-  - **Revisar**: Verificar coherencia, claridad y conclusiones.
-- **Estructura típica**: Introducción, desarrollo (cuerpo) y conclusiones.
+-   **Qué es un informe**: Texto que reporta información y conclusiones sobre un tema.
+-   **Estrategias**:
+    -   **Planificar**: Definir el tema, evidencia y objetivos.
+    -   **Escribir**: Organizar con subtítulos, citas y gráficos.
+    -   **Revisar**: Verificar coherencia, claridad y conclusiones.
+-   **Estructura típica**: Introducción, desarrollo (cuerpo) y conclusiones.
 :::
 :::
 
----
+------------------------------------------------------------------------
 
+## 📚 Ejemplo Práctico
+
+::: columns
+::: {.column width="40%"}
+::: {style="text-align: center;"}
+<img src="images/write_01.png" alt="Subrayar" style="width: 100%; border-radius: 10px;"/>
+:::
+:::
+
+::: {.column width="60%"}
+<br><br><br>
+
+-   🔗 **Explora el siguiente ejemplo aquí:**
+    -   👉 [📂 Acceder al ejemplo](https://drive.google.com/drive/folders/1b9_syTDMoH4IkDWWbCkhEn-R7k8xCg2t?usp=drive_link)\
+:::
+:::
+
+------------------------------------------------------------------------
 
 ##  {background-image="images/background_slides3.png" background-opacity="0.3"}
 
@@ -335,112 +315,123 @@ Aquí tienes una versión aún más resumida:
 [**Hablar**: Dominando Presentaciones Orales]{style="font-size: 1.5em"}
 :::
 
-
-
----
+------------------------------------------------------------------------
 
 ## 🗣️ Enfrentando Presentaciones Orales
 
 ::: columns
 ::: {.column width="40%"}
-
 ::: {style="text-align: center;"}
 <img src="images/speak_01.png" alt="Presentación Oral" style="width: 100%; border-radius: 10px;"/>
 :::
-
 :::
 
 ::: {.column .incremental width="60%"}
-
 <br>
 
-- **Preparar**: Organiza el contenido y define objetivos claros.
-- **Diseñar**: Estructura la presentación con apoyo visual y contenido relevante.
-- **Ensayar**: Practica para ganar confianza y mejorar el control del espacio y la gestualidad.
+-   **Preparar**: Organiza el contenido y define objetivos claros.
+-   **Diseñar**: Estructura la presentación con apoyo visual y contenido relevante.
+-   **Ensayar**: Practica para ganar confianza y mejorar el control del espacio y la gestualidad.
 :::
 :::
 
----
-
-
+------------------------------------------------------------------------
 
 ## 🗣️ Cómo Comunicar con la Voz
 
 ::: columns
 ::: {.column width="40%"}
-
 ::: {style="text-align: center;"}
 <img src="images/speak_01.png" alt="Comunicar con la Voz" style="width: 100%; border-radius: 10px;"/>
 :::
-
 :::
 
 ::: {.column .incremental width="60%"}
-
-<br>
-
-- **Volumen**: Asegúrate de que todos te escuchen, practica la capacidad de aire.
-- **Entonación**: Varía el tono para mantener el interés y claridad.
-- **Articulación**: Habla de forma clara, sin muletillas.
-- **Velocidad**: Controla el ritmo para evitar hablar demasiado rápido o lento.
-- **Otros Consejos**: Usa silencios estratégicos y evita las muletillas.
+-   **Volumen**: Asegúrate de que todos te escuchen, practica la capacidad de aire.
+-   **Entonación**: Varía el tono para mantener el interés y claridad.
+-   **Articulación**: Habla de forma clara, sin muletillas.
+-   **Velocidad**: Controla el ritmo para evitar hablar demasiado rápido o lento.
+-   **Otros Consejos**: Usa silencios estratégicos y evita las muletillas.
 :::
 :::
 
-
----
+------------------------------------------------------------------------
 
 ## 🧑‍🏫 Cómo Comunicar con el Cuerpo
 
 ::: columns
 ::: {.column width="40%"}
-
 ::: {style="text-align: center;"}
 <img src="images/speak_01.png" alt="Comunicar con el Cuerpo" style="width: 100%; border-radius: 10px;"/>
 :::
-
 :::
 
 ::: {.column .incremental width="60%"}
-
 <br>
 
-- **Postura**: Mantén una postura erguida y relajada, ya sea sentado o de pie.
-- **Movimientos**: Usa movimientos controlados y naturales, sin distracciones.
-- **Contacto visual**: Mantén contacto visual con la audiencia para transmitir seguridad.
-- **Vestimenta**: Viste de manera adecuada para transmitir confianza.
+-   **Postura**: Mantén una postura erguida y relajada, ya sea sentado o de pie.
+-   **Movimientos**: Usa movimientos controlados y naturales, sin distracciones.
+-   **Contacto visual**: Mantén contacto visual con la audiencia para transmitir seguridad.
+-   **Vestimenta**: Viste de manera adecuada para transmitir confianza.
 :::
 :::
 
-
----
+------------------------------------------------------------------------
 
 ## 🎬 Cómo Usar un Material de Apoyo
 
 ::: columns
 ::: {.column width="40%"}
-
 ::: {style="text-align: center;"}
 <img src="images/speak_01.png" alt="Material de Apoyo" style="width: 100%; border-radius: 10px;"/>
 :::
-
 :::
 
 ::: {.column .incremental width="60%"}
-
-
-- **Función**: 
-  - Enriquecer el mensaje, visualizando conceptos y datos.
-- **Consejos**:
-  - **Planificación**: Asegura que el material complemente la presentación.
-  - **Desarrollo**: Usa recursos clave, evita texto innecesario y asegura visibilidad.
-  - **Uso**: Evita leer el material, mantén contacto visual con la audiencia.
-- **Estrategias**:
-  -  Usa transiciones claras, simplifica ideas y considera el entorno.
+-   **Función**:
+    -   Enriquecer el mensaje, visualizando conceptos y datos.
+-   **Consejos**:
+    -   **Planificación**: Asegura que el material complemente la presentación.
+    -   **Desarrollo**: Usa recursos clave, evita texto innecesario y asegura visibilidad.
+    -   **Uso**: Evita leer el material, mantén contacto visual con la audiencia.
+-   **Estrategias**:
+    -   Usa transiciones claras, simplifica ideas y considera el entorno.
 :::
 :::
 
----
+------------------------------------------------------------------------
+
+## 📚 Ejemplo Práctico
+
+::: columns
+::: {.column width="40%"}
+::: {style="text-align: center;"}
+<img src="images/speak_01.png" alt="Subrayar" style="width: 100%; border-radius: 10px;"/>
+:::
+:::
+
+::: {.column width="60%"}
+<br><br><br>
+
+-   🔗 **Explora el siguiente ejemplo aquí:**
+    -   👉 [📂 Acceder al ejemplo](https://drive.google.com/drive/folders/1b9_syTDMoH4IkDWWbCkhEn-R7k8xCg2t?usp=drive_link)\
+:::
+:::
+
+------------------------------------------------------------------------
+
+## 📌 Actividad {background-image="images/background.jpg" background-opacity="0.25"}
+
+<br>
+
+1.  📂 **Clonar el Google Drive**:
+    -   Accede al siguiente enlace y copia la carpeta en tu propio Google Drive:
+        -   [Google Drive - Actividad](https://drive.google.com/drive/folders/1DMiJvTLyvfglsSflqxl-vjqu8skScQSQ)
+2.  📝 **Resolver la actividad**:
+    -   Abre el archivo **actividad_03.doc** dentro de la carpeta clonada.\
+    -   Sigue las instrucciones dentro del documento y completa los ejercicios.
+
+------------------------------------------------------------------------
 
 ##  {background-image="images/background_slides3.png" background-opacity="0.3"}
 
@@ -450,10 +441,7 @@ Aquí tienes una versión aún más resumida:
 [Conclusiones]{style="font-size: 1.5em"}
 :::
 
-
 ------------------------------------------------------------------------
-
-
 
 ## 💡 Conclusiones {background-image="images/background.jpg" background-opacity="0.25"}
 
@@ -467,7 +455,17 @@ Aquí tienes una versión aún más resumida:
 
 -   🚀 **Práctica continua**: La mejora constante en estas áreas es clave para el éxito académico y profesional.
 
+------------------------------------------------------------------------
 
+## 💡 Referencias {background-image="images/background.jpg" background-opacity="0.25"}
+
+<br>
+
+-   📚 **Lectura**: [Utilizar estrategias como fichas y mapas conceptuales mejora la comprensión de textos complejos.](https://aprendizaje.uchile.cl/recursos-para-leer-escribir-y-hablar-en-la-universidad/leer/)
+
+-   ✍️ **Escritura**: [Planificación, enfoque y revisión son esenciales para textos bien estructurados.](https://aprendizaje.uchile.cl/recursos-para-leer-escribir-y-hablar-en-la-universidad/escribir/)
+
+-   🗣️ **Presentación**: [Voz, cuerpo y materiales de apoyo deben trabajar juntos para transmitir el mensaje con claridad.](https://aprendizaje.uchile.cl/recursos-para-leer-escribir-y-hablar-en-la-universidad/hablar/)
 
 ------------------------------------------------------------------------
 
@@ -491,10 +489,7 @@ Aquí tienes una versión aún más resumida:
 
 > 🔗 Nuestro Sitio Web: [sethnut.com/resources/](https://seth-nut.github.io/resources/).
 
-
-
-
-
+```{=html}
 <style>
 /* Ajusta el tamaño del título y subtítulo */
 .reveal .slides h1 {
@@ -522,3 +517,4 @@ Aquí tienes una versión aún más resumida:
   font-size: 0.8em; /* Tamaño de fuente más pequeño en los bullets */
 }
 </style>
+```

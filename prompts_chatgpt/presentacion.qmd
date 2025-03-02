@@ -4,7 +4,7 @@ subtitle: "Sesión 2"
 author: 
   - Francisco Alfaro
   - Valeska Canales
-date: 08 Apr 2025
+date: 20 mar 2025
 format: 
   revealjs:
     transition: slide
@@ -101,31 +101,43 @@ Se emplean en **procesamiento de lenguaje**, **chatbots** y **asistentes virtual
 ## ⏳Historia de los LLM {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: r-stack
-<br>
-
-![](images/llm_02.png){.fragment .fade-in-then-out fig-align="left" width="100%"}
+s ![](images/llm_05.png){.fragment .fade-in-then-out fig-align="left" width="100%"}
 
 ![](images/llm_04.png){.fragment fig-align="right"}
 :::
 
 ------------------------------------------------------------------------
 
-## 🤖 ¿Qué es ChatGPT? {background-image="images/background.jpg" background-opacity="0.25"}
+## 🤖 Asistentes Virtuales Inteligentes {background-image="images/background.jpg" background-opacity="0.25"}
+
+<br><br>
+
+Los **asistentes virtuales** impulsados por **IA** facilitan la comunicación, automatización y soporte en diversas industrias.
+
+::: {style="text-align: center;"}
+<img src="images/chat_013.png" alt="Tachado" style="width: 30%; border-radius: 10px;"/>
+:::
+
+------------------------------------------------------------------------
+
+## 🤖 Asistentes Virtuales Inteligentes {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: columns
 ::: {.column .incremental width="60%"}
 <br><br>
 
-**Modelo de lenguaje** de **OpenAI** basado en **IA**, para **generar texto** y **automatización**.
+**Asistentes más destacados**:
 
-<br>
-
-**GPT-4** y **GPT-01 (preview)**: modelos **multimodales** para **tareas complejas**.
+-   [ChatGPT (OpenAI)](https://openai.com/chatgpt/)
+-   [Gemini (Google DeepMind)](https://deepmind.google/gemini/)
+-   [Meta AI (Meta)](https://ai.meta.com/)
+-   [DeepSeek (DeepSeek)](https://chat.deepseek.com/)
 :::
 
 ::: {.column width="40%"}
 ::: {style="text-align: center;"}
-<img src="images/chat_01.png" alt="Tachado" style="width: 100%; border-radius: 10px;"/>
+<br>
+<img src="images/chat_013.png" alt="Asistentes Virtuales" style="width: 100%; border-radius: 10px;"/>
 :::
 :::
 :::
@@ -141,9 +153,7 @@ Se emplean en **procesamiento de lenguaje**, **chatbots** y **asistentes virtual
 :::
 :::
 
-
 ::: {.column .incremental width="60%"}
-
 <br>
 
 -   **🎓 Educación**: Tutor virtual.
@@ -165,7 +175,6 @@ Se emplean en **procesamiento de lenguaje**, **chatbots** y **asistentes virtual
 :::
 
 ------------------------------------------------------------------------
-
 
 ## 📝 Prompts en ChatGPT {background-image="images/background.jpg" background-opacity="0.25"}
 
@@ -211,14 +220,6 @@ Los **prompts** son las **instrucciones** que se le dan a un modelo de lenguaje,
 | **Datos Obsoletos**        | Modelo más reciente de OpenAI es **CHATGPT 3.5**                |
 | **Respuestas Ambiguas**    | La capital de Chile es Santiago y Valparaíso                    |
 | **Sesgo**                  | Los Afroamericanos tienen más probabilidad de cometer un crimen |
-
-------------------------------------------------------------------------
-
-## ❌ Errores Comunes {background-image="images/background.jpg" background-opacity="0.25"}
-
-::: {style="text-align: center;"}
-<img src="images/pro_03.png" alt="Tachado" style="width: 80%; border-radius: 10px;"/>
-:::
 
 ------------------------------------------------------------------------
 
@@ -288,19 +289,99 @@ Importante: la receta debe ser sencilla de replicar en casa.
 
 ------------------------------------------------------------------------
 
-## ♟️Técnicas para Mejorar los Prompts {background-image="images/background.jpg" background-opacity="0.25"}
+## ♟️ Zero-shot Prompting {background-image="images/background.jpg" background-opacity="0.25"}
+
+**Definición:** Se da un **prompt sin ejemplos previos**, y se espera que el modelo genere una respuesta basada en su conocimiento previo.
 
 <br>
 
-| **Categoría**     | **Descripción**                                                                                                              |
-|-------------------|------------------------------------------------------------------------------------------------------------------------------|
-| **Prompt**        | Resume el texto que se encuentra entre comillas triples. Aquí está el texto: """ Había una vez un pan que …"""               |
-| **Delimitadores** | Estructura                                                                                                                   |
-| **Ejemplos**      | Dame una receta de pan integral. Ejemplo de formato: """Esta receta tiene 10 ingredientes que son … y se demora x minutos""" |
-| **Secuenciales**  | Dame una receta de pan integral que siga la siguiente estructura: """Paso 1, Paso 2, Paso 3, …."""                           |
+::: columns
+::: {.column width="50%"}
+✨ **Ejemplo de prompt:**
+
+> "¿Qué es la fotosíntesis?"
+:::
+
+::: {.column .incremental width="50%"}
+✅ **Esperado:**
+
+> "La fotosíntesis es el proceso por el cual las plantas convierten la luz solar en energía química utilizando dióxido de carbono y agua."
+:::
+:::
 
 ------------------------------------------------------------------------
 
+## ♟️ Few-shot Prompting {background-image="images/background.jpg" background-opacity="0.25"}
+
+**Definición:** Se proporcionan **pocos ejemplos** en el prompt para ayudar al modelo a generar una respuesta más precisa.
+
+<br>
+
+::: columns
+::: {.column width="50%"}
+✨ **Ejemplo de prompt:**
+
+> "Traduce las siguientes frases al francés:\
+> - Hello → Bonjour\
+> - Thank you → Merci\
+> - Good morning → ?"
+:::
+
+::: {.column .incremental width="50%"}
+✅ **Esperado:**
+
+> "Good morning → Bonjour"
+:::
+:::
+
+------------------------------------------------------------------------
+
+## ♟️ Chain-of-Thought Prompting {background-image="images/background.jpg" background-opacity="0.25"}
+
+**Definición:** Se fomenta el **razonamiento paso a paso** para obtener respuestas más estructuradas y detalladas.
+
+<br>
+
+::: columns
+::: {.column width="50%"}
+✨ **Ejemplo de prompt:**
+
+> "Si un tren viaja a 80 km/h y recorre 240 km, ¿cuánto tiempo tarda en llegar? Explica tu razonamiento."
+:::
+
+::: {.column .incremental width="50%"}
+✅ **Esperado:**
+
+> "El tren viaja a 80 km/h y debe recorrer 240 km. Para calcular el tiempo, usamos la fórmula:\
+> **tiempo = distancia / velocidad**\
+> **240 km ÷ 80 km/h = 3 horas.**\
+> Por lo tanto, el tren tarda 3 horas en llegar."
+:::
+:::
+
+## ♟️ Prompt Chaining {background-image="images/background.jpg" background-opacity="0.25"}
+
+**Definición:** Se descompone una tarea compleja en **múltiples prompts encadenados**, donde la salida de un prompt se usa como entrada para el siguiente.
+
+<br>
+
+::: columns
+::: {.column width="50%"}
+✨ **Ejemplo de prompt:**
+
+> **Paso 1:** "Resume en 3 frases la Revolución Industrial."\
+> **Paso 2:** (Usando la respuesta del primer prompt) "Ahora expande cada frase en un párrafo detallado."
+:::
+
+::: {.column .incremental width="50%"}
+✅ **Esperado:**
+
+> **Paso 1:** "La Revolución Industrial marcó el inicio de la producción mecanizada, el crecimiento de las ciudades y el avance del transporte."\
+> **Paso 2:** Se genera un desarrollo más detallado de cada punto.
+:::
+:::
+
+------------------------------------------------------------------------
 
 ##  {background-image="images/background_slides3.png" background-opacity="0.3"}
 
@@ -312,15 +393,76 @@ Importante: la receta debe ser sencilla de replicar en casa.
 
 ------------------------------------------------------------------------
 
-## ⚖️Ética en el Uso de ChatGPT {background-image="images/background.jpg" background-opacity="0.25"}
+## ⚖️ Ética en el Uso de la A.I. {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: r-stack
 <br>
 
-![](images/pro_05.png){.fragment .fade-in-then-out fig-align="center" width="800"}
+![](images/pro_07.png){.fragment .fade-in-then-out fig-align="center" width="800"}
 
 ![](images/pro_06.png){.fragment fig-align="center" width="800"}
 :::
+
+------------------------------------------------------------------------
+
+## ⚠️ Uso Seguro de la IA (credenciales) {background-image="images/background.jpg" background-opacity="0.25"}
+
+**Definición:** Se debe evitar compartir información sensible como contraseñas, tokens de acceso o datos privados en prompts de IA.
+
+<br>
+
+::: columns
+::: {.column width="50%"}
+❌ **Mal ejemplo de prompt:**
+
+> **Paso 1:** "Aquí está mi API key: `1234-5678-ABCD`. ¿Puedes ayudarme a conectarme con este servicio?"\
+> **Paso 2:** "Ahora usa esta contraseña `mypassword123` para acceder a mi base de datos y hacer consultas."
+:::
+
+::: {.column .incremental width="50%"}
+✅ **Buen ejemplo de prompt:**
+
+> **Paso 1:** "Explícame cómo almacenar credenciales de forma segura en un archivo `.env`."\
+> **Paso 2:** "Dame un ejemplo de código en Python que cargue credenciales desde un `.env` sin exponerlas directamente."
+:::
+:::
+
+------------------------------------------------------------------------
+
+## 📐 Uso Responsable de la IA (Tareas) {background-image="images/background.jpg" background-opacity="0.25"}
+
+**Definición:** Se debe formular prompts de manera que fomenten la comprensión y el aprendizaje, evitando respuestas incorrectas o engañosas.
+
+<br>
+
+::: columns
+::: {.column width="50%"}
+❌ **Mal ejemplo de prompt:**
+
+> **Paso 1:** "Resuelve esta ecuación por mí sin explicaciones: \$ x\^2 + 5x + 6 = 0 \$."\
+> **Paso 2:** "Dame solo la respuesta final."
+:::
+
+::: {.column .incremental width="50%"}
+✅ **Buen ejemplo de prompt:**
+
+> **Paso 1:** "Resuelve la ecuación \$ x\^2 + 5x + 6 = 0 \$ paso a paso usando factorización."\
+> **Paso 2:** "Explícame por qué se eligen esos factores y dame una forma alternativa de resolverla."
+:::
+:::
+
+------------------------------------------------------------------------
+
+## 📌 Actividad {background-image="images/background.jpg" background-opacity="0.25"}
+
+<br>
+
+1.  📂 **Clonar el Google Drive**:
+    -   Accede al siguiente enlace y copia la carpeta en tu propio Google Drive:
+        -   [Google Drive - Actividad](https://drive.google.com/drive/folders/1DMiJvTLyvfglsSflqxl-vjqu8skScQSQ)
+2.  📝 **Resolver la actividad**:
+    -   Abre el archivo **actividad_02.ipynb** dentro de la carpeta clonada.\
+    -   Sigue las instrucciones dentro del notebook y completa los ejercicios.
 
 ------------------------------------------------------------------------
 
@@ -333,7 +475,6 @@ Importante: la receta debe ser sencilla de replicar en casa.
 :::
 
 ------------------------------------------------------------------------
-
 
 ## 💡Conclusiones {background-image="images/background.jpg" background-opacity="0.25"}
 

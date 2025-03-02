@@ -4,7 +4,7 @@ subtitle: "Sesión 1"
 author: 
   - Francisco Alfaro
   - Valeska Canales
-date: 01 Apr 2025
+date: 18 mar 2025
 format: 
   revealjs:
     transition: slide
@@ -25,7 +25,6 @@ format:
 
 ------------------------------------------------------------------------
 
-
 ##  {background-image="images/background_slides3.png" background-opacity="0.3"}
 
 ::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
@@ -35,7 +34,6 @@ format:
 :::
 
 ------------------------------------------------------------------------
-
 
 ## ⚙️ Ofimática {background-image="images/background.jpg" background-opacity="0.25"}
 
@@ -63,7 +61,7 @@ format:
 :::
 
 ::: {.column .incremental width="60%"}
-<br><br> Google Workspace (anteriormente G Suite) es un conjunto de herramientas basadas en la nube que permite a los usuarios colaborar en tiempo real a través de aplicaciones como Gmail, Google Docs y Google Drive, mejorando la productividad y el trabajo en equipo.
+<br><br> [Google Workspace](https://workspace.google.com/) (anteriormente G Suite) es un conjunto de herramientas (en la nube) que permite a los usuarios colaborar en tiempo real a través de aplicaciones como Gmail, Google Docs y Google Drive, mejorando la productividad y el trabajo en equipo.
 :::
 :::
 
@@ -74,7 +72,7 @@ format:
 ::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
 [Sesión 01]{style="font-size: 1em"}
 
-[G-Suite: Primeros Pasos]{style="font-size: 1.5em"} 
+[G-Suite: Primeros Pasos]{style="font-size: 1.5em"}
 :::
 
 ------------------------------------------------------------------------
@@ -89,7 +87,7 @@ format:
 :::
 
 ::: {.column .incremental width="60%"}
-<br><br> Gmail es el servicio de correo electrónico de Google, conocido por su interfaz amigable, gran capacidad de almacenamiento y su integración con otras aplicaciones de Google, permitiendo una gestión eficiente de los correos electrónicos.
+<br><br> [Gmail](https://mail.google.com/) es el servicio de correo electrónico de Google, conocido por su interfaz amigable, gran capacidad de almacenamiento y su integración con otras aplicaciones de Google, permitiendo una gestión eficiente de los correos electrónicos.
 :::
 :::
 
@@ -105,7 +103,7 @@ format:
 :::
 
 ::: {.column .incremental width="60%"}
-<br><br> Google Calendar es una herramienta para gestionar el tiempo y organizar eventos, reuniones y tareas. Permite programar recordatorios y compartir calendarios con otros usuarios, optimizando la coordinación de actividades.
+<br><br> [Google Calendar](https://calendar.google.com/) es una herramienta para gestionar el tiempo y organizar eventos, reuniones y tareas. Permite programar recordatorios y compartir calendarios con otros usuarios, optimizando la coordinación de actividades.
 :::
 :::
 
@@ -121,7 +119,7 @@ format:
 :::
 
 ::: {.column .incremental width="60%"}
-<br><br> Google Drive es un servicio de almacenamiento en la nube que permite guardar, organizar y compartir archivos de forma segura. Con su integración con otras aplicaciones de Google, se facilita la colaboración en documentos y archivos en tiempo real.
+<br><br> [Google Drive](https://drive.google.com/drive/folders/1DMiJvTLyvfglsSflqxl-vjqu8skScQSQ) es un servicio de almacenamiento en la nube que permite guardar, organizar y compartir archivos de forma segura. Con su integración con otras aplicaciones de Google, se facilita la colaboración en documentos y archivos en tiempo real.
 :::
 :::
 
@@ -137,7 +135,7 @@ format:
 :::
 
 ::: {.column .incremental width="60%"}
-<br><br> Google Docs es un procesador de texto en línea que permite crear, editar y colaborar en documentos en tiempo real. Es ideal para trabajos en equipo, ya que varios usuarios pueden trabajar simultáneamente en el mismo archivo.
+<br><br> [Google Docs](https://docs.google.com/document/d/1srXu3xb2huutC0rykcDluU_rCpov3VaLP8oePDW0OCE/edit?usp=sharing) es un procesador de texto en línea que permite crear, editar y colaborar en documentos en tiempo real. Es ideal para trabajos en equipo, ya que varios usuarios pueden trabajar simultáneamente en el mismo archivo.
 :::
 :::
 
@@ -153,7 +151,7 @@ format:
 :::
 
 ::: {.column .incremental width="60%"}
-<br><br> Google Sheets es una herramienta en línea para crear y editar hojas de cálculo. Ofrece funciones avanzadas de análisis de datos y permite la colaboración en tiempo real, similar a Microsoft Excel.
+<br><br> [Google Sheets](https://docs.google.com/spreadsheets/d/1R2LlLHj-HbCXvQnQLDkbTIi33el96EBC20RtHcP7bAc/edit?usp=sharing) es una herramienta en línea para crear y editar hojas de cálculo. Ofrece funciones avanzadas de análisis de datos y permite la colaboración en tiempo real, similar a Microsoft Excel.
 :::
 :::
 
@@ -169,7 +167,7 @@ format:
 :::
 
 ::: {.column .incremental width="60%"}
-<br><br> Google Slides es una herramienta para crear presentaciones visuales y colaborativas. Permite a los usuarios diseñar y compartir presentaciones en línea, con la capacidad de trabajar simultáneamente con otros colaboradores.
+<br><br> [Google Slides](https://docs.google.com/presentation/d/1Hoq7xK-2OIcWk5HALSl3Dkwo51TU0yf7m6-dxznPIBg/edit?usp=sharing) es una herramienta para crear presentaciones visuales y colaborativas. Permite a los usuarios diseñar y compartir presentaciones en línea, con la capacidad de trabajar simultáneamente con otros colaboradores.
 :::
 :::
 
@@ -185,7 +183,7 @@ format:
 :::
 
 ::: {.column .incremental width="60%"}
-<br><br> Google Forms es una herramienta para crear formularios, encuestas y cuestionarios. Su facilidad de uso y la opción de recolectar respuestas automáticamente hacen que sea muy útil para recopilar datos de manera organizada.
+<br><br> [Google Forms](https://docs.google.com/forms/d/11Bla28Cr4YWITq1Rjb9X1U90ttdqYMmLVbt8tlLxXM8/edit) es una herramienta para crear formularios, encuestas y cuestionarios. Su facilidad de uso y la opción de recolectar respuestas automáticamente hacen que sea muy útil para recopilar datos de manera organizada.
 :::
 :::
 
@@ -201,9 +199,35 @@ format:
 :::
 
 ::: {.column .incremental width="60%"}
-<br><br> Google Colab es una plataforma en línea que permite escribir y ejecutar código Python en entornos de notebooks. Es ideal para ciencia de datos, aprendizaje automático y la colaboración en proyectos de programación.
+<br><br> [Google Colab](https://colab.research.google.com/drive/1XWA23udppBqA0BkPlmaVCeSTM6mU_JHJ?usp=sharing) es una plataforma en línea que permite escribir y ejecutar código Python en entornos de notebooks. Es ideal para ciencia de datos, aprendizaje automático y la colaboración en proyectos de programación.
 :::
 :::
+
+------------------------------------------------------------------------
+
+## 📌 Actividad {background-image="images/background.jpg" background-opacity="0.25"}
+
+<br>
+
+1.  📂 **Clonar el Google Drive**:
+    -   Accede al siguiente enlace y copia la carpeta en tu propio Google Drive:
+        -   [Google Drive - Actividad](https://drive.google.com/drive/folders/1DMiJvTLyvfglsSflqxl-vjqu8skScQSQ)
+2.  ✉️ **Enviar un correo**:
+    -   Redacta un correo dirigido a **Francisco** (francisco.alfaro\@usm.cl) con copia a **Valeska** (vcanalesp\@usm.cl)\
+    -   En el mensaje, indica que has completado la actividad y adjunta el **enlace a la carpeta clonada en tu Google Drive**
+
+------------------------------------------------------------------------
+
+## 📌 Actividad {background-image="images/background.jpg" background-opacity="0.25"}
+
+<br>
+
+1.  📂 **Clonar el Google Drive**:
+    -   Accede al siguiente enlace y copia la carpeta en tu propio Google Drive:
+        -   [Google Drive - Actividad](https://drive.google.com/drive/folders/1DMiJvTLyvfglsSflqxl-vjqu8skScQSQ)
+2.  📝 **Resolver la actividad**:
+    -   Abre el archivo **actividad_02.ipynb** dentro de la carpeta clonada.\
+    -   Sigue las instrucciones dentro del notebook y completa los ejercicios.
 
 ------------------------------------------------------------------------
 
@@ -212,7 +236,7 @@ format:
 ::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
 [Sesión 01]{style="font-size: 1em"}
 
-[Conclusiones]{style="font-size: 1.5em"} 
+[Conclusiones]{style="font-size: 1.5em"}
 :::
 
 ------------------------------------------------------------------------

@@ -4,13 +4,15 @@ subtitle: "Sesión 4"
 author: 
   - Francisco Alfaro
   - Valeska Canales
-date: 22 Apr 2025
+date: 27 mar 2025
 format: 
   revealjs:
     transition: slide
     title-slide-attributes: 
       data-background-image: images/background.jpg
     logo: images/logo_sn.png
+filters:
+  - quarto-ext/shinylive
 ---
 
 ```{=html}
@@ -235,6 +237,27 @@ Tu primera versión **siempre** será horrible.
 
 ------------------------------------------------------------------------
 
+## 💡 Chatbots A.I. - Ideas {background-image="images/background.jpg" background-opacity="0.25"}
+
+
+::: columns
+::: {.column width="60%"}
+<br>
+
+-   [ChatGPT (OpenAI)](https://openai.com/chatgpt/)
+-   [Gemini (Google DeepMind)](https://deepmind.google/gemini/)
+-   [Meta AI (Meta)](https://ai.meta.com/)
+-   [DeepSeek (DeepSeek)](https://chat.deepseek.com/)
+:::
+
+::: {.column  width="40%"}
+<img src="images/ai/ai_ideas.png" alt="Asistentes Virtuales" style="width: 100%; border-radius: 10px;"/>
+:::
+:::
+
+
+------------------------------------------------------------------------
+
 ## Usar chatbots de IA para: {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: columns
@@ -251,6 +274,28 @@ Tu primera versión **siempre** será horrible.
 ![](images/ai/choice.jpeg){fig-align="center"}
 :::
 :::
+
+------------------------------------------------------------------------
+
+## 💡 Chatbots A.I. - Imágenes {background-image="images/background.jpg" background-opacity="0.25"}
+
+
+::: columns
+::: {.column width="60%"}
+
+<br>
+
+- [Canva con Magic Studio](https://www.canva.com/magic/)
+- [Microsoft Designer](https://designer.microsoft.com/)
+- [Napkin AI](https://www.napkin.one/)
+- [Midjourney](https://www.midjourney.com/)
+:::
+
+::: {.column  width="40%"}
+<img src="images/ai/ai_images.png" alt="Asistentes Virtuales" style="width: 100%; border-radius: 10px;"/>
+:::
+:::
+
 
 ------------------------------------------------------------------------
 
@@ -321,6 +366,47 @@ plt.plot(x, y, marker='o')
 plt.title("Gráfico de Ejemplo")
 plt.grid(True)
 plt.show()
+```
+
+
+------------------------------------------------------------------------
+
+## [Explicar menos]{style="color: red"} y [mostrar más]{style="color: green"} {background-image="images/background.jpg" background-opacity="0.25"}
+
+```{shinylive-python}
+#| standalone: true
+#| viewerHeight: 500
+
+library(shiny)
+library(ggplot2)
+
+# Datos de ejemplo
+df <- data.frame(
+  x = c(1, 2, 3, 4, 5),
+  y = c(2, 4, 3, 5, 7)
+)
+
+# Interfaz de usuario
+ui <- fluidPage(
+  titlePanel("📊 Gráfico Interactivo con ggplot2"),
+  sliderInput("line_width", "Grosor de línea:", min = 1, max = 5, value = 2, step = 0.5),
+  plotOutput("plot")
+)
+
+# Servidor de la aplicación
+server <- function(input, output) {
+  output$plot <- renderPlot({
+    ggplot(df, aes(x = x, y = y)) +
+      geom_line(size = input$line_width, color = "blue") +
+      geom_point(size = 3, color = "red") +
+      labs(title = "Gráfico de Ejemplo", x = "Eje X", y = "Eje Y") +
+      theme_minimal()
+  })
+}
+
+# Ejecutar la aplicación
+shinyApp(ui, server)
+
 ```
 
 ------------------------------------------------------------------------
@@ -664,3 +750,4 @@ st.markdown(
 :::
 
 > 🔗 Nuestro Sitio Web: [seth-nut.github.io/resources](https://seth-nut.github.io/resources/).
+

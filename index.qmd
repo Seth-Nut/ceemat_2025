@@ -11,7 +11,7 @@ output: html_document
 
 ## Breve Descripción
 
-Este mini curso está diseñado para introducir a los/as estudiantes en el uso de herramientas digitales y técnicas de inteligencia artificial para la comunicación efectiva en un entorno académico y profesional. A través de 4 sesiones prácticas y dinámicas, aprenderán a utilizar herramientas esenciales, desarrollar prompts efectivos para ChatGPT, mejorar sus habilidades de comunicación en el ámbito universitario y explorar los fundamentos del Data Storytelling para transmitir ideas complejas de manera clara y visual.
+Este mini curso está diseñado para introducir a los estudiantes en el uso de herramientas digitales y técnicas de inteligencia artificial para la comunicación efectiva en un entorno académico y profesional. A través de 4 sesiones prácticas y dinámicas, aprenderán a utilizar herramientas esenciales, desarrollar prompts efectivos para ChatGPT, mejorar sus habilidades de comunicación en el ámbito universitario y explorar los fundamentos del Data Storytelling para transmitir ideas complejas de manera clara y visual.
 
 ## Prerrequisitos
 
@@ -25,4 +25,14 @@ No se requieren conocimientos previos en programación o herramientas avanzadas.
 
 -   🎤 [**Leer, Escribir y Hablar en la Universidad**](comunicacion_universidad/presentacion.html) - Mejora tus habilidades de comunicación académica con técnicas para leer críticamente, redactar ensayos efectivos y organizar presentaciones orales de impacto. Descubre cómo la inteligencia artificial puede apoyarte en cada paso del proceso.
 
--   🎤 [**A.I + Data Storytelling**](datastorytelling/presentacion.html) - Esta presentación te enseñará a transformar datos en historias visuales interactivas usando A.I y otras herramientas. Descubre cómo crear presentaciones dinámicas e impactantes que cautiven a tu audiencia. - 🎤
+-   🎤 [**A.I + Data Storytelling**](datastorytelling/presentacion.html) - Esta presentación te enseñará a transformar datos en historias visuales interactivas usando A.I y otras herramientas. Descubre cómo crear presentaciones dinámicas e impactantes que cautiven a tu audiencia.
+
+## Certificación
+
+Al finalizar el curso, se otorgará un diploma como este:
+
+::: {style="text-align: center;"}
+<img src="images/diploma-usm.png" style="width: 50%; max-width: 600px;"/>
+:::
+
+> 📌 **Recuerda**: La asistencia es obligatoria y la evaluación de encuestas nos permitirá mejorar futuras ediciones del curso.
