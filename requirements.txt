@@ -4,3 +4,4 @@ matplotlib
 seaborn
 plotly
 jupyter
+shinylive
