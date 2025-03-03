@@ -23,6 +23,12 @@ format:
 .reveal .slides h2 {
   font-size: 1.5em; /* Tamaño más pequeño para el subtítulo */
 }
+
+/* Ajusta el tamaño de los bullets */
+.reveal .slides ul {
+  font-size: 0.8em; /* Tamaño de fuente más pequeño en los bullets */
+}
+
 </style>
 ```
 
@@ -679,6 +685,29 @@ st.markdown(
 
 ------------------------------------------------------------------------
 
+## 📌 Actividad {background-image="images/background.jpg" background-opacity="0.25"}
+
+<br>
+
+1.  📂 **Clonar el Google Drive**:
+    -   Accede al siguiente enlace y copia la carpeta en tu propio Google Drive:
+        -   [Google Drive - Actividad](https://drive.google.com/drive/folders/1DMiJvTLyvfglsSflqxl-vjqu8skScQSQ)
+2.  📝 **Resolver la actividad**:
+    -   Abre el archivo **actividad_04.pptx** dentro de la carpeta clonada.\
+    -   Sigue las instrucciones dentro de la PPT y completa los ejercicios.
+
+------------------------------------------------------------------------
+
+##  {background-image="images/background_slides3.png" background-opacity="0.3"}
+
+::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
+[Sesión 02]{style="font-size: 1em"}
+
+[Conclusiones]{style="font-size: 1.5em"}
+:::
+
+------------------------------------------------------------------------
+
 ## Conclusión {background-image="images/background.jpg" background-opacity="0.25"}
 
 <br>
@@ -699,13 +728,13 @@ st.markdown(
 
 ❓¿Preguntas?
 
-👏 Responder [encuesta](https://docs.google.com/forms/d/e/1FAIpQLScdkSSY40VsN_uEXsNK5LYP-qngUVvaO-c8qItr163zzvpzZA/viewform?usp=sf_link)
+👏 Responder [encuesta](https://docs.google.com/forms/d/e/1FAIpQLSeDUAAqdtHILOMg2fn-wTOcaLtgrgLsEPp0Xg_erSNJLZPvzg/viewform?usp=dialog)
 
 🥳 Gracias de Nuevo
 :::
 
 ::: {.column width="50%" align="center"}
-![](images/qr_visualizacion.png){width="400"}
+![](images/qr4.png){width="400"}
 :::
 :::
 

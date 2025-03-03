@@ -136,8 +136,7 @@ Los **asistentes virtuales** impulsados por **IA** facilitan la comunicación, a
 
 ::: {.column width="40%"}
 ::: {style="text-align: center;"}
-<br>
-<img src="images/chat_013.png" alt="Asistentes Virtuales" style="width: 100%; border-radius: 10px;"/>
+<br> <img src="images/chat_013.png" alt="Asistentes Virtuales" style="width: 100%; border-radius: 10px;"/>
 :::
 :::
 :::
@@ -508,13 +507,13 @@ Importante: la receta debe ser sencilla de replicar en casa.
 
 ❓¿Preguntas?
 
-👏 Responder [encuesta](https://docs.google.com/forms/d/e/1FAIpQLScdkSSY40VsN_uEXsNK5LYP-qngUVvaO-c8qItr163zzvpzZA/viewform?usp=sf_link)
+👏 Responder [encuesta](https://docs.google.com/forms/d/e/1FAIpQLSdaRA2OoyvmnMA3ohR701pUzbxs6r-zxiU9lYPskIZVVXTohg/viewform?usp=dialog)
 
 🥳 Gracias de Nuevo
 :::
 
 ::: {.column width="50%" align="center"}
-![](images/qr_visualizacion.png){width="400"}
+![](images/qr2.png){width="400"}
 :::
 :::
 
