@@ -315,13 +315,6 @@
     "text": "Explicar menos y mostrar más\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
   },
   {
-    "objectID": "datastorytelling/presentacion.html#explicar-menos-y-mostrar-más-2",
-    "href": "datastorytelling/presentacion.html#explicar-menos-y-mostrar-más-2",
-    "title": "A.I. + DataStorytelling",
-    "section": "Explicar menos y mostrar más",
-    "text": "Explicar menos y mostrar más\n#| '!! shinylive warning !!': |\n#|   shinylive does not work in self-contained HTML documents.\n#|   Please set `embed-resources: false` in your metadata.\n#| standalone: true\n#| viewerHeight: 500\n\nlibrary(shiny)\nlibrary(ggplot2)\n\n# Datos de ejemplo\ndf &lt;- data.frame(\n  x = c(1, 2, 3, 4, 5),\n  y = c(2, 4, 3, 5, 7)\n)\n\n# Interfaz de usuario\nui &lt;- fluidPage(\n  titlePanel(\"📊 Gráfico Interactivo con ggplot2\"),\n  sliderInput(\"line_width\", \"Grosor de línea:\", min = 1, max = 5, value = 2, step = 0.5),\n  plotOutput(\"plot\")\n)\n\n# Servidor de la aplicación\nserver &lt;- function(input, output) {\n  output$plot &lt;- renderPlot({\n    ggplot(df, aes(x = x, y = y)) +\n      geom_line(size = input$line_width, color = \"blue\") +\n      geom_point(size = 3, color = \"red\") +\n      labs(title = \"Gráfico de Ejemplo\", x = \"Eje X\", y = \"Eje Y\") +\n      theme_minimal()\n  })\n}\n\n# Ejecutar la aplicación\nshinyApp(ui, server)"
-  },
-  {
     "objectID": "datastorytelling/presentacion.html#agenda-v2-1",
     "href": "datastorytelling/presentacion.html#agenda-v2-1",
     "title": "A.I. + DataStorytelling",

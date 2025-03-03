@@ -7,12 +7,7 @@
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../site_libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<meta name="shinylive:serviceworker_dir" content="..">
-<script src="../site_libs/quarto-contrib/shinylive-0.9.3/shinylive/load-shinylive-sw.js" type="module"></script>
-<script src="../site_libs/quarto-contrib/shinylive-0.9.3/shinylive/run-python-blocks.js" type="module"></script>
-<link href="../site_libs/quarto-contrib/shinylive-0.9.3/shinylive/shinylive.css" rel="stylesheet">
-<link href="../site_libs/quarto-contrib/shinylive-quarto-css/shinylive-quarto.css" rel="stylesheet"><meta charset="utf-8">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.6.42">
 
   <meta name="author" content="Francisco Alfaro">
@@ -912,7 +907,7 @@ Valeska Canales
 <span id="cb1-13"><a></a>plt.grid(<span class="va">True</span>)</span>
 <span id="cb1-14"><a></a>plt.show()</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div><div class="column fragment" style="width:50%;">
-<div id="6f7f6725" class="cell" data-execution_count="1">
+<div id="3d61a5ad" class="cell" data-execution_count="1">
 <div class="cell-output cell-output-display">
 <div>
 <figure>
@@ -927,44 +922,6 @@ Valeska Canales
 <h2><span style="color: red">Explicar menos</span> y <span style="color: green">mostrar más</span></h2>
 <div id="qpyodide-insertion-location-1"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
-</section>
-<section id="explicar-menos-y-mostrar-más-2" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2><span style="color: red">Explicar menos</span> y <span style="color: green">mostrar más</span></h2>
-<div class="sourceCode" id="cb2" data-engine="python"><pre class="sourceCode numberSource shinylive-python number-lines code-with-copy"><code class="sourceCode"><span id="cb2-1"><a></a>#| '!! shinylive warning !!': |</span>
-<span id="cb2-2"><a></a>#|   shinylive does not work in self-contained HTML documents.</span>
-<span id="cb2-3"><a></a>#|   Please set `embed-resources: false` in your metadata.</span>
-<span id="cb2-4"><a></a>#| standalone: true</span>
-<span id="cb2-5"><a></a>#| viewerHeight: 500</span>
-<span id="cb2-6"><a></a></span>
-<span id="cb2-7"><a></a>library(shiny)</span>
-<span id="cb2-8"><a></a>library(ggplot2)</span>
-<span id="cb2-9"><a></a></span>
-<span id="cb2-10"><a></a># Datos de ejemplo</span>
-<span id="cb2-11"><a></a>df &lt;- data.frame(</span>
-<span id="cb2-12"><a></a>  x = c(1, 2, 3, 4, 5),</span>
-<span id="cb2-13"><a></a>  y = c(2, 4, 3, 5, 7)</span>
-<span id="cb2-14"><a></a>)</span>
-<span id="cb2-15"><a></a></span>
-<span id="cb2-16"><a></a># Interfaz de usuario</span>
-<span id="cb2-17"><a></a>ui &lt;- fluidPage(</span>
-<span id="cb2-18"><a></a>  titlePanel("📊 Gráfico Interactivo con ggplot2"),</span>
-<span id="cb2-19"><a></a>  sliderInput("line_width", "Grosor de línea:", min = 1, max = 5, value = 2, step = 0.5),</span>
-<span id="cb2-20"><a></a>  plotOutput("plot")</span>
-<span id="cb2-21"><a></a>)</span>
-<span id="cb2-22"><a></a></span>
-<span id="cb2-23"><a></a># Servidor de la aplicación</span>
-<span id="cb2-24"><a></a>server &lt;- function(input, output) {</span>
-<span id="cb2-25"><a></a>  output$plot &lt;- renderPlot({</span>
-<span id="cb2-26"><a></a>    ggplot(df, aes(x = x, y = y)) +</span>
-<span id="cb2-27"><a></a>      geom_line(size = input$line_width, color = "blue") +</span>
-<span id="cb2-28"><a></a>      geom_point(size = 3, color = "red") +</span>
-<span id="cb2-29"><a></a>      labs(title = "Gráfico de Ejemplo", x = "Eje X", y = "Eje Y") +</span>
-<span id="cb2-30"><a></a>      theme_minimal()</span>
-<span id="cb2-31"><a></a>  })</span>
-<span id="cb2-32"><a></a>}</span>
-<span id="cb2-33"><a></a></span>
-<span id="cb2-34"><a></a># Ejecutar la aplicación</span>
-<span id="cb2-35"><a></a>shinyApp(ui, server)</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="agenda-v2-1" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
 <h2>Agenda (v2)</h2>
@@ -1177,29 +1134,29 @@ format:
 <h2>Streamlit: Ejemplo</h2>
 <div class="columns">
 <div class="column" style="width:50%;">
-<div class="sourceCode" id="cb4"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a></a><span class="im">import</span> streamlit <span class="im">as</span> st</span>
-<span id="cb4-2"><a></a></span>
-<span id="cb4-3"><a></a><span class="co"># Título principal de la aplicación</span></span>
-<span id="cb4-4"><a></a>st.title(<span class="st">"Hola Streamlit"</span>)</span>
-<span id="cb4-5"><a></a></span>
-<span id="cb4-6"><a></a><span class="co"># Mensaje principal con nombres y emoticón fijos</span></span>
-<span id="cb4-7"><a></a>mensaje <span class="op">=</span> <span class="st">"Darwin y Patricia son mejores amigos 😊"</span></span>
-<span id="cb4-8"><a></a>st.write(mensaje)</span>
-<span id="cb4-9"><a></a></span>
-<span id="cb4-10"><a></a><span class="co"># Imagen decorativa</span></span>
-<span id="cb4-11"><a></a>st.image(</span>
-<span id="cb4-12"><a></a>    <span class="st">"https://www.svgrepo.com/show/397758/people-hugging.svg"</span>,</span>
-<span id="cb4-13"><a></a>    caption<span class="op">=</span><span class="st">"Amigos"</span>,</span>
-<span id="cb4-14"><a></a>    width<span class="op">=</span><span class="dv">200</span>  <span class="co"># Ajuste del tamaño de la imagen</span></span>
-<span id="cb4-15"><a></a>)</span>
-<span id="cb4-16"><a></a></span>
-<span id="cb4-17"><a></a><span class="co"># Footer</span></span>
-<span id="cb4-18"><a></a>st.markdown(</span>
-<span id="cb4-19"><a></a>    <span class="st">"""</span></span>
-<span id="cb4-20"><a></a><span class="st">    ---</span></span>
-<span id="cb4-21"><a></a><span class="st">    Gracias por usar esta aplicación interactiva 🎈</span></span>
-<span id="cb4-22"><a></a><span class="st">    """</span></span>
-<span id="cb4-23"><a></a>)</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb3"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a></a><span class="im">import</span> streamlit <span class="im">as</span> st</span>
+<span id="cb3-2"><a></a></span>
+<span id="cb3-3"><a></a><span class="co"># Título principal de la aplicación</span></span>
+<span id="cb3-4"><a></a>st.title(<span class="st">"Hola Streamlit"</span>)</span>
+<span id="cb3-5"><a></a></span>
+<span id="cb3-6"><a></a><span class="co"># Mensaje principal con nombres y emoticón fijos</span></span>
+<span id="cb3-7"><a></a>mensaje <span class="op">=</span> <span class="st">"Darwin y Patricia son mejores amigos 😊"</span></span>
+<span id="cb3-8"><a></a>st.write(mensaje)</span>
+<span id="cb3-9"><a></a></span>
+<span id="cb3-10"><a></a><span class="co"># Imagen decorativa</span></span>
+<span id="cb3-11"><a></a>st.image(</span>
+<span id="cb3-12"><a></a>    <span class="st">"https://www.svgrepo.com/show/397758/people-hugging.svg"</span>,</span>
+<span id="cb3-13"><a></a>    caption<span class="op">=</span><span class="st">"Amigos"</span>,</span>
+<span id="cb3-14"><a></a>    width<span class="op">=</span><span class="dv">200</span>  <span class="co"># Ajuste del tamaño de la imagen</span></span>
+<span id="cb3-15"><a></a>)</span>
+<span id="cb3-16"><a></a></span>
+<span id="cb3-17"><a></a><span class="co"># Footer</span></span>
+<span id="cb3-18"><a></a>st.markdown(</span>
+<span id="cb3-19"><a></a>    <span class="st">"""</span></span>
+<span id="cb3-20"><a></a><span class="st">    ---</span></span>
+<span id="cb3-21"><a></a><span class="st">    Gracias por usar esta aplicación interactiva 🎈</span></span>
+<span id="cb3-22"><a></a><span class="st">    """</span></span>
+<span id="cb3-23"><a></a>)</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div><div class="column fragment" style="width:50%;">
 <div class="quarto-figure quarto-figure-center">
 <figure>
