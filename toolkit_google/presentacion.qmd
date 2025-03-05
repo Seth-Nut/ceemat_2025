@@ -216,18 +216,7 @@ format:
     -   Redacta un correo dirigido a **Francisco** (francisco.alfaro\@usm.cl) con copia a **Valeska** (vcanalesp\@usm.cl)\
     -   En el mensaje, indica que has completado la actividad y adjunta el **enlace a la carpeta clonada en tu Google Drive**
 
-------------------------------------------------------------------------
 
-## 📌 Actividad {background-image="images/background.jpg" background-opacity="0.25"}
-
-<br>
-
-1.  📂 **Clonar el Google Drive**:
-    -   Accede al siguiente enlace y copia la carpeta en tu propio Google Drive:
-        -   [Google Drive - Actividad](https://drive.google.com/drive/folders/1DMiJvTLyvfglsSflqxl-vjqu8skScQSQ)
-2.  📝 **Resolver la actividad**:
-    -   Abre el archivo **actividad_02.ipynb** dentro de la carpeta clonada.\
-    -   Sigue las instrucciones dentro del notebook y completa los ejercicios.
 
 ------------------------------------------------------------------------
 

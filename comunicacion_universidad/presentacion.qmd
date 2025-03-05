@@ -75,7 +75,7 @@ format:
 :::
 :::
 
-## 📝 Cómo Hacer una Ficha de Lectura
+## ✍️ Puntos Claves
 
 ::: columns
 ::: {.column width="40%"}
@@ -90,9 +90,8 @@ format:
 -   **Propósito**:
     -   Determina el objetivo de tu lectura.
 -   **Estructura**:
-    -   Referencia bibliográfica (ej. formato APA).
     -   Resumen del contenido según tu propósito.
-    -   Citas textuales (si es necesario).
+    -   Citas textuales, Referencia bibliográfica.
 -   **Consejos**:
     -   Personaliza para tu uso o académico.
     -   Incluye tus propias palabras clave.
@@ -122,50 +121,8 @@ format:
 :::
 :::
 
-## 🗺️ Cómo Hacer un Mapa Conceptual
 
-::: columns
-::: {.column width="40%"}
-::: {style="text-align: center;"}
-<br> <img src="images/read_01.png" alt="Mapa Conceptual" style="width: 100%; border-radius: 10px;"/>
-:::
-:::
 
-::: {.column .incremental width="60%"}
-<br>
-
--   **Definir una pregunta de lectura** para enfocar el mapa.
--   **Identificar conceptos clave** (15-25 conceptos).
--   **Establecer relaciones** entre conceptos usando conectores.
--   **Revisar**: El mapa responde a la pregunta planteada y tiene relaciones claras.
-:::
-:::
-
-------------------------------------------------------------------------
-
-## 📖 Cómo Escribir una Bibliografía
-
-::: columns
-::: {.column width="40%"}
-::: {style="text-align: center;"}
-<br> <img src="images/read_01.png" alt="Bibliografía Anotada" style="width: 100%; border-radius: 10px;"/>
-:::
-:::
-
-::: {.column .incremental width="60%"}
-<br>
-
--   **Propósito**:
-    -   Listar y detallar fuentes relevantes para una investigación.
--   **Estructura**:
-    -   Presentación del tema y pregunta de investigación.
-    -   Referencia bibliográfica y resumen breve.
-    -   Ideas clave y aporte para tu investigación.
--   **Consejos**:
-    -   Organiza el tiempo y usa buscadores académicos.
-    -   Escribe y revisa resúmenes después de leer.
-:::
-:::
 
 ------------------------------------------------------------------------
 
@@ -179,15 +136,17 @@ format:
 :::
 
 ::: {.column .incremental width="60%"}
--   **Estrategias**:
-    -   Define el propósito de la lectura antes de destacar.
-    -   Realiza una primera lectura panorámica para identificar ideas clave.
-    -   Limita el destaque al 20% del texto y usa colores con un propósito claro.
--   **Reglas**:
-    -   **Omitir**: Elimina información irrelevante.
-    -   **Seleccionar**: Destaca lo necesario.
-    -   **Generalizar**: Agrupa ideas comunes.
-    -   **Integrar**: Conecta ideas de diferentes partes.
+<br>
+
+- **Estrategias**:  
+  - Define el propósito antes de destacar.  
+  - Lee primero de forma panorámica.  
+  - Destaca solo el 20% del texto con colores útiles.  
+- **Reglas**:  
+  - **Omitir** lo irrelevante.  
+  - **Seleccionar** lo esencial.  
+  - **Generalizar** ideas comunes.  
+  - **Integrar** conceptos conectados. 
 :::
 :::
 
@@ -206,7 +165,7 @@ format:
 <br><br><br>
 
 -   🔗 **Explora el siguiente ejemplo aquí:**
-    -   👉 [📂 Acceder al ejemplo](https://drive.google.com/drive/folders/1b9_syTDMoH4IkDWWbCkhEn-R7k8xCg2t?usp=drive_link)\
+    -   👉 [📂 Acceder al ejemplo](https://drive.google.com/drive/folders/1gXyHib1KCgt5k1gPpvfLAW2A4TI4OV0v?usp=drive_link)\
 :::
 :::
 
@@ -223,6 +182,27 @@ format:
 ------------------------------------------------------------------------
 
 ## ✍️ Escritura Académica
+
+::: columns
+::: {.column width="40%"}
+::: {style="text-align: center;"}
+<img src="images/write_01.png" alt="Escribir" style="width: 100%; border-radius: 10px;"/>
+:::
+:::
+
+::: {.column .incremental width="60%"}
+<br>
+
+- Formal, clara y estructurada.  
+- Usada en artículos, tesis e informes.  
+- Basada en evidencia y citas.  
+- Difunde conocimiento y fomenta el pensamiento crítico.
+:::
+:::
+
+------------------------------------------------------------------------
+
+## ✍️ Puntos Claves
 
 ::: columns
 ::: {.column width="40%"}
@@ -254,12 +234,10 @@ format:
 ::: {.column .incremental width="60%"}
 <br>
 
--   **Infórmate**: Conoce el tema general y su relevancia.
--   **Define el objetivo**: Alinea la delimitación con el propósito de la investigación.
--   **Preguntas clave**:
-    -   ¿Qué aspecto específico me interesa?
-    -   ¿En qué contexto voy a investigar?
--   **Verifica**: Asegúrate de que el tema es realista y ajustado a tus recursos.
+- **Infórmate**: Comprende el contexto y relevancia.  
+- **Objetivo**: Alinea con la investigación.  
+- **Preguntas clave**: ¿Qué? ¿En qué contexto?  
+- **Verifica**: Realismo y viabilidad.
 :::
 :::
 
@@ -281,7 +259,7 @@ format:
 -   **Estrategias**:
     -   **Planificar**: Definir el tema, evidencia y objetivos.
     -   **Escribir**: Organizar con subtítulos, citas y gráficos.
-    -   **Revisar**: Verificar coherencia, claridad y conclusiones.
+    -   **Revisar**: Coherencia, claridad y conclusiones.
 -   **Estructura típica**: Introducción, desarrollo (cuerpo) y conclusiones.
 :::
 :::
@@ -301,7 +279,7 @@ format:
 <br><br><br>
 
 -   🔗 **Explora el siguiente ejemplo aquí:**
-    -   👉 [📂 Acceder al ejemplo](https://drive.google.com/drive/folders/1b9_syTDMoH4IkDWWbCkhEn-R7k8xCg2t?usp=drive_link)\
+    -   👉 [📂 Acceder al ejemplo](https://drive.google.com/drive/folders/1zCksGCfUIveoCEGNYKYwWuT7Plzlc2Zg?usp=drive_link)\
 :::
 :::
 
@@ -347,11 +325,14 @@ format:
 :::
 
 ::: {.column .incremental width="60%"}
--   **Volumen**: Asegúrate de que todos te escuchen, practica la capacidad de aire.
--   **Entonación**: Varía el tono para mantener el interés y claridad.
--   **Articulación**: Habla de forma clara, sin muletillas.
--   **Velocidad**: Controla el ritmo para evitar hablar demasiado rápido o lento.
--   **Otros Consejos**: Usa silencios estratégicos y evita las muletillas.
+
+<br>
+
+- **Volumen**: Proyecta la voz.
+- **Entonación**: Varía el tono.
+- **Articulación**: Habla claro.
+- **Velocidad**: Controla el ritmo.
+- **Consejo**: Usa pausas, evita muletillas.
 :::
 :::
 
@@ -369,10 +350,10 @@ format:
 ::: {.column .incremental width="60%"}
 <br>
 
--   **Postura**: Mantén una postura erguida y relajada, ya sea sentado o de pie.
--   **Movimientos**: Usa movimientos controlados y naturales, sin distracciones.
--   **Contacto visual**: Mantén contacto visual con la audiencia para transmitir seguridad.
--   **Vestimenta**: Viste de manera adecuada para transmitir confianza.
+- **Postura**: Erguida y relajada.  
+- **Movimientos**: Naturales y controlados.  
+- **Contacto visual**: Seguridad y conexión.  
+- **Vestimenta**: Profesional y adecuada.
 :::
 :::
 
@@ -388,14 +369,12 @@ format:
 :::
 
 ::: {.column .incremental width="60%"}
--   **Función**:
-    -   Enriquecer el mensaje, visualizando conceptos y datos.
--   **Consejos**:
-    -   **Planificación**: Asegura que el material complemente la presentación.
-    -   **Desarrollo**: Usa recursos clave, evita texto innecesario y asegura visibilidad.
-    -   **Uso**: Evita leer el material, mantén contacto visual con la audiencia.
--   **Estrategias**:
-    -   Usa transiciones claras, simplifica ideas y considera el entorno.
+<br>
+
+- **Función**: Visualiza conceptos y datos.  
+- **Consejos**: Planifica, evita texto innecesario y asegura visibilidad.  
+- **Uso**: No leas, mantén contacto visual.  
+- **Estrategias**: Transiciones claras, ideas simples y adapta al entorno.
 :::
 :::
 
@@ -414,22 +393,11 @@ format:
 <br><br><br>
 
 -   🔗 **Explora el siguiente ejemplo aquí:**
-    -   👉 [📂 Acceder al ejemplo](https://drive.google.com/drive/folders/1b9_syTDMoH4IkDWWbCkhEn-R7k8xCg2t?usp=drive_link)\
+    -   👉 [📂 Acceder al ejemplo](https://drive.google.com/drive/folders/1ACT78xK_IGzJW_urPpx5UuPwjQmFSHXl?usp=drive_link)\
 :::
 :::
 
-------------------------------------------------------------------------
 
-## 📌 Actividad {background-image="images/background.jpg" background-opacity="0.25"}
-
-<br>
-
-1.  📂 **Clonar el Google Drive**:
-    -   Accede al siguiente enlace y copia la carpeta en tu propio Google Drive:
-        -   [Google Drive - Actividad](https://drive.google.com/drive/folders/1DMiJvTLyvfglsSflqxl-vjqu8skScQSQ)
-2.  📝 **Resolver la actividad**:
-    -   Abre el archivo **actividad_03.doc** dentro de la carpeta clonada.\
-    -   Sigue las instrucciones dentro del documento y completa los ejercicios.
 
 ------------------------------------------------------------------------
 

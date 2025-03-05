@@ -39,9 +39,9 @@ format:
 ::: {.column .incremental width="60%"}
 <br><br>
 
--   Introducción a los LLM
--   **ChatGPT**: Qué es, Prompts, Problemas Comunes, Ética , etc.
--   Aplicaciones de los LLM
+- **Comprender los LLM**: Definición, funcionamiento y aplicaciones.  
+- **Asistentes Virtuales**: Uso, prompts y desafíos comunes.  
+- **Ética**: Consideraciones y buenas prácticas. 
 :::
 :::
 
@@ -61,9 +61,11 @@ format:
 
 ::: columns
 ::: {.column .incremental width="60%"}
-<br>
+<br><br>
 
 Los **LLMs** son modelos de lenguaje entrenados con grandes volúmenes de texto para predecir y generar **lenguaje natural**.
+
+<br>
 
 Se emplean en **procesamiento de lenguaje**, **chatbots** y **asistentes virtuales**.
 :::
@@ -81,7 +83,7 @@ Se emplean en **procesamiento de lenguaje**, **chatbots** y **asistentes virtual
 
 ::: columns
 ::: {.column .incremental width="60%"}
-<br>
+<br><br>
 
 -   📊 Tamaño masivo
 -   🔄 Capacidades multitarea
@@ -101,7 +103,7 @@ Se emplean en **procesamiento de lenguaje**, **chatbots** y **asistentes virtual
 ## ⏳Historia de los LLM {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: r-stack
-s ![](images/llm_05.png){.fragment .fade-in-then-out fig-align="left" width="100%"}
+![](images/llm_05.png){.fragment .fade-in-then-out fig-align="left" width="100%"}
 
 ![](images/llm_04.png){.fragment fig-align="right"}
 :::
@@ -209,16 +211,17 @@ Los **prompts** son las **instrucciones** que se le dan a un modelo de lenguaje,
 
 ------------------------------------------------------------------------
 
-## ⚠️ Problemas comunes con los LLM {background-image="images/background.jpg" background-opacity="0.25"}
+## ⚠️ Problemas Comunes con los LLM {background-image="images/background.jpg" background-opacity="0.25"}
 
 <br>
 
-| Tipo de Error              | Ejemplo                                                         |
-|----------------------------|-----------------------------------------------------------------|
-| **Información Incorrecta** | Abraham Lincoln fue presidente de Chile                         |
-| **Datos Obsoletos**        | Modelo más reciente de OpenAI es **CHATGPT 3.5**                |
-| **Respuestas Ambiguas**    | La capital de Chile es Santiago y Valparaíso                    |
-| **Sesgo**                  | Los Afroamericanos tienen más probabilidad de cometer un crimen |
+| 🚨 **Tipo de Error**       | 📝 **Ejemplo**                                                 |
+|---------------------------|----------------------------------------------------------------|
+| **Información Incorrecta** | "Abraham Lincoln fue presidente de Chile"                    |
+| **Datos Obsoletos**        | "LLM más reciente de OpenAI es ChatGPT 4.0"           |
+| **Respuestas Ambiguas**    | "La capital de Chile es Santiago y Valparaíso"              |
+| **Sesgo en Respuestas**    | "Ciertas etnias tienen mayor tendencia a cometer delitos"   |
+
 
 ------------------------------------------------------------------------
 
@@ -397,9 +400,9 @@ Importante: la receta debe ser sencilla de replicar en casa.
 ::: r-stack
 <br>
 
-![](images/pro_07.png){.fragment .fade-in-then-out fig-align="center" width="800"}
+![](images/pro_07.png){.fragment .fade-in-then-out fig-align="center" width="900"}
 
-![](images/pro_06.png){.fragment fig-align="center" width="800"}
+![](images/pro_061.png){.fragment fig-align="center" width="800"}
 :::
 
 ------------------------------------------------------------------------
@@ -460,7 +463,7 @@ Importante: la receta debe ser sencilla de replicar en casa.
     -   Accede al siguiente enlace y copia la carpeta en tu propio Google Drive:
         -   [Google Drive - Actividad](https://drive.google.com/drive/folders/1DMiJvTLyvfglsSflqxl-vjqu8skScQSQ)
 2.  📝 **Resolver la actividad**:
-    -   Abre el archivo **actividad_02.ipynb** dentro de la carpeta clonada.\
+    -   Abre el archivo [actividad_02.ipynb](https://colab.research.google.com/drive/1ODwmEIyX_1fQsI08pWiILYC_OvrOv8FZ?usp=drive_link) dentro de la carpeta clonada.\
     -   Sigue las instrucciones dentro del notebook y completa los ejercicios.
 
 ------------------------------------------------------------------------
@@ -489,13 +492,15 @@ Importante: la receta debe ser sencilla de replicar en casa.
 
 ## 💡 Referencias {background-image="images/background.jpg" background-opacity="0.25"}
 
--   <img src="images/01_openai.png" width="40"/> **ChatGPT:** IA de [OpenAI](https://openai.com/) para generar texto.
+<br>
 
--   <img src="images/02_google.png" width="40"/> **Gemini:** IA de [Google DeepMind](https://www.google.com/search?q=DeepMind) centrada en razonamiento.
+-   🤖  **ChatGPT:** IA de [OpenAI](https://openai.com/) para generar texto.
 
--   <img src="images/03_meta.png" width="40"/> **MetaAI:** División de IA de [Meta](https://www.meta.ai/) para mejorar interacciones digitales.
+-   🤖   **Gemini:** IA de [Google DeepMind](https://www.google.com/search?q=DeepMind) centrada en razonamiento.
 
--   <img src="images/04_deep.png" width="40"/> **DeepSeek:** Modelo de razonamiento desarrollado por [DeepSeek](https://chat.deepseek.com/).
+-   🤖  **MetaAI:** División de IA de [Meta](https://www.meta.ai/) para mejorar interacciones digitales.
+
+-   🤖  **DeepSeek:** Modelo de razonamiento desarrollado por [DeepSeek](https://chat.deepseek.com/).
 
 ------------------------------------------------------------------------
 
