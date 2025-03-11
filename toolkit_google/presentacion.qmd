@@ -205,6 +205,48 @@ format:
 
 ------------------------------------------------------------------------
 
+## ⭐ GitHub (Extra) {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: columns
+::: {.column width="40%"}
+::: {style="text-align: center;"}
+<br> <img src="images/github.png" alt="Tachado" style="width: 100%; border-radius: 10px;"/>
+:::
+:::
+
+::: {.column .incremental width="60%"}
+<br><br> [GitHub](https://github.com/) es un repositorio de código abierto en línea que permite compartir y colaborar en proyectos de software.
+
+Ofrece herramientas para gestionar el control de versiones, rastrear cambios y contribuir en proyectos.
+
+:::
+:::
+
+## ⭐ GitHub (Extra) {background-image="images/background.jpg" background-opacity="0.25"}
+
+::: columns
+::: {.column width="40%"}
+::: {style="text-align: center;"}
+<br> <img src="images/github.png" alt="Tachado" style="width: 100%; border-radius: 10px;"/>
+:::
+:::
+
+::: {.column .incremental width="60%"}
+
+<br>
+
+1. **Crear una Cuenta de Estudiante**:
+   - Visita [GitHub Education](https://education.github.com/)
+   - Regístrate con tu correo de estudiante
+
+2. **Dar una Estrellita**:
+    - [Seth-Nut/CEEMAT_2025](https://github.com/Seth-Nut/CEEMAT_2025)
+    - [fralfaro/MAT281](https://github.com/fralfaro/MAT281)
+:::
+:::
+
+------------------------------------------------------------------------
+
 ## 📌 Actividad {background-image="images/background.jpg" background-opacity="0.25"}
 
 <br>
@@ -215,8 +257,6 @@ format:
 2.  ✉️ **Enviar un correo**:
     -   Redacta un correo dirigido a **Francisco** (francisco.alfaro\@usm.cl) con copia a **Valeska** (vcanalesp\@usm.cl)\
     -   En el mensaje, indica que has completado la actividad y adjunta el **enlace a la carpeta clonada en tu Google Drive**
-
-
 
 ------------------------------------------------------------------------
 
