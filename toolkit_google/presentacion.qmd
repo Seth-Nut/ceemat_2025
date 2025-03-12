@@ -235,13 +235,16 @@ Ofrece herramientas para gestionar el control de versiones, rastrear cambios y c
 
 <br>
 
-1. **Crear una Cuenta de Estudiante**:
-   - Visita [GitHub Education](https://education.github.com/)
-   - Regístrate con tu correo de estudiante
+1. **Crear una Cuenta**: 
+    - Ingresa a [GitHub](https://github.com/)
+    - Sigue los pasos indicados
 
-2. **Dar una Estrellita**:
-    - [Seth-Nut/CEEMAT_2025](https://github.com/Seth-Nut/CEEMAT_2025)
+1. **Dar una Estrella**:
+
+    - [Seth-Nut/CEEMAT_2025](https://github.com/Seth-Nut/CEEMAT_2025)  
     - [fralfaro/MAT281](https://github.com/fralfaro/MAT281)
+
+
 :::
 :::
 
