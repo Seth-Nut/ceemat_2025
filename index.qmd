@@ -13,9 +13,22 @@ output: html_document
 
 Este mini curso está diseñado para introducir a los estudiantes en el uso de herramientas digitales y técnicas de inteligencia artificial para la comunicación efectiva en un entorno académico y profesional. A través de 4 sesiones prácticas y dinámicas, aprenderán a utilizar herramientas esenciales, desarrollar prompts efectivos para ChatGPT, mejorar sus habilidades de comunicación en el ámbito universitario y explorar los fundamentos del Data Storytelling para transmitir ideas complejas de manera clara y visual.
 
+::: {.callout-note collapse="true"}
+
+## ⚖️ **Consideraciones Éticas sobre el Uso de A.I.**
+
+El uso de herramientas de inteligencia artificial en este curso tiene como principal objetivo **apoyar a los estudiantes en su aprendizaje**, facilitando el desarrollo de habilidades y competencias en un entorno digital y tecnológico. Este curso está diseñado de manera ética y responsable, **sin transgredir ninguna política institucional**. 
+
+No obstante, es importante considerar que cada institución, departamento o profesor puede tener sus propias políticas definidas respecto al uso o prohibición de herramientas de inteligencia artificial. Por ello, se **recomienda a los estudiantes informarse y respetar dichas directrices**, en caso de que existan.
+
+Este curso está alineado con buenas prácticas éticas y no busca contradecir ninguna política establecida. Si tienes dudas sobre el uso de estas herramientas en tu contexto académico, **consulta con tu profesor o institución**.
+
+:::
+
 ## Prerrequisitos
 
 No se requieren conocimientos previos en programación o herramientas avanzadas. Solo se necesita entusiasmo por aprender y explorar nuevas formas de trabajar con datos y tecnología.
+
 
 ## Sesiones
 
@@ -36,3 +49,4 @@ Al finalizar el curso, se otorgará un diploma como este:
 :::
 
 > 📌 **Recuerda**: La asistencia es obligatoria y la evaluación de encuestas nos permitirá mejorar futuras ediciones del curso.
+
