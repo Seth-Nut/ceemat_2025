@@ -13,30 +13,12 @@ format:
     logo: images/logo_sn.png
 ---
 
-```{=html}
-<style>
-/* Ajusta el tamaño del título y subtítulo */
-.reveal .slides h1 {
-  font-size: 2em; /* Tamaño más pequeño para el título */
-}
-
-.reveal .slides h2 {
-  font-size: 1.5em; /* Tamaño más pequeño para el subtítulo */
-}
-
-/* Ajusta el tamaño de los bullets */
-.reveal .slides ul {
-  font-size: 0.8em; /* Tamaño de fuente más pequeño en los bullets */
-}
-
-</style>
-```
-
 ## Agenda {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: columns
 ::: {.column .incremental width="30%"}
--   
+
+-   &#32;
 
 -   No
 
@@ -742,3 +724,21 @@ st.markdown(
 
 > 🔗 Nuestro Sitio Web: [seth-nut.github.io/resources](https://seth-nut.github.io/resources/).
 
+```{=html}
+<style>
+/* Ajusta el tamaño del título y subtítulo */
+.reveal .slides h1 {
+  font-size: 2em; /* Tamaño más pequeño para el título */
+}
+
+.reveal .slides h2 {
+  font-size: 1.5em; /* Tamaño más pequeño para el subtítulo */
+}
+
+/* Ajusta el tamaño de los bullets */
+.reveal .slides ul {
+  font-size: 0.8em; /* Tamaño de fuente más pequeño en los bullets */
+}
+
+</style>
+```
