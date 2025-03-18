@@ -266,6 +266,88 @@ format:
 
 ------------------------------------------------------------------------
 
+## 📝 Documentos Académicos con LaTeX
+
+::: columns
+::: {.column width="40%"}
+::: {style="text-align: center;"}
+<img src="images/latex.png" alt="Escribir Informe" style="width: 100%; border-radius: 10px;"/>
+:::
+:::
+
+::: {.column .incremental width="60%"}
+<br>
+
+- **¿Qué es LaTeX?**  
+  - Sistema para crear documentos académicos y científicos con formato profesional.  
+
+- **¿Por qué usarlo?**  
+  - Automatiza referencias y ecuaciones.  
+  - Ofrece mayor control sobre formato y estructura.
+:::
+:::
+
+------------------------------------------------------------------------
+
+## 📝 Ejemplo de código en LaTeX
+
+::: panel-tabset
+## Código
+
+```latex
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+\title{Ejemplo de Documento en \LaTeX}
+\author{Francisco Alfaro, Valeska Canales}
+\date{\today}
+\maketitle
+
+\section{Ecuaciones en \LaTeX}
+Ejemplo de una ecuación matemática:
+
+\begin{equation}
+E = mc^2
+\end{equation}
+
+\end{document}
+```
+
+## Salida
+
+::: {style="text-align: center;"}
+<img src="images/ejemplo_latex.png" alt="Escribir Informe" />
+:::
+
+:::
+
+------------------------------------------------------------------------
+
+## 📝 Overleaf: LaTeX Online  
+
+::: columns  
+::: {.column width="40%"}  
+::: {style="text-align: center;"}  
+<img src="images/overleaf.png" alt="Overleaf Logo" style="width: 80%; border-radius: 10px;"/>  
+:::  
+:::  
+
+::: {.column .incremental width="60%"}  
+<br>  
+
+- **¿Qué es?**  
+  - Plataforma en línea para escribir y compilar documentos en LaTeX sin instalación.  
+
+- **¿Por qué usarlo?**  
+  - Edición colaborativa en tiempo real.  
+  - Integración con GitHub y la nube.  
+  - Compilación y previsualización instantánea.  
+:::  
+:::
+
+------------------------------------------------------------------------
+
 ## 📚 Ejemplo Práctico
 
 ::: columns
