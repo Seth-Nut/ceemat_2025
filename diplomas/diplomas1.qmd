@@ -1,0 +1,9 @@
+---
+title: "🎉 CEEMAT 2025 - 1° Semestre"
+output: html_document
+---
+
+## Lista de certificados disponibles
+
+-   [Francisco Alfaro](ceemat_2025_1semestre/francisco_alfaro.png)
+-   [Valeska Canales]( ceemat_2025_1semestre/valeska_canales.png)
