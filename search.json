@@ -91,6 +91,27 @@
     "text": "📝 Cómo Escribir un Informe\n\n\n\n\n\n\n\n\nQué es un informe: Texto que reporta información y conclusiones sobre un tema.\nEstrategias:\n\nPlanificar: Definir el tema, evidencia y objetivos.\nEscribir: Organizar con subtítulos, citas y gráficos.\nRevisar: Coherencia, claridad y conclusiones.\n\nEstructura típica: Introducción, desarrollo (cuerpo) y conclusiones."
   },
   {
+    "objectID": "comunicacion_universidad/presentacion.html#documentos-académicos-con-latex",
+    "href": "comunicacion_universidad/presentacion.html#documentos-académicos-con-latex",
+    "title": "Leer, Escribir y Hablar en la Universidad",
+    "section": "📝 Documentos Académicos con LaTeX",
+    "text": "📝 Documentos Académicos con LaTeX\n\n\n\n\n\n\n\n\n¿Qué es LaTeX?\n\nSistema para crear documentos académicos y científicos con formato profesional.\n\n¿Por qué usarlo?\n\nAutomatiza referencias y ecuaciones.\n\nOfrece mayor control sobre formato y estructura."
+  },
+  {
+    "objectID": "comunicacion_universidad/presentacion.html#ejemplo-de-código-en-latex",
+    "href": "comunicacion_universidad/presentacion.html#ejemplo-de-código-en-latex",
+    "title": "Leer, Escribir y Hablar en la Universidad",
+    "section": "📝 Ejemplo de código en LaTeX",
+    "text": "📝 Ejemplo de código en LaTeX\n\nCódigoSalida\n\n\n\\documentclass{article}\n\\usepackage{amsmath}\n\n\\begin{document}\n\\title{Ejemplo de Documento en \\LaTeX}\n\\author{Francisco Alfaro, Valeska Canales}\n\\date{\\today}\n\\maketitle\n\n\\section{Ecuaciones en \\LaTeX}\nEjemplo de una ecuación matemática:\n\n\\begin{equation}\nE = mc^2\n\\end{equation}\n\n\\end{document}"
+  },
+  {
+    "objectID": "comunicacion_universidad/presentacion.html#overleaf-latex-online",
+    "href": "comunicacion_universidad/presentacion.html#overleaf-latex-online",
+    "title": "Leer, Escribir y Hablar en la Universidad",
+    "section": "📝 Overleaf: LaTeX Online",
+    "text": "📝 Overleaf: LaTeX Online\n\n\n\n\n\n\n\n\n¿Qué es?\n\nPlataforma en línea para escribir y compilar documentos en LaTeX sin instalación.\n\n¿Por qué usarlo?\n\nEdición colaborativa en tiempo real.\n\nIntegración con GitHub y la nube.\n\nCompilación y previsualización instantánea."
+  },
+  {
     "objectID": "comunicacion_universidad/presentacion.html#ejemplo-práctico-1",
     "href": "comunicacion_universidad/presentacion.html#ejemplo-práctico-1",
     "title": "Leer, Escribir y Hablar en la Universidad",
