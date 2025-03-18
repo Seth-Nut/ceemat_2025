@@ -511,11 +511,18 @@ E = mc^2
 
 <br>
 
--   📚 **Lectura**: [Utilizar estrategias como fichas y mapas conceptuales mejora la comprensión de textos complejos.](https://aprendizaje.uchile.cl/recursos-para-leer-escribir-y-hablar-en-la-universidad/leer/)
+- 📚 Recursos Para Leer, Escribir Y Hablar En La Universidad:
 
--   ✍️ **Escritura**: [Planificación, enfoque y revisión son esenciales para textos bien estructurados.](https://aprendizaje.uchile.cl/recursos-para-leer-escribir-y-hablar-en-la-universidad/escribir/)
+    - [Lectura](https://aprendizaje.uchile.cl/recursos-para-leer-escribir-y-hablar-en-la-universidad/leer/)
+    - [Escritura](https://aprendizaje.uchile.cl/recursos-para-leer-escribir-y-hablar-en-la-universidad/escribir/)
+    - [Presentación](https://aprendizaje.uchile.cl/recursos-para-leer-escribir-y-hablar-en-la-universidad/hablar/)
 
--   🗣️ **Presentación**: [Voz, cuerpo y materiales de apoyo deben trabajar juntos para transmitir el mensaje con claridad.](https://aprendizaje.uchile.cl/recursos-para-leer-escribir-y-hablar-en-la-universidad/hablar/)
+
+-  ✍️ **Resuros para trabajar con LaTeX**:
+  
+    -  [LaTeX en minutos](https://github.com/luong-komorebi/Begin-Latex-in-minutes/blob/master/Translation-Spanish.md)
+    -  [Manual de LaTeX](https://aprendeconalf.es/latex-manual/)
+
 
 ------------------------------------------------------------------------
 
