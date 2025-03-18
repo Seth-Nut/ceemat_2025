@@ -258,7 +258,7 @@ Ofrece herramientas para gestionar el control de versiones, rastrear cambios y c
     -   Accede al siguiente enlace y copia la carpeta en tu propio Google Drive:
         -   [Google Drive - Actividad](https://drive.google.com/drive/folders/1DMiJvTLyvfglsSflqxl-vjqu8skScQSQ)
 2.  ✉️ **Enviar un correo**:
-    -   Redacta un correo dirigido a **Francisco** (francisco.alfaro\@usm.cl) con copia a **Valeska** (vcanalesp\@usm.cl)\
+    -   Redacta un correo dirigido a **Francisco** (francisco.alfaro\@usm.cl) con copia a **Valeska** (vcanalesp\@usm.cl) con asunto "**AI + DataStorytelling**"
     -   En el mensaje, indica que has completado la actividad y adjunta el **enlace a la carpeta clonada en tu Google Drive**
 
 ------------------------------------------------------------------------

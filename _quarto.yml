@@ -19,22 +19,31 @@ website:
   navbar:
     logo: /images/doberman.png
     left:
-      - text: Sesiones
+      - text: Sesión 1
         menu:
-          - text: Sesión 1
+          - text: Slides
             href: toolkit_google/presentacion.html
-          - text: Sesión 2
-            href: prompts_chatgpt/presentacion.html
-          - text: Sesión 3
-            href: comunicacion_universidad/presentacion.html
-          - text: Sesión 4
-            href: datastorytelling/presentacion.html
-      - text: Encuestas
+          - text: Encuesta
+            href: https://docs.google.com/forms/d/e/1FAIpQLSeCUqQw0LQxeBDcN15RSLE_Hetv0sffxaZOAagQCR0RkQHVHQ/viewform?usp=dialog
+      - text: Sesión 2
         menu:
-          - text: Encuesta Inicio 
-            href: https://docs.google.com/forms/d/e/1FAIpQLScY1rNqO00NAhfliGGkJow1R1H9e2d0IyOycrkIgqhGmkGxZw/viewform?usp=sharing
-          - text: Encuesta Final
-            href: https://docs.google.com/forms/d/e/1FAIpQLSfEMhhsyxhxVsKUdm7JKw7hH71Cl8_8cvWn86p_y39BGMCwfg/viewform?usp=sharing
+          - text: Slides
+            href: prompts_chatgpt/presentacion.html
+          - text: Encuesta
+            href: https://docs.google.com/forms/d/e/1FAIpQLSdaRA2OoyvmnMA3ohR701pUzbxs6r-zxiU9lYPskIZVVXTohg/viewform?usp=dialog
+      - text: Sesión 3
+        menu:
+          - text: Slides
+            href: comunicacion_universidad/presentacion.html
+          - text: Encuesta
+            href: https://docs.google.com/forms/d/e/1FAIpQLSfC_vbfjySU2skSE1YM6anEfauaSFUpBc8qjsZBNLGGc7iINQ/viewform?usp=dialog
+      - text: Sesión 4
+        menu:
+          - text: Slides
+            href: datastorytelling/presentacion.html
+          - text: Encuesta
+            href: https://docs.google.com/forms/d/e/1FAIpQLSeDUAAqdtHILOMg2fn-wTOcaLtgrgLsEPp0Xg_erSNJLZPvzg/viewform?usp=dialog
+     
 
     right:
       - icon: github
