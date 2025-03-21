@@ -189,6 +189,419 @@
     "text": "🎉 ¡Gracias por Participar!\n\n\n\n❓¿Preguntas?\n👏 Responder encuesta\n🥳 Gracias de Nuevo\n\n\n\n\n🔗 Nuestro Sitio Web: sethnut.com/resources/."
   },
   {
+    "objectID": "prompts_chatgpt/presentacion.html#a.i.-en-el-día-a-día",
+    "href": "prompts_chatgpt/presentacion.html#a.i.-en-el-día-a-día",
+    "title": "Prompts Perfectos ChatGPT",
+    "section": "🤖 A.I. en el día a día",
+    "text": "🤖 A.I. en el día a día"
+  },
+  {
+    "objectID": "prompts_chatgpt/presentacion.html#objetivos",
+    "href": "prompts_chatgpt/presentacion.html#objetivos",
+    "title": "Prompts Perfectos ChatGPT",
+    "section": "🎯 Objetivos",
+    "text": "🎯 Objetivos\n\n\n\n\n\n\n\n\nComprender los LLM: Definición, funcionamiento y aplicaciones.\n\nAsistentes Virtuales: Uso, prompts y desafíos comunes.\n\nÉtica: Consideraciones y buenas prácticas."
+  },
+  {
+    "objectID": "prompts_chatgpt/presentacion.html#section",
+    "href": "prompts_chatgpt/presentacion.html#section",
+    "title": "Prompts Perfectos ChatGPT",
+    "section": "",
+    "text": "Sesión 02\n¿ Qué son los LLM ?"
+  },
+  {
+    "objectID": "prompts_chatgpt/presentacion.html#large-language-model",
+    "href": "prompts_chatgpt/presentacion.html#large-language-model",
+    "title": "Prompts Perfectos ChatGPT",
+    "section": "📖 Large language Model",
+    "text": "📖 Large language Model\n\n\n\nLos LLMs son modelos de lenguaje entrenados con grandes volúmenes de texto para predecir y generar lenguaje natural.\n\nSe emplean en procesamiento de lenguaje, chatbots y asistentes virtuales."
+  },
+  {
+    "objectID": "prompts_chatgpt/presentacion.html#características-llm",
+    "href": "prompts_chatgpt/presentacion.html#características-llm",
+    "title": "Prompts Perfectos ChatGPT",
+    "section": "📖 Características LLM",
+    "text": "📖 Características LLM\n\n\n\n\n📊 Tamaño masivo\n🔄 Capacidades multitarea\n📝 Generación de texto coherente\n🌐 Uso en múltiples aplicaciones"
+  },
+  {
+    "objectID": "prompts_chatgpt/presentacion.html#historia-de-los-llm",
+    "href": "prompts_chatgpt/presentacion.html#historia-de-los-llm",
+    "title": "Prompts Perfectos ChatGPT",
+    "section": "⏳Historia de los LLM",
+    "text": "⏳Historia de los LLM"
+  },
+  {
+    "objectID": "prompts_chatgpt/presentacion.html#asistentes-virtuales-inteligentes",
+    "href": "prompts_chatgpt/presentacion.html#asistentes-virtuales-inteligentes",
+    "title": "Prompts Perfectos ChatGPT",
+    "section": "🤖 Asistentes Virtuales Inteligentes",
+    "text": "🤖 Asistentes Virtuales Inteligentes\n\nLos asistentes virtuales impulsados por IA facilitan la comunicación, automatización y soporte en diversas industrias."
+  },
+  {
+    "objectID": "prompts_chatgpt/presentacion.html#asistentes-virtuales-inteligentes-1",
+    "href": "prompts_chatgpt/presentacion.html#asistentes-virtuales-inteligentes-1",
+    "title": "Prompts Perfectos ChatGPT",
+    "section": "🤖 Asistentes Virtuales Inteligentes",
+    "text": "🤖 Asistentes Virtuales Inteligentes\n\n\n\nAsistentes más destacados:\n\nChatGPT (OpenAI)\nGemini (Google DeepMind)\nMeta AI (Meta)\nDeepSeek (DeepSeek)"
+  },
+  {
+    "objectID": "prompts_chatgpt/presentacion.html#qué-podemos-hacer-con-chatgpt",
+    "href": "prompts_chatgpt/presentacion.html#qué-podemos-hacer-con-chatgpt",
+    "title": "Prompts Perfectos ChatGPT",
+    "section": "📱¿Qué podemos hacer con ChatGPT?",
+    "text": "📱¿Qué podemos hacer con ChatGPT?\n\n\n\n\n\n\n\n\n🎓 Educación: Tutor virtual.\n🩺 Salud: Asiste en consultas.\n💬 Atención al Cliente: Respuestas rápidas.\n\n📝 Generación de Contenido: Redacción.\n\n💻 Desarrollo de Software: Genera y corrige código."
+  },
+  {
+    "objectID": "prompts_chatgpt/presentacion.html#section-1",
+    "href": "prompts_chatgpt/presentacion.html#section-1",
+    "title": "Prompts Perfectos ChatGPT",
+    "section": "",
+    "text": "Sesión 02\n¿Qué son los Prompts?"
+  },
+  {
+    "objectID": "prompts_chatgpt/presentacion.html#prompts-en-chatgpt",
+    "href": "prompts_chatgpt/presentacion.html#prompts-en-chatgpt",
+    "title": "Prompts Perfectos ChatGPT",
+    "section": "📝 Prompts en ChatGPT",
+    "text": "📝 Prompts en ChatGPT\nLos prompts son las instrucciones que se le dan a un modelo de lenguaje, como ChatGPT, para generar una respuesta o realizar una tarea específica. Pueden ser preguntas, frases o directrices que guían el modelo hacia el resultado deseado."
+  },
+  {
+    "objectID": "prompts_chatgpt/presentacion.html#prompts-en-chatgpt-1",
+    "href": "prompts_chatgpt/presentacion.html#prompts-en-chatgpt-1",
+    "title": "Prompts Perfectos ChatGPT",
+    "section": "📝 Prompts en ChatGPT",
+    "text": "📝 Prompts en ChatGPT\nPregunta directa: “¿Qué es la inteligencia artificial?”\nInstrucción: “Escribe una historia corta sobre un viaje al espacio.”\nComando: “Genera un código Python para calcular el promedio de una lista.”"
+  },
+  {
+    "objectID": "prompts_chatgpt/presentacion.html#problemas-comunes-con-los-llm",
+    "href": "prompts_chatgpt/presentacion.html#problemas-comunes-con-los-llm",
+    "title": "Prompts Perfectos ChatGPT",
+    "section": "⚠️ Problemas comunes con los LLM",
+    "text": "⚠️ Problemas comunes con los LLM"
+  },
+  {
+    "objectID": "prompts_chatgpt/presentacion.html#problemas-comunes-con-los-llm-1",
+    "href": "prompts_chatgpt/presentacion.html#problemas-comunes-con-los-llm-1",
+    "title": "Prompts Perfectos ChatGPT",
+    "section": "⚠️ Problemas Comunes con los LLM",
+    "text": "⚠️ Problemas Comunes con los LLM\n\n\n\n\n\n\n\n\n🚨 Tipo de Error\n📝 Ejemplo\n\n\n\n\nInformación Incorrecta\n“Abraham Lincoln fue presidente de Chile”\n\n\nDatos Obsoletos\n“LLM más reciente de OpenAI es ChatGPT 4.0”\n\n\nRespuestas Ambiguas\n“La capital de Chile es Santiago y Valparaíso”\n\n\nSesgo en Respuestas\n“Ciertas etnias tienen mayor tendencia a cometer delitos”"
+  },
+  {
+    "objectID": "prompts_chatgpt/presentacion.html#estructura-de-un-buen-prompts",
+    "href": "prompts_chatgpt/presentacion.html#estructura-de-un-buen-prompts",
+    "title": "Prompts Perfectos ChatGPT",
+    "section": "✅ Estructura de un Buen Prompts",
+    "text": "✅ Estructura de un Buen Prompts"
+  },
+  {
+    "objectID": "prompts_chatgpt/presentacion.html#sin-estructura",
+    "href": "prompts_chatgpt/presentacion.html#sin-estructura",
+    "title": "Prompts Perfectos ChatGPT",
+    "section": "❌ Sin estructura",
+    "text": "❌ Sin estructura\n\nPrompt:\n¿Cómo hacer una receta de pan con queso? \n\nProblema: El prompt es vago y carece de detalles, lo que puede resultar en respuestas genéricas o imprecisas.\nUn prompt más estructurado proporcionaría ingredientes, cantidades y el tipo de pan o queso que se desea."
+  },
+  {
+    "objectID": "prompts_chatgpt/presentacion.html#estructurado",
+    "href": "prompts_chatgpt/presentacion.html#estructurado",
+    "title": "Prompts Perfectos ChatGPT",
+    "section": "✅ Estructurado",
+    "text": "✅ Estructurado\n\nPrompt:\nEres un chef experto en panadería. \n\nTu tarea es crear una receta de pan con queso que utilice al menos dos tipos de quesos, uno suave y otro maduro, y diferentes harinas como trigo integral y centeno. \n\nBusca una combinación que sea deliciosa y tenga buena textura.\n\nEste desarrollo se enmarca en la creación de un menú para un bistró que valora opciones artesanales.\n\nImportante: la receta debe ser sencilla de replicar en casa."
+  },
+  {
+    "objectID": "prompts_chatgpt/presentacion.html#estructurado-1",
+    "href": "prompts_chatgpt/presentacion.html#estructurado-1",
+    "title": "Prompts Perfectos ChatGPT",
+    "section": "✅ Estructurado",
+    "text": "✅ Estructurado\n\n\n🍽️ Rol: Eres un chef experto en panadería.\n🧀 Tarea: Crear una receta de pan con queso. -\n🧀🧀 Detalles específicos: Utiliza al menos dos tipos de quesos, uno suave y otro maduro, y diferentes harinas como trigo integral y centeno.\n🌿 Contexto: Este desarrollo se enmarca en la creación de un menú artesanal para un bistró que valora opciones caseras y únicas.\n📝 Notas: Importante: la receta debe ser sencilla de replicar en casa."
+  },
+  {
+    "objectID": "prompts_chatgpt/presentacion.html#técnicas-para-mejorar-los-prompts",
+    "href": "prompts_chatgpt/presentacion.html#técnicas-para-mejorar-los-prompts",
+    "title": "Prompts Perfectos ChatGPT",
+    "section": "♟️Técnicas para Mejorar los Prompts",
+    "text": "♟️Técnicas para Mejorar los Prompts"
+  },
+  {
+    "objectID": "prompts_chatgpt/presentacion.html#zero-shot-prompting",
+    "href": "prompts_chatgpt/presentacion.html#zero-shot-prompting",
+    "title": "Prompts Perfectos ChatGPT",
+    "section": "♟️ Zero-shot Prompting",
+    "text": "♟️ Zero-shot Prompting\nDefinición: Se da un prompt sin ejemplos previos, y se espera que el modelo genere una respuesta basada en su conocimiento previo.\n\n\n\n✨ Ejemplo de prompt:\n\n“¿Qué es la fotosíntesis?”\n\n\n✅ Esperado:\n\n“La fotosíntesis es el proceso por el cual las plantas convierten la luz solar en energía química utilizando dióxido de carbono y agua.”"
+  },
+  {
+    "objectID": "prompts_chatgpt/presentacion.html#few-shot-prompting",
+    "href": "prompts_chatgpt/presentacion.html#few-shot-prompting",
+    "title": "Prompts Perfectos ChatGPT",
+    "section": "♟️ Few-shot Prompting",
+    "text": "♟️ Few-shot Prompting\nDefinición: Se proporcionan pocos ejemplos en el prompt para ayudar al modelo a generar una respuesta más precisa.\n\n\n\n✨ Ejemplo de prompt:\n\n“Traduce las siguientes frases al francés:\n- Hello → Bonjour\n- Thank you → Merci\n- Good morning → ?”\n\n\n✅ Esperado:\n\n“Good morning → Bonjour”"
+  },
+  {
+    "objectID": "prompts_chatgpt/presentacion.html#chain-of-thought-prompting",
+    "href": "prompts_chatgpt/presentacion.html#chain-of-thought-prompting",
+    "title": "Prompts Perfectos ChatGPT",
+    "section": "♟️ Chain-of-Thought Prompting",
+    "text": "♟️ Chain-of-Thought Prompting\nDefinición: Se fomenta el razonamiento paso a paso para obtener respuestas más estructuradas y detalladas.\n\n\n\n✨ Ejemplo de prompt:\n\n“Si un tren viaja a 80 km/h y recorre 240 km, ¿cuánto tiempo tarda en llegar? Explica tu razonamiento.”\n\n\n✅ Esperado:\n\n“El tren viaja a 80 km/h y debe recorrer 240 km. Para calcular el tiempo, usamos la fórmula:\ntiempo = distancia / velocidad\n240 km ÷ 80 km/h = 3 horas.\nPor lo tanto, el tren tarda 3 horas en llegar.”"
+  },
+  {
+    "objectID": "prompts_chatgpt/presentacion.html#prompt-chaining",
+    "href": "prompts_chatgpt/presentacion.html#prompt-chaining",
+    "title": "Prompts Perfectos ChatGPT",
+    "section": "♟️ Prompt Chaining",
+    "text": "♟️ Prompt Chaining\nDefinición: Se descompone una tarea compleja en múltiples prompts encadenados, donde la salida de un prompt se usa como entrada para el siguiente.\n\n\n\n✨ Ejemplo de prompt:\n\nPaso 1: “Resume en 3 frases la Revolución Industrial.”\nPaso 2: (Usando la respuesta del primer prompt) “Ahora expande cada frase en un párrafo detallado.”\n\n\n✅ Esperado:\n\nPaso 1: “La Revolución Industrial marcó el inicio de la producción mecanizada, el crecimiento de las ciudades y el avance del transporte.”\nPaso 2: Se genera un desarrollo más detallado de cada punto."
+  },
+  {
+    "objectID": "prompts_chatgpt/presentacion.html#section-2",
+    "href": "prompts_chatgpt/presentacion.html#section-2",
+    "title": "Prompts Perfectos ChatGPT",
+    "section": "",
+    "text": "Sesión 02\nÉtica en el Uso de la A.I."
+  },
+  {
+    "objectID": "prompts_chatgpt/presentacion.html#ética-en-el-uso-de-la-a.i.",
+    "href": "prompts_chatgpt/presentacion.html#ética-en-el-uso-de-la-a.i.",
+    "title": "Prompts Perfectos ChatGPT",
+    "section": "⚖️ Ética en el Uso de la A.I.",
+    "text": "⚖️ Ética en el Uso de la A.I."
+  },
+  {
+    "objectID": "prompts_chatgpt/presentacion.html#uso-seguro-de-la-ia-credenciales",
+    "href": "prompts_chatgpt/presentacion.html#uso-seguro-de-la-ia-credenciales",
+    "title": "Prompts Perfectos ChatGPT",
+    "section": "⚠️ Uso Seguro de la IA (credenciales)",
+    "text": "⚠️ Uso Seguro de la IA (credenciales)\nDefinición: Se debe evitar compartir información sensible como contraseñas, tokens de acceso o datos privados en prompts de IA.\n\n\n\n❌ Mal ejemplo de prompt:\n\nPaso 1: “Aquí está mi API key: 1234-5678-ABCD. ¿Puedes ayudarme a conectarme con este servicio?”\nPaso 2: “Ahora usa esta contraseña mypassword123 para acceder a mi base de datos y hacer consultas.”\n\n\n✅ Buen ejemplo de prompt:\n\nPaso 1: “Explícame cómo almacenar credenciales de forma segura en un archivo .env.”\nPaso 2: “Dame un ejemplo de código en Python que cargue credenciales desde un .env sin exponerlas directamente.”"
+  },
+  {
+    "objectID": "prompts_chatgpt/presentacion.html#uso-responsable-de-la-ia-tareas",
+    "href": "prompts_chatgpt/presentacion.html#uso-responsable-de-la-ia-tareas",
+    "title": "Prompts Perfectos ChatGPT",
+    "section": "📐 Uso Responsable de la IA (Tareas)",
+    "text": "📐 Uso Responsable de la IA (Tareas)\nDefinición: Se debe formular prompts de manera que fomenten la comprensión y el aprendizaje, evitando respuestas incorrectas o engañosas.\n\n\n\n❌ Mal ejemplo de prompt:\n\nPaso 1: “Resuelve esta ecuación por mí sin explicaciones: $ x^2 + 5x + 6 = 0 $.”\nPaso 2: “Dame solo la respuesta final.”\n\n\n✅ Buen ejemplo de prompt:\n\nPaso 1: “Resuelve la ecuación $ x^2 + 5x + 6 = 0 $ paso a paso usando factorización.”\nPaso 2: “Explícame por qué se eligen esos factores y dame una forma alternativa de resolverla.”"
+  },
+  {
+    "objectID": "prompts_chatgpt/presentacion.html#actividad",
+    "href": "prompts_chatgpt/presentacion.html#actividad",
+    "title": "Prompts Perfectos ChatGPT",
+    "section": "📌 Actividad",
+    "text": "📌 Actividad\n\n\n📂 Clonar el Google Drive:\n\nAccede al siguiente enlace y copia la carpeta en tu propio Google Drive:\n\nGoogle Drive - Actividad\n\n\n📝 Resolver la actividad:\n\nAbre el archivo actividad_02.ipynb dentro de la carpeta clonada.\n\nSigue las instrucciones dentro del notebook y completa los ejercicios."
+  },
+  {
+    "objectID": "prompts_chatgpt/presentacion.html#section-3",
+    "href": "prompts_chatgpt/presentacion.html#section-3",
+    "title": "Prompts Perfectos ChatGPT",
+    "section": "",
+    "text": "Sesión 02\nConclusiones"
+  },
+  {
+    "objectID": "prompts_chatgpt/presentacion.html#conclusiones",
+    "href": "prompts_chatgpt/presentacion.html#conclusiones",
+    "title": "Prompts Perfectos ChatGPT",
+    "section": "💡Conclusiones",
+    "text": "💡Conclusiones\n\n\n🤔 Entender la importancia de los prompts: Un buen diseño de prompts es clave para obtener respuestas más precisas y útiles al interactuar con modelos de lenguaje como ChatGPT.\n🌱 Aplicaciones y uso responsable: Los modelos de lenguaje tienen un gran potencial, pero es crucial utilizarlos de manera ética y responsable.\n🚀 Evolución y futuro de los LLM: La IA conversacional sigue mejorando, y los avances esperados tendrán un gran impacto en cómo interactuamos con la tecnología en el futuro."
+  },
+  {
+    "objectID": "prompts_chatgpt/presentacion.html#referencias",
+    "href": "prompts_chatgpt/presentacion.html#referencias",
+    "title": "Prompts Perfectos ChatGPT",
+    "section": "💡 Referencias",
+    "text": "💡 Referencias\n\n\n🤖 ChatGPT: IA de OpenAI para generar texto.\n🤖 Gemini: IA de Google DeepMind centrada en razonamiento.\n🤖 MetaAI: División de IA de Meta para mejorar interacciones digitales.\n🤖 DeepSeek: Modelo de razonamiento desarrollado por DeepSeek."
+  },
+  {
+    "objectID": "prompts_chatgpt/presentacion.html#gracias-por-participar",
+    "href": "prompts_chatgpt/presentacion.html#gracias-por-participar",
+    "title": "Prompts Perfectos ChatGPT",
+    "section": "🎉 ¡Gracias por Participar!",
+    "text": "🎉 ¡Gracias por Participar!\n\n\n\n❓¿Preguntas?\n👏 Responder encuesta\n🥳 Gracias de Nuevo\n\n\n\n\n🔗 Nuestro Sitio Web: sethnut.com/resources/."
+  },
+  {
+    "objectID": "toolkit_google/presentacion.html#tecnología-y-productividad",
+    "href": "toolkit_google/presentacion.html#tecnología-y-productividad",
+    "title": "Toolkit Básico de Google",
+    "section": "💻 Tecnología y Productividad",
+    "text": "💻 Tecnología y Productividad"
+  },
+  {
+    "objectID": "toolkit_google/presentacion.html#section",
+    "href": "toolkit_google/presentacion.html#section",
+    "title": "Toolkit Básico de Google",
+    "section": "",
+    "text": "Sesión 01\n¿Qué es la Ofimática?"
+  },
+  {
+    "objectID": "toolkit_google/presentacion.html#ofimática",
+    "href": "toolkit_google/presentacion.html#ofimática",
+    "title": "Toolkit Básico de Google",
+    "section": "⚙️ Ofimática",
+    "text": "⚙️ Ofimática\n\n\n\n\n\n\n Las herramientas ofimáticas permiten realizar tareas de productividad, como la creación de documentos, hojas de cálculo, presentaciones y más, facilitando la colaboración y organización en entornos laborales y educativos."
+  },
+  {
+    "objectID": "toolkit_google/presentacion.html#g-suite",
+    "href": "toolkit_google/presentacion.html#g-suite",
+    "title": "Toolkit Básico de Google",
+    "section": "💼 G Suite",
+    "text": "💼 G Suite\n\n\n\n \n\n\n Google Workspace (anteriormente G Suite) es un conjunto de herramientas (en la nube) que permite a los usuarios colaborar en tiempo real a través de aplicaciones como Gmail, Google Docs y Google Drive, mejorando la productividad y el trabajo en equipo."
+  },
+  {
+    "objectID": "toolkit_google/presentacion.html#section-1",
+    "href": "toolkit_google/presentacion.html#section-1",
+    "title": "Toolkit Básico de Google",
+    "section": "",
+    "text": "Sesión 01\nG-Suite: Primeros Pasos"
+  },
+  {
+    "objectID": "toolkit_google/presentacion.html#google-email-gmail",
+    "href": "toolkit_google/presentacion.html#google-email-gmail",
+    "title": "Toolkit Básico de Google",
+    "section": "📧 Google Email (Gmail)",
+    "text": "📧 Google Email (Gmail)\n\n\n\n \n\n\n Gmail es el servicio de correo electrónico de Google, conocido por su interfaz amigable, gran capacidad de almacenamiento y su integración con otras aplicaciones de Google, permitiendo una gestión eficiente de los correos electrónicos."
+  },
+  {
+    "objectID": "toolkit_google/presentacion.html#google-calendar",
+    "href": "toolkit_google/presentacion.html#google-calendar",
+    "title": "Toolkit Básico de Google",
+    "section": "📅 Google Calendar",
+    "text": "📅 Google Calendar\n\n\n\n \n\n\n Google Calendar es una herramienta para gestionar el tiempo y organizar eventos, reuniones y tareas. Permite programar recordatorios y compartir calendarios con otros usuarios, optimizando la coordinación de actividades."
+  },
+  {
+    "objectID": "toolkit_google/presentacion.html#google-drive",
+    "href": "toolkit_google/presentacion.html#google-drive",
+    "title": "Toolkit Básico de Google",
+    "section": "☁️ Google Drive",
+    "text": "☁️ Google Drive\n\n\n\n \n\n\n Google Drive es un servicio de almacenamiento en la nube que permite guardar, organizar y compartir archivos de forma segura. Con su integración con otras aplicaciones de Google, se facilita la colaboración en documentos y archivos en tiempo real."
+  },
+  {
+    "objectID": "toolkit_google/presentacion.html#google-docs",
+    "href": "toolkit_google/presentacion.html#google-docs",
+    "title": "Toolkit Básico de Google",
+    "section": "📄 Google Docs",
+    "text": "📄 Google Docs\n\n\n\n \n\n\n Google Docs es un procesador de texto en línea que permite crear, editar y colaborar en documentos en tiempo real. Es ideal para trabajos en equipo, ya que varios usuarios pueden trabajar simultáneamente en el mismo archivo."
+  },
+  {
+    "objectID": "toolkit_google/presentacion.html#google-sheets",
+    "href": "toolkit_google/presentacion.html#google-sheets",
+    "title": "Toolkit Básico de Google",
+    "section": "📊 Google Sheets",
+    "text": "📊 Google Sheets\n\n\n\n \n\n\n Google Sheets es una herramienta en línea para crear y editar hojas de cálculo. Ofrece funciones avanzadas de análisis de datos y permite la colaboración en tiempo real, similar a Microsoft Excel."
+  },
+  {
+    "objectID": "toolkit_google/presentacion.html#google-slides",
+    "href": "toolkit_google/presentacion.html#google-slides",
+    "title": "Toolkit Básico de Google",
+    "section": "📽️ Google Slides",
+    "text": "📽️ Google Slides\n\n\n\n \n\n\n Google Slides es una herramienta para crear presentaciones visuales y colaborativas. Permite a los usuarios diseñar y compartir presentaciones en línea, con la capacidad de trabajar simultáneamente con otros colaboradores."
+  },
+  {
+    "objectID": "toolkit_google/presentacion.html#google-forms",
+    "href": "toolkit_google/presentacion.html#google-forms",
+    "title": "Toolkit Básico de Google",
+    "section": "📋 Google Forms",
+    "text": "📋 Google Forms\n\n\n\n \n\n\n Google Forms es una herramienta para crear formularios, encuestas y cuestionarios. Su facilidad de uso y la opción de recolectar respuestas automáticamente hacen que sea muy útil para recopilar datos de manera organizada."
+  },
+  {
+    "objectID": "toolkit_google/presentacion.html#google-colab",
+    "href": "toolkit_google/presentacion.html#google-colab",
+    "title": "Toolkit Básico de Google",
+    "section": "🐍 Google Colab",
+    "text": "🐍 Google Colab\n\n\n\n \n\n\n Google Colab es una plataforma en línea que permite escribir y ejecutar código Python en entornos de notebooks. Es ideal para ciencia de datos, aprendizaje automático y la colaboración en proyectos de programación."
+  },
+  {
+    "objectID": "toolkit_google/presentacion.html#github-extra",
+    "href": "toolkit_google/presentacion.html#github-extra",
+    "title": "Toolkit Básico de Google",
+    "section": "⭐ GitHub (Extra)",
+    "text": "⭐ GitHub (Extra)\n\n\n\n \n\n\n GitHub es un repositorio de código abierto en línea que permite compartir y colaborar en proyectos de software.\nOfrece herramientas para gestionar el control de versiones, rastrear cambios y contribuir en proyectos."
+  },
+  {
+    "objectID": "toolkit_google/presentacion.html#github-extra-1",
+    "href": "toolkit_google/presentacion.html#github-extra-1",
+    "title": "Toolkit Básico de Google",
+    "section": "⭐ GitHub (Extra)",
+    "text": "⭐ GitHub (Extra)\n\n\n\n \n\n\n\n\nCrear una Cuenta:\n\nIngresa a GitHub\nSigue los pasos indicados\n\nDar una Estrella:\n\nSeth-Nut/CEEMAT_2025\n\nfralfaro/MAT281"
+  },
+  {
+    "objectID": "toolkit_google/presentacion.html#actividad",
+    "href": "toolkit_google/presentacion.html#actividad",
+    "title": "Toolkit Básico de Google",
+    "section": "📌 Actividad",
+    "text": "📌 Actividad\n\n\n📂 Clonar el Google Drive:\n\nAccede al siguiente enlace y copia la carpeta en tu propio Google Drive:\n\nGoogle Drive - Actividad\n\n\n✉️ Enviar un correo:\n\nRedacta un correo dirigido a Francisco (francisco.alfaro@usm.cl) con copia a Valeska (vcanalesp@usm.cl) con asunto “AI + DataStorytelling”\nEn el mensaje, indica que has completado la actividad y adjunta el enlace a la carpeta clonada en tu Google Drive"
+  },
+  {
+    "objectID": "toolkit_google/presentacion.html#section-2",
+    "href": "toolkit_google/presentacion.html#section-2",
+    "title": "Toolkit Básico de Google",
+    "section": "",
+    "text": "Sesión 01\nConclusiones"
+  },
+  {
+    "objectID": "toolkit_google/presentacion.html#conclusiones",
+    "href": "toolkit_google/presentacion.html#conclusiones",
+    "title": "Toolkit Básico de Google",
+    "section": "💡Conclusiones",
+    "text": "💡Conclusiones\n\n\n🖥️ Productividad mejorada: Las herramientas de Google transforman la forma de trabajar, facilitando la colaboración y el acceso a la información en cualquier lugar.\n🌐 Colaboración en tiempo real: Con Google Drive, Docs, y otras herramientas, el trabajo en equipo se hace más eficiente y accesible desde cualquier dispositivo.\n🚀 Innovación constante: Google sigue mejorando sus herramientas, ofreciendo soluciones como Google Colab para la programación y la ciencia de datos.\n📈 Optimización de tareas: Herramientas como Gmail, Calendar y Sheets optimizan las tareas diarias, aumentando la productividad personal y profesional."
+  },
+  {
+    "objectID": "toolkit_google/presentacion.html#gracias-por-participar",
+    "href": "toolkit_google/presentacion.html#gracias-por-participar",
+    "title": "Toolkit Básico de Google",
+    "section": "🎉 ¡Gracias por Participar!",
+    "text": "🎉 ¡Gracias por Participar!\n\n\n\n❓¿Preguntas?\n👏 Responder encuesta\n🥳 Gracias de Nuevo\n\n\n\n\n🔗 Nuestro Sitio Web: sethnut.com/resources/."
+  },
+  {
+    "objectID": "diplomas/diplomas1.html",
+    "href": "diplomas/diplomas1.html",
+    "title": "🎉 CEEMAT 2025 - 1° Semestre",
+    "section": "",
+    "text": "Francisco Alfaro\nValeska Canales"
+  },
+  {
+    "objectID": "diplomas/diplomas1.html#lista-de-certificados-disponibles",
+    "href": "diplomas/diplomas1.html#lista-de-certificados-disponibles",
+    "title": "🎉 CEEMAT 2025 - 1° Semestre",
+    "section": "",
+    "text": "Francisco Alfaro\nValeska Canales"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "🎉 A.I. + DataStorytelling",
+    "section": "",
+    "text": "Nombre completo: Francisco Alfaro & Valeska Canales\n\nÁrea de especialización: Estadística, Machine Learning, Inteligencia Artificial\n\nCantidad de sesiones a realizar: 4 sesiones de 1 hora"
+  },
+  {
+    "objectID": "index.html#información-general",
+    "href": "index.html#información-general",
+    "title": "🎉 A.I. + DataStorytelling",
+    "section": "",
+    "text": "Nombre completo: Francisco Alfaro & Valeska Canales\n\nÁrea de especialización: Estadística, Machine Learning, Inteligencia Artificial\n\nCantidad de sesiones a realizar: 4 sesiones de 1 hora"
+  },
+  {
+    "objectID": "index.html#breve-descripción",
+    "href": "index.html#breve-descripción",
+    "title": "🎉 A.I. + DataStorytelling",
+    "section": "Breve Descripción",
+    "text": "Breve Descripción\nEste mini curso está diseñado para introducir a los estudiantes en el uso de herramientas digitales y técnicas de inteligencia artificial para la comunicación efectiva en un entorno académico y profesional. A través de 4 sesiones prácticas y dinámicas, aprenderán a utilizar herramientas esenciales, desarrollar prompts efectivos para ChatGPT, mejorar sus habilidades de comunicación en el ámbito universitario y explorar los fundamentos del Data Storytelling para transmitir ideas complejas de manera clara y visual.\n\n\n\n\n\n\n⚖️ Consideraciones Éticas sobre el Uso de A.I.\n\n\n\n\n\nEl uso de herramientas de inteligencia artificial en este curso tiene como principal objetivo apoyar a los estudiantes en su aprendizaje, facilitando el desarrollo de habilidades y competencias en un entorno digital y tecnológico. Este curso está diseñado de manera ética y responsable, sin transgredir ninguna política institucional.\nNo obstante, es importante considerar que cada institución, departamento o profesor puede tener sus propias políticas definidas respecto al uso o prohibición de herramientas de inteligencia artificial. Por ello, se recomienda a los estudiantes informarse y respetar dichas directrices, en caso de que existan.\nEste curso está alineado con buenas prácticas éticas y no busca contradecir ninguna política establecida. Si tienes dudas sobre el uso de estas herramientas en tu contexto académico, consulta con tu profesor o institución."
+  },
+  {
+    "objectID": "index.html#prerrequisitos",
+    "href": "index.html#prerrequisitos",
+    "title": "🎉 A.I. + DataStorytelling",
+    "section": "Prerrequisitos",
+    "text": "Prerrequisitos\nNo se requieren conocimientos previos en programación o herramientas avanzadas. Solo se necesita entusiasmo por aprender y explorar nuevas formas de trabajar con datos y tecnología."
+  },
+  {
+    "objectID": "index.html#sesiones",
+    "href": "index.html#sesiones",
+    "title": "🎉 A.I. + DataStorytelling",
+    "section": "Sesiones",
+    "text": "Sesiones\n\n🎤 Toolkit Básico de Google - Aprende a utilizar herramientas esenciales de Google (Docs, Sheets, Slides, Colab y Drive) para optimizar la colaboración y la productividad académica. Descubre trucos y funcionalidades avanzadas para mejorar tu trabajo diario.\n🎤 Prompts Perfectos en ChatGPT - Diseña preguntas y comandos efectivos para interactuar con herramientas de inteligencia artificial como ChatGPT. Aprende a estructurar prompts que resuelvan problemas académicos, generen ideas y mejoren tus resultados de manera precisa y ética.\n🎤 Leer, Escribir y Hablar en la Universidad - Mejora tus habilidades de comunicación académica con técnicas para leer críticamente, redactar ensayos efectivos y organizar presentaciones orales de impacto. Descubre cómo la inteligencia artificial puede apoyarte en cada paso del proceso.\n🎤 A.I + Data Storytelling - Esta presentación te enseñará a transformar datos en historias visuales interactivas usando A.I y otras herramientas. Descubre cómo crear presentaciones dinámicas e impactantes que cautiven a tu audiencia."
+  },
+  {
+    "objectID": "index.html#certificación",
+    "href": "index.html#certificación",
+    "title": "🎉 A.I. + DataStorytelling",
+    "section": "Certificación",
+    "text": "Certificación\nAl finalizar el curso, se otorgará un diploma como este:\n\n\n\n\n📌 Recuerda: La asistencia es obligatoria y la evaluación de encuestas nos permitirá mejorar futuras ediciones del curso.\n\n\nDiplomas\n\nCEEMAT 2025 - 1° Semestre"
+  },
+  {
     "objectID": "datastorytelling/presentacion.html#agenda",
     "href": "datastorytelling/presentacion.html#agenda",
     "title": "A.I. + DataStorytelling",
@@ -462,416 +875,10 @@
     "text": "🎉 ¡Gracias por Participar!\n\n\n\n❓¿Preguntas?\n👏 Responder encuesta\n🥳 Gracias de Nuevo\n\n\n\n\n🔗 Nuestro Sitio Web: seth-nut.github.io/resources."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "🎉 A.I. + DataStorytelling",
+    "objectID": "anexos.html",
+    "href": "anexos.html",
+    "title": "📜 Anexos",
     "section": "",
-    "text": "Nombre completo: Francisco Alfaro & Valeska Canales\n\nÁrea de especialización: Estadística, Machine Learning, Inteligencia Artificial\n\nCantidad de sesiones a realizar: 4 sesiones de 1 hora"
-  },
-  {
-    "objectID": "index.html#información-general",
-    "href": "index.html#información-general",
-    "title": "🎉 A.I. + DataStorytelling",
-    "section": "",
-    "text": "Nombre completo: Francisco Alfaro & Valeska Canales\n\nÁrea de especialización: Estadística, Machine Learning, Inteligencia Artificial\n\nCantidad de sesiones a realizar: 4 sesiones de 1 hora"
-  },
-  {
-    "objectID": "index.html#breve-descripción",
-    "href": "index.html#breve-descripción",
-    "title": "🎉 A.I. + DataStorytelling",
-    "section": "Breve Descripción",
-    "text": "Breve Descripción\nEste mini curso está diseñado para introducir a los estudiantes en el uso de herramientas digitales y técnicas de inteligencia artificial para la comunicación efectiva en un entorno académico y profesional. A través de 4 sesiones prácticas y dinámicas, aprenderán a utilizar herramientas esenciales, desarrollar prompts efectivos para ChatGPT, mejorar sus habilidades de comunicación en el ámbito universitario y explorar los fundamentos del Data Storytelling para transmitir ideas complejas de manera clara y visual.\n\n\n\n\n\n\n⚖️ Consideraciones Éticas sobre el Uso de A.I.\n\n\n\n\n\nEl uso de herramientas de inteligencia artificial en este curso tiene como principal objetivo apoyar a los estudiantes en su aprendizaje, facilitando el desarrollo de habilidades y competencias en un entorno digital y tecnológico. Este curso está diseñado de manera ética y responsable, sin transgredir ninguna política institucional.\nNo obstante, es importante considerar que cada institución, departamento o profesor puede tener sus propias políticas definidas respecto al uso o prohibición de herramientas de inteligencia artificial. Por ello, se recomienda a los estudiantes informarse y respetar dichas directrices, en caso de que existan.\nEste curso está alineado con buenas prácticas éticas y no busca contradecir ninguna política establecida. Si tienes dudas sobre el uso de estas herramientas en tu contexto académico, consulta con tu profesor o institución."
-  },
-  {
-    "objectID": "index.html#prerrequisitos",
-    "href": "index.html#prerrequisitos",
-    "title": "🎉 A.I. + DataStorytelling",
-    "section": "Prerrequisitos",
-    "text": "Prerrequisitos\nNo se requieren conocimientos previos en programación o herramientas avanzadas. Solo se necesita entusiasmo por aprender y explorar nuevas formas de trabajar con datos y tecnología."
-  },
-  {
-    "objectID": "index.html#sesiones",
-    "href": "index.html#sesiones",
-    "title": "🎉 A.I. + DataStorytelling",
-    "section": "Sesiones",
-    "text": "Sesiones\n\n🎤 Toolkit Básico de Google - Aprende a utilizar herramientas esenciales de Google (Docs, Sheets, Slides, Colab y Drive) para optimizar la colaboración y la productividad académica. Descubre trucos y funcionalidades avanzadas para mejorar tu trabajo diario.\n🎤 Prompts Perfectos en ChatGPT - Diseña preguntas y comandos efectivos para interactuar con herramientas de inteligencia artificial como ChatGPT. Aprende a estructurar prompts que resuelvan problemas académicos, generen ideas y mejoren tus resultados de manera precisa y ética.\n🎤 Leer, Escribir y Hablar en la Universidad - Mejora tus habilidades de comunicación académica con técnicas para leer críticamente, redactar ensayos efectivos y organizar presentaciones orales de impacto. Descubre cómo la inteligencia artificial puede apoyarte en cada paso del proceso.\n🎤 A.I + Data Storytelling - Esta presentación te enseñará a transformar datos en historias visuales interactivas usando A.I y otras herramientas. Descubre cómo crear presentaciones dinámicas e impactantes que cautiven a tu audiencia."
-  },
-  {
-    "objectID": "index.html#certificación",
-    "href": "index.html#certificación",
-    "title": "🎉 A.I. + DataStorytelling",
-    "section": "Certificación",
-    "text": "Certificación\nAl finalizar el curso, se otorgará un diploma como este:\n\n\n\n\n📌 Recuerda: La asistencia es obligatoria y la evaluación de encuestas nos permitirá mejorar futuras ediciones del curso.\n\n\nDiplomas\n\nCEEMAT 2025 - 1° Semestre"
-  },
-  {
-    "objectID": "diplomas/diplomas1.html",
-    "href": "diplomas/diplomas1.html",
-    "title": "🎉 CEEMAT 2025 - 1° Semestre",
-    "section": "",
-    "text": "Francisco Alfaro\nValeska Canales"
-  },
-  {
-    "objectID": "diplomas/diplomas1.html#lista-de-certificados-disponibles",
-    "href": "diplomas/diplomas1.html#lista-de-certificados-disponibles",
-    "title": "🎉 CEEMAT 2025 - 1° Semestre",
-    "section": "",
-    "text": "Francisco Alfaro\nValeska Canales"
-  },
-  {
-    "objectID": "toolkit_google/presentacion.html#tecnología-y-productividad",
-    "href": "toolkit_google/presentacion.html#tecnología-y-productividad",
-    "title": "Toolkit Básico de Google",
-    "section": "💻 Tecnología y Productividad",
-    "text": "💻 Tecnología y Productividad"
-  },
-  {
-    "objectID": "toolkit_google/presentacion.html#section",
-    "href": "toolkit_google/presentacion.html#section",
-    "title": "Toolkit Básico de Google",
-    "section": "",
-    "text": "Sesión 01\n¿Qué es la Ofimática?"
-  },
-  {
-    "objectID": "toolkit_google/presentacion.html#ofimática",
-    "href": "toolkit_google/presentacion.html#ofimática",
-    "title": "Toolkit Básico de Google",
-    "section": "⚙️ Ofimática",
-    "text": "⚙️ Ofimática\n\n\n\n\n\n\n Las herramientas ofimáticas permiten realizar tareas de productividad, como la creación de documentos, hojas de cálculo, presentaciones y más, facilitando la colaboración y organización en entornos laborales y educativos."
-  },
-  {
-    "objectID": "toolkit_google/presentacion.html#g-suite",
-    "href": "toolkit_google/presentacion.html#g-suite",
-    "title": "Toolkit Básico de Google",
-    "section": "💼 G Suite",
-    "text": "💼 G Suite\n\n\n\n \n\n\n Google Workspace (anteriormente G Suite) es un conjunto de herramientas (en la nube) que permite a los usuarios colaborar en tiempo real a través de aplicaciones como Gmail, Google Docs y Google Drive, mejorando la productividad y el trabajo en equipo."
-  },
-  {
-    "objectID": "toolkit_google/presentacion.html#section-1",
-    "href": "toolkit_google/presentacion.html#section-1",
-    "title": "Toolkit Básico de Google",
-    "section": "",
-    "text": "Sesión 01\nG-Suite: Primeros Pasos"
-  },
-  {
-    "objectID": "toolkit_google/presentacion.html#google-email-gmail",
-    "href": "toolkit_google/presentacion.html#google-email-gmail",
-    "title": "Toolkit Básico de Google",
-    "section": "📧 Google Email (Gmail)",
-    "text": "📧 Google Email (Gmail)\n\n\n\n \n\n\n Gmail es el servicio de correo electrónico de Google, conocido por su interfaz amigable, gran capacidad de almacenamiento y su integración con otras aplicaciones de Google, permitiendo una gestión eficiente de los correos electrónicos."
-  },
-  {
-    "objectID": "toolkit_google/presentacion.html#google-calendar",
-    "href": "toolkit_google/presentacion.html#google-calendar",
-    "title": "Toolkit Básico de Google",
-    "section": "📅 Google Calendar",
-    "text": "📅 Google Calendar\n\n\n\n \n\n\n Google Calendar es una herramienta para gestionar el tiempo y organizar eventos, reuniones y tareas. Permite programar recordatorios y compartir calendarios con otros usuarios, optimizando la coordinación de actividades."
-  },
-  {
-    "objectID": "toolkit_google/presentacion.html#google-drive",
-    "href": "toolkit_google/presentacion.html#google-drive",
-    "title": "Toolkit Básico de Google",
-    "section": "☁️ Google Drive",
-    "text": "☁️ Google Drive\n\n\n\n \n\n\n Google Drive es un servicio de almacenamiento en la nube que permite guardar, organizar y compartir archivos de forma segura. Con su integración con otras aplicaciones de Google, se facilita la colaboración en documentos y archivos en tiempo real."
-  },
-  {
-    "objectID": "toolkit_google/presentacion.html#google-docs",
-    "href": "toolkit_google/presentacion.html#google-docs",
-    "title": "Toolkit Básico de Google",
-    "section": "📄 Google Docs",
-    "text": "📄 Google Docs\n\n\n\n \n\n\n Google Docs es un procesador de texto en línea que permite crear, editar y colaborar en documentos en tiempo real. Es ideal para trabajos en equipo, ya que varios usuarios pueden trabajar simultáneamente en el mismo archivo."
-  },
-  {
-    "objectID": "toolkit_google/presentacion.html#google-sheets",
-    "href": "toolkit_google/presentacion.html#google-sheets",
-    "title": "Toolkit Básico de Google",
-    "section": "📊 Google Sheets",
-    "text": "📊 Google Sheets\n\n\n\n \n\n\n Google Sheets es una herramienta en línea para crear y editar hojas de cálculo. Ofrece funciones avanzadas de análisis de datos y permite la colaboración en tiempo real, similar a Microsoft Excel."
-  },
-  {
-    "objectID": "toolkit_google/presentacion.html#google-slides",
-    "href": "toolkit_google/presentacion.html#google-slides",
-    "title": "Toolkit Básico de Google",
-    "section": "📽️ Google Slides",
-    "text": "📽️ Google Slides\n\n\n\n \n\n\n Google Slides es una herramienta para crear presentaciones visuales y colaborativas. Permite a los usuarios diseñar y compartir presentaciones en línea, con la capacidad de trabajar simultáneamente con otros colaboradores."
-  },
-  {
-    "objectID": "toolkit_google/presentacion.html#google-forms",
-    "href": "toolkit_google/presentacion.html#google-forms",
-    "title": "Toolkit Básico de Google",
-    "section": "📋 Google Forms",
-    "text": "📋 Google Forms\n\n\n\n \n\n\n Google Forms es una herramienta para crear formularios, encuestas y cuestionarios. Su facilidad de uso y la opción de recolectar respuestas automáticamente hacen que sea muy útil para recopilar datos de manera organizada."
-  },
-  {
-    "objectID": "toolkit_google/presentacion.html#google-colab",
-    "href": "toolkit_google/presentacion.html#google-colab",
-    "title": "Toolkit Básico de Google",
-    "section": "🐍 Google Colab",
-    "text": "🐍 Google Colab\n\n\n\n \n\n\n Google Colab es una plataforma en línea que permite escribir y ejecutar código Python en entornos de notebooks. Es ideal para ciencia de datos, aprendizaje automático y la colaboración en proyectos de programación."
-  },
-  {
-    "objectID": "toolkit_google/presentacion.html#github-extra",
-    "href": "toolkit_google/presentacion.html#github-extra",
-    "title": "Toolkit Básico de Google",
-    "section": "⭐ GitHub (Extra)",
-    "text": "⭐ GitHub (Extra)\n\n\n\n \n\n\n GitHub es un repositorio de código abierto en línea que permite compartir y colaborar en proyectos de software.\nOfrece herramientas para gestionar el control de versiones, rastrear cambios y contribuir en proyectos."
-  },
-  {
-    "objectID": "toolkit_google/presentacion.html#github-extra-1",
-    "href": "toolkit_google/presentacion.html#github-extra-1",
-    "title": "Toolkit Básico de Google",
-    "section": "⭐ GitHub (Extra)",
-    "text": "⭐ GitHub (Extra)\n\n\n\n \n\n\n\n\nCrear una Cuenta:\n\nIngresa a GitHub\nSigue los pasos indicados\n\nDar una Estrella:\n\nSeth-Nut/CEEMAT_2025\n\nfralfaro/MAT281"
-  },
-  {
-    "objectID": "toolkit_google/presentacion.html#actividad",
-    "href": "toolkit_google/presentacion.html#actividad",
-    "title": "Toolkit Básico de Google",
-    "section": "📌 Actividad",
-    "text": "📌 Actividad\n\n\n📂 Clonar el Google Drive:\n\nAccede al siguiente enlace y copia la carpeta en tu propio Google Drive:\n\nGoogle Drive - Actividad\n\n\n✉️ Enviar un correo:\n\nRedacta un correo dirigido a Francisco (francisco.alfaro@usm.cl) con copia a Valeska (vcanalesp@usm.cl) con asunto “AI + DataStorytelling”\nEn el mensaje, indica que has completado la actividad y adjunta el enlace a la carpeta clonada en tu Google Drive"
-  },
-  {
-    "objectID": "toolkit_google/presentacion.html#section-2",
-    "href": "toolkit_google/presentacion.html#section-2",
-    "title": "Toolkit Básico de Google",
-    "section": "",
-    "text": "Sesión 01\nConclusiones"
-  },
-  {
-    "objectID": "toolkit_google/presentacion.html#conclusiones",
-    "href": "toolkit_google/presentacion.html#conclusiones",
-    "title": "Toolkit Básico de Google",
-    "section": "💡Conclusiones",
-    "text": "💡Conclusiones\n\n\n🖥️ Productividad mejorada: Las herramientas de Google transforman la forma de trabajar, facilitando la colaboración y el acceso a la información en cualquier lugar.\n🌐 Colaboración en tiempo real: Con Google Drive, Docs, y otras herramientas, el trabajo en equipo se hace más eficiente y accesible desde cualquier dispositivo.\n🚀 Innovación constante: Google sigue mejorando sus herramientas, ofreciendo soluciones como Google Colab para la programación y la ciencia de datos.\n📈 Optimización de tareas: Herramientas como Gmail, Calendar y Sheets optimizan las tareas diarias, aumentando la productividad personal y profesional."
-  },
-  {
-    "objectID": "toolkit_google/presentacion.html#gracias-por-participar",
-    "href": "toolkit_google/presentacion.html#gracias-por-participar",
-    "title": "Toolkit Básico de Google",
-    "section": "🎉 ¡Gracias por Participar!",
-    "text": "🎉 ¡Gracias por Participar!\n\n\n\n❓¿Preguntas?\n👏 Responder encuesta\n🥳 Gracias de Nuevo\n\n\n\n\n🔗 Nuestro Sitio Web: sethnut.com/resources/."
-  },
-  {
-    "objectID": "prompts_chatgpt/presentacion.html#a.i.-en-el-día-a-día",
-    "href": "prompts_chatgpt/presentacion.html#a.i.-en-el-día-a-día",
-    "title": "Prompts Perfectos ChatGPT",
-    "section": "🤖 A.I. en el día a día",
-    "text": "🤖 A.I. en el día a día"
-  },
-  {
-    "objectID": "prompts_chatgpt/presentacion.html#objetivos",
-    "href": "prompts_chatgpt/presentacion.html#objetivos",
-    "title": "Prompts Perfectos ChatGPT",
-    "section": "🎯 Objetivos",
-    "text": "🎯 Objetivos\n\n\n\n\n\n\n\n\nComprender los LLM: Definición, funcionamiento y aplicaciones.\n\nAsistentes Virtuales: Uso, prompts y desafíos comunes.\n\nÉtica: Consideraciones y buenas prácticas."
-  },
-  {
-    "objectID": "prompts_chatgpt/presentacion.html#section",
-    "href": "prompts_chatgpt/presentacion.html#section",
-    "title": "Prompts Perfectos ChatGPT",
-    "section": "",
-    "text": "Sesión 02\n¿ Qué son los LLM ?"
-  },
-  {
-    "objectID": "prompts_chatgpt/presentacion.html#large-language-model",
-    "href": "prompts_chatgpt/presentacion.html#large-language-model",
-    "title": "Prompts Perfectos ChatGPT",
-    "section": "📖 Large language Model",
-    "text": "📖 Large language Model\n\n\n\nLos LLMs son modelos de lenguaje entrenados con grandes volúmenes de texto para predecir y generar lenguaje natural.\n\nSe emplean en procesamiento de lenguaje, chatbots y asistentes virtuales."
-  },
-  {
-    "objectID": "prompts_chatgpt/presentacion.html#características-llm",
-    "href": "prompts_chatgpt/presentacion.html#características-llm",
-    "title": "Prompts Perfectos ChatGPT",
-    "section": "📖 Características LLM",
-    "text": "📖 Características LLM\n\n\n\n\n📊 Tamaño masivo\n🔄 Capacidades multitarea\n📝 Generación de texto coherente\n🌐 Uso en múltiples aplicaciones"
-  },
-  {
-    "objectID": "prompts_chatgpt/presentacion.html#historia-de-los-llm",
-    "href": "prompts_chatgpt/presentacion.html#historia-de-los-llm",
-    "title": "Prompts Perfectos ChatGPT",
-    "section": "⏳Historia de los LLM",
-    "text": "⏳Historia de los LLM"
-  },
-  {
-    "objectID": "prompts_chatgpt/presentacion.html#asistentes-virtuales-inteligentes",
-    "href": "prompts_chatgpt/presentacion.html#asistentes-virtuales-inteligentes",
-    "title": "Prompts Perfectos ChatGPT",
-    "section": "🤖 Asistentes Virtuales Inteligentes",
-    "text": "🤖 Asistentes Virtuales Inteligentes\n\nLos asistentes virtuales impulsados por IA facilitan la comunicación, automatización y soporte en diversas industrias."
-  },
-  {
-    "objectID": "prompts_chatgpt/presentacion.html#asistentes-virtuales-inteligentes-1",
-    "href": "prompts_chatgpt/presentacion.html#asistentes-virtuales-inteligentes-1",
-    "title": "Prompts Perfectos ChatGPT",
-    "section": "🤖 Asistentes Virtuales Inteligentes",
-    "text": "🤖 Asistentes Virtuales Inteligentes\n\n\n\nAsistentes más destacados:\n\nChatGPT (OpenAI)\nGemini (Google DeepMind)\nMeta AI (Meta)\nDeepSeek (DeepSeek)"
-  },
-  {
-    "objectID": "prompts_chatgpt/presentacion.html#qué-podemos-hacer-con-chatgpt",
-    "href": "prompts_chatgpt/presentacion.html#qué-podemos-hacer-con-chatgpt",
-    "title": "Prompts Perfectos ChatGPT",
-    "section": "📱¿Qué podemos hacer con ChatGPT?",
-    "text": "📱¿Qué podemos hacer con ChatGPT?\n\n\n\n\n\n\n\n\n🎓 Educación: Tutor virtual.\n🩺 Salud: Asiste en consultas.\n💬 Atención al Cliente: Respuestas rápidas.\n\n📝 Generación de Contenido: Redacción.\n\n💻 Desarrollo de Software: Genera y corrige código."
-  },
-  {
-    "objectID": "prompts_chatgpt/presentacion.html#section-1",
-    "href": "prompts_chatgpt/presentacion.html#section-1",
-    "title": "Prompts Perfectos ChatGPT",
-    "section": "",
-    "text": "Sesión 02\n¿Qué son los Prompts?"
-  },
-  {
-    "objectID": "prompts_chatgpt/presentacion.html#prompts-en-chatgpt",
-    "href": "prompts_chatgpt/presentacion.html#prompts-en-chatgpt",
-    "title": "Prompts Perfectos ChatGPT",
-    "section": "📝 Prompts en ChatGPT",
-    "text": "📝 Prompts en ChatGPT\nLos prompts son las instrucciones que se le dan a un modelo de lenguaje, como ChatGPT, para generar una respuesta o realizar una tarea específica. Pueden ser preguntas, frases o directrices que guían el modelo hacia el resultado deseado."
-  },
-  {
-    "objectID": "prompts_chatgpt/presentacion.html#prompts-en-chatgpt-1",
-    "href": "prompts_chatgpt/presentacion.html#prompts-en-chatgpt-1",
-    "title": "Prompts Perfectos ChatGPT",
-    "section": "📝 Prompts en ChatGPT",
-    "text": "📝 Prompts en ChatGPT\nPregunta directa: “¿Qué es la inteligencia artificial?”\nInstrucción: “Escribe una historia corta sobre un viaje al espacio.”\nComando: “Genera un código Python para calcular el promedio de una lista.”"
-  },
-  {
-    "objectID": "prompts_chatgpt/presentacion.html#problemas-comunes-con-los-llm",
-    "href": "prompts_chatgpt/presentacion.html#problemas-comunes-con-los-llm",
-    "title": "Prompts Perfectos ChatGPT",
-    "section": "⚠️ Problemas comunes con los LLM",
-    "text": "⚠️ Problemas comunes con los LLM"
-  },
-  {
-    "objectID": "prompts_chatgpt/presentacion.html#problemas-comunes-con-los-llm-1",
-    "href": "prompts_chatgpt/presentacion.html#problemas-comunes-con-los-llm-1",
-    "title": "Prompts Perfectos ChatGPT",
-    "section": "⚠️ Problemas Comunes con los LLM",
-    "text": "⚠️ Problemas Comunes con los LLM\n\n\n\n\n\n\n\n\n🚨 Tipo de Error\n📝 Ejemplo\n\n\n\n\nInformación Incorrecta\n“Abraham Lincoln fue presidente de Chile”\n\n\nDatos Obsoletos\n“LLM más reciente de OpenAI es ChatGPT 4.0”\n\n\nRespuestas Ambiguas\n“La capital de Chile es Santiago y Valparaíso”\n\n\nSesgo en Respuestas\n“Ciertas etnias tienen mayor tendencia a cometer delitos”"
-  },
-  {
-    "objectID": "prompts_chatgpt/presentacion.html#estructura-de-un-buen-prompts",
-    "href": "prompts_chatgpt/presentacion.html#estructura-de-un-buen-prompts",
-    "title": "Prompts Perfectos ChatGPT",
-    "section": "✅ Estructura de un Buen Prompts",
-    "text": "✅ Estructura de un Buen Prompts"
-  },
-  {
-    "objectID": "prompts_chatgpt/presentacion.html#sin-estructura",
-    "href": "prompts_chatgpt/presentacion.html#sin-estructura",
-    "title": "Prompts Perfectos ChatGPT",
-    "section": "❌ Sin estructura",
-    "text": "❌ Sin estructura\n\nPrompt:\n¿Cómo hacer una receta de pan con queso? \n\nProblema: El prompt es vago y carece de detalles, lo que puede resultar en respuestas genéricas o imprecisas.\nUn prompt más estructurado proporcionaría ingredientes, cantidades y el tipo de pan o queso que se desea."
-  },
-  {
-    "objectID": "prompts_chatgpt/presentacion.html#estructurado",
-    "href": "prompts_chatgpt/presentacion.html#estructurado",
-    "title": "Prompts Perfectos ChatGPT",
-    "section": "✅ Estructurado",
-    "text": "✅ Estructurado\n\nPrompt:\nEres un chef experto en panadería. \n\nTu tarea es crear una receta de pan con queso que utilice al menos dos tipos de quesos, uno suave y otro maduro, y diferentes harinas como trigo integral y centeno. \n\nBusca una combinación que sea deliciosa y tenga buena textura.\n\nEste desarrollo se enmarca en la creación de un menú para un bistró que valora opciones artesanales.\n\nImportante: la receta debe ser sencilla de replicar en casa."
-  },
-  {
-    "objectID": "prompts_chatgpt/presentacion.html#estructurado-1",
-    "href": "prompts_chatgpt/presentacion.html#estructurado-1",
-    "title": "Prompts Perfectos ChatGPT",
-    "section": "✅ Estructurado",
-    "text": "✅ Estructurado\n\n\n🍽️ Rol: Eres un chef experto en panadería.\n🧀 Tarea: Crear una receta de pan con queso. -\n🧀🧀 Detalles específicos: Utiliza al menos dos tipos de quesos, uno suave y otro maduro, y diferentes harinas como trigo integral y centeno.\n🌿 Contexto: Este desarrollo se enmarca en la creación de un menú artesanal para un bistró que valora opciones caseras y únicas.\n📝 Notas: Importante: la receta debe ser sencilla de replicar en casa."
-  },
-  {
-    "objectID": "prompts_chatgpt/presentacion.html#técnicas-para-mejorar-los-prompts",
-    "href": "prompts_chatgpt/presentacion.html#técnicas-para-mejorar-los-prompts",
-    "title": "Prompts Perfectos ChatGPT",
-    "section": "♟️Técnicas para Mejorar los Prompts",
-    "text": "♟️Técnicas para Mejorar los Prompts"
-  },
-  {
-    "objectID": "prompts_chatgpt/presentacion.html#zero-shot-prompting",
-    "href": "prompts_chatgpt/presentacion.html#zero-shot-prompting",
-    "title": "Prompts Perfectos ChatGPT",
-    "section": "♟️ Zero-shot Prompting",
-    "text": "♟️ Zero-shot Prompting\nDefinición: Se da un prompt sin ejemplos previos, y se espera que el modelo genere una respuesta basada en su conocimiento previo.\n\n\n\n✨ Ejemplo de prompt:\n\n“¿Qué es la fotosíntesis?”\n\n\n✅ Esperado:\n\n“La fotosíntesis es el proceso por el cual las plantas convierten la luz solar en energía química utilizando dióxido de carbono y agua.”"
-  },
-  {
-    "objectID": "prompts_chatgpt/presentacion.html#few-shot-prompting",
-    "href": "prompts_chatgpt/presentacion.html#few-shot-prompting",
-    "title": "Prompts Perfectos ChatGPT",
-    "section": "♟️ Few-shot Prompting",
-    "text": "♟️ Few-shot Prompting\nDefinición: Se proporcionan pocos ejemplos en el prompt para ayudar al modelo a generar una respuesta más precisa.\n\n\n\n✨ Ejemplo de prompt:\n\n“Traduce las siguientes frases al francés:\n- Hello → Bonjour\n- Thank you → Merci\n- Good morning → ?”\n\n\n✅ Esperado:\n\n“Good morning → Bonjour”"
-  },
-  {
-    "objectID": "prompts_chatgpt/presentacion.html#chain-of-thought-prompting",
-    "href": "prompts_chatgpt/presentacion.html#chain-of-thought-prompting",
-    "title": "Prompts Perfectos ChatGPT",
-    "section": "♟️ Chain-of-Thought Prompting",
-    "text": "♟️ Chain-of-Thought Prompting\nDefinición: Se fomenta el razonamiento paso a paso para obtener respuestas más estructuradas y detalladas.\n\n\n\n✨ Ejemplo de prompt:\n\n“Si un tren viaja a 80 km/h y recorre 240 km, ¿cuánto tiempo tarda en llegar? Explica tu razonamiento.”\n\n\n✅ Esperado:\n\n“El tren viaja a 80 km/h y debe recorrer 240 km. Para calcular el tiempo, usamos la fórmula:\ntiempo = distancia / velocidad\n240 km ÷ 80 km/h = 3 horas.\nPor lo tanto, el tren tarda 3 horas en llegar.”"
-  },
-  {
-    "objectID": "prompts_chatgpt/presentacion.html#prompt-chaining",
-    "href": "prompts_chatgpt/presentacion.html#prompt-chaining",
-    "title": "Prompts Perfectos ChatGPT",
-    "section": "♟️ Prompt Chaining",
-    "text": "♟️ Prompt Chaining\nDefinición: Se descompone una tarea compleja en múltiples prompts encadenados, donde la salida de un prompt se usa como entrada para el siguiente.\n\n\n\n✨ Ejemplo de prompt:\n\nPaso 1: “Resume en 3 frases la Revolución Industrial.”\nPaso 2: (Usando la respuesta del primer prompt) “Ahora expande cada frase en un párrafo detallado.”\n\n\n✅ Esperado:\n\nPaso 1: “La Revolución Industrial marcó el inicio de la producción mecanizada, el crecimiento de las ciudades y el avance del transporte.”\nPaso 2: Se genera un desarrollo más detallado de cada punto."
-  },
-  {
-    "objectID": "prompts_chatgpt/presentacion.html#section-2",
-    "href": "prompts_chatgpt/presentacion.html#section-2",
-    "title": "Prompts Perfectos ChatGPT",
-    "section": "",
-    "text": "Sesión 02\nÉtica en el Uso de la A.I."
-  },
-  {
-    "objectID": "prompts_chatgpt/presentacion.html#ética-en-el-uso-de-la-a.i.",
-    "href": "prompts_chatgpt/presentacion.html#ética-en-el-uso-de-la-a.i.",
-    "title": "Prompts Perfectos ChatGPT",
-    "section": "⚖️ Ética en el Uso de la A.I.",
-    "text": "⚖️ Ética en el Uso de la A.I."
-  },
-  {
-    "objectID": "prompts_chatgpt/presentacion.html#uso-seguro-de-la-ia-credenciales",
-    "href": "prompts_chatgpt/presentacion.html#uso-seguro-de-la-ia-credenciales",
-    "title": "Prompts Perfectos ChatGPT",
-    "section": "⚠️ Uso Seguro de la IA (credenciales)",
-    "text": "⚠️ Uso Seguro de la IA (credenciales)\nDefinición: Se debe evitar compartir información sensible como contraseñas, tokens de acceso o datos privados en prompts de IA.\n\n\n\n❌ Mal ejemplo de prompt:\n\nPaso 1: “Aquí está mi API key: 1234-5678-ABCD. ¿Puedes ayudarme a conectarme con este servicio?”\nPaso 2: “Ahora usa esta contraseña mypassword123 para acceder a mi base de datos y hacer consultas.”\n\n\n✅ Buen ejemplo de prompt:\n\nPaso 1: “Explícame cómo almacenar credenciales de forma segura en un archivo .env.”\nPaso 2: “Dame un ejemplo de código en Python que cargue credenciales desde un .env sin exponerlas directamente.”"
-  },
-  {
-    "objectID": "prompts_chatgpt/presentacion.html#uso-responsable-de-la-ia-tareas",
-    "href": "prompts_chatgpt/presentacion.html#uso-responsable-de-la-ia-tareas",
-    "title": "Prompts Perfectos ChatGPT",
-    "section": "📐 Uso Responsable de la IA (Tareas)",
-    "text": "📐 Uso Responsable de la IA (Tareas)\nDefinición: Se debe formular prompts de manera que fomenten la comprensión y el aprendizaje, evitando respuestas incorrectas o engañosas.\n\n\n\n❌ Mal ejemplo de prompt:\n\nPaso 1: “Resuelve esta ecuación por mí sin explicaciones: $ x^2 + 5x + 6 = 0 $.”\nPaso 2: “Dame solo la respuesta final.”\n\n\n✅ Buen ejemplo de prompt:\n\nPaso 1: “Resuelve la ecuación $ x^2 + 5x + 6 = 0 $ paso a paso usando factorización.”\nPaso 2: “Explícame por qué se eligen esos factores y dame una forma alternativa de resolverla.”"
-  },
-  {
-    "objectID": "prompts_chatgpt/presentacion.html#actividad",
-    "href": "prompts_chatgpt/presentacion.html#actividad",
-    "title": "Prompts Perfectos ChatGPT",
-    "section": "📌 Actividad",
-    "text": "📌 Actividad\n\n\n📂 Clonar el Google Drive:\n\nAccede al siguiente enlace y copia la carpeta en tu propio Google Drive:\n\nGoogle Drive - Actividad\n\n\n📝 Resolver la actividad:\n\nAbre el archivo actividad_02.ipynb dentro de la carpeta clonada.\n\nSigue las instrucciones dentro del notebook y completa los ejercicios."
-  },
-  {
-    "objectID": "prompts_chatgpt/presentacion.html#section-3",
-    "href": "prompts_chatgpt/presentacion.html#section-3",
-    "title": "Prompts Perfectos ChatGPT",
-    "section": "",
-    "text": "Sesión 02\nConclusiones"
-  },
-  {
-    "objectID": "prompts_chatgpt/presentacion.html#conclusiones",
-    "href": "prompts_chatgpt/presentacion.html#conclusiones",
-    "title": "Prompts Perfectos ChatGPT",
-    "section": "💡Conclusiones",
-    "text": "💡Conclusiones\n\n\n🤔 Entender la importancia de los prompts: Un buen diseño de prompts es clave para obtener respuestas más precisas y útiles al interactuar con modelos de lenguaje como ChatGPT.\n🌱 Aplicaciones y uso responsable: Los modelos de lenguaje tienen un gran potencial, pero es crucial utilizarlos de manera ética y responsable.\n🚀 Evolución y futuro de los LLM: La IA conversacional sigue mejorando, y los avances esperados tendrán un gran impacto en cómo interactuamos con la tecnología en el futuro."
-  },
-  {
-    "objectID": "prompts_chatgpt/presentacion.html#referencias",
-    "href": "prompts_chatgpt/presentacion.html#referencias",
-    "title": "Prompts Perfectos ChatGPT",
-    "section": "💡 Referencias",
-    "text": "💡 Referencias\n\n\n🤖 ChatGPT: IA de OpenAI para generar texto.\n🤖 Gemini: IA de Google DeepMind centrada en razonamiento.\n🤖 MetaAI: División de IA de Meta para mejorar interacciones digitales.\n🤖 DeepSeek: Modelo de razonamiento desarrollado por DeepSeek."
-  },
-  {
-    "objectID": "prompts_chatgpt/presentacion.html#gracias-por-participar",
-    "href": "prompts_chatgpt/presentacion.html#gracias-por-participar",
-    "title": "Prompts Perfectos ChatGPT",
-    "section": "🎉 ¡Gracias por Participar!",
-    "text": "🎉 ¡Gracias por Participar!\n\n\n\n❓¿Preguntas?\n👏 Responder encuesta\n🥳 Gracias de Nuevo\n\n\n\n\n🔗 Nuestro Sitio Web: sethnut.com/resources/."
+    "text": "🎁 Sorteo✍️ Autoría📖 Aprendizaje😊 Agredecimientos\n\n\nPara sortear algunos premios utilizaremos, por supuesto, un código de python. Usaremos la función random.randint(a, b) que retorna un número entero aleatorio \\(N\\) que cumpla la condición \\(a &lt;= N &lt;= b\\).\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nMaterial creado por Francisco Alfaro y Valeska Canales para estudiantes del Departamento de Matemáticas de la USM.\nBuscamos motivar el aprendizaje de programación y matemáticas de forma entretenida y accesible, con ejemplos prácticos y actividades interactivas en Python.\nContacto: francisco.alfaro.496@gmail.com | valeska.canales.p@gmail.com\n\n\n\nRecursos Recomendados\n\nHerramientas de Google\n\nCursos en Línea:\n\nGoogle Workspace Learning Center: Capacitación oficial en herramientas como Docs, Sheets, Slides, Colab y Drive.\n\nDocumentación y Recursos:\n\nCentro de Ayuda de Google Workspace: Guías y trucos para aprovechar al máximo las herramientas de Google.\n\n\nDiseño de Prompts Efectivos en ChatGPT\n\nGuías y Tutoriales:\n\nCómo escribir un Prompt con ChatGPT: Estrategias para diseñar prompts efectivos en ChatGPT.\n\nComunidades y Foros:\n\nReddit: r/ChatGPT: Comunidad para compartir experiencias y obtener consejos sobre el uso de ChatGPT.\n\n\nComunicación Académica: Lectura, Escritura y Oratoria\n\nCursos en Línea:\n\nedX: “Academic and Business Writing” de la Universidad de California, Berkeley.\n\nRecursos y Herramientas:\n\nPurdue OWL: Guías sobre redacción académica y estilo.\n\n\nA.I. y Data Storytelling\n\nCursos y Talleres:\n\nCómo usar ChatGPT para hacer Storytelling: Tutorial sobre cómo utilizar ChatGPT en la creación de narrativas.\n\nHerramientas:\n\nTableau Public: Plataforma gratuita para crear visualizaciones interactivas.\n\n\n\n\n\n\nQueremos agradecer sinceramente a todas y todos los estudiantes que participaron en el curso por su entusiasmo, curiosidad y compromiso con el aprendizaje.\nTambién extendemos nuestro agradecimiento al Centro de Estudiantes ICMAT USM San Joaquín por su constante apoyo y colaboración, y al Departamento de Matemáticas de la USM por hacer posible esta iniciativa educativa."
   }
 ]
