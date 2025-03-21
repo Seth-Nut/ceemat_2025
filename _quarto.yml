@@ -43,6 +43,10 @@ website:
             href: datastorytelling/presentacion.html
           - text: Encuesta
             href: https://docs.google.com/forms/d/e/1FAIpQLSeDUAAqdtHILOMg2fn-wTOcaLtgrgLsEPp0Xg_erSNJLZPvzg/viewform?usp=dialog
+      - text: Anexos
+        menu:
+          - text: Anexos
+            href: anexos.html
      
 
     right:
