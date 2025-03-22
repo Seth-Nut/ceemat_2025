@@ -18,7 +18,12 @@ website:
 
   navbar:
     logo: /images/doberman.png
+    
     left:
+      - text: Registro
+        menu:
+          - text: Encuesta
+            href: https://docs.google.com/forms/d/e/1FAIpQLSfR3LjmVXpHlURCk5DfhgxkYNFNuqxzUJqU4kTLST3DuuA1GA/viewform?usp=header
       - text: Sesión 1
         menu:
           - text: Slides

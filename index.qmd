@@ -45,7 +45,14 @@ Al finalizar el curso, se otorgará un diploma como este:
 <img src="images/diploma-usm.png" style="width: 50%; max-width: 600px;"/>
 :::
 
-> 📌 **Recuerda**: La asistencia es obligatoria y la evaluación de encuestas nos permitirá mejorar futuras ediciones del curso.
+
+
+> 📌 **Recuerda**:  
+> 
+> * La **asistencia** al curso es obligatoria, salvo inasistencias **justificadas** y conversadas previamente con los docentes.  
+> * Todas las **encuestas** son obligatorias, ya que nos permiten hacer seguimiento de tu avance y mejorar futuras ediciones del curso.  
+> * Para obtener la **certificación**, debes completar **todas las actividades** del programa.
+
 
 ###  Diplomas
 
