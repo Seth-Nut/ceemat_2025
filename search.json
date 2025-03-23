@@ -613,7 +613,7 @@
     "href": "datastorytelling/presentacion.html#agenda",
     "title": "A.I. + DataStorytelling",
     "section": "Agenda",
-    "text": "Agenda\n\n\n\n \nNo\nNope\nJamás"
+    "text": "Agenda\n\n\n\n\nNo\nNope\nJamás"
   },
   {
     "objectID": "datastorytelling/presentacion.html#section",
@@ -627,7 +627,7 @@
     "href": "datastorytelling/presentacion.html#agenda-v2",
     "title": "A.I. + DataStorytelling",
     "section": "Agenda (v2)",
-    "text": "Agenda (v2)\n\n\nNunca reveles el final\nLos detalles son importantes, pero no todos los detalles son importantes.\nTu primera versión será horrible.\nMuestra, no cuentes."
+    "text": "Agenda (v2)\n\n\nNunca reveles el final\nLos detalles son importantes, pero no todos los detalles son importantes.\nTu primera versión será horrible.\nExplicar menos, mostrar más."
   },
   {
     "objectID": "datastorytelling/presentacion.html#section-1",
@@ -679,6 +679,13 @@
     "text": "Ejemplos\n\n\n 🔢 No compartas números\n\n 🪶Comparte una historia\n\n\n (C) Storytelling with Data, por Cole Nussbaumer Knaflic."
   },
   {
+    "objectID": "datastorytelling/presentacion.html#mejores-gráficos-para-sus-datos",
+    "href": "datastorytelling/presentacion.html#mejores-gráficos-para-sus-datos",
+    "title": "A.I. + DataStorytelling",
+    "section": "Mejores gráficos para sus datos",
+    "text": "Mejores gráficos para sus datos\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n(C) Essential chart types for data visualization, por Atlassian."
+  },
+  {
     "objectID": "datastorytelling/presentacion.html#section-3",
     "href": "datastorytelling/presentacion.html#section-3",
     "title": "A.I. + DataStorytelling",
@@ -725,18 +732,25 @@
     "href": "datastorytelling/presentacion.html#section-4",
     "title": "A.I. + DataStorytelling",
     "section": "",
-    "text": "Regla de Storytelling #4\n\n\nExplicar menos y mostrar más"
+    "text": "Regla de Storytelling #4\n\n\nExplicar menos y mostrar más."
   },
   {
     "objectID": "datastorytelling/presentacion.html#explicar-menos-y-mostrar-más",
     "href": "datastorytelling/presentacion.html#explicar-menos-y-mostrar-más",
     "title": "A.I. + DataStorytelling",
     "section": "Explicar menos y mostrar más",
-    "text": "Explicar menos y mostrar más\n\n\nimport matplotlib.pyplot as plt\n\n# Datos de ejemplo\nx = [1, 2, 3, 4, 5]\ny = [2, 4, 3, 5, 7]\n\n# Generamos el gráfico\nplt.figure(figsize=(6, 4))\nplt.plot(x, y, marker='o')\nplt.title(\"Gráfico de Ejemplo\")\nplt.xlabel(\"Eje X\")\nplt.ylabel(\"Eje Y\")\nplt.grid(True)\nplt.show()"
+    "text": "Explicar menos y mostrar más\n\n\n\nimport matplotlib.pyplot as plt\n\n# Data\ncategories = ['Yes', 'No']\nvalues = [75, 25]\n\n# Create the bar chart\nplt.figure(figsize=(10, 4))\nplt.bar(categories, values, color=['lightblue', 'salmon'])\nplt.title('😊 ¿Te está gustando la presentación hasta ahora? 😊')\n\n# Display the plot\nplt.show()"
   },
   {
     "objectID": "datastorytelling/presentacion.html#explicar-menos-y-mostrar-más-1",
     "href": "datastorytelling/presentacion.html#explicar-menos-y-mostrar-más-1",
+    "title": "A.I. + DataStorytelling",
+    "section": "Explicar menos y mostrar más",
+    "text": "Explicar menos y mostrar más\n\nCódigoGráfico\n\n\nimport matplotlib.pyplot as plt\n\n# Data\ncategories = ['Yes', 'No']\nvalues = [75, 25]\n\n# Create the bar chart\nplt.figure(figsize=(10, 4))\nplt.bar(categories, values, color=['lightblue', 'salmon'])\nplt.title('😊 ¿Te está gustando la presentación hasta ahora? 😊')\n\n# Display the plot\nplt.show()"
+  },
+  {
+    "objectID": "datastorytelling/presentacion.html#explicar-menos-y-mostrar-más-2",
+    "href": "datastorytelling/presentacion.html#explicar-menos-y-mostrar-más-2",
     "title": "A.I. + DataStorytelling",
     "section": "Explicar menos y mostrar más",
     "text": "Explicar menos y mostrar más\n\nPlease enable JavaScript to experience the dynamic code cell content on this page."
@@ -746,7 +760,7 @@
     "href": "datastorytelling/presentacion.html#agenda-v2-1",
     "title": "A.I. + DataStorytelling",
     "section": "Agenda (v2)",
-    "text": "Agenda (v2)\n\n\nNunca reveles el final\nLos detalles son importantes, pero no todos los detalles son importantes\nTu primera versión será horrible\nMuestra, no cuentes\n\n\n\nOpción 2: Una agenda misteriosa."
+    "text": "Agenda (v2)\n\n\nNunca reveles el final\nLos detalles son importantes, pero no todos los detalles son importantes\nTu primera versión será horrible\nExplicar menos, mostrar más.\n\n\n\nOpción 2: Una agenda misteriosa."
   },
   {
     "objectID": "datastorytelling/presentacion.html#section-5",
@@ -791,13 +805,6 @@
     "text": "4 Pilares Visualización - Noah Iliinsky\n\n\n\n\nPropósito: Define la meta.\nContenido: Datos relevantes.\nEstructura: Organización clara.\nFormato: Gráfico adecuado.\n\n\n\n\n\n\n\n\n\n(C) Noah Iliinsky: “Four Pillars of Visualization” - Youtube."
   },
   {
-    "objectID": "datastorytelling/presentacion.html#qué-gráficos-son-buenos",
-    "href": "datastorytelling/presentacion.html#qué-gráficos-son-buenos",
-    "title": "A.I. + DataStorytelling",
-    "section": "Qué Gráficos son buenos?",
-    "text": "Qué Gráficos son buenos?\n\n \n \n \n\n\n(C) Essential chart types for data visualization, por Atlassian."
-  },
-  {
     "objectID": "datastorytelling/presentacion.html#section-6",
     "href": "datastorytelling/presentacion.html#section-6",
     "title": "A.I. + DataStorytelling",
@@ -837,7 +844,7 @@
     "href": "datastorytelling/presentacion.html#streamlit-ejemplo-1",
     "title": "A.I. + DataStorytelling",
     "section": "Streamlit: Ejemplo",
-    "text": "Streamlit: Ejemplo\n\n\nimport streamlit as st\n\n# Título principal de la aplicación\nst.title(\"Hola Streamlit\")\n\n# Mensaje principal con nombres y emoticón fijos\nmensaje = \"Darwin y Patricia son mejores amigos 😊\"\nst.write(mensaje)\n\n# Imagen decorativa\nst.image(\n    \"https://www.svgrepo.com/show/397758/people-hugging.svg\",\n    caption=\"Amigos\",\n    width=200  # Ajuste del tamaño de la imagen\n)\n\n# Footer\nst.markdown(\n    \"\"\"\n    ---\n    Gracias por usar esta aplicación interactiva 🎈\n    \"\"\"\n)\n\n\n\n\n\n\n\n\n\n(C) Ejemplo en Streamlit - Playground."
+    "text": "Streamlit: Ejemplo\n\n\nimport streamlit as st\n\n# Título principal de la aplicación\nst.title(\"Hola Streamlit\")\n\n# Sidebar con descripción y opciones de configuración\nst.sidebar.title(\"Opciones\")\nst.sidebar.write(\"Configura el mensaje principal y el emoticón.\")\n\n# Opciones en el sidebar para personalizar el mensaje\nnombre1 = st.sidebar.text_input(\"Nombre 1\", \"Seth\")\nnombre2 = st.sidebar.text_input(\"Nombre 2\", \"Nut\")\nemoticon = st.sidebar.selectbox(\"Selecciona un emoticón\", [\"😊\", \"❤️\", \"👫\", \"🌟\", \"🐶\"])\n\n# Mensaje principal en la app\nmensaje = f\"{nombre1} y {nombre2} son mejores amigos {emoticon}\"\nst.write(mensaje)\n\n# Agregar una imagen decorativa\nst.image(\n    \"https://media1.thehungryjpeg.com/thumbs2/ori_4312464_ng19gv7ncq8oga7awkf1w72gsvbznzrkc861timx_valentine-couple-of-doberman-pinscher.jpg\",\n    caption=\"Amigos\",\n    use_container_width =False,\n    width=300  # Ajuste del tamaño de la imagen\n)\n\n# Footer\nst.markdown(\n    \"\"\"\n    ---\n    Gracias por usar esta aplicación interactiva 🎈\n    \"\"\"\n)\n\n\n\n\n\n\n\n\n\n(C) Ejemplo en Streamlit - Playground."
   },
   {
     "objectID": "datastorytelling/presentacion.html#html-webapps",

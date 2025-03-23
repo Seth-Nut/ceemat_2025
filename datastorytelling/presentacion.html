@@ -374,7 +374,7 @@
   }
 
   // Store cell data
-  globalThis.qpyodideCellDetails = [{"code":"import matplotlib.pyplot as plt\nx = [1, 2, 3, 4, 5]\ny = [2, 4, 3, 5, 7]\nplt.figure(figsize=(5, 3))\nplt.plot(x, y, marker='o')\nplt.title(\"Gráfico de Ejemplo\")\nplt.grid(True)\nplt.show()","id":1,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}}];
+  globalThis.qpyodideCellDetails = [{"code":"import matplotlib.pyplot as plt\ncategories = ['Yes', 'No']\nvalues = [75, 25]\nplt.figure(figsize=(9, 3))\nplt.bar(categories, values, color=['lightblue', 'salmon'])\nplt.title('😊 ¿Te está gustando la presentación hasta ahora? 😊')\nplt.show()","id":1,"options":{"autorun":"","classes":"","comment":"","context":"interactive","dpi":72,"fig-cap":"","fig-height":5,"fig-width":7,"label":"","message":"true","out-height":"","out-width":"700px","output":"true","read-only":"false","results":"markup","warning":"true"}}];
 
 
   </script>
@@ -603,7 +603,7 @@ Valeska Canales
 <div class="columns">
 <div class="column" style="width:30%;">
 <ul>
-<li class="fragment"><p> </p></li>
+<li class="fragment"></li>
 <li class="fragment"><p>No</p></li>
 <li class="fragment"><p>Nope</p></li>
 <li class="fragment"><p>Jamás</p></li>
@@ -638,7 +638,7 @@ Valeska Canales
 <li class="fragment">Nunca reveles el <span style="background-color:black;">final</span></li>
 <li class="fragment">Los detalles son importantes, pero <span style="background-color:black;">no <strong>todos</strong> los detalles son importantes.</span></li>
 <li class="fragment">Tu primera versión será <span style="background-color:black;">horrible.</span></li>
-<li class="fragment">Muestra, no <span style="background-color:black;">cuentes.</span></li>
+<li class="fragment">Explicar menos, <span style="background-color:black;">mostrar más.</span></li>
 </ol>
 </div>
 </section>
@@ -706,7 +706,7 @@ Valeska Canales
 <div class="column fragment" data-fragment-index="1" style="width:30%;">
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="images/storytelling/spotify1.jpeg" class="quarto-figure quarto-figure-center"></p>
+<p><img data-src="images/storytelling/spotify1.png" class="quarto-figure quarto-figure-center"></p>
 </figure>
 </div>
 </div><div class="column center" style="width:40%;">
@@ -714,7 +714,7 @@ Valeska Canales
 </div><div class="column fragment" data-fragment-index="1" style="width:30%;">
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="images/storytelling/spotify2.jpeg" class="quarto-figure quarto-figure-center"></p>
+<p><img data-src="images/storytelling/spotify2.png" class="quarto-figure quarto-figure-center"></p>
 </figure>
 </div>
 </div></div>
@@ -749,6 +749,25 @@ Valeska Canales
 <p><br><br> <span style="font-size: 0.75em; color: gray">(C) Storytelling with Data, por Cole Nussbaumer Knaflic.</span></p>
 </div>
 </section>
+<section id="mejores-gráficos-para-sus-datos" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2>Mejores gráficos para sus datos</h2>
+<div class="r-stack">
+<p><br></p>
+<div class="quarto-figure quarto-figure-left">
+<figure>
+<p><img data-src="images/storytelling/plot1.png" class="fragment fade-in-then-out quarto-figure quarto-figure-left"></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-right">
+<figure>
+<p><img data-src="images/storytelling/plot2.png" class="fragment quarto-figure quarto-figure-right"></p>
+</figure>
+</div>
+</div>
+<div class="fragment">
+<p><span style="font-size: 0.75em; color: gray">(C) Essential chart types for data visualization, por Atlassian.</span></p>
+</div>
+</section>
 <section id="section-3" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
 <h2></h2>
 <div style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;">
@@ -761,7 +780,7 @@ Valeska Canales
 <p><strong>Regla de Storytelling #3</strong></p>
 </div>
 <div class="callout-content">
-<p>Tu primera versión <strong>siempre</strong> será horrible.</p>
+<p>Tu primera versión <span class="fragment"><strong>siempre</strong> será horrible.</span></p>
 </div>
 </div>
 </div>
@@ -869,7 +888,7 @@ Valeska Canales
 <p><strong>Regla de Storytelling #4</strong></p>
 </div>
 <div class="callout-content">
-<p><span style="color: red">Explicar menos</span> y <span style="color: green">mostrar más</span></p>
+<p><span style="color: red">Explicar menos</span> y <span class="fragment" style="color: green">mostrar más.</span></p>
 </div>
 </div>
 </div>
@@ -879,26 +898,27 @@ Valeska Canales
 <h2><span style="color: red">Explicar menos</span> y <span style="color: green">mostrar más</span></h2>
 <div class="columns">
 <div class="column" style="width:50%;">
+<p><br></p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
 <span id="cb1-2"><a></a></span>
-<span id="cb1-3"><a></a><span class="co"># Datos de ejemplo</span></span>
-<span id="cb1-4"><a></a>x <span class="op">=</span> [<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">4</span>, <span class="dv">5</span>]</span>
-<span id="cb1-5"><a></a>y <span class="op">=</span> [<span class="dv">2</span>, <span class="dv">4</span>, <span class="dv">3</span>, <span class="dv">5</span>, <span class="dv">7</span>]</span>
+<span id="cb1-3"><a></a><span class="co"># Data</span></span>
+<span id="cb1-4"><a></a>categories <span class="op">=</span> [<span class="st">'Yes'</span>, <span class="st">'No'</span>]</span>
+<span id="cb1-5"><a></a>values <span class="op">=</span> [<span class="dv">75</span>, <span class="dv">25</span>]</span>
 <span id="cb1-6"><a></a></span>
-<span id="cb1-7"><a></a><span class="co"># Generamos el gráfico</span></span>
-<span id="cb1-8"><a></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">6</span>, <span class="dv">4</span>))</span>
-<span id="cb1-9"><a></a>plt.plot(x, y, marker<span class="op">=</span><span class="st">'o'</span>)</span>
-<span id="cb1-10"><a></a>plt.title(<span class="st">"Gráfico de Ejemplo"</span>)</span>
-<span id="cb1-11"><a></a>plt.xlabel(<span class="st">"Eje X"</span>)</span>
-<span id="cb1-12"><a></a>plt.ylabel(<span class="st">"Eje Y"</span>)</span>
-<span id="cb1-13"><a></a>plt.grid(<span class="va">True</span>)</span>
-<span id="cb1-14"><a></a>plt.show()</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-7"><a></a><span class="co"># Create the bar chart</span></span>
+<span id="cb1-8"><a></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">10</span>, <span class="dv">4</span>))</span>
+<span id="cb1-9"><a></a>plt.bar(categories, values, color<span class="op">=</span>[<span class="st">'lightblue'</span>, <span class="st">'salmon'</span>])</span>
+<span id="cb1-10"><a></a>plt.title(<span class="st">'😊 ¿Te está gustando la presentación hasta ahora? 😊'</span>)</span>
+<span id="cb1-11"><a></a></span>
+<span id="cb1-12"><a></a><span class="co"># Display the plot</span></span>
+<span id="cb1-13"><a></a>plt.show()</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div><div class="column fragment" style="width:50%;">
-<div id="e32ed21b" class="cell" data-execution_count="1">
+<p><br></p>
+<div id="f94f001a" class="cell" data-execution_count="1">
 <div class="cell-output cell-output-display">
 <div>
 <figure>
-<p><img data-src="presentacion_files/figure-revealjs/cell-2-output-1.png" width="502" height="377"></p>
+<p><img data-src="presentacion_files/figure-revealjs/cell-2-output-1.png" width="789" height="358"></p>
 </figure>
 </div>
 </div>
@@ -906,6 +926,40 @@ Valeska Canales
 </div></div>
 </section>
 <section id="explicar-menos-y-mostrar-más-1" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
+<h2><span style="color: red">Explicar menos</span> y <span style="color: green">mostrar más</span></h2>
+<div class="panel-tabset">
+<ul id="tabset-1" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-1-1">Código</a></li><li><a href="#tabset-1-2">Gráfico</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1">
+<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb2-2"><a></a></span>
+<span id="cb2-3"><a></a><span class="co"># Data</span></span>
+<span id="cb2-4"><a></a>categories <span class="op">=</span> [<span class="st">'Yes'</span>, <span class="st">'No'</span>]</span>
+<span id="cb2-5"><a></a>values <span class="op">=</span> [<span class="dv">75</span>, <span class="dv">25</span>]</span>
+<span id="cb2-6"><a></a></span>
+<span id="cb2-7"><a></a><span class="co"># Create the bar chart</span></span>
+<span id="cb2-8"><a></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">10</span>, <span class="dv">4</span>))</span>
+<span id="cb2-9"><a></a>plt.bar(categories, values, color<span class="op">=</span>[<span class="st">'lightblue'</span>, <span class="st">'salmon'</span>])</span>
+<span id="cb2-10"><a></a>plt.title(<span class="st">'😊 ¿Te está gustando la presentación hasta ahora? 😊'</span>)</span>
+<span id="cb2-11"><a></a></span>
+<span id="cb2-12"><a></a><span class="co"># Display the plot</span></span>
+<span id="cb2-13"><a></a>plt.show()</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div id="tabset-1-2">
+<div id="684f0abb" class="cell" data-execution_count="2">
+<div class="cell-output cell-output-display">
+<div>
+<figure>
+<p><img data-src="presentacion_files/figure-revealjs/cell-3-output-1.png" width="789" height="358"></p>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="explicar-menos-y-mostrar-más-2" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
 <h2><span style="color: red">Explicar menos</span> y <span style="color: green">mostrar más</span></h2>
 <div id="qpyodide-insertion-location-1"></div>
 <noscript>Please enable JavaScript to experience the dynamic code cell content on this page.</noscript>
@@ -917,7 +971,7 @@ Valeska Canales
 <li class="fragment">Nunca reveles el <span class="fragment" style="color:grey;"><strong>final</strong></span></li>
 <li class="fragment">Los detalles son importantes, pero <span class="fragment" style="color:grey;">no <strong>todos</strong> los detalles son importantes</span></li>
 <li class="fragment">Tu primera versión será <span class="fragment" style="color:grey;"><strong>horrible</strong></span></li>
-<li class="fragment">Muestra, no <span class="fragment" style="color:grey;"><strong>cuentes</strong></span></li>
+<li class="fragment">Explicar menos, <span class="fragment" style="color:grey;">mostrar más.</span></li>
 </ol>
 </div>
 <aside class="notes">
@@ -1024,17 +1078,6 @@ Valeska Canales
 <p><span style="font-size: 0.75em; color: gray">(C) Noah Iliinsky: “Four Pillars of Visualization” - Youtube.</span></p>
 </div>
 </section>
-<section id="qué-gráficos-son-buenos" class="slide level2" data-background-image="images/background.jpg" data-background-opacity="0.25">
-<h2>Qué Gráficos son buenos?</h2>
-<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;">
-<p><img src="images/viz/chart_01.png" style="width: 75%; height: auto;"> <img src="images/viz/chart_04.png" style="width: 75%; height: auto;"></p>
-<p><img src="images/viz/chart_03.png" style="width: 75%; height: auto;"> <img src="images/viz/chart_05.png" style="width: 70%; height: auto;"></p>
-<p><img src="images/viz/chart_02.png" style="width: 75%; height: auto;"> <img src="images/viz/chart_07.png" style="width: 85%; height: auto;"></p>
-</div>
-<div class="fragment">
-<p><span style="font-size: 0.75em; color: gray">(C) Essential chart types for data visualization, por Atlassian.</span></p>
-</div>
-</section>
 <section id="section-6" class="slide level2" data-background-image="images/background_slides3.png" data-background-opacity="0.3">
 <h2></h2>
 <div style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;">
@@ -1126,29 +1169,39 @@ format:
 <h2>Streamlit: Ejemplo</h2>
 <div class="columns">
 <div class="column" style="width:50%;">
-<div class="sourceCode" id="cb3"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a></a><span class="im">import</span> streamlit <span class="im">as</span> st</span>
-<span id="cb3-2"><a></a></span>
-<span id="cb3-3"><a></a><span class="co"># Título principal de la aplicación</span></span>
-<span id="cb3-4"><a></a>st.title(<span class="st">"Hola Streamlit"</span>)</span>
-<span id="cb3-5"><a></a></span>
-<span id="cb3-6"><a></a><span class="co"># Mensaje principal con nombres y emoticón fijos</span></span>
-<span id="cb3-7"><a></a>mensaje <span class="op">=</span> <span class="st">"Darwin y Patricia son mejores amigos 😊"</span></span>
-<span id="cb3-8"><a></a>st.write(mensaje)</span>
-<span id="cb3-9"><a></a></span>
-<span id="cb3-10"><a></a><span class="co"># Imagen decorativa</span></span>
-<span id="cb3-11"><a></a>st.image(</span>
-<span id="cb3-12"><a></a>    <span class="st">"https://www.svgrepo.com/show/397758/people-hugging.svg"</span>,</span>
-<span id="cb3-13"><a></a>    caption<span class="op">=</span><span class="st">"Amigos"</span>,</span>
-<span id="cb3-14"><a></a>    width<span class="op">=</span><span class="dv">200</span>  <span class="co"># Ajuste del tamaño de la imagen</span></span>
-<span id="cb3-15"><a></a>)</span>
-<span id="cb3-16"><a></a></span>
-<span id="cb3-17"><a></a><span class="co"># Footer</span></span>
-<span id="cb3-18"><a></a>st.markdown(</span>
-<span id="cb3-19"><a></a>    <span class="st">"""</span></span>
-<span id="cb3-20"><a></a><span class="st">    ---</span></span>
-<span id="cb3-21"><a></a><span class="st">    Gracias por usar esta aplicación interactiva 🎈</span></span>
-<span id="cb3-22"><a></a><span class="st">    """</span></span>
-<span id="cb3-23"><a></a>)</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb4"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a></a><span class="im">import</span> streamlit <span class="im">as</span> st</span>
+<span id="cb4-2"><a></a></span>
+<span id="cb4-3"><a></a><span class="co"># Título principal de la aplicación</span></span>
+<span id="cb4-4"><a></a>st.title(<span class="st">"Hola Streamlit"</span>)</span>
+<span id="cb4-5"><a></a></span>
+<span id="cb4-6"><a></a><span class="co"># Sidebar con descripción y opciones de configuración</span></span>
+<span id="cb4-7"><a></a>st.sidebar.title(<span class="st">"Opciones"</span>)</span>
+<span id="cb4-8"><a></a>st.sidebar.write(<span class="st">"Configura el mensaje principal y el emoticón."</span>)</span>
+<span id="cb4-9"><a></a></span>
+<span id="cb4-10"><a></a><span class="co"># Opciones en el sidebar para personalizar el mensaje</span></span>
+<span id="cb4-11"><a></a>nombre1 <span class="op">=</span> st.sidebar.text_input(<span class="st">"Nombre 1"</span>, <span class="st">"Seth"</span>)</span>
+<span id="cb4-12"><a></a>nombre2 <span class="op">=</span> st.sidebar.text_input(<span class="st">"Nombre 2"</span>, <span class="st">"Nut"</span>)</span>
+<span id="cb4-13"><a></a>emoticon <span class="op">=</span> st.sidebar.selectbox(<span class="st">"Selecciona un emoticón"</span>, [<span class="st">"😊"</span>, <span class="st">"❤️"</span>, <span class="st">"👫"</span>, <span class="st">"🌟"</span>, <span class="st">"🐶"</span>])</span>
+<span id="cb4-14"><a></a></span>
+<span id="cb4-15"><a></a><span class="co"># Mensaje principal en la app</span></span>
+<span id="cb4-16"><a></a>mensaje <span class="op">=</span> <span class="ss">f"</span><span class="sc">{</span>nombre1<span class="sc">}</span><span class="ss"> y </span><span class="sc">{</span>nombre2<span class="sc">}</span><span class="ss"> son mejores amigos </span><span class="sc">{</span>emoticon<span class="sc">}</span><span class="ss">"</span></span>
+<span id="cb4-17"><a></a>st.write(mensaje)</span>
+<span id="cb4-18"><a></a></span>
+<span id="cb4-19"><a></a><span class="co"># Agregar una imagen decorativa</span></span>
+<span id="cb4-20"><a></a>st.image(</span>
+<span id="cb4-21"><a></a>    <span class="st">"https://media1.thehungryjpeg.com/thumbs2/ori_4312464_ng19gv7ncq8oga7awkf1w72gsvbznzrkc861timx_valentine-couple-of-doberman-pinscher.jpg"</span>,</span>
+<span id="cb4-22"><a></a>    caption<span class="op">=</span><span class="st">"Amigos"</span>,</span>
+<span id="cb4-23"><a></a>    use_container_width <span class="op">=</span><span class="va">False</span>,</span>
+<span id="cb4-24"><a></a>    width<span class="op">=</span><span class="dv">300</span>  <span class="co"># Ajuste del tamaño de la imagen</span></span>
+<span id="cb4-25"><a></a>)</span>
+<span id="cb4-26"><a></a></span>
+<span id="cb4-27"><a></a><span class="co"># Footer</span></span>
+<span id="cb4-28"><a></a>st.markdown(</span>
+<span id="cb4-29"><a></a>    <span class="st">"""</span></span>
+<span id="cb4-30"><a></a><span class="st">    ---</span></span>
+<span id="cb4-31"><a></a><span class="st">    Gracias por usar esta aplicación interactiva 🎈</span></span>
+<span id="cb4-32"><a></a><span class="st">    """</span></span>
+<span id="cb4-33"><a></a>)</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div><div class="column fragment" style="width:50%;">
 <div class="quarto-figure quarto-figure-center">
 <figure>
@@ -1158,7 +1211,7 @@ format:
 </div></div>
 <div class="fragment">
 <div style="text-align: center; margin-top: -30px;">
-<p><a href="[gCISH6_BP-AiBTGq3jOCQWRz5YA1q9YorW8rM2GLi6RCGsCuQzuNYGVfGjnhcL4BDsQ_iPvpKGd6sQQ3-ixok1FOMXkmFjGsUs2_XgIE0yTix5x0xSmk6BUJptgdkmudivfx4lfh-ffr8--e7lK2XH7408c2yie9_iBe1F4_-sYxNqa_ZZRs7h3AqLlsDFmxpmw8WwFaxQ3Pr2UwsVG4DXG60L0S6ruaaWqZ6x-PcU87mlqxdFZhTeh3SeozqDBOkLnYy4E_MYnThbr9fVVUvnDHS2Z60RT_MbNW_eefo6NbtviPrNHVnZZ4rk6dlYr9GS3SRLRqK41paWy0DjaXVZWHGlZrG2fAEdaCm1xQGBwcALHRehkgsTkPEAlffbDsCjeqsPs2JtZF8kl2gfzm1lWmVC1HHbrdbxwfpffNw8bixgvS2Qrw2TKAME6FMLsB6-fb1X5q97A_oi2bFpgMAAA](https://streamlit.io/playground?example=geospatial&amp;code=H4sIAAAAAAAAA4WTvW4TQRDH-3uK0dI4Us7OOVESkFxESIGGUIQOIWu9Ht-ts1_s7tn5UHqEEB8dDXJDhygQEqLPm_AC5BGYvTuTRBRcs3szN7_9z39vpHbWRwjRI9dKRuCBXrLsHjy7-hprZcF5aYR0XMEUQXHgTknBhbz6brIQ-1FGhT322FLqeE1hG4lwLKc44R6ENVQbhJeuKYMzsLSzBkNiUnomy9rfMENbuGY_7T4m6q3k0stIyYfrakAFGk3gc7yl-SyFUdsoBcH7rbA1ENCkdEcEx4ni0AdruJLnFLlBZsbqiccCRnBbIJ7GsTSujj121HwABdsEdoyxoqPamuF_a4ap5qhOtrVSybA7NQEVijixpz1C0zbJ51Cbm86I8Jxdrz6-Tqhfnz7__vku7a5XH76065tVu77_wV40Jjz5xytyo7lfl619HMGMXXSdX5KX3X54CeQRWTO3nlzkWpY2wMVa-yVL99TeT0dqTjwoPZbkak3apeYlpt9CWM-jXPBU0gR7GdDDqhhdeDAYaJxKXvRjhVVtSn82d1j2hdWDWNV6EoYD6-V4Z7sY7uzujE1Z3C8Xe0a83Lcl3-PLk1mx3BuWYTE5N-f-ROzvFlHq0_GCKzRRGsyFrZ3C3M7yqZ2g19zkTpogKvT9uSvZZiNHcBfJ8xE7aHrtonXAMfUbOYH8eCmnsYLRIVcB23wTGW1vbQFQ9_M6RKSOFUSu-dU32w1Ua0XWWHRobUSfvNDcn0zt0nR2MNaseZ4366M0LTSqNLykIv2pId4ZTZCGQFwka-F69fbVX8xG9gcSs8059AMAAA)" style="font-size: 0.75em; color: gray">(C) Ejemplo en Streamlit - Playground.</a></p>
+<p><a href="https://streamlit.io/playground?example=geospatial&amp;code=H4sIAAAAAAAAA4WTvW4TQRDH-3uK0dI4Us7OOVESkFxESIGGUIQOIWu9Ht-ts1_s7tn5UHqEEB8dDXJDhygQEqLPm_AC5BGYvTuTRBRcs3szN7_9z39vpHbWRwjRI9dKRuCBXrLsHjy7-hprZcF5aYR0XMEUQXHgTknBhbz6brIQ-1FGhT322FLqeE1hG4lwLKc44R6ENVQbhJeuKYMzsLSzBkNiUnomy9rfMENbuGY_7T4m6q3k0stIyYfrakAFGk3gc7yl-SyFUdsoBcH7rbA1ENCkdEcEx4ni0AdruJLnFLlBZsbqiccCRnBbIJ7GsTSujj121HwABdsEdoyxoqPamuF_a4ap5qhOtrVSybA7NQEVijixpz1C0zbJ51Cbm86I8Jxdrz6-Tqhfnz7__vku7a5XH76065tVu77_wV40Jjz5xytyo7lfl619HMGMXXSdX5KX3X54CeQRWTO3nlzkWpY2wMVa-yVL99TeT0dqTjwoPZbkak3apeYlpt9CWM-jXPBU0gR7GdDDqhhdeDAYaJxKXvRjhVVtSn82d1j2hdWDWNV6EoYD6-V4Z7sY7uzujE1Z3C8Xe0a83Lcl3-PLk1mx3BuWYTE5N-f-ROzvFlHq0_GCKzRRGsyFrZ3C3M7yqZ2g19zkTpogKvT9uSvZZiNHcBfJ8xE7aHrtonXAMfUbOYH8eCmnsYLRIVcB23wTGW1vbQFQ9_M6RKSOFUSu-dU32w1Ua0XWWHRobUSfvNDcn0zt0nR2MNaseZ4366M0LTSqNLykIv2pId4ZTZCGQFwka-F69fbVX8xG9gcSs8059AMAAA" style="font-size: 0.75em; color: gray">(C) Ejemplo en Streamlit - Playground.</a></p>
 </div>
 </div>
 </section>
