@@ -139,6 +139,14 @@ Nunca reveles el final antes de tiempo.\
 :::
 :::
 
+##  {background-image="images/background_slides3.png" background-opacity="0.3"}
+
+::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
+[Data Storytelling]{style="font-size: 1em"}
+
+[Tool #1: Visualization]{style="font-size: 1.5em"}
+:::
+
 ------------------------------------------------------------------------
 
 ##  {background-image="images/background.jpg" background-opacity="0.25"}
@@ -187,6 +195,15 @@ Los detalles son importantes, [pero no **todos** los detalles son importantes.]{
 [(C) Essential chart types for data visualization, por Atlassian.]{style="font-size: 0.75em; color: gray"}
 
 ------------------------------------------------------------------------
+
+
+##  {background-image="images/background_slides3.png" background-opacity="0.3"}
+
+::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
+[Data Storytelling]{style="font-size: 1em"}
+
+[Tool #2: AI]{style="font-size: 1.5em"}
+:::
 
 ##  {background-image="images/background.jpg" background-opacity="0.25"}
 
@@ -295,6 +312,14 @@ Tu primera versión [**siempre** será horrible.]{.fragment}
 :::
 
 ------------------------------------------------------------------------
+
+##  {background-image="images/background_slides3.png" background-opacity="0.3"}
+
+::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
+[Data Storytelling]{style="font-size: 1em"}
+
+[Tool #3: Presentation]{style="font-size: 1.5em"}
+:::
 
 ##  {background-image="images/background.jpg" background-opacity="0.25"}
 
