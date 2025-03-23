@@ -324,6 +324,7 @@ E = mc^2
 
 ------------------------------------------------------------------------
 
+
 ## 📝 Overleaf: LaTeX Online  
 
 ::: columns  
@@ -345,6 +346,18 @@ E = mc^2
   - Compilación y previsualización instantánea.  
 :::  
 :::
+
+------------------------------------------------------------------------
+
+## 📝 Recursos en línea para LaTeX
+
+<br>
+
+- 📖 [**Aprende LaTeX en minutos**](https://github.com/luong-komorebi/Begin-Latex-in-minutes/blob/master/Translation-Spanish.md): Guía rápida en español.  
+- 🖊️ [**Overleaf**](https://www.overleaf.com/): Editor LaTeX colaborativo online.  
+- 📊 [**Tables Generator**](https://www.tablesgenerator.com/): Crea tablas en LaTeX fácilmente.  
+- 🔢 [**LaTeX Equation**](https://latexeditor.lagrida.com/): Generador de ecuaciones LaTeX.  
+- 🧾 [**BibTeX Editor**](https://truben.no/latex/bibtex/): Editor de bibliografía en línea.
 
 ------------------------------------------------------------------------
 
