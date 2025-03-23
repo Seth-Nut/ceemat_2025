@@ -669,6 +669,13 @@
     "href": "datastorytelling/presentacion.html#section-2",
     "title": "A.I. + DataStorytelling",
     "section": "",
+    "text": "Data Storytelling\nTool #1: Visualization"
+  },
+  {
+    "objectID": "datastorytelling/presentacion.html#section-3",
+    "href": "datastorytelling/presentacion.html#section-3",
+    "title": "A.I. + DataStorytelling",
+    "section": "",
     "text": "Regla de Storytelling #2\n\n\nLos detalles son importantes, pero no todos los detalles son importantes."
   },
   {
@@ -686,8 +693,15 @@
     "text": "Mejores gráficos para sus datos\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n(C) Essential chart types for data visualization, por Atlassian."
   },
   {
-    "objectID": "datastorytelling/presentacion.html#section-3",
-    "href": "datastorytelling/presentacion.html#section-3",
+    "objectID": "datastorytelling/presentacion.html#section-4",
+    "href": "datastorytelling/presentacion.html#section-4",
+    "title": "A.I. + DataStorytelling",
+    "section": "",
+    "text": "Data Storytelling\nTool #2: AI"
+  },
+  {
+    "objectID": "datastorytelling/presentacion.html#section-5",
+    "href": "datastorytelling/presentacion.html#section-5",
     "title": "A.I. + DataStorytelling",
     "section": "",
     "text": "Regla de Storytelling #3\n\n\nTu primera versión siempre será horrible."
@@ -728,8 +742,15 @@
     "text": "💡 Chatbots A.I. - Imágenes\n\n\n\n\nCanva con Magic Studio\nMicrosoft Designer\nNapkin AI\nArtguru"
   },
   {
-    "objectID": "datastorytelling/presentacion.html#section-4",
-    "href": "datastorytelling/presentacion.html#section-4",
+    "objectID": "datastorytelling/presentacion.html#section-6",
+    "href": "datastorytelling/presentacion.html#section-6",
+    "title": "A.I. + DataStorytelling",
+    "section": "",
+    "text": "Data Storytelling\nTool #3: Presentation"
+  },
+  {
+    "objectID": "datastorytelling/presentacion.html#section-7",
+    "href": "datastorytelling/presentacion.html#section-7",
     "title": "A.I. + DataStorytelling",
     "section": "",
     "text": "Regla de Storytelling #4\n\n\nExplicar menos y mostrar más."
@@ -763,8 +784,8 @@
     "text": "Agenda (v2)\n\n\nNunca reveles el final\nLos detalles son importantes, pero no todos los detalles son importantes\nTu primera versión será horrible\nExplicar menos, mostrar más.\n\n\n\nOpción 2: Una agenda misteriosa."
   },
   {
-    "objectID": "datastorytelling/presentacion.html#section-5",
-    "href": "datastorytelling/presentacion.html#section-5",
+    "objectID": "datastorytelling/presentacion.html#section-8",
+    "href": "datastorytelling/presentacion.html#section-8",
     "title": "A.I. + DataStorytelling",
     "section": "",
     "text": "Visualización\n¿Qué es la Visualización?"
@@ -805,8 +826,8 @@
     "text": "4 Pilares Visualización - Noah Iliinsky\n\n\n\n\nPropósito: Define la meta.\nContenido: Datos relevantes.\nEstructura: Organización clara.\nFormato: Gráfico adecuado.\n\n\n\n\n\n\n\n\n\n(C) Noah Iliinsky: “Four Pillars of Visualization” - Youtube."
   },
   {
-    "objectID": "datastorytelling/presentacion.html#section-6",
-    "href": "datastorytelling/presentacion.html#section-6",
+    "objectID": "datastorytelling/presentacion.html#section-9",
+    "href": "datastorytelling/presentacion.html#section-9",
     "title": "A.I. + DataStorytelling",
     "section": "",
     "text": "Herramientas\nHerramientas de Visualización"
@@ -826,8 +847,8 @@
     "text": "Quarto\n\n\n\nUn sistema abierto para publicaciones científicas con markdown y código interactivo (Python/R)."
   },
   {
-    "objectID": "datastorytelling/presentacion.html#section-7",
-    "href": "datastorytelling/presentacion.html#section-7",
+    "objectID": "datastorytelling/presentacion.html#section-10",
+    "href": "datastorytelling/presentacion.html#section-10",
     "title": "A.I. + DataStorytelling",
     "section": "",
     "text": "Código: example.qmd\n---\ntitle: \"Habits\"\nauthor: \"John Doe\"\nformat:\n  revealjs:\n    transition: fade\n    theme: black\n    toc: true\n    center: true\n---\n\n## Getting up\n\n- Turn off alarm\n- Get out of bed\n\n---\n\n## Going to sleep \n::: { .incremental }\n\n- Get in bed\n- Count sheep\n\n:::\n\nSlides: example.html"
@@ -868,8 +889,8 @@
     "text": "📌 Actividad\n\n\n📂 Clonar el Google Drive:\n\nAccede al siguiente enlace y copia la carpeta en tu propio Google Drive:\n\nGoogle Drive - Actividad\n\n\n📝 Resolver la actividad:\n\nAbre el archivo actividad_04.pptx dentro de la carpeta clonada.\n\nSigue las instrucciones dentro de la PPT y completa los ejercicios."
   },
   {
-    "objectID": "datastorytelling/presentacion.html#section-8",
-    "href": "datastorytelling/presentacion.html#section-8",
+    "objectID": "datastorytelling/presentacion.html#section-11",
+    "href": "datastorytelling/presentacion.html#section-11",
     "title": "A.I. + DataStorytelling",
     "section": "",
     "text": "Sesión 02\nConclusiones"
