@@ -17,8 +17,7 @@ format:
 
 ::: columns
 ::: {.column .incremental width="30%"}
-
--   &#32;
+-   
 
 -   No
 
@@ -53,7 +52,7 @@ Nunca reveles el final antes de tiempo.\
 1.  Nunca reveles el [final]{style="background-color:black;"}
 2.  Los detalles son importantes, pero [no **todos** los detalles son importantes.]{style="background-color:black;"}
 3.  Tu primera versión será [horrible.]{style="background-color:black;"}
-4.  Muestra, no [cuentes.]{style="background-color:black;"}
+4.  Explicar menos, [mostrar más.]{style="background-color:black;"} 
 :::
 
 ------------------------------------------------------------------------
@@ -128,7 +127,7 @@ Nunca reveles el final antes de tiempo.\
 
 ::: columns
 ::: {.column .fragment width="30%" fragment-index="1"}
-![](images/storytelling/spotify1.jpeg){fig-align="center"}
+![](images/storytelling/spotify1.png){fig-align="center"}
 :::
 
 ::: {.column .center width="40%"}
@@ -136,7 +135,7 @@ Nunca reveles el final antes de tiempo.\
 :::
 
 ::: {.column .fragment width="30%" fragment-index="1"}
-![](images/storytelling/spotify2.jpeg){fig-align="center"}
+![](images/storytelling/spotify2.png){fig-align="center"}
 :::
 :::
 
@@ -172,13 +171,30 @@ Los detalles son importantes, [pero no **todos** los detalles son importantes.]{
 
 ------------------------------------------------------------------------
 
+## Mejores gráficos para sus datos{background-image="images/background.jpg" background-opacity="0.25"}
+
+
+::: r-stack
+<br>
+
+![](images/storytelling/plot1.png){.fragment .fade-in-then-out fig-align="left"}
+
+![](images/storytelling/plot2.png){.fragment fig-align="right"}
+:::
+
+. . .
+
+[(C) Essential chart types for data visualization, por Atlassian.]{style="font-size: 0.75em; color: gray"}
+
+------------------------------------------------------------------------
+
 ##  {background-image="images/background.jpg" background-opacity="0.25"}
 
 ::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
 ::: callout-note
 ## Regla de Storytelling #3
 
-Tu primera versión **siempre** será horrible.
+Tu primera versión [**siempre** será horrible.]{.fragment} 
 :::
 :::
 
@@ -225,7 +241,6 @@ Tu primera versión **siempre** será horrible.
 
 ## 💡 Chatbots A.I. - Ideas {background-image="images/background.jpg" background-opacity="0.25"}
 
-
 ::: columns
 ::: {.column width="60%"}
 <br>
@@ -236,11 +251,10 @@ Tu primera versión **siempre** será horrible.
 -   [DeepSeek (DeepSeek)](https://chat.deepseek.com/)
 :::
 
-::: {.column  width="40%"}
+::: {.column width="40%"}
 <img src="images/ai/ai_ideas.png" alt="Asistentes Virtuales" style="width: 100%; border-radius: 10px;"/>
 :::
 :::
-
 
 ------------------------------------------------------------------------
 
@@ -265,23 +279,20 @@ Tu primera versión **siempre** será horrible.
 
 ## 💡 Chatbots A.I. - Imágenes {background-image="images/background.jpg" background-opacity="0.25"}
 
-
 ::: columns
 ::: {.column width="60%"}
-
 <br>
 
-- [Canva con Magic Studio](https://www.canva.com/magic/)
-- [Microsoft Designer](https://designer.microsoft.com/)
-- [Napkin AI](https://www.napkin.one/)
-- [Artguru](https://www.artguru.ai/)
+-   [Canva con Magic Studio](https://www.canva.com/magic/)
+-   [Microsoft Designer](https://designer.microsoft.com/)
+-   [Napkin AI](https://www.napkin.one/)
+-   [Artguru](https://www.artguru.ai/)
 :::
 
-::: {.column  width="40%"}
+::: {.column width="40%"}
 <img src="images/ai/ai_images.png" alt="Asistentes Virtuales" style="width: 100%; border-radius: 10px;"/>
 :::
 :::
-
 
 ------------------------------------------------------------------------
 
@@ -291,7 +302,7 @@ Tu primera versión **siempre** será horrible.
 ::: callout-note
 ## Regla de Storytelling #4
 
-[Explicar menos]{style="color: red"} y [mostrar más]{style="color: green"}
+[Explicar menos]{style="color: red"} y [mostrar más.]{.fragment style="color: green"}  
 :::
 :::
 
@@ -301,39 +312,44 @@ Tu primera versión **siempre** será horrible.
 
 ::: columns
 ::: {.column width="50%"}
+
+<br>
+
 ``` python
 import matplotlib.pyplot as plt
 
-# Datos de ejemplo
-x = [1, 2, 3, 4, 5]
-y = [2, 4, 3, 5, 7]
+# Data
+categories = ['Yes', 'No']
+values = [75, 25]
 
-# Generamos el gráfico
-plt.figure(figsize=(6, 4))
-plt.plot(x, y, marker='o')
-plt.title("Gráfico de Ejemplo")
-plt.xlabel("Eje X")
-plt.ylabel("Eje Y")
-plt.grid(True)
+# Create the bar chart
+plt.figure(figsize=(10, 4))
+plt.bar(categories, values, color=['lightblue', 'salmon'])
+plt.title('😊 ¿Te está gustando la presentación hasta ahora? 😊')
+
+# Display the plot
 plt.show()
 ```
 :::
 
 ::: {.column .fragment width="50%"}
+
+<br>
+
+
 ```{python}
 import matplotlib.pyplot as plt
 
-# Datos de ejemplo
-x = [1, 2, 3, 4, 5]
-y = [2, 4, 3, 5, 7]
+# Data
+categories = ['Yes', 'No']
+values = [75, 25]
 
-# Generamos el gráfico
-plt.figure(figsize=(6, 4))
-plt.plot(x, y, marker='o')
-plt.title("Gráfico de Ejemplo")
-plt.xlabel("Eje X")
-plt.ylabel("Eje Y")
-plt.grid(True)
+# Create the bar chart
+plt.figure(figsize=(10, 4))
+plt.bar(categories, values, color=['lightblue', 'salmon'])
+plt.title('😊 ¿Te está gustando la presentación hasta ahora? 😊')
+
+# Display the plot
 plt.show()
 ```
 :::
@@ -343,19 +359,60 @@ plt.show()
 
 ## [Explicar menos]{style="color: red"} y [mostrar más]{style="color: green"} {background-image="images/background.jpg" background-opacity="0.25"}
 
-```{pyodide-python}
+
+::: {.panel-tabset}
+
+## Código
+
+```python
 import matplotlib.pyplot as plt
-x = [1, 2, 3, 4, 5]
-y = [2, 4, 3, 5, 7]
-plt.figure(figsize=(5, 3))
-plt.plot(x, y, marker='o')
-plt.title("Gráfico de Ejemplo")
-plt.grid(True)
+
+# Data
+categories = ['Yes', 'No']
+values = [75, 25]
+
+# Create the bar chart
+plt.figure(figsize=(10, 4))
+plt.bar(categories, values, color=['lightblue', 'salmon'])
+plt.title('😊 ¿Te está gustando la presentación hasta ahora? 😊')
+
+# Display the plot
 plt.show()
 ```
 
+## Gráfico
 
+```{python}
+import matplotlib.pyplot as plt
 
+# Data
+categories = ['Yes', 'No']
+values = [75, 25]
+
+# Create the bar chart
+plt.figure(figsize=(10, 4))
+plt.bar(categories, values, color=['lightblue', 'salmon'])
+plt.title('😊 ¿Te está gustando la presentación hasta ahora? 😊')
+
+# Display the plot
+plt.show()
+```
+
+:::
+
+------------------------------------------------------------------------
+
+## [Explicar menos]{style="color: red"} y [mostrar más]{style="color: green"} {background-image="images/background.jpg" background-opacity="0.25"}
+
+```{pyodide-python}
+import matplotlib.pyplot as plt
+categories = ['Yes', 'No']
+values = [75, 25]
+plt.figure(figsize=(9, 3))
+plt.bar(categories, values, color=['lightblue', 'salmon'])
+plt.title('😊 ¿Te está gustando la presentación hasta ahora? 😊')
+plt.show()
+```
 
 ------------------------------------------------------------------------
 
@@ -365,7 +422,7 @@ plt.show()
 1.  Nunca reveles el [**final**]{.fragment style="color:grey;"}
 2.  Los detalles son importantes, pero [no **todos** los detalles son importantes]{.fragment style="color:grey;"}
 3.  Tu primera versión será [**horrible**]{.fragment style="color:grey;"}
-4.  Muestra, no [**cuentes**]{.fragment style="color:grey;"}
+4.  Explicar menos, [mostrar más.]{.fragment style="color:grey;"}
 :::
 
 ::: notes
@@ -470,21 +527,7 @@ Opción 2: Una agenda misteriosa.
 
 ------------------------------------------------------------------------
 
-## Qué Gráficos son buenos? {background-image="images/background.jpg" background-opacity="0.25"}
 
-::: {style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;"}
-<img src="images/viz/chart_01.png" style="width: 75%; height: auto;"/> <img src="images/viz/chart_04.png" style="width: 75%; height: auto;"/>
-
-<img src="images/viz/chart_03.png" style="width: 75%; height: auto;"/> <img src="images/viz/chart_05.png" style="width: 70%; height: auto;"/>
-
-<img src="images/viz/chart_02.png" style="width: 75%; height: auto;"/> <img src="images/viz/chart_07.png" style="width: 85%; height: auto;"/>
-:::
-
-. . .
-
-[(C) Essential chart types for data visualization, por Atlassian.]{style="font-size: 0.75em; color: gray"}
-
-------------------------------------------------------------------------
 
 ##  {background-image="images/background_slides3.png" background-opacity="0.3"}
 
@@ -604,15 +647,25 @@ import streamlit as st
 # Título principal de la aplicación
 st.title("Hola Streamlit")
 
-# Mensaje principal con nombres y emoticón fijos
-mensaje = "Darwin y Patricia son mejores amigos 😊"
+# Sidebar con descripción y opciones de configuración
+st.sidebar.title("Opciones")
+st.sidebar.write("Configura el mensaje principal y el emoticón.")
+
+# Opciones en el sidebar para personalizar el mensaje
+nombre1 = st.sidebar.text_input("Nombre 1", "Seth")
+nombre2 = st.sidebar.text_input("Nombre 2", "Nut")
+emoticon = st.sidebar.selectbox("Selecciona un emoticón", ["😊", "❤️", "👫", "🌟", "🐶"])
+
+# Mensaje principal en la app
+mensaje = f"{nombre1} y {nombre2} son mejores amigos {emoticon}"
 st.write(mensaje)
 
-# Imagen decorativa
+# Agregar una imagen decorativa
 st.image(
-    "https://www.svgrepo.com/show/397758/people-hugging.svg",
+    "https://media1.thehungryjpeg.com/thumbs2/ori_4312464_ng19gv7ncq8oga7awkf1w72gsvbznzrkc861timx_valentine-couple-of-doberman-pinscher.jpg",
     caption="Amigos",
-    width=200  # Ajuste del tamaño de la imagen
+    use_container_width =False,
+    width=300  # Ajuste del tamaño de la imagen
 )
 
 # Footer
@@ -633,12 +686,10 @@ st.markdown(
 . . .
 
 ::: {style="text-align: center; margin-top: -30px;"}
-[(C) Ejemplo en Streamlit - Playground.]([gCISH6_BP-AiBTGq3jOCQWRz5YA1q9YorW8rM2GLi6RCGsCuQzuNYGVfGjnhcL4BDsQ_iPvpKGd6sQQ3-ixok1FOMXkmFjGsUs2_XgIE0yTix5x0xSmk6BUJptgdkmudivfx4lfh-ffr8--e7lK2XH7408c2yie9_iBe1F4_-sYxNqa_ZZRs7h3AqLlsDFmxpmw8WwFaxQ3Pr2UwsVG4DXG60L0S6ruaaWqZ6x-PcU87mlqxdFZhTeh3SeozqDBOkLnYy4E_MYnThbr9fVVUvnDHS2Z60RT_MbNW_eefo6NbtviPrNHVnZZ4rk6dlYr9GS3SRLRqK41paWy0DjaXVZWHGlZrG2fAEdaCm1xQGBwcALHRehkgsTkPEAlffbDsCjeqsPs2JtZF8kl2gfzm1lWmVC1HHbrdbxwfpffNw8bixgvS2Qrw2TKAME6FMLsB6-fb1X5q97A_oi2bFpgMAAA](https://streamlit.io/playground?example=geospatial&code=H4sIAAAAAAAAA4WTvW4TQRDH-3uK0dI4Us7OOVESkFxESIGGUIQOIWu9Ht-ts1_s7tn5UHqEEB8dDXJDhygQEqLPm_AC5BGYvTuTRBRcs3szN7_9z39vpHbWRwjRI9dKRuCBXrLsHjy7-hprZcF5aYR0XMEUQXHgTknBhbz6brIQ-1FGhT322FLqeE1hG4lwLKc44R6ENVQbhJeuKYMzsLSzBkNiUnomy9rfMENbuGY_7T4m6q3k0stIyYfrakAFGk3gc7yl-SyFUdsoBcH7rbA1ENCkdEcEx4ni0AdruJLnFLlBZsbqiccCRnBbIJ7GsTSujj121HwABdsEdoyxoqPamuF_a4ap5qhOtrVSybA7NQEVijixpz1C0zbJ51Cbm86I8Jxdrz6-Tqhfnz7__vku7a5XH76065tVu77_wV40Jjz5xytyo7lfl619HMGMXXSdX5KX3X54CeQRWTO3nlzkWpY2wMVa-yVL99TeT0dqTjwoPZbkak3apeYlpt9CWM-jXPBU0gR7GdDDqhhdeDAYaJxKXvRjhVVtSn82d1j2hdWDWNV6EoYD6-V4Z7sY7uzujE1Z3C8Xe0a83Lcl3-PLk1mx3BuWYTE5N-f-ROzvFlHq0_GCKzRRGsyFrZ3C3M7yqZ2g19zkTpogKvT9uSvZZiNHcBfJ8xE7aHrtonXAMfUbOYH8eCmnsYLRIVcB23wTGW1vbQFQ9_M6RKSOFUSu-dU32w1Ua0XWWHRobUSfvNDcn0zt0nR2MNaseZ4366M0LTSqNLykIv2pId4ZTZCGQFwka-F69fbVX8xG9gcSs8059AMAAA)){style="font-size: 0.75em; color: gray"}
+[(C) Ejemplo en Streamlit - Playground.](https://streamlit.io/playground?example=geospatial&code=H4sIAAAAAAAAA4WTvW4TQRDH-3uK0dI4Us7OOVESkFxESIGGUIQOIWu9Ht-ts1_s7tn5UHqEEB8dDXJDhygQEqLPm_AC5BGYvTuTRBRcs3szN7_9z39vpHbWRwjRI9dKRuCBXrLsHjy7-hprZcF5aYR0XMEUQXHgTknBhbz6brIQ-1FGhT322FLqeE1hG4lwLKc44R6ENVQbhJeuKYMzsLSzBkNiUnomy9rfMENbuGY_7T4m6q3k0stIyYfrakAFGk3gc7yl-SyFUdsoBcH7rbA1ENCkdEcEx4ni0AdruJLnFLlBZsbqiccCRnBbIJ7GsTSujj121HwABdsEdoyxoqPamuF_a4ap5qhOtrVSybA7NQEVijixpz1C0zbJ51Cbm86I8Jxdrz6-Tqhfnz7__vku7a5XH76065tVu77_wV40Jjz5xytyo7lfl619HMGMXXSdX5KX3X54CeQRWTO3nlzkWpY2wMVa-yVL99TeT0dqTjwoPZbkak3apeYlpt9CWM-jXPBU0gR7GdDDqhhdeDAYaJxKXvRjhVVtSn82d1j2hdWDWNV6EoYD6-V4Z7sY7uzujE1Z3C8Xe0a83Lcl3-PLk1mx3BuWYTE5N-f-ROzvFlHq0_GCKzRRGsyFrZ3C3M7yqZ2g19zkTpogKvT9uSvZZiNHcBfJ8xE7aHrtonXAMfUbOYH8eCmnsYLRIVcB23wTGW1vbQFQ9_M6RKSOFUSu-dU32w1Ua0XWWHRobUSfvNDcn0zt0nR2MNaseZ4366M0LTSqNLykIv2pId4ZTZCGQFwka-F69fbVX8xG9gcSs8059AMAAA){style="font-size: 0.75em; color: gray"}
 :::
 
 ------------------------------------------------------------------------
-
-
 
 ## HTML & webapps {background-image="images/background.jpg" background-opacity="0.25"}
 
