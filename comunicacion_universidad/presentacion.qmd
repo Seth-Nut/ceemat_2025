@@ -52,7 +52,7 @@ format:
 ::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
 [Sesión 03]{style="font-size: 1em"}
 
-[**Leer**: Abordando Textos Complejos]{style="font-size: 1.5em"}
+[**Paso 1: Leer con propósito**]{style="font-size: 1.5em"}
 :::
 
 ------------------------------------------------------------------------
@@ -182,7 +182,8 @@ format:
 ::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
 [Sesión 03]{style="font-size: 1em"}
 
-[**Escribir**: Redacción Académica Eficaz]{style="font-size: 1.5em"}
+[**Paso 2: Escribir con claridad**]{style="font-size: 1.5em"}
+
 :::
 
 ------------------------------------------------------------------------
@@ -415,7 +416,9 @@ E = mc^2
 ::: {style="display: flex; justify-content: center; align-items: center; height: 60vh; flex-direction: column; text-align: center;"}
 [Sesión 03]{style="font-size: 1em"}
 
-[**Hablar**: Dominando Presentaciones Orales]{style="font-size: 1.5em"}
+[**Paso 3: Hablar con seguridad**]{style="font-size: 1.5em"}
+
+
 :::
 
 ------------------------------------------------------------------------
