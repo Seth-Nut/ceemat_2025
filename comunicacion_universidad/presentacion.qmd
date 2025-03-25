@@ -87,41 +87,18 @@ format:
 ::: {.column .incremental width="60%"}
 <br>
 
--   **Propósito**:
-    -   Determina el objetivo de tu lectura.
--   **Estructura**:
-    -   Resumen del contenido según tu propósito.
-    -   Citas textuales, Referencia bibliográfica.
--   **Consejos**:
-    -   Personaliza para tu uso o académico.
-    -   Incluye tus propias palabras clave.
+- **Propósito**:  
+  - ¿Para qué lees? (entender, resumir, debatir).
+
+- **Estructura**:  
+  - Resumen breve, citas y referencias.
+
+- **Consejos**:  
+  - Explica con tus palabras.  
+  - Apoya con esquemas o mapas.  
+  - Usa colores o íconos.
 :::
 :::
-
-## 📚 Cómo Compilar y Organizar Lecturas
-
-::: columns
-::: {.column width="40%"}
-::: {style="text-align: center;"}
-<br> <img src="images/read_01.png" alt="Organizar Lecturas" style="width: 100%; border-radius: 10px;"/>
-:::
-:::
-
-::: {.column .incremental width="60%"}
-<br>
-
--   **Compilar**:
-    -   Resumir y agrupar lecturas para fácil acceso.
--   **Estrategias**:
-    -   Escribe resúmenes después de cada lectura.
-    -   Usa etiquetas o palabras clave para organizar.
-    -   Anota la referencia bibliográfica de cada texto.
--   **Beneficios**:
-    -   Ahorra tiempo y previene el plagio.
-:::
-:::
-
-
 
 
 ------------------------------------------------------------------------
@@ -149,6 +126,35 @@ format:
   - **Integrar** conceptos conectados. 
 :::
 :::
+
+------------------------------------------------------------------------
+
+## 🧠 Enfrentar una Lectura
+
+::: columns
+::: {.column width="40%"}
+::: {style="text-align: center;"}
+<br> <img src="images/read_01.png" alt="Subrayar" style="width: 100%; border-radius: 10px;"/>
+:::
+:::
+
+::: {.column .incremental width="60%"}
+<br>
+
+- **Tiempo**:  
+  - Lee por bloques de 25-30 min (Pomodoro).  
+  - Pausas cortas para mantener foco.
+
+- **Mentalidad**:  
+  - No todo se entiende altiro.  
+  - Hazte preguntas mientras lees.
+
+- **Apoyos**:  
+  - Espacio tranquilo y sin distracciones.  
+  - Respira y vuelve si te bloqueas.
+:::
+:::
+
 
 ------------------------------------------------------------------------
 
@@ -181,6 +187,8 @@ format:
 
 ------------------------------------------------------------------------
 
+
+
 ## ✍️ Escritura Académica
 
 ::: columns
@@ -193,36 +201,43 @@ format:
 ::: {.column .incremental width="60%"}
 <br>
 
-- Formal, clara y estructurada.  
-- Usada en artículos, tesis e informes.  
-- Basada en evidencia y citas.  
-- Difunde conocimiento y fomenta el pensamiento crítico.
+- Estilo **formal, claro y ordenado**.  
+- Presente en **informes, artículos, tesis**.  
+- Basada en **evidencia, fuentes y citas**.  
+- Fomenta el **pensamiento crítico** y la difusión del conocimiento.
+
 :::
 :::
 
-------------------------------------------------------------------------
+---
 
-## ✍️ Puntos Claves
+## 🧩 Etapas de la Escritura
 
 ::: columns
 ::: {.column width="40%"}
 ::: {style="text-align: center;"}
-<img src="images/write_01.png" alt="Escribir" style="width: 100%; border-radius: 10px;"/>
+<img src="images/write_01.png" alt="Etapas Escritura" style="width: 100%; border-radius: 10px;"/>
 :::
 :::
 
 ::: {.column .incremental width="60%"}
 <br>
 
--   **Preparar**: Lluvias de ideas y planificación antes de escribir.
--   **Abordar**: Redacta borradores, integra fuentes y organiza ideas.
--   **Revisar**: Reflexiona, ajusta y mejora tu texto en múltiples rondas.
+- **Preparar**:  
+  - Lluvia de ideas, esquemas y planificación.
+
+- **Redactar**:  
+  - Escribe borradores, integra fuentes y organiza ideas.
+
+- **Revisar**:  
+  - Mejora el texto en varias rondas: claridad, coherencia y estilo.
+
 :::
 :::
 
-------------------------------------------------------------------------
+---
 
-## 🔍 Delimitar un Tema de Investigación
+## 🎯 Delimita tu Tema
 
 ::: columns
 ::: {.column width="40%"}
@@ -234,35 +249,50 @@ format:
 ::: {.column .incremental width="60%"}
 <br>
 
-- **Infórmate**: Comprende el contexto y relevancia.  
-- **Objetivo**: Alinea con la investigación.  
-- **Preguntas clave**: ¿Qué? ¿En qué contexto?  
-- **Verifica**: Realismo y viabilidad.
+- **Infórmate**: 
+  - Conoce el contexto y antecedentes.  
+- **Enfoca**:
+  -  Define el objetivo y las preguntas clave.  
+- **Acota**: 
+  - Determina el alcance (tiempo, lugar, población).  
+- **Evalúa**:
+  -  Que sea viable y relevante para investigar.
+
 :::
 :::
 
-------------------------------------------------------------------------
+---
 
-## 📝 Cómo Escribir un Informe
+
+## 🧱 Estructura de un Artículo
 
 ::: columns
 ::: {.column width="40%"}
 ::: {style="text-align: center;"}
-<img src="images/write_01.png" alt="Escribir Informe" style="width: 100%; border-radius: 10px;"/>
+<img src="images/write_01.png" alt="Artículo Académico" style="width: 100%; border-radius: 10px;"/>
 :::
 :::
 
 ::: {.column .incremental width="60%"}
+
+
 <br>
 
--   **Qué es un informe**: Texto que reporta información y conclusiones sobre un tema.
--   **Estrategias**:
-    -   **Planificar**: Definir el tema, evidencia y objetivos.
-    -   **Escribir**: Organizar con subtítulos, citas y gráficos.
-    -   **Revisar**: Coherencia, claridad y conclusiones.
--   **Estructura típica**: Introducción, desarrollo (cuerpo) y conclusiones.
+- **Inicio**  
+  *¿De qué trata?*  
+  → Resumen, Introducción, Marco teórico  
+
+- **Desarrollo**  
+  *¿Cómo se investigó y qué se encontró?*  
+  → Metodología, Resultados, Discusión  
+
+- **Cierre**  
+  *¿Qué significa y qué sigue?*  
+  → Conclusión y Referencias
+
 :::
 :::
+
 
 ------------------------------------------------------------------------
 
