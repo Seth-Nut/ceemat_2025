@@ -800,6 +800,16 @@ st.markdown(
 
 > 🔗 Nuestro Sitio Web: [seth-nut.github.io/resources](https://seth-nut.github.io/resources/).
 
+------------------------------------------------------------------------
+
+
+## 🎊 ¡Bien hecho! Terminaste el curso 🎊 {background-image="images/background.jpg" background-opacity="0.25"}
+
+![](images/sethnut5.png){fig-align="center" width="60%"}
+
+
+
+
 ```{=html}
 <style>
 /* Ajusta el tamaño del título y subtítulo */
