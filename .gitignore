@@ -174,3 +174,4 @@ cython_debug/
 _site/
 _freeze/
 *.ipynb
+app.py
