@@ -1,197 +1,155 @@
 [
   {
-    "objectID": "comunicacion_universidad/presentacion.html#retos-universitarios",
-    "href": "comunicacion_universidad/presentacion.html#retos-universitarios",
-    "title": "Leer, Escribir y Hablar en la Universidad",
-    "section": "🎓 Retos Universitarios",
-    "text": "🎓 Retos Universitarios"
-  },
-  {
-    "objectID": "comunicacion_universidad/presentacion.html#objetivos",
-    "href": "comunicacion_universidad/presentacion.html#objetivos",
-    "title": "Leer, Escribir y Hablar en la Universidad",
-    "section": "🎯 Objetivos",
-    "text": "🎯 Objetivos\n\n\n\n\n\n\n\n\nEnfrentando los desafíos académicos: leer, escribir y hablar.\nImportancia de dominar estas habilidades en la universidad.\nEstrategias clave para mejorar la comprensión y expresión académica."
-  },
-  {
-    "objectID": "comunicacion_universidad/presentacion.html#section",
-    "href": "comunicacion_universidad/presentacion.html#section",
-    "title": "Leer, Escribir y Hablar en la Universidad",
+    "objectID": "anexos.html",
+    "href": "anexos.html",
+    "title": "📜 Anexos",
     "section": "",
-    "text": "Sesión 03\nPaso 1: Leer con propósito"
+    "text": "🎁 Sorteo✍️ Autoría📖 Aprendizaje😊 Agredecimientos\n\n\nPara sortear algunos premios utilizaremos, por supuesto, un código de python. Usaremos la función random.randint(a, b) que retorna un número entero aleatorio \\(N\\) que cumpla la condición \\(a &lt;= N &lt;= b\\).\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nMaterial creado por Francisco Alfaro y Valeska Canales para estudiantes del Departamento de Matemáticas de la USM.\nBuscamos motivar el aprendizaje de programación y matemáticas de forma entretenida y accesible, con ejemplos prácticos y actividades interactivas en Python.\nContacto: francisco.alfaro.496@gmail.com | valeska.canales.p@gmail.com\n\n\n\nRecursos Recomendados\n\nHerramientas de Google\n\nCursos en Línea:\n\nGoogle Workspace Learning Center: Capacitación oficial en herramientas como Docs, Sheets, Slides, Colab y Drive.\n\nDocumentación y Recursos:\n\nCentro de Ayuda de Google Workspace: Guías y trucos para aprovechar al máximo las herramientas de Google.\n\n\nDiseño de Prompts Efectivos en ChatGPT\n\nGuías y Tutoriales:\n\nCómo escribir un Prompt con ChatGPT: Estrategias para diseñar prompts efectivos en ChatGPT.\n\nComunidades y Foros:\n\nReddit: r/ChatGPT: Comunidad para compartir experiencias y obtener consejos sobre el uso de ChatGPT.\n\n\nComunicación Académica: Lectura, Escritura y Oratoria\n\nCursos en Línea:\n\nedX: “Academic and Business Writing” de la Universidad de California, Berkeley.\n\nRecursos y Herramientas:\n\nPurdue OWL: Guías sobre redacción académica y estilo.\n\n\nA.I. y Data Storytelling\n\nCursos y Talleres:\n\nCómo usar ChatGPT para hacer Storytelling: Tutorial sobre cómo utilizar ChatGPT en la creación de narrativas.\n\nHerramientas:\n\nTableau Public: Plataforma gratuita para crear visualizaciones interactivas.\n\n\n\n\n\n\nQueremos agradecer sinceramente a todas y todos los estudiantes que participaron en el curso por su entusiasmo, curiosidad y compromiso con el aprendizaje.\nTambién extendemos nuestro agradecimiento al Centro de Estudiantes ICMAT USM San Joaquín por su constante apoyo y colaboración, y al Departamento de Matemáticas de la USM por hacer posible esta iniciativa educativa."
   },
   {
-    "objectID": "comunicacion_universidad/presentacion.html#lectura-académica",
-    "href": "comunicacion_universidad/presentacion.html#lectura-académica",
-    "title": "Leer, Escribir y Hablar en la Universidad",
-    "section": "📚 Lectura Académica",
-    "text": "📚 Lectura Académica\n\n\n\n\n\n\n\n\nLos textos académicos son complejos y están escritos para especialistas.\nArtículos y capítulos teóricos son comunes en la universidad.\nHerramientas clave: preparar, abordar y resumir la lectura."
-  },
-  {
-    "objectID": "comunicacion_universidad/presentacion.html#puntos-claves",
-    "href": "comunicacion_universidad/presentacion.html#puntos-claves",
-    "title": "Leer, Escribir y Hablar en la Universidad",
-    "section": "✍️ Puntos Claves",
-    "text": "✍️ Puntos Claves\n\n\n\n \n\n\n\n\nPropósito:\n\n¿Para qué lees? (entender, resumir, debatir).\n\nEstructura:\n\nResumen breve, citas y referencias.\n\nConsejos:\n\nExplica con tus palabras.\n\nApoya con esquemas o mapas.\n\nUsa colores o íconos."
-  },
-  {
-    "objectID": "comunicacion_universidad/presentacion.html#cómo-subrayar-un-texto",
-    "href": "comunicacion_universidad/presentacion.html#cómo-subrayar-un-texto",
-    "title": "Leer, Escribir y Hablar en la Universidad",
-    "section": "✨ Cómo Subrayar un Texto",
-    "text": "✨ Cómo Subrayar un Texto\n\n\n\n \n\n\n\n\nEstrategias:\n\nDefine el propósito antes de destacar.\n\nLee primero de forma panorámica.\n\nDestaca solo el 20% del texto con colores útiles.\n\n\nReglas:\n\nOmitir lo irrelevante.\n\nSeleccionar lo esencial.\n\nGeneralizar ideas comunes.\n\nIntegrar conceptos conectados."
-  },
-  {
-    "objectID": "comunicacion_universidad/presentacion.html#enfrentar-una-lectura",
-    "href": "comunicacion_universidad/presentacion.html#enfrentar-una-lectura",
-    "title": "Leer, Escribir y Hablar en la Universidad",
-    "section": "🧠 Enfrentar una Lectura",
-    "text": "🧠 Enfrentar una Lectura\n\n\n\n \n\n\n\n\nTiempo:\n\nLee por bloques de 25-30 min (Pomodoro).\n\nPausas cortas para mantener foco.\n\nMentalidad:\n\nNo todo se entiende altiro.\n\nHazte preguntas mientras lees.\n\nApoyos:\n\nEspacio tranquilo y sin distracciones.\n\nRespira y vuelve si te bloqueas."
-  },
-  {
-    "objectID": "comunicacion_universidad/presentacion.html#ejemplo-práctico",
-    "href": "comunicacion_universidad/presentacion.html#ejemplo-práctico",
-    "title": "Leer, Escribir y Hablar en la Universidad",
-    "section": "📚 Ejemplo Práctico",
-    "text": "📚 Ejemplo Práctico\n\n\n\n\n\n\n\n\n🔗 Explora el siguiente ejemplo aquí:\n\n👉 📂 Acceder al ejemplo"
-  },
-  {
-    "objectID": "comunicacion_universidad/presentacion.html#section-1",
-    "href": "comunicacion_universidad/presentacion.html#section-1",
-    "title": "Leer, Escribir y Hablar en la Universidad",
+    "objectID": "diplomas/diplomas1.html",
+    "href": "diplomas/diplomas1.html",
+    "title": "🎉 CEEMAT 2025 - 1° Semestre",
     "section": "",
-    "text": "Sesión 03\nPaso 2: Escribir con claridad"
+    "text": "Adolfo Seyssel\nAlejandro Salas\nAndres Carvajal\nClaudio Gonzalez\nFelipe Asbun\nHans Schulz\nJavier Diaz\nJoaquin Ramirez\nMax Rosado\nPablo Leiva\nVicente Moreno"
   },
   {
-    "objectID": "comunicacion_universidad/presentacion.html#escritura-académica",
-    "href": "comunicacion_universidad/presentacion.html#escritura-académica",
-    "title": "Leer, Escribir y Hablar en la Universidad",
-    "section": "✍️ Escritura Académica",
-    "text": "✍️ Escritura Académica\n\n\n\n\n\n\n\n\nEstilo formal, claro y ordenado.\n\nPresente en informes, artículos, tesis.\n\nBasada en evidencia, fuentes y citas.\n\nFomenta el pensamiento crítico y la difusión del conocimiento."
-  },
-  {
-    "objectID": "comunicacion_universidad/presentacion.html#etapas-de-la-escritura",
-    "href": "comunicacion_universidad/presentacion.html#etapas-de-la-escritura",
-    "title": "Leer, Escribir y Hablar en la Universidad",
-    "section": "🧩 Etapas de la Escritura",
-    "text": "🧩 Etapas de la Escritura\n\n\n\n\n\n\n\n\nPreparar:\n\nLluvia de ideas, esquemas y planificación.\n\nRedactar:\n\nEscribe borradores, integra fuentes y organiza ideas.\n\nRevisar:\n\nMejora el texto en varias rondas: claridad, coherencia y estilo."
-  },
-  {
-    "objectID": "comunicacion_universidad/presentacion.html#delimita-tu-tema",
-    "href": "comunicacion_universidad/presentacion.html#delimita-tu-tema",
-    "title": "Leer, Escribir y Hablar en la Universidad",
-    "section": "🎯 Delimita tu Tema",
-    "text": "🎯 Delimita tu Tema\n\n\n\n\n\n\n\n\nInfórmate:\n\nConoce el contexto y antecedentes.\n\n\nEnfoca:\n\nDefine el objetivo y las preguntas clave.\n\n\nAcota:\n\nDetermina el alcance (tiempo, lugar, población).\n\n\nEvalúa:\n\nQue sea viable y relevante para investigar."
-  },
-  {
-    "objectID": "comunicacion_universidad/presentacion.html#estructura-de-un-artículo",
-    "href": "comunicacion_universidad/presentacion.html#estructura-de-un-artículo",
-    "title": "Leer, Escribir y Hablar en la Universidad",
-    "section": "🧱 Estructura de un Artículo",
-    "text": "🧱 Estructura de un Artículo\n\n\n\n\n\n\n\n\nInicio\n¿De qué trata?\n→ Resumen, Introducción, Marco teórico\nDesarrollo\n¿Cómo se investigó y qué se encontró?\n→ Metodología, Resultados, Discusión\nCierre\n¿Qué significa y qué sigue?\n→ Conclusión y Referencias"
-  },
-  {
-    "objectID": "comunicacion_universidad/presentacion.html#documentos-académicos-con-latex",
-    "href": "comunicacion_universidad/presentacion.html#documentos-académicos-con-latex",
-    "title": "Leer, Escribir y Hablar en la Universidad",
-    "section": "📝 Documentos Académicos con LaTeX",
-    "text": "📝 Documentos Académicos con LaTeX\n\n\n\n\n\n\n\n\n¿Qué es LaTeX?\n\nSistema para crear documentos académicos y científicos con formato profesional.\n\n¿Por qué usarlo?\n\nAutomatiza referencias y ecuaciones.\n\nOfrece mayor control sobre formato y estructura."
-  },
-  {
-    "objectID": "comunicacion_universidad/presentacion.html#ejemplo-de-código-en-latex",
-    "href": "comunicacion_universidad/presentacion.html#ejemplo-de-código-en-latex",
-    "title": "Leer, Escribir y Hablar en la Universidad",
-    "section": "📝 Ejemplo de código en LaTeX",
-    "text": "📝 Ejemplo de código en LaTeX\n\nCódigoSalida\n\n\n\\documentclass{article}\n\\usepackage{amsmath}\n\n\\begin{document}\n\\title{Ejemplo de Documento en \\LaTeX}\n\\author{Francisco Alfaro, Valeska Canales}\n\\date{\\today}\n\\maketitle\n\n\\section{Ecuaciones en \\LaTeX}\nEjemplo de una ecuación matemática:\n\n\\begin{equation}\nE = mc^2\n\\end{equation}\n\n\\end{document}"
-  },
-  {
-    "objectID": "comunicacion_universidad/presentacion.html#overleaf-latex-online",
-    "href": "comunicacion_universidad/presentacion.html#overleaf-latex-online",
-    "title": "Leer, Escribir y Hablar en la Universidad",
-    "section": "📝 Overleaf: LaTeX Online",
-    "text": "📝 Overleaf: LaTeX Online\n\n\n\n\n\n\n\n\n¿Qué es?\n\nPlataforma en línea para escribir y compilar documentos en LaTeX sin instalación.\n\n¿Por qué usarlo?\n\nEdición colaborativa en tiempo real.\n\nIntegración con GitHub y la nube.\n\nCompilación y previsualización instantánea."
-  },
-  {
-    "objectID": "comunicacion_universidad/presentacion.html#recursos-en-línea-para-latex",
-    "href": "comunicacion_universidad/presentacion.html#recursos-en-línea-para-latex",
-    "title": "Leer, Escribir y Hablar en la Universidad",
-    "section": "📝 Recursos en línea para LaTeX",
-    "text": "📝 Recursos en línea para LaTeX\n\n\n📖 Aprende LaTeX en minutos: Guía rápida en español.\n\n🖊️ Overleaf: Editor LaTeX colaborativo online.\n\n📊 Tables Generator: Crea tablas en LaTeX fácilmente.\n\n🔢 LaTeX Equation: Generador de ecuaciones LaTeX.\n\n🧾 BibTeX Editor: Editor de bibliografía en línea."
-  },
-  {
-    "objectID": "comunicacion_universidad/presentacion.html#ejemplo-práctico-1",
-    "href": "comunicacion_universidad/presentacion.html#ejemplo-práctico-1",
-    "title": "Leer, Escribir y Hablar en la Universidad",
-    "section": "📚 Ejemplo Práctico",
-    "text": "📚 Ejemplo Práctico\n\n\n\n\n\n\n\n\n🔗 Explora el siguiente ejemplo aquí:\n\n👉 📂 Acceder al ejemplo"
-  },
-  {
-    "objectID": "comunicacion_universidad/presentacion.html#section-2",
-    "href": "comunicacion_universidad/presentacion.html#section-2",
-    "title": "Leer, Escribir y Hablar en la Universidad",
+    "objectID": "diplomas/diplomas1.html#lista-de-certificados-disponibles",
+    "href": "diplomas/diplomas1.html#lista-de-certificados-disponibles",
+    "title": "🎉 CEEMAT 2025 - 1° Semestre",
     "section": "",
-    "text": "Sesión 03\nPaso 3: Hablar con seguridad"
+    "text": "Adolfo Seyssel\nAlejandro Salas\nAndres Carvajal\nClaudio Gonzalez\nFelipe Asbun\nHans Schulz\nJavier Diaz\nJoaquin Ramirez\nMax Rosado\nPablo Leiva\nVicente Moreno"
   },
   {
-    "objectID": "comunicacion_universidad/presentacion.html#enfrentando-presentaciones-orales",
-    "href": "comunicacion_universidad/presentacion.html#enfrentando-presentaciones-orales",
-    "title": "Leer, Escribir y Hablar en la Universidad",
-    "section": "🗣️ Enfrentando Presentaciones Orales",
-    "text": "🗣️ Enfrentando Presentaciones Orales\n\n\n\n\n\n\n\n\nPreparar: Organiza el contenido y define objetivos claros.\nDiseñar: Estructura la presentación con apoyo visual y contenido relevante.\nEnsayar: Practica para ganar confianza y mejorar el control del espacio y la gestualidad."
+    "objectID": "toolkit_google/presentacion.html#tecnología-y-productividad",
+    "href": "toolkit_google/presentacion.html#tecnología-y-productividad",
+    "title": "Toolkit Básico de Google",
+    "section": "💻 Tecnología y Productividad",
+    "text": "💻 Tecnología y Productividad"
   },
   {
-    "objectID": "comunicacion_universidad/presentacion.html#cómo-comunicar-con-la-voz",
-    "href": "comunicacion_universidad/presentacion.html#cómo-comunicar-con-la-voz",
-    "title": "Leer, Escribir y Hablar en la Universidad",
-    "section": "🗣️ Cómo Comunicar con la Voz",
-    "text": "🗣️ Cómo Comunicar con la Voz\n\n\n\n\n\n\n\n\nVolumen: Proyecta la voz.\nEntonación: Varía el tono.\nArticulación: Habla claro.\nVelocidad: Controla el ritmo.\nConsejo: Usa pausas, evita muletillas."
-  },
-  {
-    "objectID": "comunicacion_universidad/presentacion.html#cómo-comunicar-con-el-cuerpo",
-    "href": "comunicacion_universidad/presentacion.html#cómo-comunicar-con-el-cuerpo",
-    "title": "Leer, Escribir y Hablar en la Universidad",
-    "section": "🧑‍🏫 Cómo Comunicar con el Cuerpo",
-    "text": "🧑‍🏫 Cómo Comunicar con el Cuerpo\n\n\n\n\n\n\n\n\nPostura: Erguida y relajada.\n\nMovimientos: Naturales y controlados.\n\nContacto visual: Seguridad y conexión.\n\nVestimenta: Profesional y adecuada."
-  },
-  {
-    "objectID": "comunicacion_universidad/presentacion.html#cómo-usar-un-material-de-apoyo",
-    "href": "comunicacion_universidad/presentacion.html#cómo-usar-un-material-de-apoyo",
-    "title": "Leer, Escribir y Hablar en la Universidad",
-    "section": "🎬 Cómo Usar un Material de Apoyo",
-    "text": "🎬 Cómo Usar un Material de Apoyo\n\n\n\n\n\n\n\n\nFunción: Visualiza conceptos y datos.\n\nConsejos: Planifica, evita texto innecesario y asegura visibilidad.\n\nUso: No leas, mantén contacto visual.\n\nEstrategias: Transiciones claras, ideas simples y adapta al entorno."
-  },
-  {
-    "objectID": "comunicacion_universidad/presentacion.html#ejemplo-práctico-2",
-    "href": "comunicacion_universidad/presentacion.html#ejemplo-práctico-2",
-    "title": "Leer, Escribir y Hablar en la Universidad",
-    "section": "📚 Ejemplo Práctico",
-    "text": "📚 Ejemplo Práctico\n\n\n\n\n\n\n\n\n🔗 Explora el siguiente ejemplo aquí:\n\n👉 📂 Acceder al ejemplo"
-  },
-  {
-    "objectID": "comunicacion_universidad/presentacion.html#section-3",
-    "href": "comunicacion_universidad/presentacion.html#section-3",
-    "title": "Leer, Escribir y Hablar en la Universidad",
+    "objectID": "toolkit_google/presentacion.html#section",
+    "href": "toolkit_google/presentacion.html#section",
+    "title": "Toolkit Básico de Google",
     "section": "",
-    "text": "Sesión 03\nConclusiones"
+    "text": "Sesión 01\n¿Qué es la Ofimática?"
   },
   {
-    "objectID": "comunicacion_universidad/presentacion.html#conclusiones",
-    "href": "comunicacion_universidad/presentacion.html#conclusiones",
-    "title": "Leer, Escribir y Hablar en la Universidad",
-    "section": "💡 Conclusiones",
-    "text": "💡 Conclusiones\n\n\n📚 Lectura efectiva: Utilizar estrategias como fichas y mapas conceptuales mejora la comprensión de textos complejos.\n✍️ Escritura clara: Planificación, enfoque y revisión son esenciales para textos bien estructurados.\n🗣️ Presentación oral: Voz, cuerpo y materiales de apoyo deben trabajar juntos para transmitir el mensaje con claridad.\n🚀 Práctica continua: La mejora constante en estas áreas es clave para el éxito académico y profesional."
+    "objectID": "toolkit_google/presentacion.html#ofimática",
+    "href": "toolkit_google/presentacion.html#ofimática",
+    "title": "Toolkit Básico de Google",
+    "section": "⚙️ Ofimática",
+    "text": "⚙️ Ofimática\n\n\n\n\n\n\n Las herramientas ofimáticas permiten realizar tareas de productividad, como la creación de documentos, hojas de cálculo, presentaciones y más, facilitando la colaboración y organización en entornos laborales y educativos."
   },
   {
-    "objectID": "comunicacion_universidad/presentacion.html#referencias",
-    "href": "comunicacion_universidad/presentacion.html#referencias",
-    "title": "Leer, Escribir y Hablar en la Universidad",
-    "section": "💡 Referencias",
-    "text": "💡 Referencias\n\n\n📚 Recursos Para Leer, Escribir Y Hablar En La Universidad:\n\nLectura\nEscritura\nPresentación\n\n✍️ Resuros para trabajar con LaTeX:\n\nLaTeX en minutos\nManual de LaTeX"
+    "objectID": "toolkit_google/presentacion.html#g-suite",
+    "href": "toolkit_google/presentacion.html#g-suite",
+    "title": "Toolkit Básico de Google",
+    "section": "💼 G Suite",
+    "text": "💼 G Suite\n\n\n\n \n\n\n Google Workspace (anteriormente G Suite) es un conjunto de herramientas (en la nube) que permite a los usuarios colaborar en tiempo real a través de aplicaciones como Gmail, Google Docs y Google Drive, mejorando la productividad y el trabajo en equipo."
   },
   {
-    "objectID": "comunicacion_universidad/presentacion.html#gracias-por-participar",
-    "href": "comunicacion_universidad/presentacion.html#gracias-por-participar",
-    "title": "Leer, Escribir y Hablar en la Universidad",
+    "objectID": "toolkit_google/presentacion.html#section-1",
+    "href": "toolkit_google/presentacion.html#section-1",
+    "title": "Toolkit Básico de Google",
+    "section": "",
+    "text": "Sesión 01\nG-Suite: Primeros Pasos"
+  },
+  {
+    "objectID": "toolkit_google/presentacion.html#google-email-gmail",
+    "href": "toolkit_google/presentacion.html#google-email-gmail",
+    "title": "Toolkit Básico de Google",
+    "section": "📧 Google Email (Gmail)",
+    "text": "📧 Google Email (Gmail)\n\n\n\n \n\n\n Gmail es el servicio de correo electrónico de Google, conocido por su interfaz amigable, gran capacidad de almacenamiento y su integración con otras aplicaciones de Google, permitiendo una gestión eficiente de los correos electrónicos."
+  },
+  {
+    "objectID": "toolkit_google/presentacion.html#google-calendar",
+    "href": "toolkit_google/presentacion.html#google-calendar",
+    "title": "Toolkit Básico de Google",
+    "section": "📅 Google Calendar",
+    "text": "📅 Google Calendar\n\n\n\n \n\n\n Google Calendar es una herramienta para gestionar el tiempo y organizar eventos, reuniones y tareas. Permite programar recordatorios y compartir calendarios con otros usuarios, optimizando la coordinación de actividades."
+  },
+  {
+    "objectID": "toolkit_google/presentacion.html#google-drive",
+    "href": "toolkit_google/presentacion.html#google-drive",
+    "title": "Toolkit Básico de Google",
+    "section": "☁️ Google Drive",
+    "text": "☁️ Google Drive\n\n\n\n \n\n\n Google Drive es un servicio de almacenamiento en la nube que permite guardar, organizar y compartir archivos de forma segura. Con su integración con otras aplicaciones de Google, se facilita la colaboración en documentos y archivos en tiempo real."
+  },
+  {
+    "objectID": "toolkit_google/presentacion.html#google-docs",
+    "href": "toolkit_google/presentacion.html#google-docs",
+    "title": "Toolkit Básico de Google",
+    "section": "📄 Google Docs",
+    "text": "📄 Google Docs\n\n\n\n \n\n\n Google Docs es un procesador de texto en línea que permite crear, editar y colaborar en documentos en tiempo real. Es ideal para trabajos en equipo, ya que varios usuarios pueden trabajar simultáneamente en el mismo archivo."
+  },
+  {
+    "objectID": "toolkit_google/presentacion.html#google-sheets",
+    "href": "toolkit_google/presentacion.html#google-sheets",
+    "title": "Toolkit Básico de Google",
+    "section": "📊 Google Sheets",
+    "text": "📊 Google Sheets\n\n\n\n \n\n\n Google Sheets es una herramienta en línea para crear y editar hojas de cálculo. Ofrece funciones avanzadas de análisis de datos y permite la colaboración en tiempo real, similar a Microsoft Excel."
+  },
+  {
+    "objectID": "toolkit_google/presentacion.html#google-slides",
+    "href": "toolkit_google/presentacion.html#google-slides",
+    "title": "Toolkit Básico de Google",
+    "section": "📽️ Google Slides",
+    "text": "📽️ Google Slides\n\n\n\n \n\n\n Google Slides es una herramienta para crear presentaciones visuales y colaborativas. Permite a los usuarios diseñar y compartir presentaciones en línea, con la capacidad de trabajar simultáneamente con otros colaboradores."
+  },
+  {
+    "objectID": "toolkit_google/presentacion.html#google-forms",
+    "href": "toolkit_google/presentacion.html#google-forms",
+    "title": "Toolkit Básico de Google",
+    "section": "📋 Google Forms",
+    "text": "📋 Google Forms\n\n\n\n \n\n\n Google Forms es una herramienta para crear formularios, encuestas y cuestionarios. Su facilidad de uso y la opción de recolectar respuestas automáticamente hacen que sea muy útil para recopilar datos de manera organizada."
+  },
+  {
+    "objectID": "toolkit_google/presentacion.html#google-colab",
+    "href": "toolkit_google/presentacion.html#google-colab",
+    "title": "Toolkit Básico de Google",
+    "section": "🐍 Google Colab",
+    "text": "🐍 Google Colab\n\n\n\n \n\n\n Google Colab es una plataforma en línea que permite escribir y ejecutar código Python en entornos de notebooks. Es ideal para ciencia de datos, aprendizaje automático y la colaboración en proyectos de programación."
+  },
+  {
+    "objectID": "toolkit_google/presentacion.html#github-extra",
+    "href": "toolkit_google/presentacion.html#github-extra",
+    "title": "Toolkit Básico de Google",
+    "section": "⭐ GitHub (Extra)",
+    "text": "⭐ GitHub (Extra)\n\n\n\n \n\n\n GitHub es un repositorio de código abierto en línea que permite compartir y colaborar en proyectos de software.\nOfrece herramientas para gestionar el control de versiones, rastrear cambios y contribuir en proyectos."
+  },
+  {
+    "objectID": "toolkit_google/presentacion.html#github-extra-1",
+    "href": "toolkit_google/presentacion.html#github-extra-1",
+    "title": "Toolkit Básico de Google",
+    "section": "⭐ GitHub (Extra)",
+    "text": "⭐ GitHub (Extra)\n\n\n\n \n\n\n\n\nCrear una Cuenta:\n\nIngresa a GitHub\nSigue los pasos indicados\n\nDar una Estrella:\n\nSeth-Nut/CEEMAT_2025\n\nfralfaro/MAT281"
+  },
+  {
+    "objectID": "toolkit_google/presentacion.html#actividad",
+    "href": "toolkit_google/presentacion.html#actividad",
+    "title": "Toolkit Básico de Google",
+    "section": "📌 Actividad",
+    "text": "📌 Actividad\n\n\n📂 Clonar carpeta de Google Drive\n\nCopia esta carpeta en tu Google Drive:\n\n👉 Google Drive - Actividad\n\n\n✉️ Enviar correo con el enlace de tu carpeta compartida\n\nDestinatario: francisco.alfaro@usm.cl, con copia a vcanalesp@usm.cl\n\nAsunto: “AI + DataStorytelling”\n\n👉 Responder Encuesta"
+  },
+  {
+    "objectID": "toolkit_google/presentacion.html#section-2",
+    "href": "toolkit_google/presentacion.html#section-2",
+    "title": "Toolkit Básico de Google",
+    "section": "",
+    "text": "Sesión 01\nConclusiones"
+  },
+  {
+    "objectID": "toolkit_google/presentacion.html#conclusiones",
+    "href": "toolkit_google/presentacion.html#conclusiones",
+    "title": "Toolkit Básico de Google",
+    "section": "💡Conclusiones",
+    "text": "💡Conclusiones\n\n\n🖥️ Productividad mejorada: Las herramientas de Google transforman la forma de trabajar, facilitando la colaboración y el acceso a la información en cualquier lugar.\n🌐 Colaboración en tiempo real: Con Google Drive, Docs, y otras herramientas, el trabajo en equipo se hace más eficiente y accesible desde cualquier dispositivo.\n🚀 Innovación constante: Google sigue mejorando sus herramientas, ofreciendo soluciones como Google Colab para la programación y la ciencia de datos.\n📈 Optimización de tareas: Herramientas como Gmail, Calendar y Sheets optimizan las tareas diarias, aumentando la productividad personal y profesional."
+  },
+  {
+    "objectID": "toolkit_google/presentacion.html#gracias-por-participar",
+    "href": "toolkit_google/presentacion.html#gracias-por-participar",
+    "title": "Toolkit Básico de Google",
     "section": "🎉 ¡Gracias por Participar!",
     "text": "🎉 ¡Gracias por Participar!\n\n\n\n❓¿Preguntas?\n👏 Responder encuesta\n🥳 Gracias de Nuevo\n\n\n\n\n🔗 Nuestro Sitio Web: sethnut.com/resources/."
   },
@@ -420,193 +378,200 @@
     "text": "🎉 ¡Gracias por Participar!\n\n\n\n❓¿Preguntas?\n👏 Responder encuesta\n🥳 Gracias de Nuevo\n\n\n\n\n🔗 Nuestro Sitio Web: sethnut.com/resources/."
   },
   {
-    "objectID": "toolkit_google/presentacion.html#tecnología-y-productividad",
-    "href": "toolkit_google/presentacion.html#tecnología-y-productividad",
-    "title": "Toolkit Básico de Google",
-    "section": "💻 Tecnología y Productividad",
-    "text": "💻 Tecnología y Productividad"
+    "objectID": "comunicacion_universidad/presentacion.html#retos-universitarios",
+    "href": "comunicacion_universidad/presentacion.html#retos-universitarios",
+    "title": "Leer, Escribir y Hablar en la Universidad",
+    "section": "🎓 Retos Universitarios",
+    "text": "🎓 Retos Universitarios"
   },
   {
-    "objectID": "toolkit_google/presentacion.html#section",
-    "href": "toolkit_google/presentacion.html#section",
-    "title": "Toolkit Básico de Google",
+    "objectID": "comunicacion_universidad/presentacion.html#objetivos",
+    "href": "comunicacion_universidad/presentacion.html#objetivos",
+    "title": "Leer, Escribir y Hablar en la Universidad",
+    "section": "🎯 Objetivos",
+    "text": "🎯 Objetivos\n\n\n\n\n\n\n\n\nEnfrentando los desafíos académicos: leer, escribir y hablar.\nImportancia de dominar estas habilidades en la universidad.\nEstrategias clave para mejorar la comprensión y expresión académica."
+  },
+  {
+    "objectID": "comunicacion_universidad/presentacion.html#section",
+    "href": "comunicacion_universidad/presentacion.html#section",
+    "title": "Leer, Escribir y Hablar en la Universidad",
     "section": "",
-    "text": "Sesión 01\n¿Qué es la Ofimática?"
+    "text": "Sesión 03\nPaso 1: Leer con propósito"
   },
   {
-    "objectID": "toolkit_google/presentacion.html#ofimática",
-    "href": "toolkit_google/presentacion.html#ofimática",
-    "title": "Toolkit Básico de Google",
-    "section": "⚙️ Ofimática",
-    "text": "⚙️ Ofimática\n\n\n\n\n\n\n Las herramientas ofimáticas permiten realizar tareas de productividad, como la creación de documentos, hojas de cálculo, presentaciones y más, facilitando la colaboración y organización en entornos laborales y educativos."
+    "objectID": "comunicacion_universidad/presentacion.html#lectura-académica",
+    "href": "comunicacion_universidad/presentacion.html#lectura-académica",
+    "title": "Leer, Escribir y Hablar en la Universidad",
+    "section": "📚 Lectura Académica",
+    "text": "📚 Lectura Académica\n\n\n\n\n\n\n\n\nLos textos académicos son complejos y están escritos para especialistas.\nArtículos y capítulos teóricos son comunes en la universidad.\nHerramientas clave: preparar, abordar y resumir la lectura."
   },
   {
-    "objectID": "toolkit_google/presentacion.html#g-suite",
-    "href": "toolkit_google/presentacion.html#g-suite",
-    "title": "Toolkit Básico de Google",
-    "section": "💼 G Suite",
-    "text": "💼 G Suite\n\n\n\n \n\n\n Google Workspace (anteriormente G Suite) es un conjunto de herramientas (en la nube) que permite a los usuarios colaborar en tiempo real a través de aplicaciones como Gmail, Google Docs y Google Drive, mejorando la productividad y el trabajo en equipo."
+    "objectID": "comunicacion_universidad/presentacion.html#puntos-claves",
+    "href": "comunicacion_universidad/presentacion.html#puntos-claves",
+    "title": "Leer, Escribir y Hablar en la Universidad",
+    "section": "✍️ Puntos Claves",
+    "text": "✍️ Puntos Claves\n\n\n\n \n\n\n\n\nPropósito:\n\n¿Para qué lees? (entender, resumir, debatir).\n\nEstructura:\n\nResumen breve, citas y referencias.\n\nConsejos:\n\nExplica con tus palabras.\n\nApoya con esquemas o mapas.\n\nUsa colores o íconos."
   },
   {
-    "objectID": "toolkit_google/presentacion.html#section-1",
-    "href": "toolkit_google/presentacion.html#section-1",
-    "title": "Toolkit Básico de Google",
+    "objectID": "comunicacion_universidad/presentacion.html#cómo-subrayar-un-texto",
+    "href": "comunicacion_universidad/presentacion.html#cómo-subrayar-un-texto",
+    "title": "Leer, Escribir y Hablar en la Universidad",
+    "section": "✨ Cómo Subrayar un Texto",
+    "text": "✨ Cómo Subrayar un Texto\n\n\n\n \n\n\n\n\nEstrategias:\n\nDefine el propósito antes de destacar.\n\nLee primero de forma panorámica.\n\nDestaca solo el 20% del texto con colores útiles.\n\n\nReglas:\n\nOmitir lo irrelevante.\n\nSeleccionar lo esencial.\n\nGeneralizar ideas comunes.\n\nIntegrar conceptos conectados."
+  },
+  {
+    "objectID": "comunicacion_universidad/presentacion.html#enfrentar-una-lectura",
+    "href": "comunicacion_universidad/presentacion.html#enfrentar-una-lectura",
+    "title": "Leer, Escribir y Hablar en la Universidad",
+    "section": "🧠 Enfrentar una Lectura",
+    "text": "🧠 Enfrentar una Lectura\n\n\n\n \n\n\n\n\nTiempo:\n\nLee por bloques de 25-30 min (Pomodoro).\n\nPausas cortas para mantener foco.\n\nMentalidad:\n\nNo todo se entiende altiro.\n\nHazte preguntas mientras lees.\n\nApoyos:\n\nEspacio tranquilo y sin distracciones.\n\nRespira y vuelve si te bloqueas."
+  },
+  {
+    "objectID": "comunicacion_universidad/presentacion.html#ejemplo-práctico",
+    "href": "comunicacion_universidad/presentacion.html#ejemplo-práctico",
+    "title": "Leer, Escribir y Hablar en la Universidad",
+    "section": "📚 Ejemplo Práctico",
+    "text": "📚 Ejemplo Práctico\n\n\n\n\n\n\n\n\n🔗 Explora el siguiente ejemplo aquí:\n\n👉 📂 Acceder al ejemplo"
+  },
+  {
+    "objectID": "comunicacion_universidad/presentacion.html#section-1",
+    "href": "comunicacion_universidad/presentacion.html#section-1",
+    "title": "Leer, Escribir y Hablar en la Universidad",
     "section": "",
-    "text": "Sesión 01\nG-Suite: Primeros Pasos"
+    "text": "Sesión 03\nPaso 2: Escribir con claridad"
   },
   {
-    "objectID": "toolkit_google/presentacion.html#google-email-gmail",
-    "href": "toolkit_google/presentacion.html#google-email-gmail",
-    "title": "Toolkit Básico de Google",
-    "section": "📧 Google Email (Gmail)",
-    "text": "📧 Google Email (Gmail)\n\n\n\n \n\n\n Gmail es el servicio de correo electrónico de Google, conocido por su interfaz amigable, gran capacidad de almacenamiento y su integración con otras aplicaciones de Google, permitiendo una gestión eficiente de los correos electrónicos."
+    "objectID": "comunicacion_universidad/presentacion.html#escritura-académica",
+    "href": "comunicacion_universidad/presentacion.html#escritura-académica",
+    "title": "Leer, Escribir y Hablar en la Universidad",
+    "section": "✍️ Escritura Académica",
+    "text": "✍️ Escritura Académica\n\n\n\n\n\n\n\n\nEstilo formal, claro y ordenado.\n\nPresente en informes, artículos, tesis.\n\nBasada en evidencia, fuentes y citas.\n\nFomenta el pensamiento crítico y la difusión del conocimiento."
   },
   {
-    "objectID": "toolkit_google/presentacion.html#google-calendar",
-    "href": "toolkit_google/presentacion.html#google-calendar",
-    "title": "Toolkit Básico de Google",
-    "section": "📅 Google Calendar",
-    "text": "📅 Google Calendar\n\n\n\n \n\n\n Google Calendar es una herramienta para gestionar el tiempo y organizar eventos, reuniones y tareas. Permite programar recordatorios y compartir calendarios con otros usuarios, optimizando la coordinación de actividades."
+    "objectID": "comunicacion_universidad/presentacion.html#etapas-de-la-escritura",
+    "href": "comunicacion_universidad/presentacion.html#etapas-de-la-escritura",
+    "title": "Leer, Escribir y Hablar en la Universidad",
+    "section": "🧩 Etapas de la Escritura",
+    "text": "🧩 Etapas de la Escritura\n\n\n\n\n\n\n\n\nPreparar:\n\nLluvia de ideas, esquemas y planificación.\n\nRedactar:\n\nEscribe borradores, integra fuentes y organiza ideas.\n\nRevisar:\n\nMejora el texto en varias rondas: claridad, coherencia y estilo."
   },
   {
-    "objectID": "toolkit_google/presentacion.html#google-drive",
-    "href": "toolkit_google/presentacion.html#google-drive",
-    "title": "Toolkit Básico de Google",
-    "section": "☁️ Google Drive",
-    "text": "☁️ Google Drive\n\n\n\n \n\n\n Google Drive es un servicio de almacenamiento en la nube que permite guardar, organizar y compartir archivos de forma segura. Con su integración con otras aplicaciones de Google, se facilita la colaboración en documentos y archivos en tiempo real."
+    "objectID": "comunicacion_universidad/presentacion.html#delimita-tu-tema",
+    "href": "comunicacion_universidad/presentacion.html#delimita-tu-tema",
+    "title": "Leer, Escribir y Hablar en la Universidad",
+    "section": "🎯 Delimita tu Tema",
+    "text": "🎯 Delimita tu Tema\n\n\n\n\n\n\n\n\nInfórmate:\n\nConoce el contexto y antecedentes.\n\n\nEnfoca:\n\nDefine el objetivo y las preguntas clave.\n\n\nAcota:\n\nDetermina el alcance (tiempo, lugar, población).\n\n\nEvalúa:\n\nQue sea viable y relevante para investigar."
   },
   {
-    "objectID": "toolkit_google/presentacion.html#google-docs",
-    "href": "toolkit_google/presentacion.html#google-docs",
-    "title": "Toolkit Básico de Google",
-    "section": "📄 Google Docs",
-    "text": "📄 Google Docs\n\n\n\n \n\n\n Google Docs es un procesador de texto en línea que permite crear, editar y colaborar en documentos en tiempo real. Es ideal para trabajos en equipo, ya que varios usuarios pueden trabajar simultáneamente en el mismo archivo."
+    "objectID": "comunicacion_universidad/presentacion.html#estructura-de-un-artículo",
+    "href": "comunicacion_universidad/presentacion.html#estructura-de-un-artículo",
+    "title": "Leer, Escribir y Hablar en la Universidad",
+    "section": "🧱 Estructura de un Artículo",
+    "text": "🧱 Estructura de un Artículo\n\n\n\n\n\n\n\n\nInicio\n¿De qué trata?\n→ Resumen, Introducción, Marco teórico\nDesarrollo\n¿Cómo se investigó y qué se encontró?\n→ Metodología, Resultados, Discusión\nCierre\n¿Qué significa y qué sigue?\n→ Conclusión y Referencias"
   },
   {
-    "objectID": "toolkit_google/presentacion.html#google-sheets",
-    "href": "toolkit_google/presentacion.html#google-sheets",
-    "title": "Toolkit Básico de Google",
-    "section": "📊 Google Sheets",
-    "text": "📊 Google Sheets\n\n\n\n \n\n\n Google Sheets es una herramienta en línea para crear y editar hojas de cálculo. Ofrece funciones avanzadas de análisis de datos y permite la colaboración en tiempo real, similar a Microsoft Excel."
+    "objectID": "comunicacion_universidad/presentacion.html#documentos-académicos-con-latex",
+    "href": "comunicacion_universidad/presentacion.html#documentos-académicos-con-latex",
+    "title": "Leer, Escribir y Hablar en la Universidad",
+    "section": "📝 Documentos Académicos con LaTeX",
+    "text": "📝 Documentos Académicos con LaTeX\n\n\n\n\n\n\n\n\n¿Qué es LaTeX?\n\nSistema para crear documentos académicos y científicos con formato profesional.\n\n¿Por qué usarlo?\n\nAutomatiza referencias y ecuaciones.\n\nOfrece mayor control sobre formato y estructura."
   },
   {
-    "objectID": "toolkit_google/presentacion.html#google-slides",
-    "href": "toolkit_google/presentacion.html#google-slides",
-    "title": "Toolkit Básico de Google",
-    "section": "📽️ Google Slides",
-    "text": "📽️ Google Slides\n\n\n\n \n\n\n Google Slides es una herramienta para crear presentaciones visuales y colaborativas. Permite a los usuarios diseñar y compartir presentaciones en línea, con la capacidad de trabajar simultáneamente con otros colaboradores."
+    "objectID": "comunicacion_universidad/presentacion.html#ejemplo-de-código-en-latex",
+    "href": "comunicacion_universidad/presentacion.html#ejemplo-de-código-en-latex",
+    "title": "Leer, Escribir y Hablar en la Universidad",
+    "section": "📝 Ejemplo de código en LaTeX",
+    "text": "📝 Ejemplo de código en LaTeX\n\nCódigoSalida\n\n\n\\documentclass{article}\n\\usepackage{amsmath}\n\n\\begin{document}\n\\title{Ejemplo de Documento en \\LaTeX}\n\\author{Francisco Alfaro, Valeska Canales}\n\\date{\\today}\n\\maketitle\n\n\\section{Ecuaciones en \\LaTeX}\nEjemplo de una ecuación matemática:\n\n\\begin{equation}\nE = mc^2\n\\end{equation}\n\n\\end{document}"
   },
   {
-    "objectID": "toolkit_google/presentacion.html#google-forms",
-    "href": "toolkit_google/presentacion.html#google-forms",
-    "title": "Toolkit Básico de Google",
-    "section": "📋 Google Forms",
-    "text": "📋 Google Forms\n\n\n\n \n\n\n Google Forms es una herramienta para crear formularios, encuestas y cuestionarios. Su facilidad de uso y la opción de recolectar respuestas automáticamente hacen que sea muy útil para recopilar datos de manera organizada."
+    "objectID": "comunicacion_universidad/presentacion.html#overleaf-latex-online",
+    "href": "comunicacion_universidad/presentacion.html#overleaf-latex-online",
+    "title": "Leer, Escribir y Hablar en la Universidad",
+    "section": "📝 Overleaf: LaTeX Online",
+    "text": "📝 Overleaf: LaTeX Online\n\n\n\n\n\n\n\n\n¿Qué es?\n\nPlataforma en línea para escribir y compilar documentos en LaTeX sin instalación.\n\n¿Por qué usarlo?\n\nEdición colaborativa en tiempo real.\n\nIntegración con GitHub y la nube.\n\nCompilación y previsualización instantánea."
   },
   {
-    "objectID": "toolkit_google/presentacion.html#google-colab",
-    "href": "toolkit_google/presentacion.html#google-colab",
-    "title": "Toolkit Básico de Google",
-    "section": "🐍 Google Colab",
-    "text": "🐍 Google Colab\n\n\n\n \n\n\n Google Colab es una plataforma en línea que permite escribir y ejecutar código Python en entornos de notebooks. Es ideal para ciencia de datos, aprendizaje automático y la colaboración en proyectos de programación."
+    "objectID": "comunicacion_universidad/presentacion.html#recursos-en-línea-para-latex",
+    "href": "comunicacion_universidad/presentacion.html#recursos-en-línea-para-latex",
+    "title": "Leer, Escribir y Hablar en la Universidad",
+    "section": "📝 Recursos en línea para LaTeX",
+    "text": "📝 Recursos en línea para LaTeX\n\n\n📖 Aprende LaTeX en minutos: Guía rápida en español.\n\n🖊️ Overleaf: Editor LaTeX colaborativo online.\n\n📊 Tables Generator: Crea tablas en LaTeX fácilmente.\n\n🔢 LaTeX Equation: Generador de ecuaciones LaTeX.\n\n🧾 BibTeX Editor: Editor de bibliografía en línea."
   },
   {
-    "objectID": "toolkit_google/presentacion.html#github-extra",
-    "href": "toolkit_google/presentacion.html#github-extra",
-    "title": "Toolkit Básico de Google",
-    "section": "⭐ GitHub (Extra)",
-    "text": "⭐ GitHub (Extra)\n\n\n\n \n\n\n GitHub es un repositorio de código abierto en línea que permite compartir y colaborar en proyectos de software.\nOfrece herramientas para gestionar el control de versiones, rastrear cambios y contribuir en proyectos."
+    "objectID": "comunicacion_universidad/presentacion.html#ejemplo-práctico-1",
+    "href": "comunicacion_universidad/presentacion.html#ejemplo-práctico-1",
+    "title": "Leer, Escribir y Hablar en la Universidad",
+    "section": "📚 Ejemplo Práctico",
+    "text": "📚 Ejemplo Práctico\n\n\n\n\n\n\n\n\n🔗 Explora el siguiente ejemplo aquí:\n\n👉 📂 Acceder al ejemplo"
   },
   {
-    "objectID": "toolkit_google/presentacion.html#github-extra-1",
-    "href": "toolkit_google/presentacion.html#github-extra-1",
-    "title": "Toolkit Básico de Google",
-    "section": "⭐ GitHub (Extra)",
-    "text": "⭐ GitHub (Extra)\n\n\n\n \n\n\n\n\nCrear una Cuenta:\n\nIngresa a GitHub\nSigue los pasos indicados\n\nDar una Estrella:\n\nSeth-Nut/CEEMAT_2025\n\nfralfaro/MAT281"
-  },
-  {
-    "objectID": "toolkit_google/presentacion.html#actividad",
-    "href": "toolkit_google/presentacion.html#actividad",
-    "title": "Toolkit Básico de Google",
-    "section": "📌 Actividad",
-    "text": "📌 Actividad\n\n\n📂 Clonar carpeta de Google Drive\n\nCopia esta carpeta en tu Google Drive:\n\n👉 Google Drive - Actividad\n\n\n✉️ Enviar correo con el enlace de tu carpeta compartida\n\nDestinatario: francisco.alfaro@usm.cl, con copia a vcanalesp@usm.cl\n\nAsunto: “AI + DataStorytelling”\n\n👉 Responder Encuesta"
-  },
-  {
-    "objectID": "toolkit_google/presentacion.html#section-2",
-    "href": "toolkit_google/presentacion.html#section-2",
-    "title": "Toolkit Básico de Google",
+    "objectID": "comunicacion_universidad/presentacion.html#section-2",
+    "href": "comunicacion_universidad/presentacion.html#section-2",
+    "title": "Leer, Escribir y Hablar en la Universidad",
     "section": "",
-    "text": "Sesión 01\nConclusiones"
+    "text": "Sesión 03\nPaso 3: Hablar con seguridad"
   },
   {
-    "objectID": "toolkit_google/presentacion.html#conclusiones",
-    "href": "toolkit_google/presentacion.html#conclusiones",
-    "title": "Toolkit Básico de Google",
-    "section": "💡Conclusiones",
-    "text": "💡Conclusiones\n\n\n🖥️ Productividad mejorada: Las herramientas de Google transforman la forma de trabajar, facilitando la colaboración y el acceso a la información en cualquier lugar.\n🌐 Colaboración en tiempo real: Con Google Drive, Docs, y otras herramientas, el trabajo en equipo se hace más eficiente y accesible desde cualquier dispositivo.\n🚀 Innovación constante: Google sigue mejorando sus herramientas, ofreciendo soluciones como Google Colab para la programación y la ciencia de datos.\n📈 Optimización de tareas: Herramientas como Gmail, Calendar y Sheets optimizan las tareas diarias, aumentando la productividad personal y profesional."
+    "objectID": "comunicacion_universidad/presentacion.html#enfrentando-presentaciones-orales",
+    "href": "comunicacion_universidad/presentacion.html#enfrentando-presentaciones-orales",
+    "title": "Leer, Escribir y Hablar en la Universidad",
+    "section": "🗣️ Enfrentando Presentaciones Orales",
+    "text": "🗣️ Enfrentando Presentaciones Orales\n\n\n\n\n\n\n\n\nPreparar: Organiza el contenido y define objetivos claros.\nDiseñar: Estructura la presentación con apoyo visual y contenido relevante.\nEnsayar: Practica para ganar confianza y mejorar el control del espacio y la gestualidad."
   },
   {
-    "objectID": "toolkit_google/presentacion.html#gracias-por-participar",
-    "href": "toolkit_google/presentacion.html#gracias-por-participar",
-    "title": "Toolkit Básico de Google",
+    "objectID": "comunicacion_universidad/presentacion.html#cómo-comunicar-con-la-voz",
+    "href": "comunicacion_universidad/presentacion.html#cómo-comunicar-con-la-voz",
+    "title": "Leer, Escribir y Hablar en la Universidad",
+    "section": "🗣️ Cómo Comunicar con la Voz",
+    "text": "🗣️ Cómo Comunicar con la Voz\n\n\n\n\n\n\n\n\nVolumen: Proyecta la voz.\nEntonación: Varía el tono.\nArticulación: Habla claro.\nVelocidad: Controla el ritmo.\nConsejo: Usa pausas, evita muletillas."
+  },
+  {
+    "objectID": "comunicacion_universidad/presentacion.html#cómo-comunicar-con-el-cuerpo",
+    "href": "comunicacion_universidad/presentacion.html#cómo-comunicar-con-el-cuerpo",
+    "title": "Leer, Escribir y Hablar en la Universidad",
+    "section": "🧑‍🏫 Cómo Comunicar con el Cuerpo",
+    "text": "🧑‍🏫 Cómo Comunicar con el Cuerpo\n\n\n\n\n\n\n\n\nPostura: Erguida y relajada.\n\nMovimientos: Naturales y controlados.\n\nContacto visual: Seguridad y conexión.\n\nVestimenta: Profesional y adecuada."
+  },
+  {
+    "objectID": "comunicacion_universidad/presentacion.html#cómo-usar-un-material-de-apoyo",
+    "href": "comunicacion_universidad/presentacion.html#cómo-usar-un-material-de-apoyo",
+    "title": "Leer, Escribir y Hablar en la Universidad",
+    "section": "🎬 Cómo Usar un Material de Apoyo",
+    "text": "🎬 Cómo Usar un Material de Apoyo\n\n\n\n\n\n\n\n\nFunción: Visualiza conceptos y datos.\n\nConsejos: Planifica, evita texto innecesario y asegura visibilidad.\n\nUso: No leas, mantén contacto visual.\n\nEstrategias: Transiciones claras, ideas simples y adapta al entorno."
+  },
+  {
+    "objectID": "comunicacion_universidad/presentacion.html#ejemplo-práctico-2",
+    "href": "comunicacion_universidad/presentacion.html#ejemplo-práctico-2",
+    "title": "Leer, Escribir y Hablar en la Universidad",
+    "section": "📚 Ejemplo Práctico",
+    "text": "📚 Ejemplo Práctico\n\n\n\n\n\n\n\n\n🔗 Explora el siguiente ejemplo aquí:\n\n👉 📂 Acceder al ejemplo"
+  },
+  {
+    "objectID": "comunicacion_universidad/presentacion.html#section-3",
+    "href": "comunicacion_universidad/presentacion.html#section-3",
+    "title": "Leer, Escribir y Hablar en la Universidad",
+    "section": "",
+    "text": "Sesión 03\nConclusiones"
+  },
+  {
+    "objectID": "comunicacion_universidad/presentacion.html#conclusiones",
+    "href": "comunicacion_universidad/presentacion.html#conclusiones",
+    "title": "Leer, Escribir y Hablar en la Universidad",
+    "section": "💡 Conclusiones",
+    "text": "💡 Conclusiones\n\n\n📚 Lectura efectiva: Utilizar estrategias como fichas y mapas conceptuales mejora la comprensión de textos complejos.\n✍️ Escritura clara: Planificación, enfoque y revisión son esenciales para textos bien estructurados.\n🗣️ Presentación oral: Voz, cuerpo y materiales de apoyo deben trabajar juntos para transmitir el mensaje con claridad.\n🚀 Práctica continua: La mejora constante en estas áreas es clave para el éxito académico y profesional."
+  },
+  {
+    "objectID": "comunicacion_universidad/presentacion.html#referencias",
+    "href": "comunicacion_universidad/presentacion.html#referencias",
+    "title": "Leer, Escribir y Hablar en la Universidad",
+    "section": "💡 Referencias",
+    "text": "💡 Referencias\n\n\n📚 Recursos Para Leer, Escribir Y Hablar En La Universidad:\n\nLectura\nEscritura\nPresentación\n\n✍️ Resuros para trabajar con LaTeX:\n\nLaTeX en minutos\nManual de LaTeX"
+  },
+  {
+    "objectID": "comunicacion_universidad/presentacion.html#gracias-por-participar",
+    "href": "comunicacion_universidad/presentacion.html#gracias-por-participar",
+    "title": "Leer, Escribir y Hablar en la Universidad",
     "section": "🎉 ¡Gracias por Participar!",
     "text": "🎉 ¡Gracias por Participar!\n\n\n\n❓¿Preguntas?\n👏 Responder encuesta\n🥳 Gracias de Nuevo\n\n\n\n\n🔗 Nuestro Sitio Web: sethnut.com/resources/."
-  },
-  {
-    "objectID": "diplomas/diplomas1.html",
-    "href": "diplomas/diplomas1.html",
-    "title": "🎉 CEEMAT 2025 - 1° Semestre",
-    "section": "",
-    "text": "Adolfo Seyssel\nAlejandro Salas\nAndres Carvajal\nClaudio Gonzalez\nFelipe Asbun\nHans Schulz\nJavier Diaz\nJoaquin Ramirez\nMax Rosado\nPablo Leiva\nVicente Moreno"
-  },
-  {
-    "objectID": "diplomas/diplomas1.html#lista-de-certificados-disponibles",
-    "href": "diplomas/diplomas1.html#lista-de-certificados-disponibles",
-    "title": "🎉 CEEMAT 2025 - 1° Semestre",
-    "section": "",
-    "text": "Adolfo Seyssel\nAlejandro Salas\nAndres Carvajal\nClaudio Gonzalez\nFelipe Asbun\nHans Schulz\nJavier Diaz\nJoaquin Ramirez\nMax Rosado\nPablo Leiva\nVicente Moreno"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "🎉 A.I. + DataStorytelling",
-    "section": "",
-    "text": "Nombre completo: Francisco Alfaro & Valeska Canales\n\nÁrea de especialización: Estadística, Machine Learning, Inteligencia Artificial\n\nCantidad de sesiones a realizar: 4 sesiones de 1 hora"
-  },
-  {
-    "objectID": "index.html#información-general",
-    "href": "index.html#información-general",
-    "title": "🎉 A.I. + DataStorytelling",
-    "section": "",
-    "text": "Nombre completo: Francisco Alfaro & Valeska Canales\n\nÁrea de especialización: Estadística, Machine Learning, Inteligencia Artificial\n\nCantidad de sesiones a realizar: 4 sesiones de 1 hora"
-  },
-  {
-    "objectID": "index.html#breve-descripción",
-    "href": "index.html#breve-descripción",
-    "title": "🎉 A.I. + DataStorytelling",
-    "section": "Breve Descripción",
-    "text": "Breve Descripción\nEste mini curso está diseñado para introducir a los estudiantes en el uso de herramientas digitales y técnicas de inteligencia artificial para la comunicación efectiva en un entorno académico y profesional. A través de 4 sesiones prácticas y dinámicas, aprenderán a utilizar herramientas esenciales, desarrollar prompts efectivos para ChatGPT, mejorar sus habilidades de comunicación en el ámbito universitario y explorar los fundamentos del Data Storytelling para transmitir ideas complejas de manera clara y visual.\n\n\n\n\n\n\n⚖️ Consideraciones Éticas sobre el Uso de A.I.\n\n\n\n\n\nEl uso de herramientas de inteligencia artificial en este curso tiene como principal objetivo apoyar a los estudiantes en su aprendizaje, facilitando el desarrollo de habilidades y competencias en un entorno digital y tecnológico. Este curso está diseñado de manera ética y responsable, sin transgredir ninguna política institucional.\nNo obstante, es importante considerar que cada institución, departamento o profesor puede tener sus propias políticas definidas respecto al uso o prohibición de herramientas de inteligencia artificial. Por ello, se recomienda a los estudiantes informarse y respetar dichas directrices, en caso de que existan.\nEste curso está alineado con buenas prácticas éticas y no busca contradecir ninguna política establecida. Si tienes dudas sobre el uso de estas herramientas en tu contexto académico, consulta con tu profesor o institución."
-  },
-  {
-    "objectID": "index.html#prerrequisitos",
-    "href": "index.html#prerrequisitos",
-    "title": "🎉 A.I. + DataStorytelling",
-    "section": "Prerrequisitos",
-    "text": "Prerrequisitos\nNo se requieren conocimientos previos en programación o herramientas avanzadas. Solo se necesita entusiasmo por aprender y explorar nuevas formas de trabajar con datos y tecnología."
-  },
-  {
-    "objectID": "index.html#sesiones",
-    "href": "index.html#sesiones",
-    "title": "🎉 A.I. + DataStorytelling",
-    "section": "Sesiones",
-    "text": "Sesiones\n\n🎤 Toolkit Básico de Google - Aprende a utilizar herramientas esenciales de Google (Docs, Sheets, Slides, Colab y Drive) para optimizar la colaboración y la productividad académica. Descubre trucos y funcionalidades avanzadas para mejorar tu trabajo diario.\n🎤 Prompts Perfectos en ChatGPT - Diseña preguntas y comandos efectivos para interactuar con herramientas de inteligencia artificial como ChatGPT. Aprende a estructurar prompts que resuelvan problemas académicos, generen ideas y mejoren tus resultados de manera precisa y ética.\n🎤 Leer, Escribir y Hablar en la Universidad - Mejora tus habilidades de comunicación académica con técnicas para leer críticamente, redactar ensayos efectivos y organizar presentaciones orales de impacto. Descubre cómo la inteligencia artificial puede apoyarte en cada paso del proceso.\n🎤 A.I + Data Storytelling - Esta presentación te enseñará a transformar datos en historias visuales interactivas usando A.I y otras herramientas. Descubre cómo crear presentaciones dinámicas e impactantes que cautiven a tu audiencia."
-  },
-  {
-    "objectID": "index.html#certificación",
-    "href": "index.html#certificación",
-    "title": "🎉 A.I. + DataStorytelling",
-    "section": "Certificación",
-    "text": "Certificación\nAl finalizar el curso, se otorgará un diploma como este:\n\n\n\n\n📌 Recuerda:\n\nLa asistencia al curso es obligatoria, salvo inasistencias justificadas y conversadas previamente con los docentes.\n\nTodas las encuestas son obligatorias, ya que nos permiten hacer seguimiento de tu avance y mejorar futuras ediciones del curso.\n\nPara obtener la certificación, debes completar todas las actividades del programa.\n\n\n\nDiplomas\n\nCEEMAT 2025 - 1° Semestre"
   },
   {
     "objectID": "datastorytelling/presentacion.html#agenda",
@@ -627,7 +592,7 @@
     "href": "datastorytelling/presentacion.html#agenda-v2",
     "title": "A.I. + DataStorytelling",
     "section": "Agenda (v2)",
-    "text": "Agenda (v2)\n\n\nNunca reveles el final\nLos detalles son importantes, pero no todos los detalles son importantes.\nTu primera versión será horrible.\nExplicar menos, mostrar más."
+    "text": "Agenda (v2)\n\nNunca reveles el final\nLos detalles son importantes, pero no todos los detalles son importantes.\nTu primera versión será horrible.\nExplicar menos, mostrar más."
   },
   {
     "objectID": "datastorytelling/presentacion.html#section-1",
@@ -781,7 +746,7 @@
     "href": "datastorytelling/presentacion.html#agenda-v2-1",
     "title": "A.I. + DataStorytelling",
     "section": "Agenda (v2)",
-    "text": "Agenda (v2)\n\n\nNunca reveles el final\nLos detalles son importantes, pero no todos los detalles son importantes\nTu primera versión será horrible\nExplicar menos, mostrar más.\n\n\n\nOpción 2: Una agenda misteriosa."
+    "text": "Agenda (v2)\n\nNunca reveles el final\nLos detalles son importantes, pero no todos los detalles son importantes\nTu primera versión será horrible\nExplicar menos, mostrar más.\n\n\nOpción 2: Una agenda misteriosa."
   },
   {
     "objectID": "datastorytelling/presentacion.html#section-8",
@@ -879,7 +844,7 @@
     "href": "datastorytelling/presentacion.html#flujo-de-decisión",
     "title": "A.I. + DataStorytelling",
     "section": "Flujo de decisión",
-    "text": "Flujo de decisión\n\n\n\n🎤 PowerPoint: Presentación sin código de un solo uso\n📚 Quarto: Charlas a partir de documentos relacionados\n💻 Streamlit: Presentaciones interactivas (Python)\n🎨 Más: Canvas, Revealjs, Prezi"
+    "text": "Flujo de decisión\n\n\n🎤 PowerPoint: Presentación sin código de un solo uso\n📚 Quarto: Charlas a partir de documentos relacionados\n💻 Streamlit: Presentaciones interactivas (Python)\n🎨 Más: Canvas, Revealjs, Prezi"
   },
   {
     "objectID": "datastorytelling/presentacion.html#actividad",
@@ -900,7 +865,7 @@
     "href": "datastorytelling/presentacion.html#conclusión",
     "title": "A.I. + DataStorytelling",
     "section": "Conclusión",
-    "text": "Conclusión\n\n\n\n📖 Storytelling: Narrativas que cautivan a través de datos.\n\n📊 Visualización: Gráficos claros y atractivos.\n\n🛠️ Herramientas: Streamlit, Quarto, y más."
+    "text": "Conclusión\n\n\n📖 Storytelling: Narrativas que cautivan a través de datos.\n\n📊 Visualización: Gráficos claros y atractivos.\n\n🛠️ Herramientas: Streamlit, Quarto, y más."
   },
   {
     "objectID": "datastorytelling/presentacion.html#gracias-por-participar",
@@ -917,10 +882,59 @@
     "text": "🎊 ¡Bien hecho! Terminaste el curso 🎊"
   },
   {
-    "objectID": "anexos.html",
-    "href": "anexos.html",
-    "title": "📜 Anexos",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "🎉 A.I. + DataStorytelling",
     "section": "",
-    "text": "🎁 Sorteo✍️ Autoría📖 Aprendizaje😊 Agredecimientos\n\n\nPara sortear algunos premios utilizaremos, por supuesto, un código de python. Usaremos la función random.randint(a, b) que retorna un número entero aleatorio \\(N\\) que cumpla la condición \\(a &lt;= N &lt;= b\\).\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\nMaterial creado por Francisco Alfaro y Valeska Canales para estudiantes del Departamento de Matemáticas de la USM.\nBuscamos motivar el aprendizaje de programación y matemáticas de forma entretenida y accesible, con ejemplos prácticos y actividades interactivas en Python.\nContacto: francisco.alfaro.496@gmail.com | valeska.canales.p@gmail.com\n\n\n\nRecursos Recomendados\n\nHerramientas de Google\n\nCursos en Línea:\n\nGoogle Workspace Learning Center: Capacitación oficial en herramientas como Docs, Sheets, Slides, Colab y Drive.\n\nDocumentación y Recursos:\n\nCentro de Ayuda de Google Workspace: Guías y trucos para aprovechar al máximo las herramientas de Google.\n\n\nDiseño de Prompts Efectivos en ChatGPT\n\nGuías y Tutoriales:\n\nCómo escribir un Prompt con ChatGPT: Estrategias para diseñar prompts efectivos en ChatGPT.\n\nComunidades y Foros:\n\nReddit: r/ChatGPT: Comunidad para compartir experiencias y obtener consejos sobre el uso de ChatGPT.\n\n\nComunicación Académica: Lectura, Escritura y Oratoria\n\nCursos en Línea:\n\nedX: “Academic and Business Writing” de la Universidad de California, Berkeley.\n\nRecursos y Herramientas:\n\nPurdue OWL: Guías sobre redacción académica y estilo.\n\n\nA.I. y Data Storytelling\n\nCursos y Talleres:\n\nCómo usar ChatGPT para hacer Storytelling: Tutorial sobre cómo utilizar ChatGPT en la creación de narrativas.\n\nHerramientas:\n\nTableau Public: Plataforma gratuita para crear visualizaciones interactivas.\n\n\n\n\n\n\nQueremos agradecer sinceramente a todas y todos los estudiantes que participaron en el curso por su entusiasmo, curiosidad y compromiso con el aprendizaje.\nTambién extendemos nuestro agradecimiento al Centro de Estudiantes ICMAT USM San Joaquín por su constante apoyo y colaboración, y al Departamento de Matemáticas de la USM por hacer posible esta iniciativa educativa."
+    "text": "Nombre completo: Francisco Alfaro & Valeska Canales\n\nÁrea de especialización: Estadística, Machine Learning, Inteligencia Artificial\n\nCantidad de sesiones a realizar: de 2 a 4 sesiones de 1 hora"
+  },
+  {
+    "objectID": "index.html#información-general",
+    "href": "index.html#información-general",
+    "title": "🎉 A.I. + DataStorytelling",
+    "section": "",
+    "text": "Nombre completo: Francisco Alfaro & Valeska Canales\n\nÁrea de especialización: Estadística, Machine Learning, Inteligencia Artificial\n\nCantidad de sesiones a realizar: de 2 a 4 sesiones de 1 hora"
+  },
+  {
+    "objectID": "index.html#breve-descripción",
+    "href": "index.html#breve-descripción",
+    "title": "🎉 A.I. + DataStorytelling",
+    "section": "Breve Descripción",
+    "text": "Breve Descripción\nEste mini curso está diseñado para introducir a los estudiantes en el uso de herramientas digitales y técnicas de inteligencia artificial para la comunicación efectiva en un entorno académico y profesional. A través de 4 sesiones prácticas y dinámicas, aprenderán a utilizar herramientas esenciales, desarrollar prompts efectivos para ChatGPT, mejorar sus habilidades de comunicación en el ámbito universitario y explorar los fundamentos del Data Storytelling para transmitir ideas complejas de manera clara y visual.\n\n\n\n\n\n\n⚖️ Consideraciones Éticas sobre el Uso de A.I.\n\n\n\n\n\nEl uso de herramientas de inteligencia artificial en este curso tiene como principal objetivo apoyar a los estudiantes en su aprendizaje, facilitando el desarrollo de habilidades y competencias en un entorno digital y tecnológico. Este curso está diseñado de manera ética y responsable, sin transgredir ninguna política institucional.\nNo obstante, es importante considerar que cada institución, departamento o profesor puede tener sus propias políticas definidas respecto al uso o prohibición de herramientas de inteligencia artificial. Por ello, se recomienda a los estudiantes informarse y respetar dichas directrices, en caso de que existan.\nEste curso está alineado con buenas prácticas éticas y no busca contradecir ninguna política establecida. Si tienes dudas sobre el uso de estas herramientas en tu contexto académico, consulta con tu profesor o institución."
+  },
+  {
+    "objectID": "index.html#prerrequisitos",
+    "href": "index.html#prerrequisitos",
+    "title": "🎉 A.I. + DataStorytelling",
+    "section": "Prerrequisitos",
+    "text": "Prerrequisitos\nNo se requieren conocimientos previos en programación o herramientas avanzadas. Solo se necesita entusiasmo por aprender y explorar nuevas formas de trabajar con datos y tecnología."
+  },
+  {
+    "objectID": "index.html#sesiones",
+    "href": "index.html#sesiones",
+    "title": "🎉 A.I. + DataStorytelling",
+    "section": "Sesiones",
+    "text": "Sesiones\n\n1° Semestre2° Semestre\n\n\n\n🎤 Toolkit Básico de Google - Aprende a utilizar herramientas esenciales de Google (Docs, Sheets, Slides, Colab y Drive) para optimizar la colaboración y la productividad académica. Descubre trucos y funcionalidades avanzadas para mejorar tu trabajo diario.\n🎤 Prompts Perfectos en ChatGPT - Diseña preguntas y comandos efectivos para interactuar con IA como ChatGPT. Aprende a crear prompts que resuelvan problemas, generen ideas y mejoren tus resultados de forma precisa y ética.\n🎤 Leer, Escribir y Hablar en la Universidad - Mejora tus habilidades de comunicación académica con técnicas para leer críticamente, redactar ensayos efectivos y organizar presentaciones orales de impacto. Descubre cómo la inteligencia artificial puede apoyarte en cada paso del proceso.\n🎤 A.I + Data Storytelling - Esta presentación te enseñará a transformar datos en historias visuales interactivas usando A.I y otras herramientas. Descubre cómo crear presentaciones dinámicas e impactantes que cautiven a tu audiencia.\n\n\n\n\n🎤 No es Magia, es Ciencia - Cómo conversar mejor con asistentes de IA - Diseña preguntas y comandos efectivos para interactuar con IA como ChatGPT. Aprende a crear prompts que resuelvan problemas, generen ideas y mejoren tus resultados de forma precisa y ética.\n🎤 Crea, Innova y Presenta - Data Storytelling + A.I. - Esta presentación te enseñará a transformar datos en historias visuales interactivas usando A.I y otras herramientas. Descubre cómo crear presentaciones dinámicas e impactantes que cautiven a tu audiencia."
+  },
+  {
+    "objectID": "index.html#certificación",
+    "href": "index.html#certificación",
+    "title": "🎉 A.I. + DataStorytelling",
+    "section": "Certificación",
+    "text": "Certificación\nAl finalizar el curso, se otorgará un diploma como este:\n\n\n\n\n📌 Recuerda:\n\nLa asistencia al curso es obligatoria, salvo inasistencias justificadas y conversadas previamente con los docentes.\n\nTodas las encuestas son obligatorias, ya que nos permiten hacer seguimiento de tu avance y mejorar futuras ediciones del curso.\n\nPara obtener la certificación, debes completar todas las actividades del programa.\n\n\n\nDiplomas\n\nCEEMAT 2025 - 1° Semestre\nCEEMAT 2025 - 2° Semestre"
+  },
+  {
+    "objectID": "diplomas/diplomas2.html",
+    "href": "diplomas/diplomas2.html",
+    "title": "🎉 CEEMAT 2025 - 2° Semestre",
+    "section": "",
+    "text": "Francisco Alfaro\nValeska Canales"
+  },
+  {
+    "objectID": "diplomas/diplomas2.html#lista-de-certificados-disponibles",
+    "href": "diplomas/diplomas2.html#lista-de-certificados-disponibles",
+    "title": "🎉 CEEMAT 2025 - 2° Semestre",
+    "section": "",
+    "text": "Francisco Alfaro\nValeska Canales"
   }
 ]
