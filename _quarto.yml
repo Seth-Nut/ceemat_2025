@@ -20,34 +20,13 @@ website:
     logo: /images/doberman.png
     
     left:
-      - text: Registro
+      - text: Encuestas
         menu:
-          - text: Encuesta
-            href: https://docs.google.com/forms/d/e/1FAIpQLSfR3LjmVXpHlURCk5DfhgxkYNFNuqxzUJqU4kTLST3DuuA1GA/viewform?usp=header
-      - text: Sesión 1
-        menu:
-          - text: Slides
-            href: toolkit_google/presentacion.html
-          - text: Encuesta
+          - text: Encuesta 1° Semestre
             href: https://docs.google.com/forms/d/e/1FAIpQLSeCUqQw0LQxeBDcN15RSLE_Hetv0sffxaZOAagQCR0RkQHVHQ/viewform?usp=dialog
-      - text: Sesión 2
-        menu:
-          - text: Slides
-            href: prompts_chatgpt/presentacion.html
-          - text: Encuesta
-            href: https://docs.google.com/forms/d/e/1FAIpQLSdaRA2OoyvmnMA3ohR701pUzbxs6r-zxiU9lYPskIZVVXTohg/viewform?usp=dialog
-      - text: Sesión 3
-        menu:
-          - text: Slides
-            href: comunicacion_universidad/presentacion.html
-          - text: Encuesta
-            href: https://docs.google.com/forms/d/e/1FAIpQLSfC_vbfjySU2skSE1YM6anEfauaSFUpBc8qjsZBNLGGc7iINQ/viewform?usp=dialog
-      - text: Sesión 4
-        menu:
-          - text: Slides
-            href: datastorytelling/presentacion.html
-          - text: Encuesta
-            href: https://docs.google.com/forms/d/e/1FAIpQLSeDUAAqdtHILOMg2fn-wTOcaLtgrgLsEPp0Xg_erSNJLZPvzg/viewform?usp=dialog
+          - text: Encuesta 2° Semestre
+            href: https://docs.google.com/forms/d/e/1FAIpQLSfD7Uw--mmOWrSJJuwVWdzJ8-1FUJhMwxeUlBWMk4rFvmloiQ/viewform?usp=dialog
+
       - text: Anexos
         menu:
           - text: Anexos

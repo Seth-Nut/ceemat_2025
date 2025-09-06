@@ -5,15 +5,14 @@ output: html_document
 
 ## Lista de certificados disponibles
 
-
-- [Adolfo Seyssel](ceemat_2025_1semestre/adolfo_seyssel.png)
-- [Alejandro Salas](ceemat_2025_1semestre/alejandro_salas.png)
-- [Andres Carvajal](ceemat_2025_1semestre/andres_carvajal.png)
-- [Claudio Gonzalez](ceemat_2025_1semestre/claudio_gonzalez.png)
-- [Felipe Asbun](ceemat_2025_1semestre/felipe_asbun.png)
-- [Hans Schulz](ceemat_2025_1semestre/hans_schulz.png)
-- [Javier Diaz](ceemat_2025_1semestre/javier_diaz.png)
-- [Joaquin Ramirez](ceemat_2025_1semestre/joaquin_ramirez.png)
-- [Max Rosado](ceemat_2025_1semestre/max_rosado.png)
-- [Pablo Leiva](ceemat_2025_1semestre/pablo_leiva.png)
-- [Vicente Moreno](ceemat_2025_1semestre/vicente_moreno.png)
+-   [Adolfo Seyssel](ceemat_2025_1semestre/adolfo_seyssel.png)
+-   [Alejandro Salas](ceemat_2025_1semestre/alejandro_salas.png)
+-   [Andres Carvajal](ceemat_2025_1semestre/andres_carvajal.png)
+-   [Claudio Gonzalez](ceemat_2025_1semestre/claudio_gonzalez.png)
+-   [Felipe Asbun](ceemat_2025_1semestre/felipe_asbun.png)
+-   [Hans Schulz](ceemat_2025_1semestre/hans_schulz.png)
+-   [Javier Diaz](ceemat_2025_1semestre/javier_diaz.png)
+-   [Joaquin Ramirez](ceemat_2025_1semestre/joaquin_ramirez.png)
+-   [Max Rosado](ceemat_2025_1semestre/max_rosado.png)
+-   [Pablo Leiva](ceemat_2025_1semestre/pablo_leiva.png)
+-   [Vicente Moreno](ceemat_2025_1semestre/vicente_moreno.png)

@@ -3,13 +3,10 @@ title: "📜 Anexos"
 output: html_document
 ---
 
-
-
 ::: panel-tabset
 ## 🎁 Sorteo
 
-Para sortear algunos premios utilizaremos, por supuesto, un código de python.
-Usaremos la función `random.randint(a, b)` que retorna un número entero aleatorio $N$ que cumpla la condición $a <= N <= b$.
+Para sortear algunos premios utilizaremos, por supuesto, un código de python. Usaremos la función `random.randint(a, b)` que retorna un número entero aleatorio $N$ que cumpla la condición $a <= N <= b$.
 
 ```{pyodide-python}
 from random import randint
@@ -22,47 +19,40 @@ print(f"El estudiante premiado es: {numero_premiado}")
 
 ## ✍️ Autoría
 
-
-
 Material creado por [Francisco Alfaro](https://www.linkedin.com/in/faam/) y [Valeska Canales](https://www.linkedin.com/in/vcanalesp/) para estudiantes del [Departamento de Matemáticas](https://matematica.usm.cl/departamento/) de la USM.
 
 Buscamos motivar el aprendizaje de programación y matemáticas de forma entretenida y accesible, con ejemplos prácticos y actividades interactivas en Python.
 
-Contacto: `francisco.alfaro.496@gmail.com` | `valeska.canales.p@gmail.com`
+Contacto: `francisco.alfaro.496@gmail.com` \| `valeska.canales.p@gmail.com`
 
-## 📖 Aprendizaje 
+## 📖 Aprendizaje
 
 # Recursos Recomendados
 
-1. **Herramientas de Google**
-   - **Cursos en Línea**:
-     - [Google Workspace Learning Center](https://workspace.google.com/learning-center/): Capacitación oficial en herramientas como Docs, Sheets, Slides, Colab y Drive.
-   - **Documentación y Recursos**:
-     - [Centro de Ayuda de Google Workspace](https://support.google.com/a/users/): Guías y trucos para aprovechar al máximo las herramientas de Google.
-
-2. **Diseño de Prompts Efectivos en ChatGPT**
-   - **Guías y Tutoriales**:
-     - [Cómo escribir un Prompt con ChatGPT](https://seowind.io/es/como-escribir-un-prompt-chatgpt/): Estrategias para diseñar prompts efectivos en ChatGPT.
-   - **Comunidades y Foros**:
-     - [Reddit: r/ChatGPT](https://www.reddit.com/r/ChatGPT/): Comunidad para compartir experiencias y obtener consejos sobre el uso de ChatGPT.
-
-3. **Comunicación Académica: Lectura, Escritura y Oratoria**
-   - **Cursos en Línea**:
-     - [edX](https://www.edx.org/): "Academic and Business Writing" de la Universidad de California, Berkeley.
-   - **Recursos y Herramientas**:
-     - [Purdue OWL](https://owl.purdue.edu/): Guías sobre redacción académica y estilo.
-
-4. **A.I. y Data Storytelling**
-   - **Cursos y Talleres**:
-     - [Cómo usar ChatGPT para hacer Storytelling](https://www.youtube.com/watch?v=alO5-6Y0S_w): Tutorial sobre cómo utilizar ChatGPT en la creación de narrativas.
-   - **Herramientas**:
-     - [Tableau Public](https://public.tableau.com/): Plataforma gratuita para crear visualizaciones interactivas.
+1.  **Herramientas de Google**
+    -   **Cursos en Línea**:
+        -   [Google Workspace Learning Center](https://workspace.google.com/learning-center/): Capacitación oficial en herramientas como Docs, Sheets, Slides, Colab y Drive.
+    -   **Documentación y Recursos**:
+        -   [Centro de Ayuda de Google Workspace](https://support.google.com/a/users/): Guías y trucos para aprovechar al máximo las herramientas de Google.
+2.  **Diseño de Prompts Efectivos en ChatGPT**
+    -   **Guías y Tutoriales**:
+        -   [Cómo escribir un Prompt con ChatGPT](https://seowind.io/es/como-escribir-un-prompt-chatgpt/): Estrategias para diseñar prompts efectivos en ChatGPT.
+    -   **Comunidades y Foros**:
+        -   [Reddit: r/ChatGPT](https://www.reddit.com/r/ChatGPT/): Comunidad para compartir experiencias y obtener consejos sobre el uso de ChatGPT.
+3.  **Comunicación Académica: Lectura, Escritura y Oratoria**
+    -   **Cursos en Línea**:
+        -   [edX](https://www.edx.org/): "Academic and Business Writing" de la Universidad de California, Berkeley.
+    -   **Recursos y Herramientas**:
+        -   [Purdue OWL](https://owl.purdue.edu/): Guías sobre redacción académica y estilo.
+4.  **A.I. y Data Storytelling**
+    -   **Cursos y Talleres**:
+        -   [Cómo usar ChatGPT para hacer Storytelling](https://www.youtube.com/watch?v=alO5-6Y0S_w): Tutorial sobre cómo utilizar ChatGPT en la creación de narrativas.
+    -   **Herramientas**:
+        -   [Tableau Public](https://public.tableau.com/): Plataforma gratuita para crear visualizaciones interactivas.
 
 ## 😊 Agredecimientos
 
 Queremos agradecer sinceramente a todas y todos los estudiantes que participaron en el curso por su entusiasmo, curiosidad y compromiso con el aprendizaje.
 
-También extendemos nuestro agradecimiento al [Centro de Estudiantes ICMAT USM San Joaquín](https://www.instagram.com/ceemat.sj/) por su constante apoyo y colaboración, y al [Departamento de Matemáticas](https://matematica.usm.cl/departamento/) de la USM por hacer posible esta iniciativa educativa.  
-
-
+También extendemos nuestro agradecimiento al [Centro de Estudiantes ICMAT USM San Joaquín](https://www.instagram.com/ceemat.sj/) por su constante apoyo y colaboración, y al [Departamento de Matemáticas](https://matematica.usm.cl/departamento/) de la USM por hacer posible esta iniciativa educativa.
 :::

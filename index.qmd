@@ -7,7 +7,7 @@ output: html_document
 
 -   **Nombre completo:** Francisco Alfaro & Valeska Canales\
 -   **Área de especialización:** Estadística, Machine Learning, Inteligencia Artificial\
--   **Cantidad de sesiones a realizar:** 4 sesiones de 1 hora
+-   **Cantidad de sesiones a realizar:** de 2 a 4 sesiones de 1 hora
 
 ## Breve Descripción
 
@@ -29,13 +29,26 @@ No se requieren conocimientos previos en programación o herramientas avanzadas.
 
 ## Sesiones
 
+::: {.panel-tabset}
+
+## 1° Semestre
+
 -   🎤 [**Toolkit Básico de Google**](toolkit_google/presentacion.html) - Aprende a utilizar herramientas esenciales de Google (Docs, Sheets, Slides, Colab y Drive) para optimizar la colaboración y la productividad académica. Descubre trucos y funcionalidades avanzadas para mejorar tu trabajo diario.
 
--   🎤 [**Prompts Perfectos en ChatGPT**](prompts_chatgpt/presentacion.html) - Diseña preguntas y comandos efectivos para interactuar con herramientas de inteligencia artificial como ChatGPT. Aprende a estructurar prompts que resuelvan problemas académicos, generen ideas y mejoren tus resultados de manera precisa y ética.
+-   🎤 [**Prompts Perfectos en ChatGPT**](prompts_chatgpt/presentacion.html) - Diseña preguntas y comandos efectivos para interactuar con IA como ChatGPT. Aprende a crear prompts que resuelvan problemas, generen ideas y mejoren tus resultados de forma precisa y ética.
 
 -   🎤 [**Leer, Escribir y Hablar en la Universidad**](comunicacion_universidad/presentacion.html) - Mejora tus habilidades de comunicación académica con técnicas para leer críticamente, redactar ensayos efectivos y organizar presentaciones orales de impacto. Descubre cómo la inteligencia artificial puede apoyarte en cada paso del proceso.
 
 -   🎤 [**A.I + Data Storytelling**](datastorytelling/presentacion.html) - Esta presentación te enseñará a transformar datos en historias visuales interactivas usando A.I y otras herramientas. Descubre cómo crear presentaciones dinámicas e impactantes que cautiven a tu audiencia.
+  
+## 2° Semestre
+
+-   🎤 [**No es Magia, es Ciencia - Cómo conversar mejor con asistentes de IA**](https://sethnut.com/talks/prompts_chatgpt/presentacion_ceemat.html#/title-slide) - Diseña preguntas y comandos efectivos para interactuar con IA como ChatGPT. Aprende a crear prompts que resuelvan problemas, generen ideas y mejoren tus resultados de forma precisa y ética.
+
+
+-   🎤 [**Crea, Innova y Presenta - Data Storytelling + A.I.**](https://sethnut.com/talks/shiny_2025/presentacion_ceemat.html#/hello-quarto-title) - Esta presentación te enseñará a transformar datos en historias visuales interactivas usando A.I y otras herramientas. Descubre cómo crear presentaciones dinámicas e impactantes que cautiven a tu audiencia.
+
+:::
 
 ## Certificación
 
@@ -44,6 +57,8 @@ Al finalizar el curso, se otorgará un diploma como este:
 ::: {style="text-align: center;"}
 <img src="images/diploma-usm.png" style="width: 50%; max-width: 600px;"/>
 :::
+
+
 
 
 
@@ -57,3 +72,4 @@ Al finalizar el curso, se otorgará un diploma como este:
 ###  Diplomas
 
 - [CEEMAT 2025 - 1° Semestre](diplomas/diplomas1.html)
+- [CEEMAT 2025 - 2° Semestre](diplomas/diplomas2.html)
