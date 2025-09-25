@@ -27,6 +27,29 @@ Este curso está alineado con buenas prácticas éticas y no busca contradecir n
 
 No se requieren conocimientos previos en programación o herramientas avanzadas. Solo se necesita entusiasmo por aprender y explorar nuevas formas de trabajar con datos y tecnología.
 
+¡Perfecto! 🚀
+Podemos agregar una sección clara de **Instrucciones del Curso** justo después de *Prerrequisitos*. Algo así:
+
+
+## Instrucciones
+
+Para comenzar con el mini curso y aprovechar al máximo las actividades, sigue estos pasos:
+
+1. **Crear una cuenta en GitHub**  
+   Si aún no tienes una, regístrate en [https://github.com](https://github.com).  
+
+2. **Usar el repositorio del curso como plantilla**  
+   Ingresa a [ceemat-entregables](https://github.com/fralfaro/ceemat-entregables) y haz clic en **"Use this template"** para crear tu propio repositorio.  
+
+3. **Subir tus entregables**  
+   Coloca directamente tus archivos en la carpeta `entregables/` de tu repositorio.  
+
+4. **Apoyar proyectos relacionados**  
+   Da ⭐ *star* a los siguientes repositorios:  
+   - [MAT281](https://github.com/fralfaro/MAT281)  
+   - [CEEMAT 2025](https://github.com/Seth-Nut/ceemat_2025)  
+
+
 ## Sesiones
 
 ::: {.panel-tabset}
