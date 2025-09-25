@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://sethnut.com/CEEMAT_2025/anexos.html</loc>
-    <lastmod>2025-09-06T17:01:04.687Z</lastmod>
-  </url>
-  <url>
-    <loc>https://sethnut.com/CEEMAT_2025/diplomas/diplomas1.html</loc>
-    <lastmod>2025-09-06T17:01:05.024Z</lastmod>
-  </url>
-  <url>
     <loc>https://sethnut.com/CEEMAT_2025/toolkit_google/presentacion.html</loc>
-    <lastmod>2025-09-06T17:01:05.052Z</lastmod>
+    <lastmod>2025-09-25T13:28:17.086Z</lastmod>
   </url>
   <url>
     <loc>https://sethnut.com/CEEMAT_2025/prompts_chatgpt/presentacion.html</loc>
-    <lastmod>2025-09-06T17:01:05.046Z</lastmod>
-  </url>
-  <url>
-    <loc>https://sethnut.com/CEEMAT_2025/comunicacion_universidad/presentacion.html</loc>
-    <lastmod>2025-09-06T17:01:04.693Z</lastmod>
+    <lastmod>2025-09-25T13:28:17.080Z</lastmod>
   </url>
   <url>
     <loc>https://sethnut.com/CEEMAT_2025/datastorytelling/presentacion.html</loc>
-    <lastmod>2025-09-06T17:01:04.975Z</lastmod>
+    <lastmod>2025-09-25T13:28:17.009Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sethnut.com/CEEMAT_2025/diplomas/diplomas1.html</loc>
+    <lastmod>2025-09-25T13:28:17.058Z</lastmod>
   </url>
   <url>
     <loc>https://sethnut.com/CEEMAT_2025/index.html</loc>
-    <lastmod>2025-09-06T17:01:05.035Z</lastmod>
+    <lastmod>2025-09-25T13:28:17.069Z</lastmod>
   </url>
   <url>
     <loc>https://sethnut.com/CEEMAT_2025/diplomas/diplomas2.html</loc>
-    <lastmod>2025-09-06T17:01:05.024Z</lastmod>
+    <lastmod>2025-09-25T13:28:17.058Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sethnut.com/CEEMAT_2025/anexos.html</loc>
+    <lastmod>2025-09-25T13:28:16.725Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sethnut.com/CEEMAT_2025/comunicacion_universidad/presentacion.html</loc>
+    <lastmod>2025-09-25T13:28:16.730Z</lastmod>
   </url>
 </urlset>
